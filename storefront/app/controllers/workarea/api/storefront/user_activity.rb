@@ -5,21 +5,21 @@ module Workarea
         extend ActiveSupport::Concern
 
         def user_activity
-          @user_activity ||= Recommendation::UserActivity.find_or_initialize_by(
-            id: current_user_activity_id
+          @user_activity ||= Metrics::User.find_or_initialize_by(
+            id: current_metrics_id
           )
         end
 
-        def current_user_activity_id
+        def current_metrics_id
           if authentication?
-            current_user.id
+            current_user.email
           else
             params[:session_id]
           end
         end
 
-        def assert_current_user_activity_id
-          if current_user_activity_id.blank?
+        def assert_current_metrics_id
+          if current_metrics_id.blank?
             render(
               json: {
                 problem: t('workarea.api.storefront.recent_views.missing_id')

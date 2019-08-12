@@ -21,11 +21,13 @@ module Workarea
           user = create_user(first_name: 'Ben', last_name: 'Crouse')
           set_current_user(user)
 
-          activity = create_user_activity(
-            id: user.id,
+          Metrics::User.save_affinity(
+            id: user.email,
+            action: 'viewed',
             product_ids: [@product.id],
             category_ids: [@category.id],
-            searches: ['foo']
+            at: Time.current,
+            search_ids: %w(foo)
           )
 
           get storefront_api.recent_views_path
@@ -33,15 +35,15 @@ module Workarea
           assert(response.ok?)
           result = JSON.parse(response.body)
 
-          assert_equal(activity.id, result['id'])
+          assert_equal(user.email, result['id'])
           assert_equal(@product.id, result['products'].first['id'])
           assert_equal(@category.id.to_s, result['categories'].first['id'])
-          assert_includes(result['searches'], 'foo')
         end
 
         def test_adding_recent_views_for_authentication
           user = create_user(first_name: 'Ben', last_name: 'Crouse')
           set_current_user(user)
+
           patch storefront_api.recent_views_path,
             params: {
               product_id: @product.id,
@@ -51,54 +53,51 @@ module Workarea
 
           assert(response.ok?)
 
-          user_activity = Recommendation::UserActivity.first
-          assert_equal(user.id.to_s, user_activity.id.to_s)
-          assert_includes(user_activity.product_ids, @product.id)
-          assert_includes(user_activity.category_ids, @category.id.to_s)
-          assert_includes(user_activity.searches, 'foo')
+          user_activity = Workarea::Storefront::UserActivityViewModel.wrap(
+            Metrics::User.first
+          )
+          assert_equal(user.email, user_activity.id)
+          assert_includes(user_activity.products, @product)
+          assert_includes(user_activity.categories, @category)
         end
 
         def test_showing_recent_views_with_session_id
-          activity = create_user_activity(
+          Metrics::User.save_affinity(
+            id: BSON::ObjectId.new.to_s,
+            action: 'viewed',
             product_ids: [@product.id],
             category_ids: [@category.id],
-            searches: ['bar']
+            search_ids: %w(foo)
           )
+          activity = Metrics::User.last
 
           get storefront_api.recent_views_path,
             params: { session_id: activity.id }
 
-          assert(response.ok?)
+          assert_response(:success)
           result = JSON.parse(response.body)
 
-          assert_equal(activity.id, result['id'])
-          assert_equal(@product.id, result['products'].first['id'])
+          assert_equal(activity.id.to_s, result['id'])
+          assert_equal(@product.id.to_s, result['products'].first['id'])
           assert_equal(@category.id.to_s, result['categories'].first['id'])
-          assert_includes(result['searches'], 'bar')
         end
 
         def test_adding_recent_views_for_session_id
-          activity = create_user_activity(
-            product_ids: [@product.id],
-            category_ids: [@category.id],
-            searches: ['bar']
-          )
-
           patch storefront_api.recent_views_path,
             params: {
-              session_id: activity.id,
+              session_id: BSON::ObjectId.new.to_s,
               product_id: @product.id,
               category_id: @category.id,
               search: 'bar'
             }
 
-          assert(response.ok?)
+          assert_response(:success)
 
-          user_activity = Recommendation::UserActivity.first
-          assert_equal(activity.id, user_activity.id)
-          assert_includes(user_activity.product_ids, @product.id)
-          assert_includes(user_activity.category_ids, @category.id.to_s)
-          assert_includes(user_activity.searches, 'bar')
+          user_activity = Workarea::Storefront::UserActivityViewModel.wrap(
+            Metrics::User.first
+          )
+          assert_includes(user_activity.products, @product)
+          assert_includes(user_activity.categories, @category)
         end
 
         def test_adding_without_id
@@ -110,7 +109,7 @@ module Workarea
             }
 
           refute(response.ok?)
-          assert_equal(0, Recommendation::UserActivity.count)
+          assert_equal(0, Metrics::User.count)
         end
       end
     end
