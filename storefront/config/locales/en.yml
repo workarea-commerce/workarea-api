@@ -1,0 +1,13 @@
+en:
+  workarea:
+    api:
+      storefront:
+        authentication_tokens:
+          error: Could not find a matching email and password
+          login_locked: This account has been locked for too many login attempts
+        recent_views:
+          missing_id: Recent views endpoints require either authentication or passing in a session_id in the parameters.
+        passwords:
+          error: Could not find a matching email and password
+        recommendations:
+          missing_id: Recommendation endpoints require either authentication or passing in a session_id in the parameters.

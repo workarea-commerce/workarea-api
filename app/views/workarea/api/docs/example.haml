@@ -1,0 +1,114 @@
+%article
+  %h1== #{example.resource} API
+
+  %h2= example.description
+
+  - if example.explanation?
+    %p.explanation
+      = example.explanation
+
+  - if example.parameters.present?
+    %h3 Parameters
+    %table
+      %thead
+        %tr
+          %th Name
+          %th Description
+          - example.parameters.extra_keys.each do |key|
+            %th= key
+      %tbody
+        - example.parameters.params.each do |param|
+          %tr
+            %td{:class => ("required" if param.required?)}
+              - if param.scope?
+                %span #{param.scope}[#{param.name}]
+              - else
+                %span= param.name
+            %td
+              %span= param.description
+            - example.parameters.extra_keys.each do |key|
+              %td
+                %span= param[key]
+
+  - if example.response_fields.present?
+    %h3 Response Fields
+    %table
+      %thead
+        %tr
+          %th Name
+          %th Description
+          - example.response_fields.extra_keys.each do |key|
+            %th= key
+      %tbody
+        - example.response_fields.fields.each do |field|
+          %tr
+            %td
+              - if field.scope?
+                %span #{field.scope}[#{field.name}]
+              - else
+                %span= field.name
+            %td
+              %span= field.description
+            - example.response_fields.extra_keys.each do |key|
+              %td
+                %span= field[key]
+
+  - example.requests.each_with_index do |request, index|
+    %div{ :id => "request-#{index}" }
+      %h3 Request
+      - if request.request_headers.length > 0
+        %section
+          %h4 Headers
+          %pre
+            %code
+              :preserve
+                #{request.request_headers}
+
+      %section.route
+        %h4 Route
+        %pre
+          %code== #{request.request_method} #{request.request_path}
+
+      - if request.request_query_parameters?
+        %section
+          %h4 Query Parameters
+          %pre
+            %code= request.request_query_parameters
+
+      - if request.request_body?
+        %section
+          %h4 Body
+          %pre
+            %code.format-json
+              :preserve
+                #{request.request_body}
+
+      - if request.curl?
+        %section
+          %h4 cURL
+          %pre
+            %code= request.curl
+
+      - if request.response?
+        %h3 Response
+
+        - if request.response_headers.length > 0
+          %section
+            %h4 Headers
+            %pre
+              %code
+                :preserve
+                  #{request.response_headers}
+
+          %section.status
+            %h4 Status
+            %pre
+              %code= request.response_status
+
+          - if request.response_body?
+            %section
+              %h4 Body
+              %pre
+                %code
+                  :preserve
+                    #{request.response_body}

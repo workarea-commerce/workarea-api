@@ -1,0 +1,40 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+        "Content-Type": "application/x-www-form-urlencoded"
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "X-Flash-Messages": "{}",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:04:30 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:04:30 -0000",
+        "X-Request-Id": "28f6d71b-ac7e-4165-bb67-e293d6e93cad",
+        "X-Runtime": "0.016493"
+      },
+      "request_method": "DELETE",
+      "request_path": "/api/admin/pricing_skus/2134",
+      "request_body": null,
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 204,
+      "response_status_text": "No Content",
+      "response_body": null,
+      "response_content_type": null,
+      "curl": "curl \"https://www.example.com/api/admin/pricing_skus/2134\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
+    }
+  ],
+  "resource": "Pricing SKUs",
+  "description": "Removing an pricing SKU",
+  "route": "/api/admin/pricing_skus/:id",
+  "http_method": "DELETE"
+}

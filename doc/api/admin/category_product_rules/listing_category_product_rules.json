@@ -1,0 +1,42 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "X-Flash-Messages": "{}",
+        "ETag": "W/\"519659bf5bca0020be025e0dc4ade263\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:04:11 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:04:11 -0000",
+        "X-Request-Id": "be603b52-b49e-4443-88d4-ca2bd9baf2aa",
+        "X-Runtime": "0.008477",
+        "Content-Length": "345"
+      },
+      "request_method": "GET",
+      "request_path": "/api/admin/categories/59b0389b7ceffe612c118a1e/product_rules",
+      "request_body": null,
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"product_rules\": [\n    {\n      \"_id\": \"59b0389b7ceffe612c118a21\",\n      \"created_at\": \"2017-09-06T18:04:11.523Z\",\n      \"name\": \"search\",\n      \"operator\": \"equals\",\n      \"updated_at\": \"2017-09-06T18:04:11.523Z\",\n      \"value\": \"*\"\n    },\n    {\n      \"_id\": \"59b0389b7ceffe612c118a22\",\n      \"created_at\": \"2017-09-06T18:04:11.525Z\",\n      \"name\": \"search\",\n      \"operator\": \"equals\",\n      \"updated_at\": \"2017-09-06T18:04:11.525Z\",\n      \"value\": \"*\"\n    }\n  ]\n}",
+      "response_content_type": "application/json",
+      "curl": "curl -g \"https://www.example.com/api/admin/categories/59b0389b7ceffe612c118a1e/product_rules\" -X GET "
+    }
+  ],
+  "resource": "Category Product Rules",
+  "description": "Listing category product rules",
+  "route": "/api/admin/categories/:category_id/product_rules",
+  "http_method": "GET"
+}

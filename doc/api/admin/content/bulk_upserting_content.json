@@ -1,0 +1,40 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+        "Content-Type": "application/json"
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "X-Flash-Messages": "{}",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:03:06 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:03:06 -0000",
+        "X-Request-Id": "d2fb5507-fc09-47ec-aa55-8b71c999e34b",
+        "X-Runtime": "0.077891"
+      },
+      "request_method": "PATCH",
+      "request_path": "/api/admin/content/bulk",
+      "request_body": "{\"content\":[{\"active\":true,\"automate_metadata\":true,\"browser_title\":null,\"contentable_id\":null,\"contentable_type\":null,\"created_at\":\"2017-09-06T18:03:06.320Z\",\"css\":null,\"javascript\":null,\"meta_description\":null,\"name\":\"Test Content\",\"subscribed_user_ids\":[],\"updated_at\":\"2017-09-06T18:03:06.320Z\"},{\"active\":true,\"automate_metadata\":true,\"browser_title\":null,\"contentable_id\":null,\"contentable_type\":null,\"created_at\":\"2017-09-06T18:03:06.320Z\",\"css\":null,\"javascript\":null,\"meta_description\":null,\"name\":\"Test Content\",\"subscribed_user_ids\":[],\"updated_at\":\"2017-09-06T18:03:06.320Z\"},{\"active\":true,\"automate_metadata\":true,\"browser_title\":null,\"contentable_id\":null,\"contentable_type\":null,\"created_at\":\"2017-09-06T18:03:06.320Z\",\"css\":null,\"javascript\":null,\"meta_description\":null,\"name\":\"Test Content\",\"subscribed_user_ids\":[],\"updated_at\":\"2017-09-06T18:03:06.320Z\"}]}",
+      "request_content_type": "application/json",
+      "response_status": 204,
+      "response_status_text": "No Content",
+      "response_body": null,
+      "response_content_type": null,
+      "curl": "curl \"https://www.example.com/api/admin/content/bulk\" -d '{\"content\":[{\"active\":true,\"automate_metadata\":true,\"browser_title\":null,\"contentable_id\":null,\"contentable_type\":null,\"created_at\":\"2017-09-06T18:03:06.320Z\",\"css\":null,\"javascript\":null,\"meta_description\":null,\"name\":\"Test Content\",\"subscribed_user_ids\":[],\"updated_at\":\"2017-09-06T18:03:06.320Z\"},{\"active\":true,\"automate_metadata\":true,\"browser_title\":null,\"contentable_id\":null,\"contentable_type\":null,\"created_at\":\"2017-09-06T18:03:06.320Z\",\"css\":null,\"javascript\":null,\"meta_description\":null,\"name\":\"Test Content\",\"subscribed_user_ids\":[],\"updated_at\":\"2017-09-06T18:03:06.320Z\"},{\"active\":true,\"automate_metadata\":true,\"browser_title\":null,\"contentable_id\":null,\"contentable_type\":null,\"created_at\":\"2017-09-06T18:03:06.320Z\",\"css\":null,\"javascript\":null,\"meta_description\":null,\"name\":\"Test Content\",\"subscribed_user_ids\":[],\"updated_at\":\"2017-09-06T18:03:06.320Z\"}]}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+    }
+  ],
+  "resource": "Content",
+  "description": "Bulk upserting content",
+  "route": "/api/admin/content/bulk",
+  "http_method": "PATCH"
+}

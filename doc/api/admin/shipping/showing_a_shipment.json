@@ -1,0 +1,42 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "X-Flash-Messages": "{}",
+        "ETag": "W/\"e7dd03841a24933418d19999017acf62\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:03:49 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:03:49 -0000",
+        "X-Request-Id": "378354ef-a74f-4195-9c9e-6b8ad04551e9",
+        "X-Runtime": "0.007923",
+        "Content-Length": "262"
+      },
+      "request_method": "GET",
+      "request_path": "/api/admin/shippings/59b038857ceffe612c118808",
+      "request_body": null,
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"shipping\": {\n    \"_id\": \"59b038857ceffe612c118808\",\n    \"created_at\": \"2017-09-06T18:03:49.595Z\",\n    \"discount_ids\": [\n\n    ],\n    \"order_id\": \"1234\",\n    \"shipping_total\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"tax_total\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"updated_at\": \"2017-09-06T18:03:49.595Z\"\n  }\n}",
+      "response_content_type": "application/json",
+      "curl": "curl -g \"https://www.example.com/api/admin/shippings/59b038857ceffe612c118808\" -X GET "
+    }
+  ],
+  "resource": "Shipping",
+  "description": "Showing a shipment",
+  "route": "/api/admin/shippings/:id",
+  "http_method": "GET"
+}

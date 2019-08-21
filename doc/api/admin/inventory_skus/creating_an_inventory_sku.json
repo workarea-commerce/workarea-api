@@ -1,0 +1,44 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+        "Content-Type": "application/json"
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Location": "/api/admin/inventory_skus/SKU2",
+        "Content-Type": "application/json; charset=utf-8",
+        "X-Flash-Messages": "{}",
+        "ETag": "W/\"d741b65dacf63afea63096a67a8daf28\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:03:04 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:03:04 -0000",
+        "X-Request-Id": "dda48a87-fe04-407e-abbd-e0b26d197c00",
+        "X-Runtime": "0.022731",
+        "Content-Length": "213"
+      },
+      "request_method": "POST",
+      "request_path": "/api/admin/inventory_skus",
+      "request_body": "{\"inventory_sku\":{\"available\":5,\"backordered\":0,\"backordered_until\":null,\"created_at\":\"2017-09-06T18:03:04.750Z\",\"policy\":\"standard\",\"purchased\":0,\"reserve\":0,\"updated_at\":\"2017-09-06T18:03:04.750Z\",\"_id\":\"SKU2\"}}",
+      "request_content_type": "application/json",
+      "response_status": 201,
+      "response_status_text": "Created",
+      "response_body": "{\n  \"inventory_sku\": {\n    \"_id\": \"SKU2\",\n    \"available\": 5,\n    \"backordered\": 0,\n    \"backordered_until\": null,\n    \"created_at\": \"2017-09-06T18:03:04.750Z\",\n    \"policy\": \"standard\",\n    \"purchased\": 0,\n    \"reserve\": 0,\n    \"updated_at\": \"2017-09-06T18:03:04.750Z\"\n  }\n}",
+      "response_content_type": "application/json",
+      "curl": "curl \"https://www.example.com/api/admin/inventory_skus\" -d '{\"inventory_sku\":{\"available\":5,\"backordered\":0,\"backordered_until\":null,\"created_at\":\"2017-09-06T18:03:04.750Z\",\"policy\":\"standard\",\"purchased\":0,\"reserve\":0,\"updated_at\":\"2017-09-06T18:03:04.750Z\",\"_id\":\"SKU2\"}}' -X POST \\\n\t-H \"Content-Type: application/json\""
+    }
+  ],
+  "resource": "Inventory SKUs",
+  "description": "Creating an inventory SKU",
+  "route": "/api/admin/inventory_skus",
+  "http_method": "POST"
+}

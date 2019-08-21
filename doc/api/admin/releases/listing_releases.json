@@ -1,0 +1,56 @@
+{
+  "parameters": [
+    {
+      "name": "page",
+      "description": "Current page"
+    },
+    {
+      "name": "sort_by",
+      "description": "Field on which to sort (see responses for possible values)"
+    },
+    {
+      "name": "sort_direction",
+      "description": "Direction to sort (asc or desc)"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+      },
+      "request_query_parameters": {
+        "page": "1",
+        "sort_by": "created_at",
+        "sort_direction": "desc"
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "X-Flash-Messages": "{}",
+        "ETag": "W/\"500f557f8636bff22966ef51b8ba54d3\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:04:09 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:04:09 -0000",
+        "X-Request-Id": "992760ed-8594-466f-920a-058aa0feac5f",
+        "X-Runtime": "0.008638",
+        "Content-Length": "586"
+      },
+      "request_method": "GET",
+      "request_path": "/api/admin/releases?page=1&sort_by=created_at&sort_direction=desc",
+      "request_body": null,
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"releases\": [\n    {\n      \"_id\": \"59b038997ceffe612c1189f5\",\n      \"created_at\": \"2017-09-06T18:04:09.042Z\",\n      \"name\": \"Content Release\",\n      \"publish_at\": null,\n      \"publish_job_id\": null,\n      \"published_at\": null,\n      \"subscribed_user_ids\": [\n\n      ],\n      \"tags\": [\n\n      ],\n      \"undo_at\": null,\n      \"undo_job_id\": null,\n      \"undone_at\": null,\n      \"updated_at\": \"2017-09-06T18:04:09.042Z\"\n    },\n    {\n      \"_id\": \"59b038997ceffe612c1189f4\",\n      \"created_at\": \"2017-09-06T18:04:09.028Z\",\n      \"name\": \"Content Release\",\n      \"publish_at\": null,\n      \"publish_job_id\": null,\n      \"published_at\": null,\n      \"subscribed_user_ids\": [\n\n      ],\n      \"tags\": [\n\n      ],\n      \"undo_at\": null,\n      \"undo_job_id\": null,\n      \"undone_at\": null,\n      \"updated_at\": \"2017-09-06T18:04:09.028Z\"\n    }\n  ]\n}",
+      "response_content_type": "application/json",
+      "curl": "curl -g \"https://www.example.com/api/admin/releases?page=1&sort_by=created_at&sort_direction=desc\" -X GET "
+    }
+  ],
+  "resource": "Releases",
+  "description": "Listing releases",
+  "route": "/api/admin/releases",
+  "http_method": "GET"
+}

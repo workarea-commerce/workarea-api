@@ -1,0 +1,56 @@
+{
+  "parameters": [
+    {
+      "name": "page",
+      "description": "Current page"
+    },
+    {
+      "name": "sort_by",
+      "description": "Field on which to sort (see responses for possible values)"
+    },
+    {
+      "name": "sort_direction",
+      "description": "Direction to sort (asc or desc)"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+      },
+      "request_query_parameters": {
+        "page": "1",
+        "sort_by": "created_at",
+        "sort_direction": "desc"
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "X-Flash-Messages": "{}",
+        "ETag": "W/\"7847f63786311c48277abc1d15112166\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:02:40 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:02:40 -0000",
+        "X-Request-Id": "f802f0d2-82de-41a1-9a95-ebc670a5dbdf",
+        "X-Runtime": "0.008906",
+        "Content-Length": "422"
+      },
+      "request_method": "GET",
+      "request_path": "/api/admin/navigation_menus?page=1&sort_by=created_at&sort_direction=desc",
+      "request_body": null,
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"navigation_menus\": [\n    {\n      \"_id\": \"59b038407ceffe612c11809a\",\n      \"active\": true,\n      \"created_at\": \"2017-09-06T18:02:40.100Z\",\n      \"name\": \"Test Taxon\",\n      \"position\": 0,\n      \"taxon_id\": \"59b038407ceffe612c118098\",\n      \"updated_at\": \"2017-09-06T18:02:40.100Z\"\n    },\n    {\n      \"_id\": \"59b038407ceffe612c11809d\",\n      \"active\": true,\n      \"created_at\": \"2017-09-06T18:02:40.138Z\",\n      \"name\": \"Test Taxon\",\n      \"position\": 1,\n      \"taxon_id\": \"59b038407ceffe612c11809c\",\n      \"updated_at\": \"2017-09-06T18:02:40.138Z\"\n    }\n  ]\n}",
+      "response_content_type": "application/json",
+      "curl": "curl -g \"https://www.example.com/api/admin/navigation_menus?page=1&sort_by=created_at&sort_direction=desc\" -X GET "
+    }
+  ],
+  "resource": "Navigation menus",
+  "description": "Listing menus",
+  "route": "/api/admin/navigation_menus",
+  "http_method": "GET"
+}

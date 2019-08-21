@@ -1,0 +1,40 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+        "Content-Type": "application/json"
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "X-Flash-Messages": "{}",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:04:19 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:04:19 -0000",
+        "X-Request-Id": "67b3e66c-9cd2-44c9-9d45-a06d37cad0df",
+        "X-Runtime": "0.010644"
+      },
+      "request_method": "PATCH",
+      "request_path": "/api/admin/promo_code_lists/59b038a37ceffe612c118b1f",
+      "request_body": "{\"promo_code_list\":{\"name\":\"foo\"}}",
+      "request_content_type": "application/json",
+      "response_status": 204,
+      "response_status_text": "No Content",
+      "response_body": null,
+      "response_content_type": null,
+      "curl": "curl \"https://www.example.com/api/admin/promo_code_lists/59b038a37ceffe612c118b1f\" -d '{\"promo_code_list\":{\"name\":\"foo\"}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+    }
+  ],
+  "resource": "Promo Code Lists",
+  "description": "Updating a promo code list",
+  "route": "/api/admin/promo_code_lists/:id",
+  "http_method": "PATCH"
+}

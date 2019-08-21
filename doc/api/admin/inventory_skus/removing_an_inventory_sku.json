@@ -1,0 +1,40 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+        "Content-Type": "application/x-www-form-urlencoded"
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "X-Flash-Messages": "{}",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:03:05 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:03:05 -0000",
+        "X-Request-Id": "45f0cea1-7afc-4957-973d-99331468d481",
+        "X-Runtime": "0.012795"
+      },
+      "request_method": "DELETE",
+      "request_path": "/api/admin/inventory_skus/SKU",
+      "request_body": null,
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 204,
+      "response_status_text": "No Content",
+      "response_body": null,
+      "response_content_type": null,
+      "curl": "curl \"https://www.example.com/api/admin/inventory_skus/SKU\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
+    }
+  ],
+  "resource": "Inventory SKUs",
+  "description": "Removing an inventory SKU",
+  "route": "/api/admin/inventory_skus/:id",
+  "http_method": "DELETE"
+}

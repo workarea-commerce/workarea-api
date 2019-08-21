@@ -1,0 +1,48 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+        "Content-Type": "application/json"
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers": "*",
+        "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
+        "X-Requested-With": "",
+        "X-Flash-Messages": "{}",
+        "Vary": "X-Requested-With, X-Flash-Messages",
+        "ETag": "W/\"88444c1c8f2e40a7ce51a1807587f5ba\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "46f5550b-a21b-4e09-a5f7-d3fc246de14c",
+        "X-Runtime": "0.523509",
+        "Content-Length": "3771"
+      },
+      "request_method": "PATCH",
+      "request_path": "/api/storefront/checkouts/AF503257FD",
+      "request_body": "{\"email\":\"susanb@workarea.com\",\"shipping_address\":{\"first_name\":\"Susan\",\"last_name\":\"Baker\",\"street\":\"350 Fifth Avenue\",\"city\":\"New York\",\"region\":\"NY\",\"country\":\"US\",\"postal_code\":\"10118\",\"phone_number\":\"6465552390\"},\"billing_address\":{\"first_name\":\"Susan\",\"last_name\":\"Baker\",\"street\":\"350 Fifth Avenue\",\"city\":\"New York\",\"region\":\"NY\",\"country\":\"US\",\"postal_code\":\"10118\",\"phone_number\":\"6465552390\"},\"shipping_service\":\"Express\"}",
+      "request_content_type": "application/json",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"order\": {\n    \"id\": \"AF503257FD\",\n    \"url\": \"http://www.example.com/api/storefront/orders/AF503257FD\",\n    \"user_id\": null,\n    \"email\": \"susanb@workarea.com\",\n    \"placed_at\": null,\n    \"canceled_at\": null,\n    \"promo_codes\": [\n\n    ],\n    \"requires_shipping\": true,\n    \"items\": [\n      {\n        \"id\": \"59b038367ceffe612c117f66\",\n        \"product_id\": \"VINTEE\",\n        \"sku\": \"VT001\",\n        \"quantity\": 2,\n        \"product_url\": \"http://www.example.com/api/storefront/products/vintage-tee?sku=VT001\",\n        \"options\": {\n        },\n        \"customizations\": {\n        },\n        \"product_image\": {\n          \"urls\": [\n            {\n              \"type\": \"small\",\n              \"url\": \"http://www.example.com/product_images/placeholder/small.jpg?c=1504720924\"\n            },\n            {\n              \"type\": \"medium\",\n              \"url\": \"http://www.example.com/product_images/placeholder/medium.jpg?c=1504720924\"\n            },\n            {\n              \"type\": \"small_thumb\",\n              \"url\": \"http://www.example.com/product_images/placeholder/small_thumb.jpg?c=1504720924\"\n            },\n            {\n              \"type\": \"medium_thumb\",\n              \"url\": \"http://www.example.com/product_images/placeholder/medium_thumb.jpg?c=1504720924\"\n            },\n            {\n              \"type\": \"large_thumb\",\n              \"url\": \"http://www.example.com/product_images/placeholder/large_thumb.jpg?c=1504720924\"\n            },\n            {\n              \"type\": \"detail\",\n              \"url\": \"http://www.example.com/product_images/placeholder/detail.jpg?c=1504720924\"\n            },\n            {\n              \"type\": \"zoom\",\n              \"url\": \"http://www.example.com/product_images/placeholder/zoom.jpg?c=1504720924\"\n            },\n            {\n              \"type\": \"super_zoom\",\n              \"url\": \"http://www.example.com/product_images/placeholder/super_zoom.jpg?c=1504720924\"\n            }\n          ]\n        },\n        \"pricing\": {\n          \"price_adjustments\": [\n            {\n              \"description\": \"Item Subtotal\",\n              \"discount\": false,\n              \"amount\": {\n                \"cents\": 1000.0,\n                \"currency_iso\": \"USD\"\n              }\n            }\n          ],\n          \"total_price\": {\n            \"cents\": 1000.0,\n            \"currency_iso\": \"USD\"\n          },\n          \"on_sale\": false,\n          \"original_unit_price\": {\n            \"cents\": 500.0,\n            \"currency_iso\": \"USD\"\n          },\n          \"original_price\": {\n            \"cents\": 500.0,\n            \"currency_iso\": \"USD\"\n          },\n          \"customized\": false,\n          \"customizations_unit_price\": {\n            \"cents\": 0.0,\n            \"currency_iso\": \"USD\"\n          }\n        }\n      }\n    ],\n    \"pricing\": {\n      \"price_adjustments\": [\n\n      ],\n      \"shipping_total\": {\n        \"cents\": 1000.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"tax_total\": {\n        \"cents\": 0.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"subtotal_price\": {\n        \"cents\": 1000.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"total_price\": {\n        \"cents\": 2000.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"paid_amount\": {\n        \"cents\": 2000.0,\n        \"currency_iso\": \"USD\"\n      }\n    },\n    \"shipping_service\": \"Express\",\n    \"shipping_address\": {\n      \"id\": \"59b038367ceffe612c117f74\",\n      \"first_name\": \"Susan\",\n      \"last_name\": \"Baker\",\n      \"company\": null,\n      \"street\": \"350 Fifth Avenue\",\n      \"street_2\": null,\n      \"city\": \"New York\",\n      \"country\": \"US\",\n      \"region\": \"NY\",\n      \"postal_code\": \"10118\",\n      \"phone_number\": \"6465552390\",\n      \"phone_extension\": null\n    },\n    \"billing_address\": {\n      \"id\": \"59b038367ceffe612c117f9e\",\n      \"first_name\": \"Susan\",\n      \"last_name\": \"Baker\",\n      \"company\": null,\n      \"street\": \"350 Fifth Avenue\",\n      \"street_2\": null,\n      \"city\": \"New York\",\n      \"country\": \"US\",\n      \"region\": \"NY\",\n      \"postal_code\": \"10118\",\n      \"phone_number\": \"6465552390\",\n      \"phone_extension\": null\n    },\n    \"tenders\": [\n\n    ]\n  },\n  \"checkout\": {\n    \"url\": \"http://www.example.com/api/storefront/checkouts/AF503257FD\",\n    \"started_at\": \"2017-09-06T18:02:30.221+00:00\",\n    \"shippable\": true,\n    \"complete\": false,\n    \"addresses\": {\n      \"complete\": true,\n      \"email\": \"susanb@workarea.com\",\n      \"problems\": [\n\n      ],\n      \"shipping_address\": {\n        \"id\": \"59b038367ceffe612c117f74\",\n        \"first_name\": \"Susan\",\n        \"last_name\": \"Baker\",\n        \"company\": null,\n        \"street\": \"350 Fifth Avenue\",\n        \"street_2\": null,\n        \"city\": \"New York\",\n        \"country\": \"US\",\n        \"region\": \"NY\",\n        \"postal_code\": \"10118\",\n        \"phone_number\": \"6465552390\",\n        \"phone_extension\": null,\n        \"problems\": [\n\n        ]\n      },\n      \"billing_address\": {\n        \"id\": \"59b038367ceffe612c117f9e\",\n        \"first_name\": \"Susan\",\n        \"last_name\": \"Baker\",\n        \"company\": null,\n        \"street\": \"350 Fifth Avenue\",\n        \"street_2\": null,\n        \"city\": \"New York\",\n        \"country\": \"US\",\n        \"region\": \"NY\",\n        \"postal_code\": \"10118\",\n        \"phone_number\": \"6465552390\",\n        \"phone_extension\": null,\n        \"problems\": [\n\n        ]\n      }\n    },\n    \"shipping\": {\n      \"complete\": true,\n      \"problems\": [\n\n      ],\n      \"shipping_service\": \"Express\",\n      \"shipping_total\": {\n        \"cents\": 1000.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"shipping_options\": [\n        {\n          \"name\": \"Standard\",\n          \"price\": {\n            \"cents\": 500.0,\n            \"currency_iso\": \"USD\"\n          }\n        },\n        {\n          \"name\": \"Express\",\n          \"price\": {\n            \"cents\": 1000.0,\n            \"currency_iso\": \"USD\"\n          }\n        },\n        {\n          \"name\": \"Overnight\",\n          \"price\": {\n            \"cents\": 2000.0,\n            \"currency_iso\": \"USD\"\n          }\n        }\n      ]\n    },\n    \"payment\": {\n      \"complete\": false,\n      \"problems\": [\n\n      ],\n      \"tenders\": [\n\n      ]\n    }\n  }\n}",
+      "response_content_type": "application/json",
+      "curl": "curl \"https://www.example.com/api/storefront/checkouts/AF503257FD\" -d '{\"email\":\"susanb@workarea.com\",\"shipping_address\":{\"first_name\":\"Susan\",\"last_name\":\"Baker\",\"street\":\"350 Fifth Avenue\",\"city\":\"New York\",\"region\":\"NY\",\"country\":\"US\",\"postal_code\":\"10118\",\"phone_number\":\"6465552390\"},\"billing_address\":{\"first_name\":\"Susan\",\"last_name\":\"Baker\",\"street\":\"350 Fifth Avenue\",\"city\":\"New York\",\"region\":\"NY\",\"country\":\"US\",\"postal_code\":\"10118\",\"phone_number\":\"6465552390\"},\"shipping_service\":\"Express\"}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+    }
+  ],
+  "resource": "Checkout",
+  "description": "Updating a checkout",
+  "route": "/api/storefront/checkouts/:id",
+  "http_method": "PATCH",
+  "explanation": "            Use this endpoint to make updates to checkout. This will typically\n            mean setting addresses and shipping options for the checkout.\n"
+}

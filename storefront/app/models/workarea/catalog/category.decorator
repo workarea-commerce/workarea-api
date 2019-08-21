@@ -1,0 +1,7 @@
+module Workarea
+  decorate Catalog::Category, with: 'storefront_api' do
+    decorated do
+      index(active: 1)
+    end
+  end
+end

@@ -1,0 +1,28 @@
+!!!
+%html{ lang: 'en' }
+  %head
+    %title= api_name
+    = haml :stylesheets
+    = haml :javascripts_head
+
+  %body
+    .frame.frame--row.frame--top
+      .header
+        %a{ href: "#{url_location}", class: 'header__logo clearfix' }
+          = haml :logo
+          .header__heading= api_name
+    .frame.frame--column.frame--left.frame--full-column
+      %nav.nav
+        %strong.nav__heading Sections
+        .nav
+          %ul.nav__list
+            %li.nav__item
+              %a{ href: "#{url_location}/admin", class: 'nav__class' } Admin API
+            %li.nav__item
+              %a{ href: "#{url_location}/storefront", class: 'nav__class' } Storefront API
+    .frame.frame--column.frame--center
+      %main.main.main--with-sidebar
+        .container.container--full
+          .markdown= markdown.render(content)
+
+    = haml :javascripts

@@ -1,0 +1,40 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+        "Content-Type": "application/json"
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "X-Flash-Messages": "{}",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:04:38 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:04:38 -0000",
+        "X-Request-Id": "b1f59178-d68e-44b3-8637-e3aa3a8518e8",
+        "X-Runtime": "0.024393"
+      },
+      "request_method": "PATCH",
+      "request_path": "/api/admin/payment_profiles/bulk",
+      "request_body": "{\"payment_profiles\":[{\"created_at\":\"2017-09-06T18:04:38.388Z\",\"email\":\"user@workarea.com\",\"gateway_id\":null,\"reference\":1,\"store_credit\":{\"cents\":0.0,\"currency_iso\":\"USD\"},\"updated_at\":\"2017-09-06T18:04:38.388Z\"},{\"created_at\":\"2017-09-06T18:04:38.388Z\",\"email\":\"user@workarea.com\",\"gateway_id\":null,\"reference\":1,\"store_credit\":{\"cents\":0.0,\"currency_iso\":\"USD\"},\"updated_at\":\"2017-09-06T18:04:38.388Z\"},{\"created_at\":\"2017-09-06T18:04:38.388Z\",\"email\":\"user@workarea.com\",\"gateway_id\":null,\"reference\":1,\"store_credit\":{\"cents\":0.0,\"currency_iso\":\"USD\"},\"updated_at\":\"2017-09-06T18:04:38.388Z\"}]}",
+      "request_content_type": "application/json",
+      "response_status": 204,
+      "response_status_text": "No Content",
+      "response_body": null,
+      "response_content_type": null,
+      "curl": "curl \"https://www.example.com/api/admin/payment_profiles/bulk\" -d '{\"payment_profiles\":[{\"created_at\":\"2017-09-06T18:04:38.388Z\",\"email\":\"user@workarea.com\",\"gateway_id\":null,\"reference\":1,\"store_credit\":{\"cents\":0.0,\"currency_iso\":\"USD\"},\"updated_at\":\"2017-09-06T18:04:38.388Z\"},{\"created_at\":\"2017-09-06T18:04:38.388Z\",\"email\":\"user@workarea.com\",\"gateway_id\":null,\"reference\":1,\"store_credit\":{\"cents\":0.0,\"currency_iso\":\"USD\"},\"updated_at\":\"2017-09-06T18:04:38.388Z\"},{\"created_at\":\"2017-09-06T18:04:38.388Z\",\"email\":\"user@workarea.com\",\"gateway_id\":null,\"reference\":1,\"store_credit\":{\"cents\":0.0,\"currency_iso\":\"USD\"},\"updated_at\":\"2017-09-06T18:04:38.388Z\"}]}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+    }
+  ],
+  "resource": "Payment Profiles",
+  "description": "Bulk upserting payment profiles",
+  "route": "/api/admin/payment_profiles/bulk",
+  "http_method": "PATCH"
+}

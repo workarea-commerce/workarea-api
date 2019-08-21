@@ -1,0 +1,7 @@
+module Workarea
+  decorate User, with: 'admin_api' do
+    decorated do
+      field :api_access, type: Boolean, default: false
+    end
+  end
+end

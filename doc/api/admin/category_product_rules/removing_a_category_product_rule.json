@@ -1,0 +1,40 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+        "Content-Type": "application/x-www-form-urlencoded"
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "X-Flash-Messages": "{}",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:04:12 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:04:12 -0000",
+        "X-Request-Id": "b523f6b9-fbcc-43a3-831d-c8b036012144",
+        "X-Runtime": "0.006279"
+      },
+      "request_method": "DELETE",
+      "request_path": "/api/admin/categories/59b0389c7ceffe612c118a2c/product_rules/59b0389c7ceffe612c118a2f",
+      "request_body": null,
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 204,
+      "response_status_text": "No Content",
+      "response_body": null,
+      "response_content_type": null,
+      "curl": "curl \"https://www.example.com/api/admin/categories/59b0389c7ceffe612c118a2c/product_rules/59b0389c7ceffe612c118a2f\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
+    }
+  ],
+  "resource": "Category Product Rules",
+  "description": "Removing a category product rule",
+  "route": "/api/admin/categories/:category_id/product_rules/:id",
+  "http_method": "DELETE"
+}

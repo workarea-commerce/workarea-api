@@ -1,0 +1,42 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "X-Flash-Messages": "{}",
+        "ETag": "W/\"ed10326c2b3c8e1b1f6696faad84aa2e\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:03:21 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:03:21 -0000",
+        "X-Request-Id": "39b4b725-2012-4999-9a6d-cc8f839ce9b8",
+        "X-Runtime": "0.007539",
+        "Content-Length": "160"
+      },
+      "request_method": "GET",
+      "request_path": "/api/admin/tax_categories/59b038697ceffe612c1185d6",
+      "request_body": null,
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"tax_category\": {\n    \"_id\": \"59b038697ceffe612c1185d6\",\n    \"code\": \"7\",\n    \"created_at\": \"2017-09-06T18:03:21.353Z\",\n    \"name\": \"Clothing\",\n    \"updated_at\": \"2017-09-06T18:03:21.353Z\"\n  }\n}",
+      "response_content_type": "application/json",
+      "curl": "curl -g \"https://www.example.com/api/admin/tax_categories/59b038697ceffe612c1185d6\" -X GET "
+    }
+  ],
+  "resource": "Tax Categories",
+  "description": "Showing a tax category",
+  "route": "/api/admin/tax_categories/:id",
+  "http_method": "GET"
+}

@@ -1,0 +1,40 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+        "Content-Type": "application/json"
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "X-Flash-Messages": "{}",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:05:32 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:05:32 -0000",
+        "X-Request-Id": "93961a93-44b2-4a6b-ae01-6a068ea7eaa5",
+        "X-Runtime": "0.024023"
+      },
+      "request_method": "DELETE",
+      "request_path": "/api/admin/products/B2BCB58AA7",
+      "request_body": "null",
+      "request_content_type": "application/json",
+      "response_status": 204,
+      "response_status_text": "No Content",
+      "response_body": null,
+      "response_content_type": null,
+      "curl": "curl \"https://www.example.com/api/admin/products/B2BCB58AA7\" -d 'null' -X DELETE \\\n\t-H \"Content-Type: application/json\""
+    }
+  ],
+  "resource": "Products",
+  "description": "Removing a product",
+  "route": "/api/admin/products/:id",
+  "http_method": "DELETE"
+}

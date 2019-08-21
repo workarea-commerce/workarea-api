@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+# noop for this plugin, no tests
+mkdir -p test/reports
+touch test/reports/report.xml
+echo '<testsuite><testcase classname="Placeholder" name="placeholder" time="0.01" assertions="1"></testcase></testsuite>' > test/reports/report.xml

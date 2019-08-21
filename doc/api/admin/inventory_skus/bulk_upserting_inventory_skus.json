@@ -1,0 +1,40 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+        "Content-Type": "application/json"
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "X-Flash-Messages": "{}",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:03:03 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:03:03 -0000",
+        "X-Request-Id": "5be3e1f8-2fc4-4f0f-8f59-94d583c11958",
+        "X-Runtime": "0.060255"
+      },
+      "request_method": "PATCH",
+      "request_path": "/api/admin/inventory_skus/bulk",
+      "request_body": "{\"inventory_skus\":[{\"available\":5,\"backordered\":0,\"backordered_until\":null,\"created_at\":\"2017-09-06T18:03:03.923Z\",\"policy\":\"standard\",\"purchased\":0,\"reserve\":0,\"updated_at\":\"2017-09-06T18:03:03.923Z\",\"_id\":1},{\"available\":5,\"backordered\":0,\"backordered_until\":null,\"created_at\":\"2017-09-06T18:03:03.923Z\",\"policy\":\"standard\",\"purchased\":0,\"reserve\":0,\"updated_at\":\"2017-09-06T18:03:03.923Z\",\"_id\":1},{\"available\":5,\"backordered\":0,\"backordered_until\":null,\"created_at\":\"2017-09-06T18:03:03.923Z\",\"policy\":\"standard\",\"purchased\":0,\"reserve\":0,\"updated_at\":\"2017-09-06T18:03:03.923Z\",\"_id\":1}]}",
+      "request_content_type": "application/json",
+      "response_status": 204,
+      "response_status_text": "No Content",
+      "response_body": null,
+      "response_content_type": null,
+      "curl": "curl \"https://www.example.com/api/admin/inventory_skus/bulk\" -d '{\"inventory_skus\":[{\"available\":5,\"backordered\":0,\"backordered_until\":null,\"created_at\":\"2017-09-06T18:03:03.923Z\",\"policy\":\"standard\",\"purchased\":0,\"reserve\":0,\"updated_at\":\"2017-09-06T18:03:03.923Z\",\"_id\":1},{\"available\":5,\"backordered\":0,\"backordered_until\":null,\"created_at\":\"2017-09-06T18:03:03.923Z\",\"policy\":\"standard\",\"purchased\":0,\"reserve\":0,\"updated_at\":\"2017-09-06T18:03:03.923Z\",\"_id\":1},{\"available\":5,\"backordered\":0,\"backordered_until\":null,\"created_at\":\"2017-09-06T18:03:03.923Z\",\"policy\":\"standard\",\"purchased\":0,\"reserve\":0,\"updated_at\":\"2017-09-06T18:03:03.923Z\",\"_id\":1}]}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+    }
+  ],
+  "resource": "Inventory SKUs",
+  "description": "Bulk upserting inventory SKUs",
+  "route": "/api/admin/inventory_skus/bulk",
+  "http_method": "PATCH"
+}

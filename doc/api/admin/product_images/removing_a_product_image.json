@@ -1,0 +1,40 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+        "Content-Type": "application/x-www-form-urlencoded"
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "X-Flash-Messages": "{}",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:05:54 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:05:54 -0000",
+        "X-Request-Id": "3618a513-c00f-4caa-93da-69aa7b2d92e7",
+        "X-Runtime": "0.084789"
+      },
+      "request_method": "DELETE",
+      "request_path": "/api/admin/products/99A5DE1801/images/59b039027ceffe612c1192a4",
+      "request_body": null,
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 204,
+      "response_status_text": "No Content",
+      "response_body": null,
+      "response_content_type": null,
+      "curl": "curl \"https://www.example.com/api/admin/products/99A5DE1801/images/59b039027ceffe612c1192a4\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
+    }
+  ],
+  "resource": "Product Images",
+  "description": "Removing a product image",
+  "route": "/api/admin/products/:product_id/images/:id",
+  "http_method": "DELETE"
+}

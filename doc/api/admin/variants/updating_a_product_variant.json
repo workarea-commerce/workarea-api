@@ -1,0 +1,40 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+        "Content-Type": "application/json"
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "X-Flash-Messages": "{}",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:04:48 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:04:48 -0000",
+        "X-Request-Id": "7ca463cc-98d0-4c8c-85ef-727cc91231b3",
+        "X-Runtime": "0.061739"
+      },
+      "request_method": "PATCH",
+      "request_path": "/api/admin/products/CC0817EDB4/variants/59b038c07ceffe612c118cf3",
+      "request_body": "{\"variant\":{\"name\":\"Foo\"}}",
+      "request_content_type": "application/json",
+      "response_status": 204,
+      "response_status_text": "No Content",
+      "response_body": null,
+      "response_content_type": null,
+      "curl": "curl \"https://www.example.com/api/admin/products/CC0817EDB4/variants/59b038c07ceffe612c118cf3\" -d '{\"variant\":{\"name\":\"Foo\"}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+    }
+  ],
+  "resource": "Variants",
+  "description": "Updating a product variant",
+  "route": "/api/admin/products/:product_id/variants/:id",
+  "http_method": "PATCH"
+}

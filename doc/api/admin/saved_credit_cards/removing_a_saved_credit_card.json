@@ -1,0 +1,40 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+        "Content-Type": "application/x-www-form-urlencoded"
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "X-Flash-Messages": "{}",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:02:15 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:02:15 -0000",
+        "X-Request-Id": "67d3f22b-2b47-406b-81e7-a59b456c92d3",
+        "X-Runtime": "0.005829"
+      },
+      "request_method": "DELETE",
+      "request_path": "/api/admin/payment_profiles/59b038277ceffe612c117e11/saved_credit_cards/59b038277ceffe612c117e12",
+      "request_body": null,
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 204,
+      "response_status_text": "No Content",
+      "response_body": null,
+      "response_content_type": null,
+      "curl": "curl \"https://www.example.com/api/admin/payment_profiles/59b038277ceffe612c117e11/saved_credit_cards/59b038277ceffe612c117e12\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
+    }
+  ],
+  "resource": "Saved Credit Cards",
+  "description": "Removing a saved credit card",
+  "route": "/api/admin/payment_profiles/:payment_profile_id/saved_credit_cards/:id",
+  "http_method": "DELETE"
+}

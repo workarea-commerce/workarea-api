@@ -1,0 +1,44 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+        "Content-Type": "application/json"
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Location": "/api/admin/releases/59b0389a7ceffe612c118a12",
+        "Content-Type": "application/json; charset=utf-8",
+        "X-Flash-Messages": "{}",
+        "ETag": "W/\"a5eb22a7b706ef31fcc8565664597afa\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:04:10 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:04:10 -0000",
+        "X-Request-Id": "530b31ed-7c65-4a85-a29c-81ac806aa680",
+        "X-Runtime": "0.023484",
+        "Content-Length": "297"
+      },
+      "request_method": "POST",
+      "request_path": "/api/admin/releases",
+      "request_body": "{\"created_at\":\"2017-09-06T18:04:10.637Z\",\"name\":\"Content Release\",\"publish_at\":null,\"publish_job_id\":null,\"published_at\":null,\"subscribed_user_ids\":[],\"tags\":[],\"undo_at\":null,\"undo_job_id\":null,\"undone_at\":null,\"updated_at\":\"2017-09-06T18:04:10.637Z\"}",
+      "request_content_type": "application/json",
+      "response_status": 201,
+      "response_status_text": "Created",
+      "response_body": "{\n  \"release\": {\n    \"_id\": \"59b0389a7ceffe612c118a12\",\n    \"created_at\": \"2017-09-06T18:04:10.637Z\",\n    \"name\": \"Content Release\",\n    \"publish_at\": null,\n    \"publish_job_id\": null,\n    \"published_at\": null,\n    \"subscribed_user_ids\": [\n\n    ],\n    \"tags\": [\n\n    ],\n    \"undo_at\": null,\n    \"undo_job_id\": null,\n    \"undone_at\": null,\n    \"updated_at\": \"2017-09-06T18:04:10.637Z\"\n  }\n}",
+      "response_content_type": "application/json",
+      "curl": "curl \"https://www.example.com/api/admin/releases\" -d '{\"created_at\":\"2017-09-06T18:04:10.637Z\",\"name\":\"Content Release\",\"publish_at\":null,\"publish_job_id\":null,\"published_at\":null,\"subscribed_user_ids\":[],\"tags\":[],\"undo_at\":null,\"undo_job_id\":null,\"undone_at\":null,\"updated_at\":\"2017-09-06T18:04:10.637Z\"}' -X POST \\\n\t-H \"Content-Type: application/json\""
+    }
+  ],
+  "resource": "Releases",
+  "description": "Creating a release",
+  "route": "/api/admin/releases",
+  "http_method": "POST"
+}

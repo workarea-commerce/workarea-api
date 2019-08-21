@@ -1,0 +1,41 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+        "Content-Type": "application/json"
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "Cache-Control": "no-cache",
+        "X-Request-Id": "4984596a-ddec-4f08-b2ec-d4a67b32d81e",
+        "X-Runtime": "0.006053",
+        "Content-Length": "59"
+      },
+      "request_method": "POST",
+      "request_path": "/api/storefront/account",
+      "request_body": "{\"email\":\"bob@\",\"password\":\"\"}",
+      "request_content_type": "application/json",
+      "response_status": 422,
+      "response_status_text": "Unprocessable Entity",
+      "response_body": "{\n  \"problems\": [\n    \"Password can't be blank\",\n    \"Email is invalid\"\n  ]\n}",
+      "response_content_type": "application/json",
+      "curl": "curl \"https://www.example.com/api/storefront/account\" -d '{\"email\":\"bob@\",\"password\":\"\"}' -X POST \\\n\t-H \"Content-Type: application/json\""
+    }
+  ],
+  "resource": "Validation Errors",
+  "description": "General validation errors",
+  "route": "/api/storefront/account",
+  "http_method": "POST",
+  "explanation": "            This demonstrates API responses when invalid data is submitted.\n"
+}

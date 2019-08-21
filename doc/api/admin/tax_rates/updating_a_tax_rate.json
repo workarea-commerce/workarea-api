@@ -1,0 +1,40 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+        "Content-Type": "application/json"
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "X-Flash-Messages": "{}",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:02:18 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:02:18 -0000",
+        "X-Request-Id": "71eef10f-42c8-429f-af4e-7a3f7b6f92ed",
+        "X-Runtime": "0.013203"
+      },
+      "request_method": "PATCH",
+      "request_path": "/api/admin/tax_categories/59b0382a7ceffe612c117e60/rates/59b0382a7ceffe612c117e61",
+      "request_body": "{\"rate\":{\"percentage\":0.04}}",
+      "request_content_type": "application/json",
+      "response_status": 204,
+      "response_status_text": "No Content",
+      "response_body": null,
+      "response_content_type": null,
+      "curl": "curl \"https://www.example.com/api/admin/tax_categories/59b0382a7ceffe612c117e60/rates/59b0382a7ceffe612c117e61\" -d '{\"rate\":{\"percentage\":0.04}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+    }
+  ],
+  "resource": "Tax Rates",
+  "description": "Updating a tax rate",
+  "route": "/api/admin/tax_categories/:tax_category_id/rates/:id",
+  "http_method": "PATCH"
+}

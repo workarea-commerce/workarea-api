@@ -1,0 +1,42 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "X-Flash-Messages": "{}",
+        "ETag": "W/\"67f22a8e0644d83b60fc260a87d9dae2\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:05:27 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:05:27 -0000",
+        "X-Request-Id": "0829ebee-e362-4524-bac3-a439d9698c8f",
+        "X-Runtime": "0.010518",
+        "Content-Length": "2497"
+      },
+      "request_method": "GET",
+      "request_path": "/api/admin/payments/1234",
+      "request_body": null,
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"payment\": {\n    \"_id\": \"1234\",\n    \"address\": {\n      \"_id\": \"59b038e67ceffe612c1190a3\",\n      \"city\": \"Philadelphia\",\n      \"company\": null,\n      \"country\": {\n        \"country_data_or_code\": \"US\",\n        \"data\": {\n          \"continent\": \"North America\",\n          \"address_format\": \"{{recipient}}\\n{{street}}\\n{{city}} {{region_short}} {{postalcode}}\\n{{country}}\",\n          \"alpha2\": \"US\",\n          \"alpha3\": \"USA\",\n          \"country_code\": \"1\",\n          \"international_prefix\": \"011\",\n          \"ioc\": \"USA\",\n          \"gec\": \"US\",\n          \"name\": \"United States of America\",\n          \"national_destination_code_lengths\": [\n            3\n          ],\n          \"national_number_lengths\": [\n            10\n          ],\n          \"national_prefix\": \"1\",\n          \"number\": \"840\",\n          \"region\": \"Americas\",\n          \"subregion\": \"Northern America\",\n          \"world_region\": \"AMER\",\n          \"un_locode\": \"US\",\n          \"nationality\": \"American\",\n          \"postal_code\": true,\n          \"unofficial_names\": [\n            \"United States\",\n            \"Vereinigte Staaten von Amerika\",\n            \"États-Unis\",\n            \"Estados Unidos\",\n            \"アメリカ合衆国\",\n            \"Verenigde Staten\"\n          ],\n          \"languages_official\": [\n            \"en\"\n          ],\n          \"languages_spoken\": [\n            \"en\"\n          ],\n          \"geo\": {\n            \"latitude\": 37.09024,\n            \"latitude_dec\": \"39.44325637817383\",\n            \"longitude\": -95.712891,\n            \"longitude_dec\": \"-98.95733642578125\",\n            \"max_latitude\": 71.5388001,\n            \"max_longitude\": -66.885417,\n            \"min_latitude\": 18.7763,\n            \"min_longitude\": 170.5957,\n            \"bounds\": {\n              \"northeast\": {\n                \"lat\": 71.5388001,\n                \"lng\": -66.885417\n              },\n              \"southwest\": {\n                \"lat\": 18.7763,\n                \"lng\": 170.5957\n              }\n            }\n          },\n          \"currency_code\": \"USD\",\n          \"start_of_week\": \"sunday\",\n          \"translations\": {\n            \"en\": \"United States\"\n          },\n          \"translated_names\": [\n            \"United States\"\n          ]\n        }\n      },\n      \"created_at\": null,\n      \"first_name\": \"Ben\",\n      \"last_name\": \"Crouse\",\n      \"phone_extension\": null,\n      \"phone_number\": null,\n      \"postal_code\": \"19106\",\n      \"region\": \"PA\",\n      \"street\": \"22 S. 3rd St.\",\n      \"street_2\": \"Second Floor\",\n      \"updated_at\": null\n    },\n    \"created_at\": \"2017-09-06T18:05:26.342Z\",\n    \"credit_card\": {\n      \"_id\": \"59b038e67ceffe612c1190b1\",\n      \"amount\": {\n        \"cents\": 1100.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"created_at\": null,\n      \"display_number\": \"XXXX-XXXX-XXXX-1\",\n      \"issuer\": \"Test Card\",\n      \"month\": 1,\n      \"saved_card_id\": null,\n      \"token\": \"1\",\n      \"updated_at\": \"2017-09-06T18:05:26.872Z\",\n      \"year\": 2018\n    },\n    \"profile_id\": \"59b038e67ceffe612c1190a2\",\n    \"updated_at\": \"2017-09-06T18:05:26.734Z\"\n  },\n  \"payment_transactions\": [\n    {\n      \"_id\": \"59b038e67ceffe612c1190be\",\n      \"action\": \"authorize\",\n      \"amount\": {\n        \"cents\": 1100.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"canceled_at\": null,\n      \"cancellation\": null,\n      \"created_at\": \"2017-09-06T18:05:26.874Z\",\n      \"payment_id\": \"1234\",\n      \"reference_id\": null,\n      \"response\": {\n        \"success\": true,\n        \"message\": \"Bogus Gateway: Forced success\",\n        \"params\": {\n          \"authorized_amount\": \"11.00\"\n        },\n        \"options\": {\n          \"test\": true,\n          \"authorization\": \"53433\",\n          \"avs_result\": {\n            \"code\": null,\n            \"message\": null,\n            \"street_match\": null,\n            \"postal_match\": null\n          },\n          \"cvv_result\": null\n        }\n      },\n      \"success\": true,\n      \"tender_id\": \"59b038e67ceffe612c1190b1\",\n      \"updated_at\": \"2017-09-06T18:05:26.874Z\"\n    }\n  ]\n}",
+      "response_content_type": "application/json",
+      "curl": "curl -g \"https://www.example.com/api/admin/payments/1234\" -X GET "
+    }
+  ],
+  "resource": "Payments",
+  "description": "Showing an payment",
+  "route": "/api/admin/payments/:id",
+  "http_method": "GET"
+}

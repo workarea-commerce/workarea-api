@@ -1,0 +1,40 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+        "Content-Type": "application/x-www-form-urlencoded"
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "X-Flash-Messages": "{}",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:04:37 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:04:37 -0000",
+        "X-Request-Id": "f99306a9-8dc9-42c4-a079-cc0afea792c6",
+        "X-Runtime": "0.005212"
+      },
+      "request_method": "DELETE",
+      "request_path": "/api/admin/payment_profiles/59b038b57ceffe612c118ca1",
+      "request_body": null,
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 204,
+      "response_status_text": "No Content",
+      "response_body": null,
+      "response_content_type": null,
+      "curl": "curl \"https://www.example.com/api/admin/payment_profiles/59b038b57ceffe612c118ca1\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
+    }
+  ],
+  "resource": "Payment Profiles",
+  "description": "Removing a payment profile",
+  "route": "/api/admin/payment_profiles/:id",
+  "http_method": "DELETE"
+}

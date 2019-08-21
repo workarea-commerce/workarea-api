@@ -1,0 +1,8 @@
+module Workarea
+  decorate User, with: 'storefront_api' do
+    decorated do
+      has_many :authentication_tokens,
+        class_name: 'Workarea::User::AuthenticationToken'
+    end
+  end
+end

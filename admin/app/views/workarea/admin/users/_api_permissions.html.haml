@@ -1,0 +1,6 @@
+.grid__cell.grid__cell--50
+  .property
+    = check_box :user, :api_access
+    = label_tag 'user_api_access', class: 'property__name' do
+      = inline_svg('workarea/api/admin/icons/api.svg', class: 'svg-icon')
+      %span= t('workarea.api.admin.users.permissions.api')

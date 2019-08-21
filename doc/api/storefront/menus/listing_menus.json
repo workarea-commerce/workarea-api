@@ -1,0 +1,48 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Date": "Wed, 06 Sep 2017 18:03:41 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers": "*",
+        "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
+        "X-Requested-With": "",
+        "X-Flash-Messages": "{}",
+        "Vary": "X-Requested-With, X-Flash-Messages",
+        "Cache-Control": "max-age=900, public",
+        "ETag": "W/\"539f7e579c1d20d0673a063b1c9d9626\"",
+        "X-Request-Id": "371ab43c-774e-4823-96a1-821dc7157c23",
+        "X-Runtime": "0.057858",
+        "Content-Length": "4768"
+      },
+      "request_method": "GET",
+      "request_path": "/api/storefront/menus",
+      "request_body": null,
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"menus\": [\n    {\n      \"id\": \"59b0387d7ceffe612c118792\",\n      \"name\": \"Men\",\n      \"position\": 0,\n      \"url\": \"/api/storefront/menus/59b0387d7ceffe612c118792\",\n      \"taxon_url\": \"http://example.com/men\",\n      \"content_blocks\": [\n        {\n          \"id\": \"59b0387d7ceffe612c118794\",\n          \"type\": \"taxonomy\",\n          \"area\": \"default\",\n          \"data\": {\n            \"start\": \"59b0387d7ceffe612c118790\",\n            \"header\": \"\",\n            \"image\": \"\",\n            \"image_alt\": \"\",\n            \"image_link\": \"\",\n            \"image_position\": \"\"\n          },\n          \"hidden_breakpoints\": [\n\n          ],\n          \"position\": 0,\n          \"html\": \"<div class=\\\"content-block\\\" id=\\\"content_block_59b0387d7ceffe612c118794\\\" data-analytics=\\\"{&quot;event&quot;:&quot;contentBlockDisplay&quot;,&quot;payload&quot;:{&quot;id&quot;:&quot;59b0387d7ceffe612c118794&quot;,&quot;type&quot;:&quot;taxonomy&quot;,&quot;position&quot;:0,&quot;data&quot;:{&quot;start&quot;:&quot;59b0387d7ceffe612c118790&quot;,&quot;header&quot;:&quot;&quot;,&quot;image&quot;:&quot;&quot;,&quot;image_alt&quot;:&quot;&quot;,&quot;image_link&quot;:&quot;&quot;,&quot;image_position&quot;:&quot;&quot;}}}\\\" data-hidden-block-css-content=\\\"Block hidden at this breakpoint\\\"><div class='taxonomy-content-block'>\\n<div class='taxonomy-content-block__container taxonomy-content-block__container--without-image'>\\n<ul class='taxonomy-content-block__menu'>\\n<li class='taxonomy-content-block__menu-item'>\\nSale\\n</li>\\n</ul>\\n</div>\\n</div>\\n</div>\\n\"\n        }\n      ]\n    },\n    {\n      \"id\": \"59b0387d7ceffe612c118798\",\n      \"name\": \"Women\",\n      \"position\": 1,\n      \"url\": \"/api/storefront/menus/59b0387d7ceffe612c118798\",\n      \"taxon_url\": \"http://example.com/women\",\n      \"content_blocks\": [\n        {\n          \"id\": \"59b0387d7ceffe612c11879a\",\n          \"type\": \"taxonomy\",\n          \"area\": \"default\",\n          \"data\": {\n            \"start\": \"59b0387d7ceffe612c118796\",\n            \"header\": \"\",\n            \"image\": \"\",\n            \"image_alt\": \"\",\n            \"image_link\": \"\",\n            \"image_position\": \"\"\n          },\n          \"hidden_breakpoints\": [\n\n          ],\n          \"position\": 0,\n          \"html\": \"<div class=\\\"content-block\\\" id=\\\"content_block_59b0387d7ceffe612c11879a\\\" data-analytics=\\\"{&quot;event&quot;:&quot;contentBlockDisplay&quot;,&quot;payload&quot;:{&quot;id&quot;:&quot;59b0387d7ceffe612c11879a&quot;,&quot;type&quot;:&quot;taxonomy&quot;,&quot;position&quot;:0,&quot;data&quot;:{&quot;start&quot;:&quot;59b0387d7ceffe612c118796&quot;,&quot;header&quot;:&quot;&quot;,&quot;image&quot;:&quot;&quot;,&quot;image_alt&quot;:&quot;&quot;,&quot;image_link&quot;:&quot;&quot;,&quot;image_position&quot;:&quot;&quot;}}}\\\" data-hidden-block-css-content=\\\"Block hidden at this breakpoint\\\"><div class='taxonomy-content-block'>\\n<div class='taxonomy-content-block__container taxonomy-content-block__container--without-image'>\\n<ul class='taxonomy-content-block__menu'>\\n<li class='taxonomy-content-block__menu-item'>\\nSale\\n</li>\\n</ul>\\n</div>\\n</div>\\n</div>\\n\"\n        }\n      ]\n    },\n    {\n      \"id\": \"59b0387d7ceffe612c11879e\",\n      \"name\": \"Children\",\n      \"position\": 2,\n      \"url\": \"/api/storefront/menus/59b0387d7ceffe612c11879e\",\n      \"taxon_url\": \"http://example.com/children\",\n      \"content_blocks\": [\n        {\n          \"id\": \"59b0387d7ceffe612c1187a0\",\n          \"type\": \"taxonomy\",\n          \"area\": \"default\",\n          \"data\": {\n            \"start\": \"59b0387d7ceffe612c11879c\",\n            \"header\": \"\",\n            \"image\": \"\",\n            \"image_alt\": \"\",\n            \"image_link\": \"\",\n            \"image_position\": \"\"\n          },\n          \"hidden_breakpoints\": [\n\n          ],\n          \"position\": 0,\n          \"html\": \"<div class=\\\"content-block\\\" id=\\\"content_block_59b0387d7ceffe612c1187a0\\\" data-analytics=\\\"{&quot;event&quot;:&quot;contentBlockDisplay&quot;,&quot;payload&quot;:{&quot;id&quot;:&quot;59b0387d7ceffe612c1187a0&quot;,&quot;type&quot;:&quot;taxonomy&quot;,&quot;position&quot;:0,&quot;data&quot;:{&quot;start&quot;:&quot;59b0387d7ceffe612c11879c&quot;,&quot;header&quot;:&quot;&quot;,&quot;image&quot;:&quot;&quot;,&quot;image_alt&quot;:&quot;&quot;,&quot;image_link&quot;:&quot;&quot;,&quot;image_position&quot;:&quot;&quot;}}}\\\" data-hidden-block-css-content=\\\"Block hidden at this breakpoint\\\"><div class='taxonomy-content-block'>\\n<div class='taxonomy-content-block__container taxonomy-content-block__container--without-image'>\\n<ul class='taxonomy-content-block__menu'>\\n<li class='taxonomy-content-block__menu-item'>\\nSale\\n</li>\\n</ul>\\n</div>\\n</div>\\n</div>\\n\"\n        }\n      ]\n    }\n  ]\n}",
+      "response_content_type": "application/json",
+      "curl": "curl -g \"https://www.example.com/api/storefront/menus\" -X GET "
+    }
+  ],
+  "resource": "Menus",
+  "description": "Listing menus",
+  "route": "/api/storefront/menus",
+  "http_method": "GET",
+  "explanation": "            In the base HTML storefront, menus are used as the primary top-level\n            navigation entry points. Each menu has associated content (composed\n            of content blocks) that represent the navigation to be display when\n            that menu is selected (usually a hover or a click on a mobile\n            device). Each menu points at a particular spot in the taxonomy.\n"
+}

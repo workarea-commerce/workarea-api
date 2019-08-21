@@ -1,0 +1,48 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+        "Content-Type": "application/json"
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers": "*",
+        "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
+        "X-Requested-With": "",
+        "X-Flash-Messages": "{}",
+        "Vary": "X-Requested-With, X-Flash-Messages",
+        "ETag": "W/\"b718b1e13327e991e42f61c649db9a8f\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "91b2ad35-42c9-410e-a58d-ffa8b8fec97c",
+        "X-Runtime": "0.194779",
+        "Content-Length": "306"
+      },
+      "request_method": "POST",
+      "request_path": "/api/storefront/account",
+      "request_body": "{\"email\":\"bob@workarea.com\",\"password\":\"areallysecurepassword\"}",
+      "request_content_type": "application/json",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"account\": {\n    \"id\": \"59b038ce7ceffe612c118e85\",\n    \"email\": \"bob@workarea.com\",\n    \"public_info\": null,\n    \"first_name\": null,\n    \"last_name\": null,\n    \"updated_at\": \"2017-09-06T18:05:02.769Z\",\n    \"created_at\": \"2017-09-06T18:05:02.769Z\"\n  },\n  \"authentication_token\": {\n    \"token\": \"oV2sJiF36D3nxERJW5vF39dM\",\n    \"expires_at\": \"2017-09-13T18:05:02.890Z\"\n  }\n}",
+      "response_content_type": "application/json",
+      "curl": "curl \"https://www.example.com/api/storefront/account\" -d '{\"email\":\"bob@workarea.com\",\"password\":\"areallysecurepassword\"}' -X POST \\\n\t-H \"Content-Type: application/json\""
+    }
+  ],
+  "resource": "Accounts",
+  "description": "Creating an account",
+  "route": "/api/storefront/account",
+  "http_method": "POST",
+  "explanation": "            This endpoint does three things: it creates an account, it creates\n            an authentication token, and it sends an account creation email to\n            the customer.\n"
+}

@@ -1,0 +1,2 @@
+json.token authentication_token.token
+json.expires_at authentication_token.expires_at

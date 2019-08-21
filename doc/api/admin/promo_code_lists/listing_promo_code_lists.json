@@ -1,0 +1,56 @@
+{
+  "parameters": [
+    {
+      "name": "page",
+      "description": "Current page"
+    },
+    {
+      "name": "sort_by",
+      "description": "Field on which to sort (see responses for possible values)"
+    },
+    {
+      "name": "sort_direction",
+      "description": "Direction to sort (asc or desc)"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+      },
+      "request_query_parameters": {
+        "page": "1",
+        "sort_by": "created_at",
+        "sort_direction": "desc"
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "X-Flash-Messages": "{}",
+        "ETag": "W/\"2f87b1c120ff857699216911b66371ea\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:04:17 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:04:17 -0000",
+        "X-Request-Id": "701db32f-a99b-4e61-94b8-ce788e09ec40",
+        "X-Runtime": "0.007891",
+        "Content-Length": "384"
+      },
+      "request_method": "GET",
+      "request_path": "/api/admin/promo_code_lists?page=1&sort_by=created_at&sort_direction=desc",
+      "request_body": null,
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"promo_code_lists\": [\n    {\n      \"_id\": \"59b038a17ceffe612c118aea\",\n      \"count\": 2,\n      \"created_at\": \"2017-09-06T18:04:17.678Z\",\n      \"expires_at\": null,\n      \"name\": \"Test Code List\",\n      \"prefix\": null,\n      \"updated_at\": \"2017-09-06T18:04:17.678Z\"\n    },\n    {\n      \"_id\": \"59b038a17ceffe612c118ae7\",\n      \"count\": 2,\n      \"created_at\": \"2017-09-06T18:04:17.670Z\",\n      \"expires_at\": null,\n      \"name\": \"Test Code List\",\n      \"prefix\": null,\n      \"updated_at\": \"2017-09-06T18:04:17.670Z\"\n    }\n  ]\n}",
+      "response_content_type": "application/json",
+      "curl": "curl -g \"https://www.example.com/api/admin/promo_code_lists?page=1&sort_by=created_at&sort_direction=desc\" -X GET "
+    }
+  ],
+  "resource": "Promo Code Lists",
+  "description": "Listing promo code lists",
+  "route": "/api/admin/promo_code_lists",
+  "http_method": "GET"
+}

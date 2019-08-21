@@ -1,0 +1,40 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+        "Content-Type": "application/json"
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "X-Flash-Messages": "{}",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:02:14 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:02:14 -0000",
+        "X-Request-Id": "41f5ba59-6d88-4ee9-b449-2d84d14cddac",
+        "X-Runtime": "0.010078"
+      },
+      "request_method": "PATCH",
+      "request_path": "/api/admin/payment_profiles/59b038267ceffe612c117e02/saved_credit_cards/59b038267ceffe612c117e03",
+      "request_body": "{\"saved_credit_card\":{\"first_name\":\"Ben\"}}",
+      "request_content_type": "application/json",
+      "response_status": 204,
+      "response_status_text": "No Content",
+      "response_body": null,
+      "response_content_type": null,
+      "curl": "curl \"https://www.example.com/api/admin/payment_profiles/59b038267ceffe612c117e02/saved_credit_cards/59b038267ceffe612c117e03\" -d '{\"saved_credit_card\":{\"first_name\":\"Ben\"}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+    }
+  ],
+  "resource": "Saved Credit Cards",
+  "description": "Updating a saved credit card",
+  "route": "/api/admin/payment_profiles/:payment_profile_id/saved_credit_cards/:id",
+  "http_method": "PATCH"
+}

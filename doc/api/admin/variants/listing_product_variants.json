@@ -1,0 +1,42 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "X-Flash-Messages": "{}",
+        "ETag": "W/\"1e3eb58743ba017b3c0578c983dbb8f0\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:04:50 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:04:50 -0000",
+        "X-Request-Id": "2d5e0c4f-42f6-423f-b094-85b2370c0ec3",
+        "X-Runtime": "0.009296",
+        "Content-Length": "483"
+      },
+      "request_method": "GET",
+      "request_path": "/api/admin/products/619C78C29A/variants",
+      "request_body": null,
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"variants\": [\n    {\n      \"_id\": \"59b038c27ceffe612c118d07\",\n      \"active\": true,\n      \"created_at\": null,\n      \"details\": {\n      },\n      \"name\": \"SKU\",\n      \"sku\": \"SKU\",\n      \"updated_at\": null\n    },\n    {\n      \"_id\": \"59b038c27ceffe612c118d08\",\n      \"active\": true,\n      \"created_at\": \"2017-09-06T18:04:50.427Z\",\n      \"details\": {\n      },\n      \"name\": \"SKU939\",\n      \"sku\": \"SKU939\",\n      \"updated_at\": \"2017-09-06T18:04:50.427Z\"\n    },\n    {\n      \"_id\": \"59b038c27ceffe612c118d09\",\n      \"active\": true,\n      \"created_at\": \"2017-09-06T18:04:50.488Z\",\n      \"details\": {\n      },\n      \"name\": \"SKU670\",\n      \"sku\": \"SKU670\",\n      \"updated_at\": \"2017-09-06T18:04:50.488Z\"\n    }\n  ]\n}",
+      "response_content_type": "application/json",
+      "curl": "curl -g \"https://www.example.com/api/admin/products/619C78C29A/variants\" -X GET "
+    }
+  ],
+  "resource": "Variants",
+  "description": "Listing product variants",
+  "route": "/api/admin/products/:product_id/variants",
+  "http_method": "GET"
+}

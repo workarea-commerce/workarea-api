@@ -1,0 +1,48 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Date": "Wed, 06 Sep 2017 18:04:17 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers": "*",
+        "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
+        "X-Requested-With": "",
+        "X-Flash-Messages": "{}",
+        "Vary": "X-Requested-With, X-Flash-Messages",
+        "Cache-Control": "max-age=900, public",
+        "ETag": "W/\"b02df61e8ec07906ed528c4568adc54b\"",
+        "X-Request-Id": "2f49aca7-d0fb-4a10-809a-4b4e766678be",
+        "X-Runtime": "0.079184",
+        "Content-Length": "3853"
+      },
+      "request_method": "GET",
+      "request_path": "/api/storefront/pages/summer-lookbook",
+      "request_body": null,
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"id\": \"59b038a17ceffe612c118adb\",\n  \"name\": \"Summer Lookbook\",\n  \"url\": \"http://www.example.com/api/storefront/pages/summer-lookbook\",\n  \"browser_title\": \"Summer Lookbook\",\n  \"meta_description\": null,\n  \"breadcrumbs\": [\n    {\n      \"id\": \"59b038a17ceffe612c118ade\",\n      \"url\": \"/api/storefront/taxons/59b038a17ceffe612c118ade\",\n      \"name\": \"Home\",\n      \"depth\": 0,\n      \"navigable_url\": \"/\",\n      \"parent_id\": null,\n      \"parent_ids\": [\n\n      ],\n      \"position\": 0\n    },\n    {\n      \"id\": \"59b038a17ceffe612c118add\",\n      \"url\": \"/api/storefront/taxons/59b038a17ceffe612c118add\",\n      \"name\": \"Women\",\n      \"depth\": 1,\n      \"navigable_url\": \"www.example.com/women\",\n      \"parent_id\": \"59b038a17ceffe612c118ade\",\n      \"parent_ids\": [\n        \"59b038a17ceffe612c118ade\"\n      ],\n      \"position\": 0\n    },\n    {\n      \"id\": \"59b038a17ceffe612c118adf\",\n      \"url\": \"/api/storefront/taxons/59b038a17ceffe612c118adf\",\n      \"name\": \"Summer Lookbook\",\n      \"depth\": 2,\n      \"navigable_url\": \"http://www.example.com/api/storefront/pages/summer-lookbook\",\n      \"parent_id\": \"59b038a17ceffe612c118add\",\n      \"parent_ids\": [\n        \"59b038a17ceffe612c118ade\",\n        \"59b038a17ceffe612c118add\"\n      ],\n      \"position\": 0\n    }\n  ],\n  \"content_blocks\": [\n    {\n      \"id\": \"59b038a17ceffe612c118ae0\",\n      \"type\": \"text\",\n      \"area\": \"default\",\n      \"data\": {\n        \"text\": \"Great new looks for summer\"\n      },\n      \"hidden_breakpoints\": [\n\n      ],\n      \"position\": 0,\n      \"html\": \"<div class=\\\"content-block\\\" id=\\\"content_block_59b038a17ceffe612c118ae0\\\" data-analytics=\\\"{&quot;event&quot;:&quot;contentBlockDisplay&quot;,&quot;payload&quot;:{&quot;id&quot;:&quot;59b038a17ceffe612c118ae0&quot;,&quot;type&quot;:&quot;text&quot;,&quot;position&quot;:0,&quot;data&quot;:{&quot;text&quot;:&quot;Great new looks for summer&quot;}}}\\\" data-hidden-block-css-content=\\\"Block hidden at this breakpoint\\\"><div class='text-content-block'>Great new looks for summer</div>\\n</div>\\n\"\n    },\n    {\n      \"id\": \"59b038a17ceffe612c118ae2\",\n      \"type\": \"image\",\n      \"area\": \"default\",\n      \"data\": {\n        \"image\": \"59b038a17ceffe612c118ae1\",\n        \"alt\": \"splash\",\n        \"link\": \"\",\n        \"align\": \"\",\n        \"image_url\": \"http://www.example.com/media/W1siZiIsIjIwMTcvMDkvMDYvODc4a252N3p3aF9maWxlLmpwZyJdLFsicCIsIm9wdGltIl1d/file.jpg?sha=cd3af600da5e30f5\"\n      },\n      \"hidden_breakpoints\": [\n\n      ],\n      \"position\": 1,\n      \"html\": \"<div class=\\\"content-block\\\" id=\\\"content_block_59b038a17ceffe612c118ae2\\\" data-analytics=\\\"{&quot;event&quot;:&quot;contentBlockDisplay&quot;,&quot;payload&quot;:{&quot;id&quot;:&quot;59b038a17ceffe612c118ae2&quot;,&quot;type&quot;:&quot;image&quot;,&quot;position&quot;:1,&quot;data&quot;:{&quot;image&quot;:&quot;59b038a17ceffe612c118ae1&quot;,&quot;alt&quot;:&quot;splash&quot;,&quot;link&quot;:&quot;&quot;,&quot;align&quot;:&quot;&quot;}}}\\\" data-hidden-block-css-content=\\\"Block hidden at this breakpoint\\\"><div class='image-content-block image-content-block--'>\\n<img alt=\\\"splash\\\" class=\\\"image-content-block__image\\\" src=\\\"/media/W1siZiIsIjIwMTcvMDkvMDYvODc4a252N3p3aF9maWxlLmpwZyJdXQ/file.jpg?sha=2e560e8f1029ddb4\\\" />\\n</div>\\n</div>\\n\"\n    },\n    {\n      \"id\": \"59b038a17ceffe612c118ae3\",\n      \"type\": \"text\",\n      \"area\": \"default\",\n      \"data\": {\n        \"text\": \"Pool party fashion\"\n      },\n      \"hidden_breakpoints\": [\n\n      ],\n      \"position\": 2,\n      \"html\": \"<div class=\\\"content-block\\\" id=\\\"content_block_59b038a17ceffe612c118ae3\\\" data-analytics=\\\"{&quot;event&quot;:&quot;contentBlockDisplay&quot;,&quot;payload&quot;:{&quot;id&quot;:&quot;59b038a17ceffe612c118ae3&quot;,&quot;type&quot;:&quot;text&quot;,&quot;position&quot;:2,&quot;data&quot;:{&quot;text&quot;:&quot;Pool party fashion&quot;}}}\\\" data-hidden-block-css-content=\\\"Block hidden at this breakpoint\\\"><div class='text-content-block'>Pool party fashion</div>\\n</div>\\n\"\n    }\n  ]\n}",
+      "response_content_type": "application/json",
+      "curl": "curl -g \"https://www.example.com/api/storefront/pages/summer-lookbook\" -X GET "
+    }
+  ],
+  "resource": "Pages",
+  "description": "Showing a page",
+  "route": "/api/storefront/pages/:slug",
+  "http_method": "GET",
+  "explanation": "            This endpoint will return all relevant data for showing a content\n            page.\n"
+}

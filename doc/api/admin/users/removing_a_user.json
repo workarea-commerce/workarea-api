@@ -1,0 +1,40 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+        "Content-Type": "application/json"
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "X-Flash-Messages": "{}",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:02:32 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:02:32 -0000",
+        "X-Request-Id": "4be63969-e641-4a7c-b1d2-338157bf21df",
+        "X-Runtime": "0.014443"
+      },
+      "request_method": "DELETE",
+      "request_path": "/api/admin/users/59b038387ceffe612c11801b",
+      "request_body": "null",
+      "request_content_type": "application/json",
+      "response_status": 204,
+      "response_status_text": "No Content",
+      "response_body": null,
+      "response_content_type": null,
+      "curl": "curl \"https://www.example.com/api/admin/users/59b038387ceffe612c11801b\" -d 'null' -X DELETE \\\n\t-H \"Content-Type: application/json\""
+    }
+  ],
+  "resource": "Users",
+  "description": "Removing a user",
+  "route": "/api/admin/users/:id",
+  "http_method": "DELETE"
+}

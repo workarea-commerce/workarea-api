@@ -1,0 +1,40 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+        "Content-Type": "application/x-www-form-urlencoded"
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "X-Flash-Messages": "{}",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:04:49 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:04:49 -0000",
+        "X-Request-Id": "5c15da8b-6054-44b2-91a9-e42c0230f569",
+        "X-Runtime": "0.064497"
+      },
+      "request_method": "DELETE",
+      "request_path": "/api/admin/products/4D3BB97719/variants/59b038c17ceffe612c118d01",
+      "request_body": null,
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 204,
+      "response_status_text": "No Content",
+      "response_body": null,
+      "response_content_type": null,
+      "curl": "curl \"https://www.example.com/api/admin/products/4D3BB97719/variants/59b038c17ceffe612c118d01\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
+    }
+  ],
+  "resource": "Variants",
+  "description": "Removing a product variant",
+  "route": "/api/admin/products/:product_id/variants/:id",
+  "http_method": "DELETE"
+}

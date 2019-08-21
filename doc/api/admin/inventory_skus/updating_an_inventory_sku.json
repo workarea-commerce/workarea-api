@@ -1,0 +1,40 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+        "Content-Type": "application/json"
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "X-Flash-Messages": "{}",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:03:05 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:03:05 -0000",
+        "X-Request-Id": "93dd8dea-ad72-49dd-8c49-729e0b4cd2d2",
+        "X-Runtime": "0.022340"
+      },
+      "request_method": "PATCH",
+      "request_path": "/api/admin/inventory_skus/SKU",
+      "request_body": "{\"inventory_sku\":{\"policy\":\"ignore\"}}",
+      "request_content_type": "application/json",
+      "response_status": 204,
+      "response_status_text": "No Content",
+      "response_body": null,
+      "response_content_type": null,
+      "curl": "curl \"https://www.example.com/api/admin/inventory_skus/SKU\" -d '{\"inventory_sku\":{\"policy\":\"ignore\"}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+    }
+  ],
+  "resource": "Inventory SKUs",
+  "description": "Updating an inventory SKU",
+  "route": "/api/admin/inventory_skus/:id",
+  "http_method": "PATCH"
+}

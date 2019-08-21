@@ -1,0 +1,12 @@
+json.id address.id
+json.first_name address.first_name
+json.last_name address.last_name
+json.company address.company
+json.street address.street
+json.street_2 address.street_2
+json.city address.city
+json.country address.country.try(:alpha2)
+json.region address.region
+json.postal_code address.postal_code
+json.phone_number address.phone_number
+json.phone_extension address.phone_extension

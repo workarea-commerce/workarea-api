@@ -1,0 +1,42 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "X-Flash-Messages": "{}",
+        "ETag": "W/\"b0250de72e5e826489d0c24f3d2e3fca\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:02:33 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:02:33 -0000",
+        "X-Request-Id": "ac5059fa-24b9-4e7a-a4f0-e1e5a2d62603",
+        "X-Runtime": "0.008786",
+        "Content-Length": "744"
+      },
+      "request_method": "GET",
+      "request_path": "/api/admin/users/59b038397ceffe612c118033",
+      "request_body": null,
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"user\": {\n    \"_id\": \"59b038397ceffe612c118033\",\n    \"admin\": false,\n    \"api_access\": false,\n    \"catalog_access\": false,\n    \"created_at\": \"2017-09-06T18:02:33.873Z\",\n    \"email\": \"user33@workarea.com\",\n    \"failed_login_count\": 0,\n    \"first_name\": \"Ben\",\n    \"help_admin\": false,\n    \"ip_address\": null,\n    \"last_impersonated_at\": null,\n    \"last_impersonated_by_id\": null,\n    \"last_login_at\": null,\n    \"last_login_attempt_at\": null,\n    \"last_name\": \"Crouse\",\n    \"marketing_access\": false,\n    \"orders_access\": false,\n    \"password_changed_at\": \"2017-09-06T18:02:33.872+00:00\",\n    \"people_access\": false,\n    \"permissions_manager\": false,\n    \"releases_access\": false,\n    \"search_access\": false,\n    \"settings_access\": false,\n    \"status_email_recipient\": false,\n    \"store_access\": false,\n    \"subscribed_user_ids\": [\n\n    ],\n    \"tags\": [\n\n    ],\n    \"updated_at\": \"2017-09-06T18:02:33.873Z\",\n    \"user_agent\": null\n  }\n}",
+      "response_content_type": "application/json",
+      "curl": "curl -g \"https://www.example.com/api/admin/users/59b038397ceffe612c118033\" -X GET "
+    }
+  ],
+  "resource": "Users",
+  "description": "Showing a user",
+  "route": "/api/admin/users/:id",
+  "http_method": "GET"
+}

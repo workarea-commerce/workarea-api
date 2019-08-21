@@ -1,0 +1,32 @@
+!!!
+%html{ lang: 'en' }
+  %head
+    - engine_name = request.path_info.split('/')
+    %title
+      = "Workarea #{engine_name[1].capitalize} API"
+      - if engine_name[3].present?
+        = " - #{engine_name[3].split('_').join(' ').capitalize}"
+    = haml :stylesheets
+    = haml :javascripts_head
+
+  %body
+    .frame.frame--row.frame--top
+      .header
+        %a{ href: "#{url_location}", class: 'header__logo clearfix' }
+          = haml :logo
+          .header__heading= "#{api_name} | #{engine_name[1].capitalize}"
+    .frame.frame--column.frame--left.frame--full-column#left-frame
+      %nav.nav
+        %strong.nav__heading Sections
+        .nav
+          %ul.nav__list
+            %li.nav__item
+              %a{ href: "#{url_location}/admin", class: 'nav__class' } Admin API
+            %li.nav__item
+              %a{ href: "#{url_location}/storefront", class: 'nav__class' } Storefront API
+        = haml :nav, locals: { index: index, api_name: api_name }
+    .frame.frame--column.frame--center
+      %main.main.main--with-sidebar
+        .container.container--full= yield
+
+    = haml :javascripts

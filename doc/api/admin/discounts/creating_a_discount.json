@@ -1,0 +1,44 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+        "Content-Type": "application/json"
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Location": "/api/admin/discounts/59b038407ceffe612c1180a8",
+        "Content-Type": "application/json; charset=utf-8",
+        "X-Flash-Messages": "{}",
+        "ETag": "W/\"7ee65ffec62af7a72c88f337dfeaf894\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:02:40 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:02:40 -0000",
+        "X-Request-Id": "63266086-b946-4ee8-a530-11e067404d59",
+        "X-Runtime": "0.028019",
+        "Content-Length": "510"
+      },
+      "request_method": "POST",
+      "request_path": "/api/admin/discounts",
+      "request_body": "{\"discount\":{\"active\":true,\"allow_sale_items\":true,\"amount\":50.0,\"amount_type\":\"percent\",\"auto_deactivate\":true,\"auto_deactivated_at\":null,\"compatible_discount_ids\":[],\"created_at\":\"2017-09-06T18:02:40.916Z\",\"generated_codes_id\":null,\"item_quantity\":0,\"name\":\"Test Discount\",\"order_total\":null,\"order_total_operator\":\"greater_than\",\"product_ids\":[\"PRODUCT1\"],\"promo_codes\":[\"SALE\"],\"single_use\":false,\"subscribed_user_ids\":[],\"tags\":[],\"updated_at\":\"2017-09-06T18:02:40.916Z\",\"type\":\"product\"}}",
+      "request_content_type": "application/json",
+      "response_status": 201,
+      "response_status_text": "Created",
+      "response_body": "{\n  \"discount\": {\n    \"_id\": \"59b038407ceffe612c1180a8\",\n    \"active\": true,\n    \"allow_sale_items\": true,\n    \"amount\": 50.0,\n    \"amount_type\": \"percent\",\n    \"auto_deactivate\": true,\n    \"auto_deactivated_at\": null,\n    \"compatible_discount_ids\": [\n\n    ],\n    \"created_at\": \"2017-09-06T18:02:40.916Z\",\n    \"generated_codes_id\": null,\n    \"item_quantity\": 0,\n    \"name\": \"Test Discount\",\n    \"order_total\": null,\n    \"order_total_operator\": \"greater_than\",\n    \"product_ids\": [\n      \"PRODUCT1\"\n    ],\n    \"promo_codes\": [\n      \"sale\"\n    ],\n    \"single_use\": false,\n    \"subscribed_user_ids\": [\n\n    ],\n    \"tags\": [\n\n    ],\n    \"updated_at\": \"2017-09-06T18:02:40.916Z\"\n  }\n}",
+      "response_content_type": "application/json",
+      "curl": "curl \"https://www.example.com/api/admin/discounts\" -d '{\"discount\":{\"active\":true,\"allow_sale_items\":true,\"amount\":50.0,\"amount_type\":\"percent\",\"auto_deactivate\":true,\"auto_deactivated_at\":null,\"compatible_discount_ids\":[],\"created_at\":\"2017-09-06T18:02:40.916Z\",\"generated_codes_id\":null,\"item_quantity\":0,\"name\":\"Test Discount\",\"order_total\":null,\"order_total_operator\":\"greater_than\",\"product_ids\":[\"PRODUCT1\"],\"promo_codes\":[\"SALE\"],\"single_use\":false,\"subscribed_user_ids\":[],\"tags\":[],\"updated_at\":\"2017-09-06T18:02:40.916Z\",\"type\":\"product\"}}' -X POST \\\n\t-H \"Content-Type: application/json\""
+    }
+  ],
+  "resource": "Discounts",
+  "description": "Creating a discount",
+  "route": "/api/admin/discounts",
+  "http_method": "POST"
+}

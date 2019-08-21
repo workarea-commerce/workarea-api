@@ -1,0 +1,7 @@
+- index.resources.each do |resource|
+  %strong.nav__heading= resource.name
+  %nav.nav
+    %ul.nav__list
+      - resource.examples.each do |example|
+        %li.nav__item
+          = link_to example.description, "/#{example.href}"

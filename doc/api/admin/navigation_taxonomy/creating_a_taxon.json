@@ -1,0 +1,44 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+        "Content-Type": "application/json"
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Location": "/api/admin/navigation_taxons/59b039077ceffe612c1192fe",
+        "Content-Type": "application/json; charset=utf-8",
+        "X-Flash-Messages": "{}",
+        "ETag": "W/\"ec0139a6919b17cfbb0db75e1a0dda5e\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:05:59 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:05:59 -0000",
+        "X-Request-Id": "8dbdb400-cb46-41cb-bfc1-859fb05ca370",
+        "X-Runtime": "0.018760",
+        "Content-Length": "353"
+      },
+      "request_method": "POST",
+      "request_path": "/api/admin/navigation_taxons",
+      "request_body": "{\"navigation_taxon\":{\"children_count\":0,\"created_at\":\"2017-09-06T18:05:59.784Z\",\"depth\":1,\"name\":\"Test Taxon\",\"navigable_id\":null,\"navigable_slug\":null,\"navigable_type\":null,\"parent_id\":\"59b039077ceffe612c1192fd\",\"parent_ids\":[\"59b039077ceffe612c1192fd\"],\"position\":0,\"updated_at\":\"2017-09-06T18:05:59.784Z\",\"url\":null}}",
+      "request_content_type": "application/json",
+      "response_status": 201,
+      "response_status_text": "Created",
+      "response_body": "{\n  \"navigation_taxon\": {\n    \"_id\": \"59b039077ceffe612c1192fe\",\n    \"children_count\": 0,\n    \"created_at\": \"2017-09-06T18:05:59.784Z\",\n    \"depth\": 1,\n    \"name\": \"Test Taxon\",\n    \"navigable_id\": null,\n    \"navigable_slug\": null,\n    \"navigable_type\": null,\n    \"parent_id\": \"59b039077ceffe612c1192fd\",\n    \"parent_ids\": [\n      \"59b039077ceffe612c1192fd\"\n    ],\n    \"position\": 1,\n    \"updated_at\": \"2017-09-06T18:05:59.784Z\",\n    \"url\": null\n  }\n}",
+      "response_content_type": "application/json",
+      "curl": "curl \"https://www.example.com/api/admin/navigation_taxons\" -d '{\"navigation_taxon\":{\"children_count\":0,\"created_at\":\"2017-09-06T18:05:59.784Z\",\"depth\":1,\"name\":\"Test Taxon\",\"navigable_id\":null,\"navigable_slug\":null,\"navigable_type\":null,\"parent_id\":\"59b039077ceffe612c1192fd\",\"parent_ids\":[\"59b039077ceffe612c1192fd\"],\"position\":0,\"updated_at\":\"2017-09-06T18:05:59.784Z\",\"url\":null}}' -X POST \\\n\t-H \"Content-Type: application/json\""
+    }
+  ],
+  "resource": "Navigation taxonomy",
+  "description": "Creating a taxon",
+  "route": "/api/admin/navigation_taxons",
+  "http_method": "POST"
+}

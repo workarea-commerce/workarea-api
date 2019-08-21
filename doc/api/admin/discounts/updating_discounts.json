@@ -1,0 +1,40 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+        "Content-Type": "application/json"
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "X-Flash-Messages": "{}",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:02:42 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:02:42 -0000",
+        "X-Request-Id": "216534e2-dbcd-48eb-8da1-44a559db57a2",
+        "X-Runtime": "0.026294"
+      },
+      "request_method": "PATCH",
+      "request_path": "/api/admin/discounts/59b038427ceffe612c1180b7",
+      "request_body": "{\"discount\":{\"name\":\"foo\"}}",
+      "request_content_type": "application/json",
+      "response_status": 204,
+      "response_status_text": "No Content",
+      "response_body": null,
+      "response_content_type": null,
+      "curl": "curl \"https://www.example.com/api/admin/discounts/59b038427ceffe612c1180b7\" -d '{\"discount\":{\"name\":\"foo\"}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+    }
+  ],
+  "resource": "Discounts",
+  "description": "Updating discounts",
+  "route": "/api/admin/discounts/:id",
+  "http_method": "PATCH"
+}

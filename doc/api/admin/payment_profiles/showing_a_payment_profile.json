@@ -1,0 +1,42 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "X-Flash-Messages": "{}",
+        "ETag": "W/\"56b40b9810ef448433e252249f4d1007\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:04:37 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:04:37 -0000",
+        "X-Request-Id": "b1e12316-2c62-4f6b-926c-240a942da21c",
+        "X-Runtime": "0.007430",
+        "Content-Length": "249"
+      },
+      "request_method": "GET",
+      "request_path": "/api/admin/payment_profiles/59b038b57ceffe612c118ca6",
+      "request_body": null,
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"payment_profile\": {\n    \"_id\": \"59b038b57ceffe612c118ca6\",\n    \"created_at\": \"2017-09-06T18:04:37.639Z\",\n    \"email\": \"user@workarea.com\",\n    \"gateway_id\": null,\n    \"reference\": \"1243\",\n    \"store_credit\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"updated_at\": \"2017-09-06T18:04:37.639Z\"\n  }\n}",
+      "response_content_type": "application/json",
+      "curl": "curl -g \"https://www.example.com/api/admin/payment_profiles/59b038b57ceffe612c118ca6\" -X GET "
+    }
+  ],
+  "resource": "Payment Profiles",
+  "description": "Showing a payment profile",
+  "route": "/api/admin/payment_profiles/:id",
+  "http_method": "GET"
+}

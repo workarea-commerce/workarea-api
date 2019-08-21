@@ -1,0 +1,40 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+        "Content-Type": "application/json"
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "X-Flash-Messages": "{}",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:03:47 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:03:47 -0000",
+        "X-Request-Id": "ea4e2d57-1f3c-4f9e-b9e9-1f9dd479bf2d",
+        "X-Runtime": "0.024726"
+      },
+      "request_method": "PATCH",
+      "request_path": "/api/admin/users/59b038837ceffe612c1187e6/saved_addresses/59b038837ceffe612c1187e8",
+      "request_body": "{\"saved_address\":{\"street\":\"1 Foobar Lane\"}}",
+      "request_content_type": "application/json",
+      "response_status": 204,
+      "response_status_text": "No Content",
+      "response_body": null,
+      "response_content_type": null,
+      "curl": "curl \"https://www.example.com/api/admin/users/59b038837ceffe612c1187e6/saved_addresses/59b038837ceffe612c1187e8\" -d '{\"saved_address\":{\"street\":\"1 Foobar Lane\"}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+    }
+  ],
+  "resource": "Saved Addresses",
+  "description": "Updating a saved address",
+  "route": "/api/admin/users/:user_id/saved_addresses/:id",
+  "http_method": "PATCH"
+}

@@ -1,0 +1,40 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+        "Content-Type": "application/json"
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "X-Flash-Messages": "{}",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:04:32 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:04:32 -0000",
+        "X-Request-Id": "e2da100d-b5cb-4b81-a495-78af222027de",
+        "X-Runtime": "0.025907"
+      },
+      "request_method": "PATCH",
+      "request_path": "/api/admin/pricing_skus/2134",
+      "request_body": "{\"pricing_sku\":{\"discountable\":false}}",
+      "request_content_type": "application/json",
+      "response_status": 204,
+      "response_status_text": "No Content",
+      "response_body": null,
+      "response_content_type": null,
+      "curl": "curl \"https://www.example.com/api/admin/pricing_skus/2134\" -d '{\"pricing_sku\":{\"discountable\":false}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+    }
+  ],
+  "resource": "Pricing SKUs",
+  "description": "Updating an pricing SKU",
+  "route": "/api/admin/pricing_skus/:id",
+  "http_method": "PATCH"
+}

@@ -1,0 +1,49 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+      },
+      "request_query_parameters": {
+        "q": "red"
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Date": "Wed, 06 Sep 2017 18:05:36 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers": "*",
+        "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
+        "X-Requested-With": "",
+        "X-Flash-Messages": "{}",
+        "Vary": "X-Requested-With, X-Flash-Messages",
+        "Cache-Control": "max-age=900, public",
+        "ETag": "W/\"578c8a2c2fd53e95ce7c2d44aa3d4e84\"",
+        "X-Request-Id": "4d1027a9-427d-40ea-8801-e9b8b710e78e",
+        "X-Runtime": "0.028561",
+        "Content-Length": "632"
+      },
+      "request_method": "GET",
+      "request_path": "/api/storefront/searches?q=red",
+      "request_body": null,
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"results\": [\n    {\n      \"value\": \"red\",\n      \"type\": \"Searches\",\n      \"image\": null,\n      \"url\": \"/api/storefront/search?q=red\",\n      \"analytics\": null\n    },\n    {\n      \"value\": \"Red Product\",\n      \"type\": \"Products\",\n      \"image\": \"/product_images/placeholder/small_thumb.jpg?c=1504720924\",\n      \"url\": \"/api/storefront/products/red-product\",\n      \"analytics\": {\n        \"id\": \"AC6E63657C\",\n        \"name\": \"Red Product\",\n        \"sku\": \"SKU\",\n        \"sale\": false,\n        \"price\": 5.0,\n        \"category\": null\n      }\n    },\n    {\n      \"value\": \"Page about Red Products\",\n      \"type\": \"Pages\",\n      \"image\": null,\n      \"url\": \"/api/storefront/pages/page-about-red-products\",\n      \"analytics\": null\n    },\n    {\n      \"value\": \"Red Category\",\n      \"type\": \"Categories\",\n      \"image\": null,\n      \"url\": \"/api/storefront/categories/red-category\",\n      \"analytics\": null\n    }\n  ]\n}",
+      "response_content_type": "application/json",
+      "curl": "curl -g \"https://www.example.com/api/storefront/searches?q=red\" -X GET "
+    }
+  ],
+  "resource": "Searches",
+  "description": "Showing search autocomplete suggestions",
+  "route": "/api/storefront/searches",
+  "http_method": "GET",
+  "explanation": "            This list will be based on popular search terms and matching\n            products, categories, etc. Useful for showing a autocomplete\n            drop-down as a customer types in a search bar.\n"
+}

@@ -1,0 +1,42 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "X-Flash-Messages": "{}",
+        "ETag": "W/\"6bc1aa543d42dd638293242c39fadfaf\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:03:05 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:03:05 -0000",
+        "X-Request-Id": "e7cc2595-eadc-4f3c-8c91-3d83de5c4e0f",
+        "X-Runtime": "0.007448",
+        "Content-Length": "212"
+      },
+      "request_method": "GET",
+      "request_path": "/api/admin/inventory_skus/SKU",
+      "request_body": null,
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"inventory_sku\": {\n    \"_id\": \"SKU\",\n    \"available\": 5,\n    \"backordered\": 0,\n    \"backordered_until\": null,\n    \"created_at\": \"2017-09-06T18:03:05.549Z\",\n    \"policy\": \"standard\",\n    \"purchased\": 0,\n    \"reserve\": 0,\n    \"updated_at\": \"2017-09-06T18:03:05.549Z\"\n  }\n}",
+      "response_content_type": "application/json",
+      "curl": "curl -g \"https://www.example.com/api/admin/inventory_skus/SKU\" -X GET "
+    }
+  ],
+  "resource": "Inventory SKUs",
+  "description": "Showing an inventory SKU",
+  "route": "/api/admin/inventory_skus/:id",
+  "http_method": "GET"
+}

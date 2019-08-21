@@ -1,0 +1,40 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+        "Content-Type": "application/json"
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "X-Flash-Messages": "{}",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:05:19 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:05:19 -0000",
+        "X-Request-Id": "0d8f7db8-ac0e-4f7e-aa0f-c1b50040b2c7",
+        "X-Runtime": "0.031556"
+      },
+      "request_method": "DELETE",
+      "request_path": "/api/admin/categories/59b038df7ceffe612c118fac",
+      "request_body": "null",
+      "request_content_type": "application/json",
+      "response_status": 204,
+      "response_status_text": "No Content",
+      "response_body": null,
+      "response_content_type": null,
+      "curl": "curl \"https://www.example.com/api/admin/categories/59b038df7ceffe612c118fac\" -d 'null' -X DELETE \\\n\t-H \"Content-Type: application/json\""
+    }
+  ],
+  "resource": "Categories",
+  "description": "Removing a category",
+  "route": "/api/admin/categories/:id",
+  "http_method": "DELETE"
+}

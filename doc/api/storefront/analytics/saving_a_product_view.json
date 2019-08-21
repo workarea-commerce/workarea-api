@@ -1,0 +1,38 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+        "Content-Type": "application/x-www-form-urlencoded"
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Cache-Control": "no-cache",
+        "X-Request-Id": "f6119d8f-d468-4dc2-ab97-bf6db433f0df",
+        "X-Runtime": "0.004604",
+        "Content-Length": "0"
+      },
+      "request_method": "POST",
+      "request_path": "/api/storefront/analytics/product_view/12345",
+      "request_body": null,
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": null,
+      "response_content_type": "text/html",
+      "curl": "curl \"https://www.example.com/api/storefront/analytics/product_view/12345\" -d '' -X POST \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
+    }
+  ],
+  "resource": "Analytics",
+  "description": "Saving a product view",
+  "route": "/api/storefront/analytics/product_view/:product_id",
+  "http_method": "POST",
+  "explanation": "Saving a product view will be reflected in admin reports"
+}

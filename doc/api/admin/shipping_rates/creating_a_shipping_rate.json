@@ -1,0 +1,44 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+        "Content-Type": "application/json"
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Location": "/api/admin/shipping_services/59b0383d7ceffe612c118069/rates",
+        "Content-Type": "application/json; charset=utf-8",
+        "X-Flash-Messages": "{}",
+        "ETag": "W/\"c209cd6533c6262ac0017e336c677ef6\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:02:37 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:02:37 -0000",
+        "X-Request-Id": "81e57de9-7a6a-4eee-91bf-91da695700f8",
+        "X-Runtime": "0.011319",
+        "Content-Length": "200"
+      },
+      "request_method": "POST",
+      "request_path": "/api/admin/shipping_services/59b0383d7ceffe612c118069/rates",
+      "request_body": "{\"rate\":{\"created_at\":null,\"price\":{\"cents\":100.0,\"currency_iso\":\"USD\"},\"tier_max\":null,\"tier_min\":null,\"updated_at\":null}}",
+      "request_content_type": "application/json",
+      "response_status": 201,
+      "response_status_text": "Created",
+      "response_body": "{\n  \"rate\": {\n    \"_id\": \"59b0383d7ceffe612c11806b\",\n    \"created_at\": \"2017-09-06T18:02:37.506Z\",\n    \"price\": {\n      \"cents\": 100.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"tier_max\": null,\n    \"tier_min\": null,\n    \"updated_at\": \"2017-09-06T18:02:37.506Z\"\n  }\n}",
+      "response_content_type": "application/json",
+      "curl": "curl \"https://www.example.com/api/admin/shipping_services/59b0383d7ceffe612c118069/rates\" -d '{\"rate\":{\"created_at\":null,\"price\":{\"cents\":100.0,\"currency_iso\":\"USD\"},\"tier_max\":null,\"tier_min\":null,\"updated_at\":null}}' -X POST \\\n\t-H \"Content-Type: application/json\""
+    }
+  ],
+  "resource": "Shipping Rates",
+  "description": "Creating a shipping rate",
+  "route": "/api/admin/shipping_services/:shipping_service_id/rates",
+  "http_method": "POST"
+}

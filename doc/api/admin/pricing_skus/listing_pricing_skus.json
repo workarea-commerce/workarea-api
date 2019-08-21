@@ -1,0 +1,56 @@
+{
+  "parameters": [
+    {
+      "name": "page",
+      "description": "Current page"
+    },
+    {
+      "name": "sort_by",
+      "description": "Field on which to sort (see responses for possible values)"
+    },
+    {
+      "name": "sort_direction",
+      "description": "Direction to sort (asc or desc)"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+      },
+      "request_query_parameters": {
+        "page": "1",
+        "sort_by": "created_at",
+        "sort_direction": "desc"
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "X-Flash-Messages": "{}",
+        "ETag": "W/\"cdabc27a5a2d41aec2de10396362e6b8\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:04:31 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:04:31 -0000",
+        "X-Request-Id": "3fc3bd62-a1f8-4a44-9d1f-34cb28b0c546",
+        "X-Runtime": "0.009505",
+        "Content-Length": "364"
+      },
+      "request_method": "GET",
+      "request_path": "/api/admin/pricing_skus?page=1&sort_by=created_at&sort_direction=desc",
+      "request_body": null,
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"pricing_skus\": [\n    {\n      \"_id\": \"SKU1\",\n      \"active\": true,\n      \"created_at\": \"2017-09-06T18:04:31.085Z\",\n      \"discountable\": true,\n      \"msrp\": null,\n      \"on_sale\": false,\n      \"tax_code\": null,\n      \"updated_at\": \"2017-09-06T18:04:31.085Z\"\n    },\n    {\n      \"_id\": \"SKU0\",\n      \"active\": true,\n      \"created_at\": \"2017-09-06T18:04:31.058Z\",\n      \"discountable\": true,\n      \"msrp\": null,\n      \"on_sale\": false,\n      \"tax_code\": null,\n      \"updated_at\": \"2017-09-06T18:04:31.058Z\"\n    }\n  ]\n}",
+      "response_content_type": "application/json",
+      "curl": "curl -g \"https://www.example.com/api/admin/pricing_skus?page=1&sort_by=created_at&sort_direction=desc\" -X GET "
+    }
+  ],
+  "resource": "Pricing SKUs",
+  "description": "Listing pricing SKUs",
+  "route": "/api/admin/pricing_skus",
+  "http_method": "GET"
+}

@@ -1,0 +1,56 @@
+{
+  "parameters": [
+    {
+      "name": "page",
+      "description": "Current page"
+    },
+    {
+      "name": "sort_by",
+      "description": "Field on which to sort (see responses for possible values)"
+    },
+    {
+      "name": "sort_direction",
+      "description": "Direction to sort (asc or desc)"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+      },
+      "request_query_parameters": {
+        "page": "1",
+        "sort_by": "created_at",
+        "sort_direction": "desc"
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "X-Flash-Messages": "{}",
+        "ETag": "W/\"311f928494bd90007260c9b0fb1b404d\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:04:26 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:04:26 -0000",
+        "X-Request-Id": "dcc028fa-62bc-4a24-9b36-bc8dba28b74e",
+        "X-Runtime": "0.009210",
+        "Content-Length": "1164"
+      },
+      "request_method": "GET",
+      "request_path": "/api/admin/payment_transactions?page=1&sort_by=created_at&sort_direction=desc",
+      "request_body": null,
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"transactions\": [\n    {\n      \"_id\": \"59b038aa7ceffe612c118c0d\",\n      \"action\": \"authorize\",\n      \"amount\": {\n        \"cents\": 1100.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"canceled_at\": null,\n      \"cancellation\": null,\n      \"created_at\": \"2017-09-06T18:04:26.589Z\",\n      \"payment_id\": \"1001\",\n      \"reference_id\": null,\n      \"response\": {\n        \"success\": true,\n        \"message\": \"Bogus Gateway: Forced success\",\n        \"params\": {\n          \"authorized_amount\": \"11.00\"\n        },\n        \"options\": {\n          \"test\": true,\n          \"authorization\": \"53433\",\n          \"avs_result\": {\n            \"code\": null,\n            \"message\": null,\n            \"street_match\": null,\n            \"postal_match\": null\n          },\n          \"cvv_result\": null\n        }\n      },\n      \"success\": true,\n      \"tender_id\": \"59b038aa7ceffe612c118c00\",\n      \"updated_at\": \"2017-09-06T18:04:26.589Z\"\n    },\n    {\n      \"_id\": \"59b038a97ceffe612c118bc4\",\n      \"action\": \"authorize\",\n      \"amount\": {\n        \"cents\": 1100.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"canceled_at\": null,\n      \"cancellation\": null,\n      \"created_at\": \"2017-09-06T18:04:25.519Z\",\n      \"payment_id\": \"1000\",\n      \"reference_id\": null,\n      \"response\": {\n        \"success\": true,\n        \"message\": \"Bogus Gateway: Forced success\",\n        \"params\": {\n          \"authorized_amount\": \"11.00\"\n        },\n        \"options\": {\n          \"test\": true,\n          \"authorization\": \"53433\",\n          \"avs_result\": {\n            \"code\": null,\n            \"message\": null,\n            \"street_match\": null,\n            \"postal_match\": null\n          },\n          \"cvv_result\": null\n        }\n      },\n      \"success\": true,\n      \"tender_id\": \"59b038a97ceffe612c118bb7\",\n      \"updated_at\": \"2017-09-06T18:04:25.519Z\"\n    }\n  ]\n}",
+      "response_content_type": "application/json",
+      "curl": "curl -g \"https://www.example.com/api/admin/payment_transactions?page=1&sort_by=created_at&sort_direction=desc\" -X GET "
+    }
+  ],
+  "resource": "Payment transactions",
+  "description": "Listing payment transactions",
+  "route": "/api/admin/payment_transactions",
+  "http_method": "GET"
+}

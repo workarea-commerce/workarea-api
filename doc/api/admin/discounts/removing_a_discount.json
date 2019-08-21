@@ -1,0 +1,40 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+        "Content-Type": "application/x-www-form-urlencoded"
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "X-Flash-Messages": "{}",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:02:41 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:02:41 -0000",
+        "X-Request-Id": "30e6b827-10f6-408a-9390-4fec360fbaa9",
+        "X-Runtime": "0.015888"
+      },
+      "request_method": "DELETE",
+      "request_path": "/api/admin/discounts/59b038417ceffe612c1180ad",
+      "request_body": null,
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 204,
+      "response_status_text": "No Content",
+      "response_body": null,
+      "response_content_type": null,
+      "curl": "curl \"https://www.example.com/api/admin/discounts/59b038417ceffe612c1180ad\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
+    }
+  ],
+  "resource": "Discounts",
+  "description": "Removing a discount",
+  "route": "/api/admin/discounts/:id",
+  "http_method": "DELETE"
+}

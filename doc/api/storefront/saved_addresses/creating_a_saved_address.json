@@ -1,0 +1,48 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Token token=\"xHJECruFvVENiP3DGJCVh9iA\""
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers": "*",
+        "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
+        "X-Requested-With": "",
+        "X-Flash-Messages": "{}",
+        "Vary": "X-Requested-With, X-Flash-Messages",
+        "ETag": "W/\"c8fd5d87030d2069194a78d528709cc8\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "805991fc-c19b-4669-beb7-44ba16491b10",
+        "X-Runtime": "0.030534",
+        "Content-Length": "377"
+      },
+      "request_method": "POST",
+      "request_path": "/api/storefront/saved_addresses",
+      "request_body": "{\"first_name\":\"Susan\",\"last_name\":\"Baker\",\"street\":\"4059 Mt Lee Dr.\",\"city\":\"Hollywood\",\"region\":\"CA\",\"country\":\"US\",\"postal_code\":\"90068\",\"phone_number\":\"7545552390\"}",
+      "request_content_type": "application/json",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"user_id\": \"59b038837ceffe612c1187eb\",\n  \"url\": \"http://www.example.com/api/storefront/saved_addresses/59b038837ceffe612c1187ef\",\n  \"id\": \"59b038837ceffe612c1187ef\",\n  \"first_name\": \"Susan\",\n  \"last_name\": \"Baker\",\n  \"company\": null,\n  \"street\": \"4059 Mt Lee Dr.\",\n  \"street_2\": null,\n  \"city\": \"Hollywood\",\n  \"country\": \"US\",\n  \"region\": \"CA\",\n  \"postal_code\": \"90068\",\n  \"phone_number\": \"7545552390\",\n  \"phone_extension\": null\n}",
+      "response_content_type": "application/json",
+      "curl": "curl \"https://www.example.com/api/storefront/saved_addresses\" -d '{\"first_name\":\"Susan\",\"last_name\":\"Baker\",\"street\":\"4059 Mt Lee Dr.\",\"city\":\"Hollywood\",\"region\":\"CA\",\"country\":\"US\",\"postal_code\":\"90068\",\"phone_number\":\"7545552390\"}' -X POST \\\n\t-H \"Content-Type: application/json\" \\\n\t-H \"Authorization: Token token=\\\"xHJECruFvVENiP3DGJCVh9iA\\\"\""
+    }
+  ],
+  "resource": "Saved Addresses",
+  "description": "Creating a saved address",
+  "route": "/api/storefront/saved_addresses",
+  "http_method": "POST"
+}

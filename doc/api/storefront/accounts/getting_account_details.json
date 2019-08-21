@@ -1,0 +1,47 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+        "Authorization": "Token token=\"xMQBuPwckn3csGc9JxfpBfuR\""
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers": "*",
+        "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
+        "X-Requested-With": "",
+        "X-Flash-Messages": "{}",
+        "Vary": "X-Requested-With, X-Flash-Messages",
+        "ETag": "W/\"0fd926ba376fd7fd43ae1c84a91a6aea\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "f79a02f5-39bd-4945-b24b-471fb975abd9",
+        "X-Runtime": "0.013410",
+        "Content-Length": "203"
+      },
+      "request_method": "GET",
+      "request_path": "/api/storefront/account",
+      "request_body": null,
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"id\": \"59b038ce7ceffe612c118e81\",\n  \"email\": \"user274@workarea.com\",\n  \"public_info\": \"BC\",\n  \"first_name\": \"Ben\",\n  \"last_name\": \"Crouse\",\n  \"updated_at\": \"2017-09-06T18:05:02.406Z\",\n  \"created_at\": \"2017-09-06T18:05:02.406Z\"\n}",
+      "response_content_type": "application/json",
+      "curl": "curl -g \"https://www.example.com/api/storefront/account\" -X GET \\\n\t-H \"Authorization: Token token=\\\"xMQBuPwckn3csGc9JxfpBfuR\\\"\""
+    }
+  ],
+  "resource": "Accounts",
+  "description": "Getting account details",
+  "route": "/api/storefront/account",
+  "http_method": "GET"
+}

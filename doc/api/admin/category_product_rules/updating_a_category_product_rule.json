@@ -1,0 +1,40 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+        "Content-Type": "application/json"
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "X-Flash-Messages": "{}",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:04:11 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:04:11 -0000",
+        "X-Request-Id": "6548818e-dfa1-409a-b41a-4b0f09f54116",
+        "X-Runtime": "0.013089"
+      },
+      "request_method": "PATCH",
+      "request_path": "/api/admin/categories/59b0389b7ceffe612c118a17/product_rules/59b0389b7ceffe612c118a1a",
+      "request_body": "{\"product_rule\":{\"value\":\"foo\"}}",
+      "request_content_type": "application/json",
+      "response_status": 204,
+      "response_status_text": "No Content",
+      "response_body": null,
+      "response_content_type": null,
+      "curl": "curl \"https://www.example.com/api/admin/categories/59b0389b7ceffe612c118a17/product_rules/59b0389b7ceffe612c118a1a\" -d '{\"product_rule\":{\"value\":\"foo\"}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+    }
+  ],
+  "resource": "Category Product Rules",
+  "description": "Updating a category product rule",
+  "route": "/api/admin/categories/:category_id/product_rules/:id",
+  "http_method": "PATCH"
+}

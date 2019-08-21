@@ -1,0 +1,44 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+        "Content-Type": "application/json"
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Location": "/api/admin/fulfillments/1234",
+        "Content-Type": "application/json; charset=utf-8",
+        "X-Flash-Messages": "{}",
+        "ETag": "W/\"1ab8f4a8e51e6446a600a97b8260e220\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:06:24 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:06:24 -0000",
+        "X-Request-Id": "e5c5a2be-35ca-4f15-936e-90c4b68f6d47",
+        "X-Runtime": "0.121784",
+        "Content-Length": "393"
+      },
+      "request_method": "POST",
+      "request_path": "/api/admin/fulfillments/1234/ship_items",
+      "request_body": "{\"tracking_number\":\"1Z\",\"items\":[{\"id\":\"59b0391f7ceffe612c119524\",\"quantity\":1}]}",
+      "request_content_type": "application/json",
+      "response_status": 201,
+      "response_status_text": "Created",
+      "response_body": "{\n  \"fulfillment\": {\n    \"_id\": \"1234\",\n    \"created_at\": \"2017-09-06T18:06:24.054Z\",\n    \"items\": [\n      {\n        \"_id\": \"59b039207ceffe612c119551\",\n        \"created_at\": null,\n        \"events\": [\n          {\n            \"_id\": \"59b039207ceffe612c119552\",\n            \"created_at\": null,\n            \"data\": {\n              \"tracking_number\": \"1z\"\n            },\n            \"quantity\": 1,\n            \"status\": \"shipped\",\n            \"updated_at\": null\n          }\n        ],\n        \"order_item_id\": \"59b0391f7ceffe612c119524\",\n        \"quantity\": 2,\n        \"updated_at\": null\n      }\n    ],\n    \"updated_at\": \"2017-09-06T18:06:24.189Z\"\n  }\n}",
+      "response_content_type": "application/json",
+      "curl": "curl \"https://www.example.com/api/admin/fulfillments/1234/ship_items\" -d '{\"tracking_number\":\"1Z\",\"items\":[{\"id\":\"59b0391f7ceffe612c119524\",\"quantity\":1}]}' -X POST \\\n\t-H \"Content-Type: application/json\""
+    }
+  ],
+  "resource": "Fulfillment",
+  "description": "Marking items as shipped",
+  "route": "/api/admin/fulfillments/:order_id/ship_items",
+  "http_method": "POST"
+}

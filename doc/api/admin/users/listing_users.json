@@ -1,0 +1,56 @@
+{
+  "parameters": [
+    {
+      "name": "page",
+      "description": "Current page"
+    },
+    {
+      "name": "sort_by",
+      "description": "Field on which to sort (see responses for possible values)"
+    },
+    {
+      "name": "sort_direction",
+      "description": "Direction to sort (asc or desc)"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+      },
+      "request_query_parameters": {
+        "page": "1",
+        "sort_by": "created_at",
+        "sort_direction": "desc"
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "X-Flash-Messages": "{}",
+        "ETag": "W/\"1f32d3af17c606de9b39da30968ede06\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:02:32 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:02:32 -0000",
+        "X-Request-Id": "8eb34e33-3780-4bf6-8dd4-e6b33efae65d",
+        "X-Runtime": "0.009844",
+        "Content-Length": "2216"
+      },
+      "request_method": "GET",
+      "request_path": "/api/admin/users?page=1&sort_by=created_at&sort_direction=desc",
+      "request_body": null,
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"users\": [\n    {\n      \"_id\": \"59b038387ceffe612c118024\",\n      \"admin\": false,\n      \"api_access\": false,\n      \"catalog_access\": false,\n      \"created_at\": \"2017-09-06T18:02:32.729Z\",\n      \"email\": \"user29@workarea.com\",\n      \"failed_login_count\": 0,\n      \"first_name\": \"Ben\",\n      \"help_admin\": false,\n      \"ip_address\": null,\n      \"last_impersonated_at\": null,\n      \"last_impersonated_by_id\": null,\n      \"last_login_at\": null,\n      \"last_login_attempt_at\": null,\n      \"last_name\": \"Crouse\",\n      \"marketing_access\": false,\n      \"orders_access\": false,\n      \"password_changed_at\": \"2017-09-06T18:02:32.729+00:00\",\n      \"people_access\": false,\n      \"permissions_manager\": false,\n      \"releases_access\": false,\n      \"search_access\": false,\n      \"settings_access\": false,\n      \"status_email_recipient\": false,\n      \"store_access\": false,\n      \"subscribed_user_ids\": [\n\n      ],\n      \"tags\": [\n\n      ],\n      \"updated_at\": \"2017-09-06T18:02:32.729Z\",\n      \"user_agent\": null\n    },\n    {\n      \"_id\": \"59b038387ceffe612c118022\",\n      \"admin\": false,\n      \"api_access\": false,\n      \"catalog_access\": false,\n      \"created_at\": \"2017-09-06T18:02:32.585Z\",\n      \"email\": \"user28@workarea.com\",\n      \"failed_login_count\": 0,\n      \"first_name\": \"Ben\",\n      \"help_admin\": false,\n      \"ip_address\": null,\n      \"last_impersonated_at\": null,\n      \"last_impersonated_by_id\": null,\n      \"last_login_at\": null,\n      \"last_login_attempt_at\": null,\n      \"last_name\": \"Crouse\",\n      \"marketing_access\": false,\n      \"orders_access\": false,\n      \"password_changed_at\": \"2017-09-06T18:02:32.585+00:00\",\n      \"people_access\": false,\n      \"permissions_manager\": false,\n      \"releases_access\": false,\n      \"search_access\": false,\n      \"settings_access\": false,\n      \"status_email_recipient\": false,\n      \"store_access\": false,\n      \"subscribed_user_ids\": [\n\n      ],\n      \"tags\": [\n\n      ],\n      \"updated_at\": \"2017-09-06T18:02:32.585Z\",\n      \"user_agent\": null\n    },\n    {\n      \"_id\": \"59b038387ceffe612c118020\",\n      \"admin\": true,\n      \"api_access\": false,\n      \"catalog_access\": false,\n      \"created_at\": \"2017-09-06T18:02:32.433Z\",\n      \"email\": \"user27@workarea.com\",\n      \"failed_login_count\": 0,\n      \"first_name\": \"Ben\",\n      \"help_admin\": true,\n      \"ip_address\": null,\n      \"last_impersonated_at\": null,\n      \"last_impersonated_by_id\": null,\n      \"last_login_at\": null,\n      \"last_login_attempt_at\": null,\n      \"last_name\": \"Crouse\",\n      \"marketing_access\": false,\n      \"orders_access\": false,\n      \"password_changed_at\": \"2017-09-06T18:02:32.433+00:00\",\n      \"people_access\": false,\n      \"permissions_manager\": true,\n      \"releases_access\": false,\n      \"search_access\": false,\n      \"settings_access\": false,\n      \"status_email_recipient\": false,\n      \"store_access\": false,\n      \"subscribed_user_ids\": [\n\n      ],\n      \"tags\": [\n\n      ],\n      \"updated_at\": \"2017-09-06T18:02:32.433Z\",\n      \"user_agent\": null\n    }\n  ]\n}",
+      "response_content_type": "application/json",
+      "curl": "curl -g \"https://www.example.com/api/admin/users?page=1&sort_by=created_at&sort_direction=desc\" -X GET "
+    }
+  ],
+  "resource": "Users",
+  "description": "Listing users",
+  "route": "/api/admin/users",
+  "http_method": "GET"
+}

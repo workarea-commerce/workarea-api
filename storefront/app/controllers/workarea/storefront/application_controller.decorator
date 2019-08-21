@@ -1,0 +1,12 @@
+module Workarea
+  decorate Storefront::ApplicationController do
+    # Rendering content blocks in the context of Storefront for output
+    # in the api response requires current_user to look at signed cookies
+    # which don't exist. So return nil if a cookie salt is not there.
+    #
+    def current_user
+      return nil if request.signed_cookie_salt.nil?
+      super
+    end
+  end
+end

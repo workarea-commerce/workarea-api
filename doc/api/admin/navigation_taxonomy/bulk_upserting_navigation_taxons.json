@@ -1,0 +1,40 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+        "Content-Type": "application/json"
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "X-Flash-Messages": "{}",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:06:00 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:06:00 -0000",
+        "X-Request-Id": "e6ea95f1-2e86-455a-a092-815c01182398",
+        "X-Runtime": "0.076367"
+      },
+      "request_method": "PATCH",
+      "request_path": "/api/admin/navigation_taxons/bulk",
+      "request_body": "{\"navigation_taxons\":[{\"children_count\":0,\"created_at\":\"2017-09-06T18:06:00.544Z\",\"depth\":1,\"name\":\"Test Taxon\",\"navigable_id\":null,\"navigable_slug\":null,\"navigable_type\":null,\"parent_id\":\"59b039087ceffe612c11930a\",\"parent_ids\":[\"59b039087ceffe612c11930a\"],\"position\":0,\"updated_at\":\"2017-09-06T18:06:00.544Z\",\"url\":null},{\"children_count\":0,\"created_at\":\"2017-09-06T18:06:00.544Z\",\"depth\":1,\"name\":\"Test Taxon\",\"navigable_id\":null,\"navigable_slug\":null,\"navigable_type\":null,\"parent_id\":\"59b039087ceffe612c11930a\",\"parent_ids\":[\"59b039087ceffe612c11930a\"],\"position\":0,\"updated_at\":\"2017-09-06T18:06:00.544Z\",\"url\":null},{\"children_count\":0,\"created_at\":\"2017-09-06T18:06:00.544Z\",\"depth\":1,\"name\":\"Test Taxon\",\"navigable_id\":null,\"navigable_slug\":null,\"navigable_type\":null,\"parent_id\":\"59b039087ceffe612c11930a\",\"parent_ids\":[\"59b039087ceffe612c11930a\"],\"position\":0,\"updated_at\":\"2017-09-06T18:06:00.544Z\",\"url\":null}]}",
+      "request_content_type": "application/json",
+      "response_status": 204,
+      "response_status_text": "No Content",
+      "response_body": null,
+      "response_content_type": null,
+      "curl": "curl \"https://www.example.com/api/admin/navigation_taxons/bulk\" -d '{\"navigation_taxons\":[{\"children_count\":0,\"created_at\":\"2017-09-06T18:06:00.544Z\",\"depth\":1,\"name\":\"Test Taxon\",\"navigable_id\":null,\"navigable_slug\":null,\"navigable_type\":null,\"parent_id\":\"59b039087ceffe612c11930a\",\"parent_ids\":[\"59b039087ceffe612c11930a\"],\"position\":0,\"updated_at\":\"2017-09-06T18:06:00.544Z\",\"url\":null},{\"children_count\":0,\"created_at\":\"2017-09-06T18:06:00.544Z\",\"depth\":1,\"name\":\"Test Taxon\",\"navigable_id\":null,\"navigable_slug\":null,\"navigable_type\":null,\"parent_id\":\"59b039087ceffe612c11930a\",\"parent_ids\":[\"59b039087ceffe612c11930a\"],\"position\":0,\"updated_at\":\"2017-09-06T18:06:00.544Z\",\"url\":null},{\"children_count\":0,\"created_at\":\"2017-09-06T18:06:00.544Z\",\"depth\":1,\"name\":\"Test Taxon\",\"navigable_id\":null,\"navigable_slug\":null,\"navigable_type\":null,\"parent_id\":\"59b039087ceffe612c11930a\",\"parent_ids\":[\"59b039087ceffe612c11930a\"],\"position\":0,\"updated_at\":\"2017-09-06T18:06:00.544Z\",\"url\":null}]}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+    }
+  ],
+  "resource": "Navigation taxonomy",
+  "description": "Bulk upserting navigation taxons",
+  "route": "/api/admin/navigation_taxons/bulk",
+  "http_method": "PATCH"
+}

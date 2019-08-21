@@ -1,0 +1,45 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Authorization": "Token token=\"vKRhUo5E2k5uBV34PVFrTkVU\""
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers": "*",
+        "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
+        "X-Requested-With": "",
+        "X-Flash-Messages": "{}",
+        "Vary": "X-Requested-With, X-Flash-Messages",
+        "Cache-Control": "no-cache",
+        "X-Request-Id": "17ce9626-ea4a-4dd3-87e5-454aa74f7ed5",
+        "X-Runtime": "0.006128"
+      },
+      "request_method": "DELETE",
+      "request_path": "/api/storefront/saved_credit_cards/59b038507ceffe612c118152",
+      "request_body": null,
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 204,
+      "response_status_text": "No Content",
+      "response_body": null,
+      "response_content_type": null,
+      "curl": "curl \"https://www.example.com/api/storefront/saved_credit_cards/59b038507ceffe612c118152\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Authorization: Token token=\\\"vKRhUo5E2k5uBV34PVFrTkVU\\\"\""
+    }
+  ],
+  "resource": "Saved Credit Cards",
+  "description": "Deleting a saved credit card",
+  "route": "/api/storefront/saved_credit_cards/:id",
+  "http_method": "DELETE"
+}

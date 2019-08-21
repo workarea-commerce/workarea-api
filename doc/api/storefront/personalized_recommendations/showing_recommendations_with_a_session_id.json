@@ -1,0 +1,52 @@
+{
+  "parameters": [
+    {
+      "name": "session_id",
+      "description": "A unique session_id you keep for an anonymous browser"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+      },
+      "request_query_parameters": {
+        "session_id": "59b038bb7ceffe612c118cd4"
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "ETag": "W/\"739ae0c964ee992d667cb791394ac4e6\"",
+        "Last-Modified": "Wed, 06 Sep 2017 18:04:43 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers": "*",
+        "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
+        "X-Requested-With": "",
+        "X-Flash-Messages": "{}",
+        "Vary": "X-Requested-With, X-Flash-Messages",
+        "Cache-Control": "public",
+        "X-Request-Id": "f540c272-9fe9-4453-8121-dbb6315c6c8e",
+        "X-Runtime": "0.051234",
+        "Content-Length": "3930"
+      },
+      "request_method": "GET",
+      "request_path": "/api/storefront/recommendations?session_id=59b038bb7ceffe612c118cd4",
+      "request_body": null,
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"products\": [\n    {\n      \"id\": \"43C880DADE\",\n      \"name\": \"Test Product\",\n      \"description\": null,\n      \"slug\": \"test-product-6\",\n      \"browser_title\": \"Test Product\",\n      \"meta_description\": null,\n      \"template\": \"generic\",\n      \"customizations\": null,\n      \"details\": {\n        \"Material\": [\n          \"Cotton\"\n        ],\n        \"Style\": [\n          \"12345\"\n        ]\n      },\n      \"digital\": false,\n      \"filters\": {\n        \"Material\": \"Cotton\",\n        \"Style\": \"12345\"\n      },\n      \"purchasable\": true,\n      \"inventory_status\": \"In Stock\",\n      \"variants\": [\n        {\n          \"id\": \"59b038b97ceffe612c118ccd\",\n          \"name\": \"SKU\",\n          \"sku\": \"SKU\",\n          \"details\": {\n          }\n        }\n      ],\n      \"sell_min_price\": null,\n      \"sell_max_price\": {\n        \"cents\": 500.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"on_sale\": false,\n      \"original_min_price\": {\n        \"cents\": 500.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"original_max_price\": {\n        \"cents\": 500.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"images\": [\n\n      ]\n    },\n    {\n      \"id\": \"1BA766110F\",\n      \"name\": \"Test Product\",\n      \"description\": null,\n      \"slug\": \"test-product-5\",\n      \"browser_title\": \"Test Product\",\n      \"meta_description\": null,\n      \"template\": \"generic\",\n      \"customizations\": null,\n      \"details\": {\n        \"Material\": [\n          \"Cotton\"\n        ],\n        \"Style\": [\n          \"12345\"\n        ]\n      },\n      \"digital\": false,\n      \"filters\": {\n        \"Material\": \"Cotton\",\n        \"Style\": \"12345\"\n      },\n      \"purchasable\": true,\n      \"inventory_status\": \"In Stock\",\n      \"variants\": [\n        {\n          \"id\": \"59b038b87ceffe612c118ccb\",\n          \"name\": \"SKU\",\n          \"sku\": \"SKU\",\n          \"details\": {\n          }\n        }\n      ],\n      \"sell_min_price\": null,\n      \"sell_max_price\": {\n        \"cents\": 500.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"on_sale\": false,\n      \"original_min_price\": {\n        \"cents\": 500.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"original_max_price\": {\n        \"cents\": 500.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"images\": [\n\n      ]\n    },\n    {\n      \"id\": \"214BAB6C0F\",\n      \"name\": \"Test Product\",\n      \"description\": null,\n      \"slug\": \"test-product\",\n      \"browser_title\": \"Test Product\",\n      \"meta_description\": null,\n      \"template\": \"generic\",\n      \"customizations\": null,\n      \"details\": {\n        \"Material\": [\n          \"Cotton\"\n        ],\n        \"Style\": [\n          \"12345\"\n        ]\n      },\n      \"digital\": false,\n      \"filters\": {\n        \"Material\": \"Cotton\",\n        \"Style\": \"12345\"\n      },\n      \"purchasable\": true,\n      \"inventory_status\": \"In Stock\",\n      \"variants\": [\n        {\n          \"id\": \"59b038b77ceffe612c118cc1\",\n          \"name\": \"SKU\",\n          \"sku\": \"SKU\",\n          \"details\": {\n          }\n        }\n      ],\n      \"sell_min_price\": null,\n      \"sell_max_price\": {\n        \"cents\": 500.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"on_sale\": false,\n      \"original_min_price\": {\n        \"cents\": 500.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"original_max_price\": {\n        \"cents\": 500.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"images\": [\n\n      ]\n    },\n    {\n      \"id\": \"BEA46A4F4F\",\n      \"name\": \"Test Product\",\n      \"description\": null,\n      \"slug\": \"test-product-9\",\n      \"browser_title\": \"Test Product\",\n      \"meta_description\": null,\n      \"template\": \"generic\",\n      \"customizations\": null,\n      \"details\": {\n        \"Material\": [\n          \"Cotton\"\n        ],\n        \"Style\": [\n          \"12345\"\n        ]\n      },\n      \"digital\": false,\n      \"filters\": {\n        \"Material\": \"Cotton\",\n        \"Style\": \"12345\"\n      },\n      \"purchasable\": true,\n      \"inventory_status\": \"In Stock\",\n      \"variants\": [\n        {\n          \"id\": \"59b038bb7ceffe612c118cd3\",\n          \"name\": \"SKU\",\n          \"sku\": \"SKU\",\n          \"details\": {\n          }\n        }\n      ],\n      \"sell_min_price\": null,\n      \"sell_max_price\": {\n        \"cents\": 500.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"on_sale\": false,\n      \"original_min_price\": {\n        \"cents\": 500.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"original_max_price\": {\n        \"cents\": 500.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"images\": [\n\n      ]\n    },\n    {\n      \"id\": \"34C8532173\",\n      \"name\": \"Test Product\",\n      \"description\": null,\n      \"slug\": \"test-product-8\",\n      \"browser_title\": \"Test Product\",\n      \"meta_description\": null,\n      \"template\": \"generic\",\n      \"customizations\": null,\n      \"details\": {\n        \"Material\": [\n          \"Cotton\"\n        ],\n        \"Style\": [\n          \"12345\"\n        ]\n      },\n      \"digital\": false,\n      \"filters\": {\n        \"Material\": \"Cotton\",\n        \"Style\": \"12345\"\n      },\n      \"purchasable\": true,\n      \"inventory_status\": \"In Stock\",\n      \"variants\": [\n        {\n          \"id\": \"59b038ba7ceffe612c118cd1\",\n          \"name\": \"SKU\",\n          \"sku\": \"SKU\",\n          \"details\": {\n          }\n        }\n      ],\n      \"sell_min_price\": null,\n      \"sell_max_price\": {\n        \"cents\": 500.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"on_sale\": false,\n      \"original_min_price\": {\n        \"cents\": 500.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"original_max_price\": {\n        \"cents\": 500.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"images\": [\n\n      ]\n    },\n    {\n      \"id\": \"B4276071AB\",\n      \"name\": \"Test Product\",\n      \"description\": null,\n      \"slug\": \"test-product-3\",\n      \"browser_title\": \"Test Product\",\n      \"meta_description\": null,\n      \"template\": \"generic\",\n      \"customizations\": null,\n      \"details\": {\n        \"Material\": [\n          \"Cotton\"\n        ],\n        \"Style\": [\n          \"12345\"\n        ]\n      },\n      \"digital\": false,\n      \"filters\": {\n        \"Material\": \"Cotton\",\n        \"Style\": \"12345\"\n      },\n      \"purchasable\": true,\n      \"inventory_status\": \"In Stock\",\n      \"variants\": [\n        {\n          \"id\": \"59b038b77ceffe612c118cc7\",\n          \"name\": \"SKU\",\n          \"sku\": \"SKU\",\n          \"details\": {\n          }\n        }\n      ],\n      \"sell_min_price\": null,\n      \"sell_max_price\": {\n        \"cents\": 500.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"on_sale\": false,\n      \"original_min_price\": {\n        \"cents\": 500.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"original_max_price\": {\n        \"cents\": 500.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"images\": [\n\n      ]\n    }\n  ]\n}",
+      "response_content_type": "application/json",
+      "curl": "curl -g \"https://www.example.com/api/storefront/recommendations?session_id=59b038bb7ceffe612c118cd4\" -X GET "
+    }
+  ],
+  "resource": "Personalized Recommendations",
+  "description": "Showing recommendations with a session ID",
+  "route": "/api/storefront/recommendations",
+  "http_method": "GET",
+  "explanation": "            Display personalized recommendations based on a session ID that\n            you've maintained for an anonymous browser (as opposed to\n            authentication).\n"
+}

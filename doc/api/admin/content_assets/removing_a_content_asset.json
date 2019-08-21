@@ -1,0 +1,40 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+        "Content-Type": "application/x-www-form-urlencoded"
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "X-Flash-Messages": "{}",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:04:22 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:04:22 -0000",
+        "X-Request-Id": "06f0cd12-c6f3-459c-9446-54f82c40b1fa",
+        "X-Runtime": "0.014564"
+      },
+      "request_method": "DELETE",
+      "request_path": "/api/admin/content_assets/59b038a67ceffe612c118b59",
+      "request_body": null,
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 204,
+      "response_status_text": "No Content",
+      "response_body": null,
+      "response_content_type": null,
+      "curl": "curl \"https://www.example.com/api/admin/content_assets/59b038a67ceffe612c118b59\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
+    }
+  ],
+  "resource": "Content Assets",
+  "description": "Removing a content asset",
+  "route": "/api/admin/content_assets/:id",
+  "http_method": "DELETE"
+}

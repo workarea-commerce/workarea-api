@@ -1,0 +1,42 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "X-Flash-Messages": "{}",
+        "ETag": "W/\"95e0d76db3dd7873fcd8d3d422ef8249\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:04:31 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:04:31 -0000",
+        "X-Request-Id": "639e8d74-8bc5-41ba-afd5-1ebf1d3428e1",
+        "X-Runtime": "0.007804",
+        "Content-Length": "188"
+      },
+      "request_method": "GET",
+      "request_path": "/api/admin/pricing_skus/2134",
+      "request_body": null,
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"pricing_sku\": {\n    \"_id\": \"2134\",\n    \"active\": true,\n    \"created_at\": \"2017-09-06T18:04:31.894Z\",\n    \"discountable\": true,\n    \"msrp\": null,\n    \"on_sale\": false,\n    \"tax_code\": null,\n    \"updated_at\": \"2017-09-06T18:04:31.894Z\"\n  }\n}",
+      "response_content_type": "application/json",
+      "curl": "curl -g \"https://www.example.com/api/admin/pricing_skus/2134\" -X GET "
+    }
+  ],
+  "resource": "Pricing SKUs",
+  "description": "Showing an pricing SKU",
+  "route": "/api/admin/pricing_skus/:id",
+  "http_method": "GET"
+}

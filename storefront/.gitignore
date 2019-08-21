@@ -1,0 +1,12 @@
+.bundle/
+Gemfile.lock
+.sass-cache/
+log/*.log
+pkg/
+test/dummy/public/system/dragonfly
+test/dummy/db/*.sqlite3
+test/dummy/log/*.log
+test/dummy/tmp/
+test/dummy/.sass-cache
+**/.DS_Store
+docs/build

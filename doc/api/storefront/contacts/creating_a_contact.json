@@ -1,0 +1,48 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+        "Content-Type": "application/json"
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers": "*",
+        "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
+        "X-Requested-With": "",
+        "X-Flash-Messages": "{}",
+        "Vary": "X-Requested-With, X-Flash-Messages",
+        "ETag": "W/\"e64ee8c90047e3da40d87b2a329c4d73\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "6472558f-c030-4cf1-a9f8-c1eb6882dbec",
+        "X-Runtime": "0.038769",
+        "Content-Length": "228"
+      },
+      "request_method": "POST",
+      "request_path": "/api/storefront/contacts",
+      "request_body": "{\"name\":\"Name\",\"email\":\"email@example.com\",\"order_id\":\"OrderID\",\"subject\":\"orders\",\"message\":\"Message\"}",
+      "request_content_type": "application/json",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"inquiry\": {\n    \"_id\": \"59b039177ceffe612c119465\",\n    \"created_at\": \"2017-09-06T18:06:15.400Z\",\n    \"email\": \"email@example.com\",\n    \"message\": \"Message\",\n    \"name\": \"Name\",\n    \"order_id\": \"OrderID\",\n    \"subject\": \"orders\",\n    \"updated_at\": \"2017-09-06T18:06:15.400Z\"\n  }\n}",
+      "response_content_type": "application/json",
+      "curl": "curl \"https://www.example.com/api/storefront/contacts\" -d '{\"name\":\"Name\",\"email\":\"email@example.com\",\"order_id\":\"OrderID\",\"subject\":\"orders\",\"message\":\"Message\"}' -X POST \\\n\t-H \"Content-Type: application/json\""
+    }
+  ],
+  "resource": "Contacts",
+  "description": "Creating a contact",
+  "route": "/api/storefront/contacts",
+  "http_method": "POST",
+  "explanation": "            This endpoints creates a customer service inquiry on behalf of the\n            customer, and will send an email to the address in\n            Workarea.config.email_to\n"
+}

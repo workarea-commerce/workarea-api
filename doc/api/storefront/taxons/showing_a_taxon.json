@@ -1,0 +1,48 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Date": "Wed, 06 Sep 2017 18:02:37 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers": "*",
+        "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
+        "X-Requested-With": "",
+        "X-Flash-Messages": "{}",
+        "Vary": "X-Requested-With, X-Flash-Messages",
+        "Cache-Control": "max-age=900, public",
+        "ETag": "W/\"4eb3417f206d0b7295ff8ae1088cd29b\"",
+        "X-Request-Id": "9b19669b-5010-41c3-9aa7-f0c5a48c1703",
+        "X-Runtime": "0.012296",
+        "Content-Length": "534"
+      },
+      "request_method": "GET",
+      "request_path": "/api/storefront/taxons/59b0383d7ceffe612c11806e",
+      "request_body": null,
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"taxon\": {\n    \"id\": \"59b0383d7ceffe612c11806e\",\n    \"url\": \"/api/storefront/taxons/59b0383d7ceffe612c11806e\",\n    \"name\": \"Mens\",\n    \"depth\": 1,\n    \"navigable_url\": \"http://example.com/pages/mens\",\n    \"parent_id\": \"59b0383d7ceffe612c11806f\",\n    \"parent_ids\": [\n      \"59b0383d7ceffe612c11806f\"\n    ],\n    \"position\": 0\n  },\n  \"children\": [\n    {\n      \"id\": \"59b0383d7ceffe612c118070\",\n      \"url\": \"/api/storefront/taxons/59b0383d7ceffe612c118070\",\n      \"name\": \"Sale\",\n      \"depth\": 2,\n      \"navigable_url\": null,\n      \"parent_id\": \"59b0383d7ceffe612c11806e\",\n      \"parent_ids\": [\n        \"59b0383d7ceffe612c11806f\",\n        \"59b0383d7ceffe612c11806e\"\n      ],\n      \"position\": 0\n    }\n  ]\n}",
+      "response_content_type": "application/json",
+      "curl": "curl -g \"https://www.example.com/api/storefront/taxons/59b0383d7ceffe612c11806e\" -X GET "
+    }
+  ],
+  "resource": "Taxons",
+  "description": "Showing a taxon",
+  "route": "/api/storefront/taxons/:id",
+  "http_method": "GET",
+  "explanation": "            This endpoint will show details on a particular node (or taxon) of\n            the site taxonomy, along with its children.\n"
+}

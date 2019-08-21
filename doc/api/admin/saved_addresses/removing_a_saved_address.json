@@ -1,0 +1,40 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+        "Content-Type": "application/x-www-form-urlencoded"
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "X-Flash-Messages": "{}",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:03:46 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:03:46 -0000",
+        "X-Request-Id": "d8c45196-7264-41cb-a4f8-fbc256623f28",
+        "X-Runtime": "0.006388"
+      },
+      "request_method": "DELETE",
+      "request_path": "/api/admin/users/59b038817ceffe612c1187d8/saved_addresses/59b038827ceffe612c1187da",
+      "request_body": null,
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 204,
+      "response_status_text": "No Content",
+      "response_body": null,
+      "response_content_type": null,
+      "curl": "curl \"https://www.example.com/api/admin/users/59b038817ceffe612c1187d8/saved_addresses/59b038827ceffe612c1187da\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
+    }
+  ],
+  "resource": "Saved Addresses",
+  "description": "Removing a saved address",
+  "route": "/api/admin/users/:user_id/saved_addresses/:id",
+  "http_method": "DELETE"
+}

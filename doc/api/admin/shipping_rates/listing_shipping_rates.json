@@ -1,0 +1,42 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "X-Flash-Messages": "{}",
+        "ETag": "W/\"0d909c8435540664f7d28628fd0b9830\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:02:36 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:02:36 -0000",
+        "X-Request-Id": "92d585dd-3033-4b02-adcc-64b52a3a7416",
+        "X-Runtime": "0.008303",
+        "Content-Length": "543"
+      },
+      "request_method": "GET",
+      "request_path": "/api/admin/shipping_services/59b0383c7ceffe612c11805b/rates",
+      "request_body": null,
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"rates\": [\n    {\n      \"_id\": \"59b0383c7ceffe612c11805c\",\n      \"created_at\": null,\n      \"price\": {\n        \"cents\": 100.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"tier_max\": null,\n      \"tier_min\": null,\n      \"updated_at\": null\n    },\n    {\n      \"_id\": \"59b0383c7ceffe612c11805d\",\n      \"created_at\": \"2017-09-06T18:02:36.404Z\",\n      \"price\": {\n        \"cents\": 100.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"tier_max\": null,\n      \"tier_min\": null,\n      \"updated_at\": \"2017-09-06T18:02:36.404Z\"\n    },\n    {\n      \"_id\": \"59b0383c7ceffe612c11805e\",\n      \"created_at\": \"2017-09-06T18:02:36.406Z\",\n      \"price\": {\n        \"cents\": 100.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"tier_max\": null,\n      \"tier_min\": null,\n      \"updated_at\": \"2017-09-06T18:02:36.406Z\"\n    }\n  ]\n}",
+      "response_content_type": "application/json",
+      "curl": "curl -g \"https://www.example.com/api/admin/shipping_services/59b0383c7ceffe612c11805b/rates\" -X GET "
+    }
+  ],
+  "resource": "Shipping Rates",
+  "description": "Listing shipping rates",
+  "route": "/api/admin/shipping_services/:shipping_service_id/rates",
+  "http_method": "GET"
+}

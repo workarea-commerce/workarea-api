@@ -1,0 +1,40 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+        "Content-Type": "application/json"
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "X-Flash-Messages": "{}",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:03:57 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:03:57 -0000",
+        "X-Request-Id": "24b3d2a2-ccb8-440e-84b5-7aeaed25217b",
+        "X-Runtime": "0.029744"
+      },
+      "request_method": "DELETE",
+      "request_path": "/api/admin/pages/59b0388d7ceffe612c118860",
+      "request_body": "null",
+      "request_content_type": "application/json",
+      "response_status": 204,
+      "response_status_text": "No Content",
+      "response_body": null,
+      "response_content_type": null,
+      "curl": "curl \"https://www.example.com/api/admin/pages/59b0388d7ceffe612c118860\" -d 'null' -X DELETE \\\n\t-H \"Content-Type: application/json\""
+    }
+  ],
+  "resource": "Pages",
+  "description": "Removing a page",
+  "route": "/api/admin/pages/:id",
+  "http_method": "DELETE"
+}

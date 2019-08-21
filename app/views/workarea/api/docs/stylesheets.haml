@@ -1,0 +1,278 @@
+:css
+  @import url("https://fonts.googleapis.com/css?family=Open+Sans|Fira+Mono&display=swap");
+
+  /** RESET */
+
+  html {
+    font-family: 'Helvetica', 'Open Sans', 'Arial', sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 1.5;
+    color: #303541;
+  }
+
+  body * {
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    color: dodgerblue;
+    text-decoration: none;
+  }
+
+  button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  b, strong {
+    font-weight: bold;
+  }
+
+  mark {
+    padding: 5px;
+    border-radius: 5px;
+    background: lightyellow;
+  }
+
+
+  ul,
+  ol {
+    list-style: none;
+  }
+
+  :target:before {
+    display: block;
+    content: "";
+    height: 72px;
+    margin: -72px 0 0;
+  }
+
+  .visually-hidden {
+    position: absolute;
+    left: -9999px;
+  }
+
+  .invisible {
+    visibility: hidden;
+  }
+
+  p, pre, table {
+    margin-bottom: 1.5em;
+  }
+
+
+  /** TABLES */
+  table {
+    border-collapse: collapse;
+  }
+
+  thead {
+    text-align: left;
+  }
+
+  td {
+    border: 1px solid #f7f3f7;
+  }
+
+  td.required {
+    font-weight: bold;
+  }
+
+  td.required::after {
+    content: '*';
+    color: red;
+  }
+
+  th, td {
+    padding: 0.5em;
+  }
+
+  tr td:first-of-type {
+    background: #f7f3f7;
+    border-color: #eeeeee;
+  }
+
+
+  /** TYPOGRAPHY */
+  .heading,
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 800;
+    line-height: 1.15;
+    margin: 0.75em 0;
+  }
+
+  .heading { display: block; }
+
+  .heading--no-bottom-margin { margin-bottom: 0 }
+  .heading--no-margin { margin: 0; }
+
+  h1, .heading--1 { font-size: 2rem; }
+  h2, .heading--2 { font-size: 1.75rem; }
+  h3, .heading--3 { font-size: 1.5rem; }
+  h4, .heading--4 { font-size: 1.25rem; }
+  h5, .heading--5 { font-size: 1.1rem; }
+  h6, .heading--6 { font-size: 1rem; }
+
+  .explanation {
+    font-size: 1.3em;
+    color: #666666;
+    font-style: italic;
+  }
+
+
+  /** Helpers */
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+  /** Frames */
+  .frame {
+    position: fixed;
+    overflow: auto;
+    border-color: gainsboro;
+    border-width: 1px;
+    background: white;
+  }
+  .frame--row {
+    left: 0;
+    right: 0;
+  }
+  .frame--column {
+    top: 72px;
+    bottom: 72px;
+  }
+  .frame--full-column {
+    top: 72px;
+    bottom: 0;
+  }
+  .frame--top {
+    top: 0;
+    height: 76px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    z-index: 1;
+  }
+  .frame--left {
+    left: 0;
+    right: 75%;
+    border-right-style: solid;
+  }
+  .frame--center {
+    left: 25%;
+    right: 25%;
+
+    position: static;
+    overflow: visible;
+  }
+
+  /** CONTAINER */
+  .container {
+    margin: 0 auto;
+    padding: 24px;
+    max-width: 624px;
+  }
+  .container--full {
+    max-width: none;
+  }
+  .container--narrow {
+    max-width: 312px;
+  }
+
+
+  /** MAIN */
+  .main {
+    margin-top: 72px;
+    margin-left: 25%;
+  }
+
+
+  /** NAV */
+  .nav {
+    position: relative;
+    padding: 20px;
+  }
+
+    .nav > .nav {
+      padding: 0;
+    }
+    .nav__heading {
+      padding: 0.275rem 0;
+    }
+    .nav__list {
+      margin-bottom: 1.5em;
+    }
+      .nav__item {
+        margin: 0.55rem 0;
+        padding-left: 0.55rem;
+        font-size: 0.8rem;
+        line-height: 1.25;
+      }
+      .nav__item--active {
+        padding: 0.275rem 0.55rem;
+        font-weight: bolder;
+        background-color: #eee;
+        border-left: 3px solid #011eff;
+      }
+      .nav__item--active a {
+        color: black;
+      }
+        .nav__node {
+          display: block;
+          padding: 6px 0;
+        }
+        .nav__node--link {
+          color: lightslategray;
+        }
+          .nav__node--link:hover {
+            color: dodgerblue;
+          }
+        .nav__node--text {
+          font-family: 'Quattrocento', serif;
+          font-weight: bold;
+        }
+          .nav__node-text {
+            border-bottom: 2px solid dodgerblue;
+          }
+
+
+  /** HEADER */
+  .header {
+    padding: 0.55rem;
+  }
+
+    .header__logo {
+      display: inline-block;
+    }
+
+      .header__logo > svg {
+        float: left;
+      }
+
+      .header__heading {
+        float: left;
+        margin-left: 20px;
+        font-weight: bold;
+        color: #303541;
+        text-decoration: none;
+        padding-top: 15px;
+      }
+
+      .header__heading:hover {
+        color: #0060ff;
+        text-decoration: underline;
+      }
+
+
+  /** MARKDOWN */
+  .markdown p code {
+    background: #f7f3f7;
+  }
+
+  .markdown ul {
+    list-style: disc inside;
+  }

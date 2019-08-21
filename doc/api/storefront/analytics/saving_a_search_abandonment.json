@@ -1,0 +1,38 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+        "Content-Type": "application/json"
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Cache-Control": "no-cache",
+        "X-Request-Id": "9c3731e3-d4e8-46d0-93d6-c74abb949b7c",
+        "X-Runtime": "0.001960",
+        "Content-Length": "0"
+      },
+      "request_method": "POST",
+      "request_path": "/api/storefront/analytics/search_abandonment",
+      "request_body": "{\"q\":\"foo\"}",
+      "request_content_type": "application/json",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": null,
+      "response_content_type": "text/html",
+      "curl": "curl \"https://www.example.com/api/storefront/analytics/search_abandonment\" -d '{\"q\":\"foo\"}' -X POST \\\n\t-H \"Content-Type: application/json\""
+    }
+  ],
+  "resource": "Analytics",
+  "description": "Saving a search abandonment",
+  "route": "/api/storefront/analytics/search_abandonment",
+  "http_method": "POST",
+  "explanation": "            Saving a search abandonment will be reflected in admin reports. This\n            is intended to be called when a customer performs a search, but\n            leaves the screen without viewing a product.\n"
+}

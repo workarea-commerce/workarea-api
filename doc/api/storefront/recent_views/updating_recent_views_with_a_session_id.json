@@ -1,0 +1,50 @@
+{
+  "parameters": [
+    {
+      "name": "session_id",
+      "description": "A unique session_id you keep for an anonymous browser"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+        "Content-Type": "application/json"
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers": "*",
+        "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
+        "X-Requested-With": "",
+        "X-Flash-Messages": "{}",
+        "Vary": "X-Requested-With, X-Flash-Messages",
+        "Cache-Control": "no-cache",
+        "X-Request-Id": "4dd11c1c-a4ab-4bf7-ab76-cf6e4de89c6a",
+        "X-Runtime": "0.004080",
+        "Content-Length": "0"
+      },
+      "request_method": "PATCH",
+      "request_path": "/api/storefront/recent_views",
+      "request_body": "{\"session_id\":\":session_id\",\"product_id\":\"367A8BB9B5\",\"category_id\":\"596e739b021823358aabe9df\",\"search\":\"shirts\"}",
+      "request_content_type": "application/json",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": null,
+      "response_content_type": "application/json",
+      "curl": "curl \"https://www.example.com/api/storefront/recent_views\" -d '{\"session_id\":\":session_id\",\"product_id\":\"367A8BB9B5\",\"category_id\":\"596e739b021823358aabe9df\",\"search\":\"shirts\"}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+    }
+  ],
+  "resource": "Recent views",
+  "description": "Updating recent views with a session_id",
+  "route": "/api/storefront/recent_views",
+  "http_method": "PATCH",
+  "explanation": "            You can also use this endpoint to maintain a recent activity for an\n            anonymous browser. Use a consistent session_id to maintain\n            continuity.\n"
+}

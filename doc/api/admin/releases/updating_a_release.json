@@ -1,0 +1,40 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+        "Content-Type": "application/json"
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "X-Flash-Messages": "{}",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:04:09 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:04:09 -0000",
+        "X-Request-Id": "119c8db2-c32d-404d-a5b0-ef581873bef0",
+        "X-Runtime": "0.022783"
+      },
+      "request_method": "PATCH",
+      "request_path": "/api/admin/releases/59b038997ceffe612c1189fd",
+      "request_body": "{\"created_at\":\"2017-09-06T18:04:09.796Z\",\"name\":\"Content Release\",\"publish_at\":null,\"publish_job_id\":null,\"published_at\":null,\"subscribed_user_ids\":[],\"tags\":[],\"undo_at\":null,\"undo_job_id\":null,\"undone_at\":null,\"updated_at\":\"2017-09-06T18:04:09.796Z\"}",
+      "request_content_type": "application/json",
+      "response_status": 204,
+      "response_status_text": "No Content",
+      "response_body": null,
+      "response_content_type": null,
+      "curl": "curl \"https://www.example.com/api/admin/releases/59b038997ceffe612c1189fd\" -d '{\"created_at\":\"2017-09-06T18:04:09.796Z\",\"name\":\"Content Release\",\"publish_at\":null,\"publish_job_id\":null,\"published_at\":null,\"subscribed_user_ids\":[],\"tags\":[],\"undo_at\":null,\"undo_job_id\":null,\"undone_at\":null,\"updated_at\":\"2017-09-06T18:04:09.796Z\"}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+    }
+  ],
+  "resource": "Releases",
+  "description": "Updating a release",
+  "route": "/api/admin/releases/:id",
+  "http_method": "PATCH"
+}

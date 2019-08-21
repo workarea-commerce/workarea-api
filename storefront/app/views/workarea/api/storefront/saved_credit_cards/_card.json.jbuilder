@@ -1,0 +1,9 @@
+json.id card.id
+json.url saved_credit_card_url(card)
+json.default card.default?
+json.issuer card.issuer
+json.display_number card.display_number
+json.month card.month
+json.year card.year
+json.first_name card.first_name
+json.last_name card.last_name

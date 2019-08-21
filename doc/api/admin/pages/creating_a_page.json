@@ -1,0 +1,44 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+        "Content-Type": "application/json"
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Location": "/api/admin/pages/59b0388d7ceffe612c118859",
+        "Content-Type": "application/json; charset=utf-8",
+        "X-Flash-Messages": "{}",
+        "ETag": "W/\"05bdcef0ecb745f47a249f15e0592d4f\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:03:57 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:03:57 -0000",
+        "X-Request-Id": "d98db901-af71-4927-870c-e00072e83852",
+        "X-Runtime": "0.048915",
+        "Content-Length": "275"
+      },
+      "request_method": "POST",
+      "request_path": "/api/admin/pages",
+      "request_body": "{\"active\":true,\"created_at\":\"2017-09-06T18:03:57.020Z\",\"display_h1\":true,\"name\":\"Test Page\",\"show_navigation\":false,\"subscribed_user_ids\":[],\"tags\":[],\"template\":\"generic\",\"updated_at\":\"2017-09-06T18:03:57.020Z\"}",
+      "request_content_type": "application/json",
+      "response_status": 201,
+      "response_status_text": "Created",
+      "response_body": "{\n  \"page\": {\n    \"_id\": \"59b0388d7ceffe612c118859\",\n    \"active\": true,\n    \"created_at\": \"2017-09-06T18:03:57.020Z\",\n    \"display_h1\": true,\n    \"name\": \"Test Page\",\n    \"show_navigation\": false,\n    \"slug\": \"test-page-1\",\n    \"subscribed_user_ids\": [\n\n    ],\n    \"tags\": [\n\n    ],\n    \"template\": \"generic\",\n    \"updated_at\": \"2017-09-06T18:03:57.020Z\"\n  }\n}",
+      "response_content_type": "application/json",
+      "curl": "curl \"https://www.example.com/api/admin/pages\" -d '{\"active\":true,\"created_at\":\"2017-09-06T18:03:57.020Z\",\"display_h1\":true,\"name\":\"Test Page\",\"show_navigation\":false,\"subscribed_user_ids\":[],\"tags\":[],\"template\":\"generic\",\"updated_at\":\"2017-09-06T18:03:57.020Z\"}' -X POST \\\n\t-H \"Content-Type: application/json\""
+    }
+  ],
+  "resource": "Pages",
+  "description": "Creating a page",
+  "route": "/api/admin/pages",
+  "http_method": "POST"
+}

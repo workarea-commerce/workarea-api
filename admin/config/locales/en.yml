@@ -1,0 +1,9 @@
+en:
+  workarea:
+    api:
+      admin:
+        users:
+          permissions:
+            api: API
+        bulk_upserts:
+          data_too_large: has too many objects

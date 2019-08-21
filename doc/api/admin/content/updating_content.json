@@ -1,0 +1,40 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+        "Content-Type": "application/json"
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "X-Flash-Messages": "{}",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:03:07 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:03:07 -0000",
+        "X-Request-Id": "a6b8e3b5-d681-4774-b31b-718e2cd20a0b",
+        "X-Runtime": "0.027531"
+      },
+      "request_method": "PATCH",
+      "request_path": "/api/admin/content/59b0385b7ceffe612c118462",
+      "request_body": "{\"content\":{\"browser_title\":\"foo\"}}",
+      "request_content_type": "application/json",
+      "response_status": 204,
+      "response_status_text": "No Content",
+      "response_body": null,
+      "response_content_type": null,
+      "curl": "curl \"https://www.example.com/api/admin/content/59b0385b7ceffe612c118462\" -d '{\"content\":{\"browser_title\":\"foo\"}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+    }
+  ],
+  "resource": "Content",
+  "description": "Updating content",
+  "route": "/api/admin/content/:id",
+  "http_method": "PATCH"
+}

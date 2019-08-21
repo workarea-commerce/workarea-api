@@ -1,0 +1,40 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+        "Content-Type": "application/x-www-form-urlencoded"
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "X-Flash-Messages": "{}",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:06:00 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:06:00 -0000",
+        "X-Request-Id": "e1856e37-71fa-490a-bb56-a7938f4af9a4",
+        "X-Runtime": "0.009417"
+      },
+      "request_method": "DELETE",
+      "request_path": "/api/admin/navigation_taxons/59b039087ceffe612c119303",
+      "request_body": null,
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 204,
+      "response_status_text": "No Content",
+      "response_body": null,
+      "response_content_type": null,
+      "curl": "curl \"https://www.example.com/api/admin/navigation_taxons/59b039087ceffe612c119303\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
+    }
+  ],
+  "resource": "Navigation taxonomy",
+  "description": "Removing a navigation taxon",
+  "route": "/api/admin/navigation_taxons/:id",
+  "http_method": "DELETE"
+}

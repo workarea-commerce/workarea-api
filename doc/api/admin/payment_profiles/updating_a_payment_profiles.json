@@ -1,0 +1,40 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+        "Content-Type": "application/json"
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "X-Flash-Messages": "{}",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:04:38 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:04:38 -0000",
+        "X-Request-Id": "6a791292-fda2-4078-a968-925128106b79",
+        "X-Runtime": "0.010821"
+      },
+      "request_method": "PATCH",
+      "request_path": "/api/admin/payment_profiles/59b038b67ceffe612c118caa",
+      "request_body": "{\"payment_profile\":{\"store_credit\":29}}",
+      "request_content_type": "application/json",
+      "response_status": 204,
+      "response_status_text": "No Content",
+      "response_body": null,
+      "response_content_type": null,
+      "curl": "curl \"https://www.example.com/api/admin/payment_profiles/59b038b67ceffe612c118caa\" -d '{\"payment_profile\":{\"store_credit\":29}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+    }
+  ],
+  "resource": "Payment Profiles",
+  "description": "Updating a payment profiles",
+  "route": "/api/admin/payment_profiles/:id",
+  "http_method": "PATCH"
+}
