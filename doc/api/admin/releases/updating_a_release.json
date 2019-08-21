@@ -20,19 +20,19 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "7e5a3718-e9b4-44ac-9ab2-70ef0b96a735",
-        "X-Runtime": "0.023128",
+        "X-Request-Id": "4f0512f5-7f1d-4879-b4c4-7a5798374c16",
+        "X-Runtime": "0.025966",
         "Expires": "0"
       },
       "request_method": "PATCH",
-      "request_path": "/api/admin/releases/5d374f65d4322a5df916c32f",
-      "request_body": "{\"created_at\":\"2019-07-23T18:18:13.585Z\",\"name\":\"Content Release\",\"publish_at\":null,\"publish_job_id\":null,\"published_at\":null,\"subscribed_user_ids\":[],\"tags\":[],\"undo_at\":null,\"undo_job_id\":null,\"undone_at\":null,\"updated_at\":\"2019-07-23T18:18:13.585Z\"}",
+      "request_path": "/api/admin/releases/5d5dbd4bd4322a4b69d78f04",
+      "request_body": "{\"created_at\":\"2019-08-21T21:53:15.436Z\",\"name\":\"Content Release\",\"publish_at\":null,\"publish_job_id\":null,\"published_at\":null,\"subscribed_user_ids\":[],\"tags\":[],\"undo_at\":null,\"undo_job_id\":null,\"undone_at\":null,\"updated_at\":\"2019-08-21T21:53:15.436Z\"}",
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/releases/5d374f65d4322a5df916c32f\" -d '{\"created_at\":\"2019-07-23T18:18:13.585Z\",\"name\":\"Content Release\",\"publish_at\":null,\"publish_job_id\":null,\"published_at\":null,\"subscribed_user_ids\":[],\"tags\":[],\"undo_at\":null,\"undo_job_id\":null,\"undone_at\":null,\"updated_at\":\"2019-07-23T18:18:13.585Z\"}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/releases/5d5dbd4bd4322a4b69d78f04\" -d '{\"created_at\":\"2019-08-21T21:53:15.436Z\",\"name\":\"Content Release\",\"publish_at\":null,\"publish_job_id\":null,\"published_at\":null,\"subscribed_user_ids\":[],\"tags\":[],\"undo_at\":null,\"undo_job_id\":null,\"undone_at\":null,\"updated_at\":\"2019-08-21T21:53:15.436Z\"}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Releases",

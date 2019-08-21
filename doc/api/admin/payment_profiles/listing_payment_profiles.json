@@ -33,10 +33,10 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"0fe80a54511e1b7d0c589f30a93a70b3\"",
+        "ETag": "W/\"55415aa508af62241225b2d540b0e48e\"",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "e745df37-2feb-4289-b9fa-653bf50acb56",
-        "X-Runtime": "0.004718",
+        "X-Request-Id": "5b95226d-a3b5-4507-856f-8d39539ae5f3",
+        "X-Runtime": "0.006248",
         "Expires": "0",
         "Content-Length": "476"
       },
@@ -46,7 +46,7 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"payment_profiles\": [\n    {\n      \"_id\": \"5d374fa0d4322a5df916c592\",\n      \"created_at\": \"2019-07-23T18:19:12.484Z\",\n      \"email\": \"user@workarea.com\",\n      \"gateway_id\": null,\n      \"reference\": \"1\",\n      \"store_credit\": {\n        \"cents\": 0.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"updated_at\": \"2019-07-23T18:19:12.484Z\"\n    },\n    {\n      \"_id\": \"5d374fa0d4322a5df916c591\",\n      \"created_at\": \"2019-07-23T18:19:12.480Z\",\n      \"email\": \"user@workarea.com\",\n      \"gateway_id\": null,\n      \"reference\": \"0\",\n      \"store_credit\": {\n        \"cents\": 0.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"updated_at\": \"2019-07-23T18:19:12.480Z\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"payment_profiles\": [\n    {\n      \"_id\": \"5d5dbcd6d4322a4b69d7899a\",\n      \"created_at\": \"2019-08-21T21:51:18.275Z\",\n      \"email\": \"user@workarea.com\",\n      \"gateway_id\": null,\n      \"reference\": \"1\",\n      \"store_credit\": {\n        \"cents\": 0.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"updated_at\": \"2019-08-21T21:51:18.275Z\"\n    },\n    {\n      \"_id\": \"5d5dbcd6d4322a4b69d78999\",\n      \"created_at\": \"2019-08-21T21:51:18.271Z\",\n      \"email\": \"user@workarea.com\",\n      \"gateway_id\": null,\n      \"reference\": \"0\",\n      \"store_credit\": {\n        \"cents\": 0.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"updated_at\": \"2019-08-21T21:51:18.271Z\"\n    }\n  ]\n}",
       "response_content_type": "application/json",
       "curl": "curl -g \"https://www.example.com/api/admin/payment_profiles?page=1&sort_by=created_at&sort_direction=desc\" -X GET "
     }

@@ -20,19 +20,19 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "165682f2-7d16-4772-b107-6fed215bb7f6",
-        "X-Runtime": "0.009571",
+        "X-Request-Id": "8f2f73d7-3419-4d08-bcc7-5facc7667272",
+        "X-Runtime": "0.008818",
         "Expires": "0"
       },
       "request_method": "PATCH",
-      "request_path": "/api/admin/tax_categories/5d374e6bd4322a5df916b193",
+      "request_path": "/api/admin/tax_categories/5d5dbd31d4322a4b69d78e12",
       "request_body": "{\"tax_category\":{\"name\":\"foo\"}}",
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/tax_categories/5d374e6bd4322a5df916b193\" -d '{\"tax_category\":{\"name\":\"foo\"}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/tax_categories/5d5dbd31d4322a4b69d78e12\" -d '{\"tax_category\":{\"name\":\"foo\"}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Tax Categories",

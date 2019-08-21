@@ -24,22 +24,22 @@
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Flash-Messages",
-        "ETag": "W/\"6efd98103b1098b58ac06bc7785b51a4\"",
+        "ETag": "W/\"a5c14b557854cee6ec5f29b9abb23921\"",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "f6d52f75-4440-4d48-afe4-2d5dfc8017dd",
-        "X-Runtime": "0.012873",
+        "X-Request-Id": "7dfd7d27-f044-4216-8024-ebdce1de2ee0",
+        "X-Runtime": "0.004118",
         "Expires": "0",
-        "Content-Length": "216"
+        "Content-Length": "217"
       },
       "request_method": "GET",
-      "request_path": "/api/storefront/assets/5d374e41d4322a5df916af91",
+      "request_path": "/api/storefront/assets/5d5dbd2ed4322a4b69d78df5",
       "request_body": null,
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": \"5d374e41d4322a5df916af91\",\n  \"name\": \"Summer Sale Callout\",\n  \"url\": \"http://www.example.com/media/W1siZiIsIjIwMTkvMDcvMjMvaHJ6dXZxNmNvX2ZpbGUuanBnIl0sWyJwIiwib3B0aW0iXV0/file.jpg?sha=a7427b851331e0d8\",\n  \"type\": \"image\"\n}",
+      "response_body": "{\n  \"id\": \"5d5dbd2ed4322a4b69d78df5\",\n  \"name\": \"Summer Sale Callout\",\n  \"url\": \"http://www.example.com/media/W1siZiIsIjIwMTkvMDgvMjEvNnBrMjhhbDJhel9maWxlLmpwZyJdLFsicCIsIm9wdGltIl1d/file.jpg?sha=158e5af8e3a65664\",\n  \"type\": \"image\"\n}",
       "response_content_type": "application/json",
-      "curl": "curl -g \"https://www.example.com/api/storefront/assets/5d374e41d4322a5df916af91\" -X GET "
+      "curl": "curl -g \"https://www.example.com/api/storefront/assets/5d5dbd2ed4322a4b69d78df5\" -X GET "
     }
   ],
   "resource": "Assets",

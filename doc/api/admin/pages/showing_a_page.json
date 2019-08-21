@@ -19,22 +19,22 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"e02bd440cf7e9e21c9598b715e4aa972\"",
+        "ETag": "W/\"1c32c72633b71fac0ad5bb153950eb74\"",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "69d0eef3-d012-4cd5-9a64-ccc916f39ee9",
-        "X-Runtime": "0.007972",
+        "X-Request-Id": "09edf0e6-0e64-4d60-921e-5c88736769e1",
+        "X-Runtime": "0.006680",
         "Expires": "0",
         "Content-Length": "273"
       },
       "request_method": "GET",
-      "request_path": "/api/admin/pages/5d374ef2d4322a5df916bb9c",
+      "request_path": "/api/admin/pages/5d5dbdaad4322a4b69d793c4",
       "request_body": null,
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"page\": {\n    \"_id\": \"5d374ef2d4322a5df916bb9c\",\n    \"active\": true,\n    \"created_at\": \"2019-07-23T18:16:18.531Z\",\n    \"display_h1\": true,\n    \"name\": \"Test Page\",\n    \"show_navigation\": false,\n    \"slug\": \"test-page\",\n    \"subscribed_user_ids\": [\n\n    ],\n    \"tags\": [\n\n    ],\n    \"template\": \"generic\",\n    \"updated_at\": \"2019-07-23T18:16:18.531Z\"\n  }\n}",
+      "response_body": "{\n  \"page\": {\n    \"_id\": \"5d5dbdaad4322a4b69d793c4\",\n    \"active\": true,\n    \"created_at\": \"2019-08-21T21:54:50.298Z\",\n    \"display_h1\": true,\n    \"name\": \"Test Page\",\n    \"show_navigation\": false,\n    \"slug\": \"test-page\",\n    \"subscribed_user_ids\": [\n\n    ],\n    \"tags\": [\n\n    ],\n    \"template\": \"generic\",\n    \"updated_at\": \"2019-08-21T21:54:50.298Z\"\n  }\n}",
       "response_content_type": "application/json",
-      "curl": "curl -g \"https://www.example.com/api/admin/pages/5d374ef2d4322a5df916bb9c\" -X GET "
+      "curl": "curl -g \"https://www.example.com/api/admin/pages/5d5dbdaad4322a4b69d793c4\" -X GET "
     }
   ],
   "resource": "Pages",

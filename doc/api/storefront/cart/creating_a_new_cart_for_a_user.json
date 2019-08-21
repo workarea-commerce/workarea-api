@@ -9,7 +9,7 @@
     {
       "request_headers": {
         "Content-Type": "application/x-www-form-urlencoded",
-        "Authorization": "Token token=\"vZADwSFXxj5pMpbSSU8NajHF\""
+        "Authorization": "Token token=\"zdi17iD34E1DuXGHcKh2ocgK\""
       },
       "request_query_parameters": {
       },
@@ -26,10 +26,10 @@
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Flash-Messages",
-        "ETag": "W/\"72e9a25cc41bdfc68af4f3bbb1f66ed7\"",
+        "ETag": "W/\"ae53225b872b1ba28ac60e3b22d3eb33\"",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "dcba1826-bc47-474d-9cff-fe9e75cb46dd",
-        "X-Runtime": "0.011272",
+        "X-Request-Id": "c02a7749-d425-4a01-945d-fc2b4047d504",
+        "X-Runtime": "0.011856",
         "Expires": "0",
         "Content-Length": "544"
       },
@@ -39,9 +39,9 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": \"F1673BCAF5\",\n  \"url\": \"http://www.example.com/api/storefront/orders/F1673BCAF5\",\n  \"user_id\": \"5d374f7ad4322a5df916c41e\",\n  \"email\": null,\n  \"placed_at\": null,\n  \"canceled_at\": null,\n  \"promo_codes\": [\n\n  ],\n  \"requires_shipping\": false,\n  \"items\": [\n\n  ],\n  \"pricing\": {\n    \"price_adjustments\": [\n\n    ],\n    \"shipping_total\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"tax_total\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"subtotal_price\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"total_price\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"paid_amount\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    }\n  },\n  \"shipping_service\": null,\n  \"tenders\": [\n\n  ]\n}",
+      "response_body": "{\n  \"id\": \"6E372669D4\",\n  \"url\": \"http://www.example.com/api/storefront/orders/6E372669D4\",\n  \"user_id\": \"5d5dbd82d4322a4b69d791bc\",\n  \"email\": null,\n  \"placed_at\": null,\n  \"canceled_at\": null,\n  \"promo_codes\": [\n\n  ],\n  \"requires_shipping\": false,\n  \"items\": [\n\n  ],\n  \"pricing\": {\n    \"price_adjustments\": [\n\n    ],\n    \"shipping_total\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"tax_total\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"subtotal_price\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"total_price\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"paid_amount\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    }\n  },\n  \"shipping_service\": null,\n  \"tenders\": [\n\n  ]\n}",
       "response_content_type": "application/json",
-      "curl": "curl \"https://www.example.com/api/storefront/carts\" -d '' -X POST \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Authorization: Token token=\\\"vZADwSFXxj5pMpbSSU8NajHF\\\"\""
+      "curl": "curl \"https://www.example.com/api/storefront/carts\" -d '' -X POST \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Authorization: Token token=\\\"zdi17iD34E1DuXGHcKh2ocgK\\\"\""
     }
   ],
   "resource": "Cart",

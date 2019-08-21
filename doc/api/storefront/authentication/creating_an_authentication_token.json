@@ -25,22 +25,22 @@
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Flash-Messages",
-        "ETag": "W/\"ccc17b49a1ce2c83710313e91a9fd9c2\"",
+        "ETag": "W/\"a2ab4f837ea395ab575925b081cb3ca3\"",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "3e2514b4-e37f-4e13-9405-fe6d59e0b0fa",
-        "X-Runtime": "0.247243",
+        "X-Request-Id": "fb0ea804-827a-4bd6-9687-d5d7ab264b3c",
+        "X-Runtime": "0.250259",
         "Expires": "0",
         "Content-Length": "76"
       },
       "request_method": "POST",
       "request_path": "/api/storefront/authentication_tokens",
-      "request_body": "{\"email\":\"user320@workarea.com\",\"password\":\"p@assword!\"}",
+      "request_body": "{\"email\":\"user8@workarea.com\",\"password\":\"p@assword!\"}",
       "request_content_type": "application/json",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"token\": \"LcTreA1B92HwQ6DYgt2miDFA\",\n  \"expires_at\": \"2019-07-30T18:18:46.974Z\"\n}",
+      "response_body": "{\n  \"token\": \"q4eRbfXaAf3c4gJBHtojewZt\",\n  \"expires_at\": \"2019-08-28T21:49:33.251Z\"\n}",
       "response_content_type": "application/json",
-      "curl": "curl \"https://www.example.com/api/storefront/authentication_tokens\" -d '{\"email\":\"user320@workarea.com\",\"password\":\"p@assword!\"}' -X POST \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/storefront/authentication_tokens\" -d '{\"email\":\"user8@workarea.com\",\"password\":\"p@assword!\"}' -X POST \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Authentication",

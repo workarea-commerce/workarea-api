@@ -33,10 +33,10 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"fb075a1ebd9874c505af9f894c81784d\"",
+        "ETag": "W/\"57b1b77dbb817e96a3af0d68b3cadbae\"",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "5043d8a4-40ea-45d2-890f-161fabf2b65a",
-        "X-Runtime": "0.007281",
+        "X-Request-Id": "64cff3e2-6832-47c3-b17a-cb6644192bf5",
+        "X-Runtime": "0.007114",
         "Expires": "0",
         "Content-Length": "364"
       },
@@ -46,7 +46,7 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"pricing_skus\": [\n    {\n      \"_id\": \"SKU1\",\n      \"active\": true,\n      \"created_at\": \"2019-07-23T18:13:41.531Z\",\n      \"discountable\": true,\n      \"msrp\": null,\n      \"on_sale\": false,\n      \"tax_code\": null,\n      \"updated_at\": \"2019-07-23T18:13:41.531Z\"\n    },\n    {\n      \"_id\": \"SKU0\",\n      \"active\": true,\n      \"created_at\": \"2019-07-23T18:13:41.501Z\",\n      \"discountable\": true,\n      \"msrp\": null,\n      \"on_sale\": false,\n      \"tax_code\": null,\n      \"updated_at\": \"2019-07-23T18:13:41.501Z\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"pricing_skus\": [\n    {\n      \"_id\": \"SKU1\",\n      \"active\": true,\n      \"created_at\": \"2019-08-21T21:55:16.023Z\",\n      \"discountable\": true,\n      \"msrp\": null,\n      \"on_sale\": false,\n      \"tax_code\": null,\n      \"updated_at\": \"2019-08-21T21:55:16.023Z\"\n    },\n    {\n      \"_id\": \"SKU0\",\n      \"active\": true,\n      \"created_at\": \"2019-08-21T21:55:15.990Z\",\n      \"discountable\": true,\n      \"msrp\": null,\n      \"on_sale\": false,\n      \"tax_code\": null,\n      \"updated_at\": \"2019-08-21T21:55:15.990Z\"\n    }\n  ]\n}",
       "response_content_type": "application/json",
       "curl": "curl -g \"https://www.example.com/api/admin/pricing_skus?page=1&sort_by=created_at&sort_direction=desc\" -X GET "
     }

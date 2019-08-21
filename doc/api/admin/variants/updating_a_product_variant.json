@@ -20,19 +20,19 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "a58c2f9f-4dc6-4887-aa4b-efc318256075",
-        "X-Runtime": "0.069187",
+        "X-Request-Id": "a02ffeb0-9f61-4f64-82e4-0ecd12ac44e6",
+        "X-Runtime": "0.071951",
         "Expires": "0"
       },
       "request_method": "PATCH",
-      "request_path": "/api/admin/products/C01F1B73DC/variants/5d374e67d4322a5df916b161",
+      "request_path": "/api/admin/products/7972BEC196/variants/5d5dbd0cd4322a4b69d78c02",
       "request_body": "{\"variant\":{\"name\":\"Foo\"}}",
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/products/C01F1B73DC/variants/5d374e67d4322a5df916b161\" -d '{\"variant\":{\"name\":\"Foo\"}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/products/7972BEC196/variants/5d5dbd0cd4322a4b69d78c02\" -d '{\"variant\":{\"name\":\"Foo\"}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Variants",

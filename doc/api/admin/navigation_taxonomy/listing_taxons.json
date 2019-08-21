@@ -33,10 +33,10 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"692a1cee32cd8005b03cd5b7b988ae28\"",
+        "ETag": "W/\"dee327c1543a978c05168695949b287f\"",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "9d2794de-cfa5-4e70-9fa6-8eee4370b074",
-        "X-Runtime": "0.006794",
+        "X-Request-Id": "8543309c-f212-4102-be13-4330e28b2f44",
+        "X-Runtime": "0.006967",
         "Expires": "0",
         "Content-Length": "967"
       },
@@ -46,7 +46,7 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"navigation_taxons\": [\n    {\n      \"_id\": \"5d374f1ad4322a5df916becb\",\n      \"children_count\": 0,\n      \"created_at\": \"2019-07-23T18:16:58.081Z\",\n      \"depth\": 1,\n      \"name\": \"Test Taxon\",\n      \"navigable_id\": null,\n      \"navigable_slug\": null,\n      \"navigable_type\": null,\n      \"parent_id\": \"5d374f1ad4322a5df916becc\",\n      \"parent_ids\": [\n        \"5d374f1ad4322a5df916becc\"\n      ],\n      \"position\": 0,\n      \"updated_at\": \"2019-07-23T18:16:58.081Z\",\n      \"url\": null\n    },\n    {\n      \"_id\": \"5d374f1ad4322a5df916becc\",\n      \"children_count\": 2,\n      \"created_at\": \"2019-07-23T18:16:58.073Z\",\n      \"depth\": 0,\n      \"name\": \"Home\",\n      \"navigable_id\": null,\n      \"navigable_slug\": null,\n      \"navigable_type\": null,\n      \"parent_id\": null,\n      \"parent_ids\": [\n\n      ],\n      \"position\": 0,\n      \"updated_at\": \"2019-07-23T18:16:58.101Z\",\n      \"url\": \"/\"\n    },\n    {\n      \"_id\": \"5d374f1ad4322a5df916becd\",\n      \"children_count\": 0,\n      \"created_at\": \"2019-07-23T18:16:58.096Z\",\n      \"depth\": 1,\n      \"name\": \"Test Taxon\",\n      \"navigable_id\": null,\n      \"navigable_slug\": null,\n      \"navigable_type\": null,\n      \"parent_id\": \"5d374f1ad4322a5df916becc\",\n      \"parent_ids\": [\n        \"5d374f1ad4322a5df916becc\"\n      ],\n      \"position\": 1,\n      \"updated_at\": \"2019-07-23T18:16:58.096Z\",\n      \"url\": null\n    }\n  ]\n}",
+      "response_body": "{\n  \"navigation_taxons\": [\n    {\n      \"_id\": \"5d5dbcd0d4322a4b69d7895a\",\n      \"children_count\": 0,\n      \"created_at\": \"2019-08-21T21:51:12.979Z\",\n      \"depth\": 1,\n      \"name\": \"Test Taxon\",\n      \"navigable_id\": null,\n      \"navigable_slug\": null,\n      \"navigable_type\": null,\n      \"parent_id\": \"5d5dbcd0d4322a4b69d7895b\",\n      \"parent_ids\": [\n        \"5d5dbcd0d4322a4b69d7895b\"\n      ],\n      \"position\": 0,\n      \"updated_at\": \"2019-08-21T21:51:12.979Z\",\n      \"url\": null\n    },\n    {\n      \"_id\": \"5d5dbcd0d4322a4b69d7895b\",\n      \"children_count\": 2,\n      \"created_at\": \"2019-08-21T21:51:12.972Z\",\n      \"depth\": 0,\n      \"name\": \"Home\",\n      \"navigable_id\": null,\n      \"navigable_slug\": null,\n      \"navigable_type\": null,\n      \"parent_id\": null,\n      \"parent_ids\": [\n\n      ],\n      \"position\": 0,\n      \"updated_at\": \"2019-08-21T21:51:12.998Z\",\n      \"url\": \"/\"\n    },\n    {\n      \"_id\": \"5d5dbcd0d4322a4b69d7895c\",\n      \"children_count\": 0,\n      \"created_at\": \"2019-08-21T21:51:12.993Z\",\n      \"depth\": 1,\n      \"name\": \"Test Taxon\",\n      \"navigable_id\": null,\n      \"navigable_slug\": null,\n      \"navigable_type\": null,\n      \"parent_id\": \"5d5dbcd0d4322a4b69d7895b\",\n      \"parent_ids\": [\n        \"5d5dbcd0d4322a4b69d7895b\"\n      ],\n      \"position\": 1,\n      \"updated_at\": \"2019-08-21T21:51:12.993Z\",\n      \"url\": null\n    }\n  ]\n}",
       "response_content_type": "application/json",
       "curl": "curl -g \"https://www.example.com/api/admin/navigation_taxons?page=1&sort_by=created_at&sort_direction=desc\" -X GET "
     }

@@ -20,19 +20,19 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "cc9b608b-e58c-4612-ab03-eaa203ed167c",
-        "X-Runtime": "0.025287",
+        "X-Request-Id": "9916ae6d-81b4-4a6e-a38f-b5a6682647ec",
+        "X-Runtime": "0.028880",
         "Expires": "0"
       },
       "request_method": "DELETE",
-      "request_path": "/api/admin/products/FFC10C6A01",
+      "request_path": "/api/admin/products/05CE2C043C",
       "request_body": null,
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/products/FFC10C6A01\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/products/05CE2C043C\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Products",

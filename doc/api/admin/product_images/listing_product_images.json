@@ -19,22 +19,22 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"99042545eccd00257b2a38273945b6f6\"",
+        "ETag": "W/\"e56ac62c88e1355b59ab33180a1b1b7d\"",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "89ee1d7a-ff72-491f-b241-352b470f9d11",
-        "X-Runtime": "0.006351",
+        "X-Request-Id": "7caf3402-dd0e-432d-85dc-2a273171026f",
+        "X-Runtime": "0.005542",
         "Expires": "0",
         "Content-Length": "738"
       },
       "request_method": "GET",
-      "request_path": "/api/admin/products/7CA00C9513/images",
+      "request_path": "/api/admin/products/CD1AFB3FBB/images",
       "request_body": null,
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"images\": [\n    {\n      \"_id\": \"5d374eaed4322a5df916b56b\",\n      \"created_at\": \"2019-07-23T18:15:10.735Z\",\n      \"image_aspect_ratio\": null,\n      \"image_format\": null,\n      \"image_height\": null,\n      \"image_image\": false,\n      \"image_landscape\": null,\n      \"image_name\": \"file.jpeg\",\n      \"image_portrait\": null,\n      \"image_uid\": \"2019/07/23/4wm1rlbngm_file.jpeg\",\n      \"image_width\": null,\n      \"option\": null,\n      \"position\": 0,\n      \"updated_at\": \"2019-07-23T18:15:10.735Z\"\n    },\n    {\n      \"_id\": \"5d374eaed4322a5df916b56c\",\n      \"created_at\": \"2019-07-23T18:15:10.923Z\",\n      \"image_aspect_ratio\": null,\n      \"image_format\": null,\n      \"image_height\": null,\n      \"image_image\": false,\n      \"image_landscape\": null,\n      \"image_name\": \"file.jpeg\",\n      \"image_portrait\": null,\n      \"image_uid\": \"2019/07/23/63fq6p1hv5_file.jpeg\",\n      \"image_width\": null,\n      \"option\": null,\n      \"position\": 1,\n      \"updated_at\": \"2019-07-23T18:15:10.923Z\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"images\": [\n    {\n      \"_id\": \"5d5dbd5cd4322a4b69d78fb2\",\n      \"created_at\": \"2019-08-21T21:53:32.512Z\",\n      \"image_aspect_ratio\": null,\n      \"image_format\": null,\n      \"image_height\": null,\n      \"image_image\": false,\n      \"image_landscape\": null,\n      \"image_name\": \"file.jpeg\",\n      \"image_portrait\": null,\n      \"image_uid\": \"2019/08/21/2gitvd8cs8_file.jpeg\",\n      \"image_width\": null,\n      \"option\": null,\n      \"position\": 0,\n      \"updated_at\": \"2019-08-21T21:53:32.512Z\"\n    },\n    {\n      \"_id\": \"5d5dbd5cd4322a4b69d78fb3\",\n      \"created_at\": \"2019-08-21T21:53:32.702Z\",\n      \"image_aspect_ratio\": null,\n      \"image_format\": null,\n      \"image_height\": null,\n      \"image_image\": false,\n      \"image_landscape\": null,\n      \"image_name\": \"file.jpeg\",\n      \"image_portrait\": null,\n      \"image_uid\": \"2019/08/21/3es1djprrv_file.jpeg\",\n      \"image_width\": null,\n      \"option\": null,\n      \"position\": 1,\n      \"updated_at\": \"2019-08-21T21:53:32.702Z\"\n    }\n  ]\n}",
       "response_content_type": "application/json",
-      "curl": "curl -g \"https://www.example.com/api/admin/products/7CA00C9513/images\" -X GET "
+      "curl": "curl -g \"https://www.example.com/api/admin/products/CD1AFB3FBB/images\" -X GET "
     }
   ],
   "resource": "Product Images",

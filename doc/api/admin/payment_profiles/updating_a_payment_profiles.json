@@ -20,19 +20,19 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "9d1b4a0d-b586-4021-a33b-720d610cb3be",
-        "X-Runtime": "0.008735",
+        "X-Request-Id": "f628c1ce-974f-4bc3-83dd-05a63cd03669",
+        "X-Runtime": "0.010059",
         "Expires": "0"
       },
       "request_method": "PATCH",
-      "request_path": "/api/admin/payment_profiles/5d374fa1d4322a5df916c59c",
+      "request_path": "/api/admin/payment_profiles/5d5dbcd6d4322a4b69d7899e",
       "request_body": "{\"payment_profile\":{\"store_credit\":29}}",
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/payment_profiles/5d374fa1d4322a5df916c59c\" -d '{\"payment_profile\":{\"store_credit\":29}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/payment_profiles/5d5dbcd6d4322a4b69d7899e\" -d '{\"payment_profile\":{\"store_credit\":29}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Payment Profiles",

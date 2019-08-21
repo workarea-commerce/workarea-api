@@ -22,7 +22,7 @@
         "X-Download-Options": "noopen",
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
-        "Date": "Tue, 23 Jul 2019 18:15:57 GMT",
+        "Date": "Wed, 21 Aug 2019 21:55:54 GMT",
         "Content-Type": "application/json; charset=utf-8",
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Headers": "*",
@@ -30,9 +30,9 @@
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Flash-Messages",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "ETag": "W/\"99f2adab2a09c9fb79d86d715c54a540\"",
-        "X-Request-Id": "a10ebc49-ea63-4d54-ae59-5886b55e7d6d",
-        "X-Runtime": "0.006189",
+        "ETag": "W/\"05d38d1f97f462a1b9640dc566fe2b0c\"",
+        "X-Request-Id": "62b39080-9666-4d5a-855f-011a8589dfd2",
+        "X-Runtime": "0.007178",
         "Expires": "0",
         "Content-Length": "273"
       },
@@ -42,7 +42,7 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"categories\": [\n    {\n      \"id\": \"5d374edcd4322a5df916b86b\",\n      \"name\": \"Shirts\",\n      \"slug\": \"shirts\",\n      \"url\": \"http://www.example.com/api/storefront/categories/shirts\"\n    },\n    {\n      \"id\": \"5d374eddd4322a5df916b873\",\n      \"name\": \"Pants\",\n      \"slug\": \"pants\",\n      \"url\": \"http://www.example.com/api/storefront/categories/pants\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"categories\": [\n    {\n      \"id\": \"5d5dbdead4322a4b69d79953\",\n      \"name\": \"Shirts\",\n      \"slug\": \"shirts\",\n      \"url\": \"http://www.example.com/api/storefront/categories/shirts\"\n    },\n    {\n      \"id\": \"5d5dbdead4322a4b69d7995b\",\n      \"name\": \"Pants\",\n      \"slug\": \"pants\",\n      \"url\": \"http://www.example.com/api/storefront/categories/pants\"\n    }\n  ]\n}",
       "response_content_type": "application/json",
       "curl": "curl -g \"https://www.example.com/api/storefront/categories?page=1\" -X GET "
     }

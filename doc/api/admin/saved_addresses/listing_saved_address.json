@@ -19,22 +19,22 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"57365f41aaadbfad5d6012aa9bc8cbd6\"",
+        "ETag": "W/\"0c5aed709224ff64682a0f9e5281c943\"",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "7d54e7c5-c03d-4299-92c7-cc99ac978deb",
-        "X-Runtime": "0.005208",
+        "X-Request-Id": "e6facdcc-54cf-4f32-9cb7-c6717f924401",
+        "X-Runtime": "0.006795",
         "Expires": "0",
         "Content-Length": "775"
       },
       "request_method": "GET",
-      "request_path": "/api/admin/users/5d374eabd4322a5df916b554/saved_addresses",
+      "request_path": "/api/admin/users/5d5dbcfbd4322a4b69d78ba2/saved_addresses",
       "request_body": null,
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"saved_addresses\": [\n    {\n      \"_id\": \"5d374eacd4322a5df916b556\",\n      \"city\": \"Philadelphia\",\n      \"company\": null,\n      \"country\": \"US\",\n      \"created_at\": \"2019-07-23T18:15:08.016Z\",\n      \"first_name\": \"Ben\",\n      \"last_billed_at\": null,\n      \"last_name\": \"Crouse\",\n      \"last_shipped_at\": null,\n      \"phone_extension\": null,\n      \"phone_number\": \"2159251800\",\n      \"postal_code\": \"19106\",\n      \"region\": \"PA\",\n      \"street\": \"1 S 3rd St\",\n      \"street_2\": null,\n      \"updated_at\": \"2019-07-23T18:15:08.016Z\"\n    },\n    {\n      \"_id\": \"5d374eacd4322a5df916b557\",\n      \"city\": \"Philadelphia\",\n      \"company\": null,\n      \"country\": \"US\",\n      \"created_at\": \"2019-07-23T18:15:08.079Z\",\n      \"first_name\": \"Ben\",\n      \"last_billed_at\": null,\n      \"last_name\": \"Crouse\",\n      \"last_shipped_at\": null,\n      \"phone_extension\": null,\n      \"phone_number\": \"2159251800\",\n      \"postal_code\": \"19106\",\n      \"region\": \"PA\",\n      \"street\": \"2 S 3rd St\",\n      \"street_2\": null,\n      \"updated_at\": \"2019-07-23T18:15:08.079Z\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"saved_addresses\": [\n    {\n      \"_id\": \"5d5dbcfbd4322a4b69d78ba4\",\n      \"city\": \"Philadelphia\",\n      \"company\": null,\n      \"country\": \"US\",\n      \"created_at\": \"2019-08-21T21:51:55.763Z\",\n      \"first_name\": \"Ben\",\n      \"last_billed_at\": null,\n      \"last_name\": \"Crouse\",\n      \"last_shipped_at\": null,\n      \"phone_extension\": null,\n      \"phone_number\": \"2159251800\",\n      \"postal_code\": \"19106\",\n      \"region\": \"PA\",\n      \"street\": \"1 S 3rd St\",\n      \"street_2\": null,\n      \"updated_at\": \"2019-08-21T21:51:55.763Z\"\n    },\n    {\n      \"_id\": \"5d5dbcfbd4322a4b69d78ba5\",\n      \"city\": \"Philadelphia\",\n      \"company\": null,\n      \"country\": \"US\",\n      \"created_at\": \"2019-08-21T21:51:55.823Z\",\n      \"first_name\": \"Ben\",\n      \"last_billed_at\": null,\n      \"last_name\": \"Crouse\",\n      \"last_shipped_at\": null,\n      \"phone_extension\": null,\n      \"phone_number\": \"2159251800\",\n      \"postal_code\": \"19106\",\n      \"region\": \"PA\",\n      \"street\": \"2 S 3rd St\",\n      \"street_2\": null,\n      \"updated_at\": \"2019-08-21T21:51:55.823Z\"\n    }\n  ]\n}",
       "response_content_type": "application/json",
-      "curl": "curl -g \"https://www.example.com/api/admin/users/5d374eabd4322a5df916b554/saved_addresses\" -X GET "
+      "curl": "curl -g \"https://www.example.com/api/admin/users/5d5dbcfbd4322a4b69d78ba2/saved_addresses\" -X GET "
     }
   ],
   "resource": "Saved Addresses",

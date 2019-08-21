@@ -33,10 +33,10 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"c1091c27afd5de62ec1a1416275fd40f\"",
+        "ETag": "W/\"5584471bf3a3834ca9fdd4fc9bf2ba52\"",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "e2ffd167-3fca-43ca-b52d-139ce2dd8648",
-        "X-Runtime": "0.004593",
+        "X-Request-Id": "0fb3f7e7-7d0b-44cc-ab43-7d58da1ec0d0",
+        "X-Runtime": "0.005540",
         "Expires": "0",
         "Content-Length": "299"
       },
@@ -46,7 +46,7 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"email_signups\": [\n    {\n      \"_id\": \"5d374fa6d4322a5df916c5f2\",\n      \"created_at\": \"2019-07-23T18:19:18.875Z\",\n      \"email\": \"1@workarea.com\",\n      \"updated_at\": \"2019-07-23T18:19:18.875Z\"\n    },\n    {\n      \"_id\": \"5d374fa6d4322a5df916c5f1\",\n      \"created_at\": \"2019-07-23T18:19:18.871Z\",\n      \"email\": \"0@workarea.com\",\n      \"updated_at\": \"2019-07-23T18:19:18.871Z\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"email_signups\": [\n    {\n      \"_id\": \"5d5dbdc1d4322a4b69d7957e\",\n      \"created_at\": \"2019-08-21T21:55:13.523Z\",\n      \"email\": \"1@workarea.com\",\n      \"updated_at\": \"2019-08-21T21:55:13.523Z\"\n    },\n    {\n      \"_id\": \"5d5dbdc1d4322a4b69d7957d\",\n      \"created_at\": \"2019-08-21T21:55:13.520Z\",\n      \"email\": \"0@workarea.com\",\n      \"updated_at\": \"2019-08-21T21:55:13.520Z\"\n    }\n  ]\n}",
       "response_content_type": "application/json",
       "curl": "curl -g \"https://www.example.com/api/admin/email_signups?page=1&sort_by=created_at&sort_direction=desc\" -X GET "
     }

@@ -9,7 +9,7 @@
     {
       "request_headers": {
         "Content-Type": "application/json",
-        "Authorization": "Token token=\"tKqj4vf3mTZzTgFe6SRJZVjt\"",
+        "Authorization": "Token token=\"AdK8VpGSyXdNUzuGVuUhJGZm\"",
         "X-Http-Method-Override": "GET"
       },
       "request_query_parameters": {
@@ -27,10 +27,10 @@
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Flash-Messages",
-        "ETag": "W/\"e2eaea1b434b180738fbf7f7a53114c5\"",
+        "ETag": "W/\"860390f92f87fd1eb8edeab8ef315820\"",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "55c4242f-ec8d-4616-b9e2-600977c6296d",
-        "X-Runtime": "0.005511",
+        "X-Request-Id": "142efa84-00c3-4cc1-8a8e-092b6627582b",
+        "X-Runtime": "0.005679",
         "Expires": "0",
         "Content-Length": "203"
       },
@@ -40,9 +40,9 @@
       "request_content_type": "application/json",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": \"5d374f99d4322a5df916c565\",\n  \"email\": \"user335@workarea.com\",\n  \"public_info\": \"BC\",\n  \"first_name\": \"Ben\",\n  \"last_name\": \"Crouse\",\n  \"updated_at\": \"2019-07-23T18:19:05.863Z\",\n  \"created_at\": \"2019-07-23T18:19:05.863Z\"\n}",
+      "response_body": "{\n  \"id\": \"5d5dbd8cd4322a4b69d79272\",\n  \"email\": \"user266@workarea.com\",\n  \"public_info\": \"BC\",\n  \"first_name\": \"Ben\",\n  \"last_name\": \"Crouse\",\n  \"updated_at\": \"2019-08-21T21:54:20.487Z\",\n  \"created_at\": \"2019-08-21T21:54:20.487Z\"\n}",
       "response_content_type": "application/json",
-      "curl": "curl \"https://www.example.com/api/storefront/account\" -d '{\"email\":\"billy@workarea.com\",\"password\":\"adifferentbutstillreallysecurepassword\"}' -X POST \\\n\t-H \"Content-Type: application/json\" \\\n\t-H \"Authorization: Token token=\\\"tKqj4vf3mTZzTgFe6SRJZVjt\\\"\" \\\n\t-H \"X-Http-Method-Override: GET\""
+      "curl": "curl \"https://www.example.com/api/storefront/account\" -d '{\"email\":\"billy@workarea.com\",\"password\":\"adifferentbutstillreallysecurepassword\"}' -X POST \\\n\t-H \"Content-Type: application/json\" \\\n\t-H \"Authorization: Token token=\\\"AdK8VpGSyXdNUzuGVuUhJGZm\\\"\" \\\n\t-H \"X-Http-Method-Override: GET\""
     }
   ],
   "resource": "Accounts",

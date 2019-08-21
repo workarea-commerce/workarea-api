@@ -9,7 +9,7 @@
     {
       "request_headers": {
         "Content-Type": "application/x-www-form-urlencoded",
-        "Authorization": "Token token=\"Za4gne75GKKQG2UukBkWv5BL\""
+        "Authorization": "Token token=\"UzbVUsqx5qNipBy5NZ6u5j3b\""
       },
       "request_query_parameters": {
       },
@@ -26,19 +26,19 @@
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Flash-Messages",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "67df644e-32f5-4a69-a0c7-721532aae9db",
-        "X-Runtime": "0.007681",
+        "X-Request-Id": "57646d9b-606a-4375-95fb-fe1528eef0e7",
+        "X-Runtime": "0.007183",
         "Expires": "0"
       },
       "request_method": "DELETE",
-      "request_path": "/api/storefront/saved_credit_cards/5d374f96d4322a5df916c541",
+      "request_path": "/api/storefront/saved_credit_cards/5d5dbd6cd4322a4b69d7909d",
       "request_body": null,
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/storefront/saved_credit_cards/5d374f96d4322a5df916c541\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Authorization: Token token=\\\"Za4gne75GKKQG2UukBkWv5BL\\\"\""
+      "curl": "curl \"https://www.example.com/api/storefront/saved_credit_cards/5d5dbd6cd4322a4b69d7909d\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Authorization: Token token=\\\"UzbVUsqx5qNipBy5NZ6u5j3b\\\"\""
     }
   ],
   "resource": "Saved Credit Cards",

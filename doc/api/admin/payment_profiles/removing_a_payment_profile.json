@@ -20,19 +20,19 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "dcf3bd71-5ce3-4b7c-a352-9474af4ab0a7",
-        "X-Runtime": "0.006399",
+        "X-Request-Id": "06aaae54-a453-49a0-a85c-18bdad7859a8",
+        "X-Runtime": "0.005983",
         "Expires": "0"
       },
       "request_method": "DELETE",
-      "request_path": "/api/admin/payment_profiles/5d374f9fd4322a5df916c588",
+      "request_path": "/api/admin/payment_profiles/5d5dbcd5d4322a4b69d78990",
       "request_body": null,
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/payment_profiles/5d374f9fd4322a5df916c588\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
+      "curl": "curl \"https://www.example.com/api/admin/payment_profiles/5d5dbcd5d4322a4b69d78990\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
     }
   ],
   "resource": "Payment Profiles",

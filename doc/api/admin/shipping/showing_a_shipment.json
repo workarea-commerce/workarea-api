@@ -19,22 +19,22 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"984a504d7b5a59a4618d04e1ae9deb40\"",
+        "ETag": "W/\"c2fe85d7fb98910c0874b84f03620da6\"",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "ab9e0b3b-50db-4b63-a685-7c2a8bd0bf2c",
-        "X-Runtime": "0.005732",
+        "X-Request-Id": "ec305808-7596-44dc-a28b-79e5ca1d4933",
+        "X-Runtime": "0.006379",
         "Expires": "0",
         "Content-Length": "298"
       },
       "request_method": "GET",
-      "request_path": "/api/admin/shippings/5d374e8bd4322a5df916b3ba",
+      "request_path": "/api/admin/shippings/5d5dbc6fd4322a4b69d78256",
       "request_body": null,
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"shipping\": {\n    \"_id\": \"5d374e8bd4322a5df916b3ba\",\n    \"created_at\": \"2019-07-23T18:14:35.983Z\",\n    \"discount_ids\": [\n\n    ],\n    \"instructions\": null,\n    \"order_id\": \"1234\",\n    \"quantities\": {\n    },\n    \"shipping_total\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"tax_total\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"updated_at\": \"2019-07-23T18:14:35.983Z\"\n  }\n}",
+      "response_body": "{\n  \"shipping\": {\n    \"_id\": \"5d5dbc6fd4322a4b69d78256\",\n    \"created_at\": \"2019-08-21T21:49:35.563Z\",\n    \"discount_ids\": [\n\n    ],\n    \"instructions\": null,\n    \"order_id\": \"1234\",\n    \"quantities\": {\n    },\n    \"shipping_total\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"tax_total\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"updated_at\": \"2019-08-21T21:49:35.563Z\"\n  }\n}",
       "response_content_type": "application/json",
-      "curl": "curl -g \"https://www.example.com/api/admin/shippings/5d374e8bd4322a5df916b3ba\" -X GET "
+      "curl": "curl -g \"https://www.example.com/api/admin/shippings/5d5dbc6fd4322a4b69d78256\" -X GET "
     }
   ],
   "resource": "Shipping",

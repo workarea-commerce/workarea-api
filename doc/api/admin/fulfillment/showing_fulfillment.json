@@ -19,10 +19,10 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"d81389a5ca0ce510b87cc2d73f4555dd\"",
+        "ETag": "W/\"99ee682fa8ebf8ae86253ccdc157b2bb\"",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "c6b6430e-fe39-4eec-a394-fbb39b60ef30",
-        "X-Runtime": "0.007354",
+        "X-Request-Id": "fad7957b-b685-46ca-8e4c-35b60111f9bf",
+        "X-Runtime": "0.006785",
         "Expires": "0",
         "Content-Length": "247"
       },
@@ -32,7 +32,7 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"fulfillment\": {\n    \"_id\": \"1234\",\n    \"created_at\": \"2019-07-23T18:15:21.008Z\",\n    \"items\": [\n      {\n        \"_id\": \"5d374eb9d4322a5df916b5ed\",\n        \"created_at\": null,\n        \"order_item_id\": \"5d374eb6d4322a5df916b5c0\",\n        \"quantity\": 2,\n        \"updated_at\": null\n      }\n    ],\n    \"updated_at\": \"2019-07-23T18:15:21.008Z\"\n  }\n}",
+      "response_body": "{\n  \"fulfillment\": {\n    \"_id\": \"1234\",\n    \"created_at\": \"2019-08-21T21:49:45.862Z\",\n    \"items\": [\n      {\n        \"_id\": \"5d5dbc79d4322a4b69d782c7\",\n        \"created_at\": null,\n        \"order_item_id\": \"5d5dbc77d4322a4b69d7829a\",\n        \"quantity\": 2,\n        \"updated_at\": null\n      }\n    ],\n    \"updated_at\": \"2019-08-21T21:49:45.862Z\"\n  }\n}",
       "response_content_type": "application/json",
       "curl": "curl -g \"https://www.example.com/api/admin/fulfillments/1234\" -X GET "
     }

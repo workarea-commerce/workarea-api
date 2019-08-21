@@ -25,10 +25,10 @@
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Flash-Messages",
-        "ETag": "W/\"4aea2154343ab52b24f671671ff6fa4c\"",
+        "ETag": "W/\"8a3963189b31d2911b2fd727e192f13d\"",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "a6f345aa-386e-4a59-ae14-e1b70a589286",
-        "X-Runtime": "0.009096",
+        "X-Request-Id": "0c6727dc-3ae6-42c2-a435-d11e524b74cd",
+        "X-Runtime": "0.009216",
         "Expires": "0",
         "Content-Length": "522"
       },
@@ -38,7 +38,7 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": \"5626F38D93\",\n  \"url\": \"http://www.example.com/api/storefront/orders/5626F38D93\",\n  \"user_id\": null,\n  \"email\": null,\n  \"placed_at\": null,\n  \"canceled_at\": null,\n  \"promo_codes\": [\n\n  ],\n  \"requires_shipping\": false,\n  \"items\": [\n\n  ],\n  \"pricing\": {\n    \"price_adjustments\": [\n\n    ],\n    \"shipping_total\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"tax_total\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"subtotal_price\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"total_price\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"paid_amount\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    }\n  },\n  \"shipping_service\": null,\n  \"tenders\": [\n\n  ]\n}",
+      "response_body": "{\n  \"id\": \"1E863EAEC6\",\n  \"url\": \"http://www.example.com/api/storefront/orders/1E863EAEC6\",\n  \"user_id\": null,\n  \"email\": null,\n  \"placed_at\": null,\n  \"canceled_at\": null,\n  \"promo_codes\": [\n\n  ],\n  \"requires_shipping\": false,\n  \"items\": [\n\n  ],\n  \"pricing\": {\n    \"price_adjustments\": [\n\n    ],\n    \"shipping_total\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"tax_total\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"subtotal_price\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"total_price\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"paid_amount\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    }\n  },\n  \"shipping_service\": null,\n  \"tenders\": [\n\n  ]\n}",
       "response_content_type": "application/json",
       "curl": "curl \"https://www.example.com/api/storefront/carts\" -d '' -X POST \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
     }

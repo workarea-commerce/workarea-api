@@ -9,7 +9,7 @@
     {
       "request_headers": {
         "Content-Type": "application/x-www-form-urlencoded",
-        "Authorization": "Token token=\"VGKjotfNfP6jNFqxh3MQcGsf\""
+        "Authorization": "Token token=\"igReqgpz6Y9DGU4FFhwSkKnJ\""
       },
       "request_query_parameters": {
       },
@@ -26,10 +26,10 @@
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Flash-Messages",
-        "ETag": "W/\"74725cc6f539aaa2b3074a989dc32647\"",
+        "ETag": "W/\"66a238fd3ae548835be1e293b3f05cd9\"",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "d8733e99-dc9a-4752-82b3-ee4b9b05d34d",
-        "X-Runtime": "0.009181",
+        "X-Request-Id": "b42d9eaf-b00a-4cae-9e64-64f82613936e",
+        "X-Runtime": "0.007278",
         "Expires": "0",
         "Content-Length": "76"
       },
@@ -39,9 +39,9 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"token\": \"VGKjotfNfP6jNFqxh3MQcGsf\",\n  \"expires_at\": \"2019-07-30T18:18:48.075Z\"\n}",
+      "response_body": "{\n  \"token\": \"igReqgpz6Y9DGU4FFhwSkKnJ\",\n  \"expires_at\": \"2019-08-28T21:49:33.839Z\"\n}",
       "response_content_type": "application/json",
-      "curl": "curl \"https://www.example.com/api/storefront/authentication_tokens\" -d '' -X PATCH \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Authorization: Token token=\\\"VGKjotfNfP6jNFqxh3MQcGsf\\\"\""
+      "curl": "curl \"https://www.example.com/api/storefront/authentication_tokens\" -d '' -X PATCH \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Authorization: Token token=\\\"igReqgpz6Y9DGU4FFhwSkKnJ\\\"\""
     }
   ],
   "resource": "Authentication",

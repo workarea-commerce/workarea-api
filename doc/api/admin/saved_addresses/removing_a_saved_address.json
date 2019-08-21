@@ -20,19 +20,19 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "6d91d901-2531-480e-823e-2431b0ba7473",
-        "X-Runtime": "0.007235",
+        "X-Request-Id": "213f470d-e026-4e02-b09b-dbe408865b24",
+        "X-Runtime": "0.007130",
         "Expires": "0"
       },
       "request_method": "DELETE",
-      "request_path": "/api/admin/users/5d374eabd4322a5df916b54d/saved_addresses/5d374eabd4322a5df916b54f",
+      "request_path": "/api/admin/users/5d5dbcfdd4322a4b69d78bb0/saved_addresses/5d5dbcfdd4322a4b69d78bb2",
       "request_body": null,
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/users/5d374eabd4322a5df916b54d/saved_addresses/5d374eabd4322a5df916b54f\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
+      "curl": "curl \"https://www.example.com/api/admin/users/5d5dbcfdd4322a4b69d78bb0/saved_addresses/5d5dbcfdd4322a4b69d78bb2\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
     }
   ],
   "resource": "Saved Addresses",

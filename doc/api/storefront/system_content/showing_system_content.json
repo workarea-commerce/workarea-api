@@ -18,7 +18,7 @@
         "X-Download-Options": "noopen",
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
-        "Date": "Tue, 23 Jul 2019 18:19:13 GMT",
+        "Date": "Wed, 21 Aug 2019 21:53:37 GMT",
         "Content-Type": "application/json; charset=utf-8",
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Headers": "*",
@@ -26,9 +26,9 @@
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Flash-Messages",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "ETag": "W/\"ac6b4a4899f75554c20e8d579aa42fbd\"",
-        "X-Request-Id": "2684ac5e-0b4c-419f-8596-404433c658fb",
-        "X-Runtime": "0.008936",
+        "ETag": "W/\"506a1e601b7a71c0ef35b136ede1a1ba\"",
+        "X-Request-Id": "f622c968-2803-4d26-ad41-66027462e959",
+        "X-Runtime": "0.008877",
         "Expires": "0",
         "Content-Length": "1981"
       },
@@ -38,7 +38,7 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": \"5d374fa1d4322a5df916c59f\",\n  \"name\": \"Layout\",\n  \"url\": \"http://www.example.com/api/storefront/system_content/Layout\",\n  \"browser_title\": \"Layout\",\n  \"meta_description\": \"Shop online for Workarea API products\",\n  \"content_blocks\": [\n    {\n      \"id\": \"5d374fa1d4322a5df916c5a0\",\n      \"type\": \"text\",\n      \"area\": \"header_promo\",\n      \"data\": {\n        \"text\": \"Don't miss our sizzling summer deals!\"\n      },\n      \"hidden_breakpoints\": [\n\n      ],\n      \"position\": 0,\n      \"html\": \"<div class=\\\"content-block content-block--text\\\" id=\\\"content_block_5d374fa1d4322a5df916c5a0\\\" data-analytics=\\\"{&quot;event&quot;:&quot;contentBlockDisplay&quot;,&quot;payload&quot;:{&quot;id&quot;:&quot;5d374fa1d4322a5df916c5a0&quot;,&quot;type&quot;:&quot;text&quot;,&quot;position&quot;:0,&quot;data&quot;:{&quot;text&quot;:&quot;Don&#39;t miss our sizzling summer deals!&quot;}}}\\\" data-hidden-block-css-content=\\\"Block hidden at this breakpoint\\\"><div class='text-content-block'>Don't miss our sizzling summer deals!</div>\\n</div>\\n\"\n    },\n    {\n      \"id\": \"5d374fa1d4322a5df916c5a1\",\n      \"type\": \"text\",\n      \"area\": \"footer_navigation\",\n      \"data\": {\n        \"text\": \"Be the first to received our exclusive discounts\"\n      },\n      \"hidden_breakpoints\": [\n\n      ],\n      \"position\": 0,\n      \"html\": \"<div class=\\\"content-block content-block--text\\\" id=\\\"content_block_5d374fa1d4322a5df916c5a1\\\" data-analytics=\\\"{&quot;event&quot;:&quot;contentBlockDisplay&quot;,&quot;payload&quot;:{&quot;id&quot;:&quot;5d374fa1d4322a5df916c5a1&quot;,&quot;type&quot;:&quot;text&quot;,&quot;position&quot;:0,&quot;data&quot;:{&quot;text&quot;:&quot;Be the first to received our exclusive discounts&quot;}}}\\\" data-hidden-block-css-content=\\\"Block hidden at this breakpoint\\\"><div class='text-content-block'>Be the first to received our exclusive discounts</div>\\n</div>\\n\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"id\": \"5d5dbd60d4322a4b69d78fe6\",\n  \"name\": \"Layout\",\n  \"url\": \"http://www.example.com/api/storefront/system_content/Layout\",\n  \"browser_title\": \"Layout\",\n  \"meta_description\": \"Shop online for Workarea API products\",\n  \"content_blocks\": [\n    {\n      \"id\": \"5d5dbd61d4322a4b69d78fe7\",\n      \"type\": \"text\",\n      \"area\": \"header_promo\",\n      \"data\": {\n        \"text\": \"Don't miss our sizzling summer deals!\"\n      },\n      \"hidden_breakpoints\": [\n\n      ],\n      \"position\": 0,\n      \"html\": \"<div class=\\\"content-block content-block--text\\\" id=\\\"content_block_5d5dbd61d4322a4b69d78fe7\\\" data-analytics=\\\"{&quot;event&quot;:&quot;contentBlockDisplay&quot;,&quot;payload&quot;:{&quot;id&quot;:&quot;5d5dbd61d4322a4b69d78fe7&quot;,&quot;type&quot;:&quot;text&quot;,&quot;position&quot;:0,&quot;data&quot;:{&quot;text&quot;:&quot;Don&#39;t miss our sizzling summer deals!&quot;}}}\\\" data-hidden-block-css-content=\\\"Block hidden at this breakpoint\\\"><div class='text-content-block'>Don't miss our sizzling summer deals!</div>\\n</div>\\n\"\n    },\n    {\n      \"id\": \"5d5dbd61d4322a4b69d78fe8\",\n      \"type\": \"text\",\n      \"area\": \"footer_navigation\",\n      \"data\": {\n        \"text\": \"Be the first to received our exclusive discounts\"\n      },\n      \"hidden_breakpoints\": [\n\n      ],\n      \"position\": 0,\n      \"html\": \"<div class=\\\"content-block content-block--text\\\" id=\\\"content_block_5d5dbd61d4322a4b69d78fe8\\\" data-analytics=\\\"{&quot;event&quot;:&quot;contentBlockDisplay&quot;,&quot;payload&quot;:{&quot;id&quot;:&quot;5d5dbd61d4322a4b69d78fe8&quot;,&quot;type&quot;:&quot;text&quot;,&quot;position&quot;:0,&quot;data&quot;:{&quot;text&quot;:&quot;Be the first to received our exclusive discounts&quot;}}}\\\" data-hidden-block-css-content=\\\"Block hidden at this breakpoint\\\"><div class='text-content-block'>Be the first to received our exclusive discounts</div>\\n</div>\\n\"\n    }\n  ]\n}",
       "response_content_type": "application/json",
       "curl": "curl -g \"https://www.example.com/api/storefront/system_content/layout\" -X GET "
     }

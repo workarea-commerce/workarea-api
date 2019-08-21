@@ -19,22 +19,22 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"85e3c865408c41c89f37925b5c43be67\"",
+        "ETag": "W/\"0582a7171a70057109209341f7308d8f\"",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "df868223-5271-44ec-9e1d-9b3363ac7d07",
-        "X-Runtime": "0.005881",
+        "X-Request-Id": "bbef74f8-bca8-4ab7-b70d-3c9be375a2cd",
+        "X-Runtime": "0.005635",
         "Expires": "0",
         "Content-Length": "168"
       },
       "request_method": "GET",
-      "request_path": "/api/admin/redirects/5d374f2ed4322a5df916bfaf",
+      "request_path": "/api/admin/redirects/5d5dbda2d4322a4b69d7934b",
       "request_body": null,
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"redirect\": {\n    \"_id\": \"5d374f2ed4322a5df916bfaf\",\n    \"created_at\": \"2019-07-23T18:17:18.508Z\",\n    \"destination\": \"/pages/faq\",\n    \"path\": \"/faq\",\n    \"updated_at\": \"2019-07-23T18:17:18.508Z\"\n  }\n}",
+      "response_body": "{\n  \"redirect\": {\n    \"_id\": \"5d5dbda2d4322a4b69d7934b\",\n    \"created_at\": \"2019-08-21T21:54:42.506Z\",\n    \"destination\": \"/pages/faq\",\n    \"path\": \"/faq\",\n    \"updated_at\": \"2019-08-21T21:54:42.506Z\"\n  }\n}",
       "response_content_type": "application/json",
-      "curl": "curl -g \"https://www.example.com/api/admin/redirects/5d374f2ed4322a5df916bfaf\" -X GET "
+      "curl": "curl -g \"https://www.example.com/api/admin/redirects/5d5dbda2d4322a4b69d7934b\" -X GET "
     }
   ],
   "resource": "Redirects",

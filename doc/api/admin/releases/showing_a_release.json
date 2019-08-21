@@ -19,22 +19,22 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"e797ac63575c78de97974c63124d95b3\"",
+        "ETag": "W/\"12d3897e65bc4d14232d139ecfb2c6f9\"",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "1c771b0d-633f-4140-b6f7-47944dda42bc",
-        "X-Runtime": "0.005846",
+        "X-Request-Id": "b41af123-c257-495e-bbc6-2945f9e6aaa9",
+        "X-Runtime": "0.007197",
         "Expires": "0",
         "Content-Length": "297"
       },
       "request_method": "GET",
-      "request_path": "/api/admin/releases/5d374f64d4322a5df916c32b",
+      "request_path": "/api/admin/releases/5d5dbd4cd4322a4b69d78f10",
       "request_body": null,
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"release\": {\n    \"_id\": \"5d374f64d4322a5df916c32b\",\n    \"created_at\": \"2019-07-23T18:18:12.985Z\",\n    \"name\": \"Content Release\",\n    \"publish_at\": null,\n    \"publish_job_id\": null,\n    \"published_at\": null,\n    \"subscribed_user_ids\": [\n\n    ],\n    \"tags\": [\n\n    ],\n    \"undo_at\": null,\n    \"undo_job_id\": null,\n    \"undone_at\": null,\n    \"updated_at\": \"2019-07-23T18:18:12.985Z\"\n  }\n}",
+      "response_body": "{\n  \"release\": {\n    \"_id\": \"5d5dbd4cd4322a4b69d78f10\",\n    \"created_at\": \"2019-08-21T21:53:16.622Z\",\n    \"name\": \"Content Release\",\n    \"publish_at\": null,\n    \"publish_job_id\": null,\n    \"published_at\": null,\n    \"subscribed_user_ids\": [\n\n    ],\n    \"tags\": [\n\n    ],\n    \"undo_at\": null,\n    \"undo_job_id\": null,\n    \"undone_at\": null,\n    \"updated_at\": \"2019-08-21T21:53:16.622Z\"\n  }\n}",
       "response_content_type": "application/json",
-      "curl": "curl -g \"https://www.example.com/api/admin/releases/5d374f64d4322a5df916c32b\" -X GET "
+      "curl": "curl -g \"https://www.example.com/api/admin/releases/5d5dbd4cd4322a4b69d78f10\" -X GET "
     }
   ],
   "resource": "Releases",

@@ -33,10 +33,10 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"c57525f9319f52ff46d5a9220c15c7ec\"",
+        "ETag": "W/\"8460ecce15e080ce1393ff213b18a6a3\"",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "8b5de410-dae4-42c6-95ff-2f9c52a5ce6e",
-        "X-Runtime": "0.005582",
+        "X-Request-Id": "301edf1d-858a-470d-9872-0532421952d7",
+        "X-Runtime": "0.005712",
         "Expires": "0",
         "Content-Length": "456"
       },
@@ -46,7 +46,7 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"prices\": [\n    {\n      \"_id\": \"5d374ef9d4322a5df916bbd4\",\n      \"active\": true,\n      \"created_at\": \"2019-07-23T18:16:25.218Z\",\n      \"min_quantity\": 1,\n      \"on_sale\": false,\n      \"regular\": {\n        \"cents\": 1500.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"sale\": null,\n      \"updated_at\": \"2019-07-23T18:16:25.218Z\"\n    },\n    {\n      \"_id\": \"5d374ef9d4322a5df916bbd5\",\n      \"active\": true,\n      \"created_at\": \"2019-07-23T18:16:25.246Z\",\n      \"min_quantity\": 1,\n      \"on_sale\": false,\n      \"regular\": {\n        \"cents\": 1500.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"sale\": null,\n      \"updated_at\": \"2019-07-23T18:16:25.246Z\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"prices\": [\n    {\n      \"_id\": \"5d5dbde8d4322a4b69d7993e\",\n      \"active\": true,\n      \"created_at\": \"2019-08-21T21:55:52.597Z\",\n      \"min_quantity\": 1,\n      \"on_sale\": false,\n      \"regular\": {\n        \"cents\": 1500.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"sale\": null,\n      \"updated_at\": \"2019-08-21T21:55:52.597Z\"\n    },\n    {\n      \"_id\": \"5d5dbde8d4322a4b69d7993f\",\n      \"active\": true,\n      \"created_at\": \"2019-08-21T21:55:52.621Z\",\n      \"min_quantity\": 1,\n      \"on_sale\": false,\n      \"regular\": {\n        \"cents\": 1500.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"sale\": null,\n      \"updated_at\": \"2019-08-21T21:55:52.621Z\"\n    }\n  ]\n}",
       "response_content_type": "application/json",
       "curl": "curl -g \"https://www.example.com/api/admin/pricing_skus/2134/prices?page=1&sort_by=created_at&sort_direction=desc\" -X GET "
     }

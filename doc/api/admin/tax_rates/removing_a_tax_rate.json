@@ -20,19 +20,19 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "c29a891d-e28b-41a2-bcc2-f3df95de61a6",
-        "X-Runtime": "0.007034",
+        "X-Request-Id": "d2b1e7b1-08c7-473b-b378-7d74b9480449",
+        "X-Runtime": "0.007095",
         "Expires": "0"
       },
       "request_method": "PATCH",
-      "request_path": "/api/admin/tax_categories/5d374f2cd4322a5df916bfa0/rates/5d374f2cd4322a5df916bfa1",
+      "request_path": "/api/admin/tax_categories/5d5dbcced4322a4b69d7894b/rates/5d5dbcced4322a4b69d7894c",
       "request_body": null,
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/tax_categories/5d374f2cd4322a5df916bfa0/rates/5d374f2cd4322a5df916bfa1\" -d '' -X PATCH \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
+      "curl": "curl \"https://www.example.com/api/admin/tax_categories/5d5dbcced4322a4b69d7894b/rates/5d5dbcced4322a4b69d7894c\" -d '' -X PATCH \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
     }
   ],
   "resource": "Tax Rates",

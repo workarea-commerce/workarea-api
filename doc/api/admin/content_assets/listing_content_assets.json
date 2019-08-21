@@ -33,12 +33,12 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"a205fc2eba730d1ea42d70eb9229a9d0\"",
+        "ETag": "W/\"55c7e1a883dcc0ef18b3ef197c72f916\"",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "aa5b9c80-bd66-47ff-b977-97a181cd54a4",
-        "X-Runtime": "0.005602",
+        "X-Request-Id": "79ff8e63-a7cf-403a-b41a-516fa8b9b92e",
+        "X-Runtime": "0.009516",
         "Expires": "0",
-        "Content-Length": "876"
+        "Content-Length": "875"
       },
       "request_method": "GET",
       "request_path": "/api/admin/content_assets?page=1&sort_by=created_at&sort_direction=desc",
@@ -46,7 +46,7 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"assets\": [\n    {\n      \"_id\": \"5d374f69d4322a5df916c363\",\n      \"created_at\": \"2019-07-23T18:18:17.478Z\",\n      \"file_aspect_ratio\": 1.0,\n      \"file_format\": \"jpeg\",\n      \"file_height\": 780,\n      \"file_image\": true,\n      \"file_inverse_aspect_ratio\": 1.0,\n      \"file_landscape\": false,\n      \"file_name\": \"file.jpg\",\n      \"file_portrait\": true,\n      \"file_uid\": \"2019/07/23/53v5i1x7f1_file.jpg\",\n      \"file_width\": 780,\n      \"name\": \"Test Asset\",\n      \"subscribed_user_ids\": [\n\n      ],\n      \"tags\": [\n        \"test\"\n      ],\n      \"type\": \"image\",\n      \"updated_at\": \"2019-07-23T18:18:17.478Z\"\n    },\n    {\n      \"_id\": \"5d374f69d4322a5df916c362\",\n      \"created_at\": \"2019-07-23T18:18:17.409Z\",\n      \"file_aspect_ratio\": 1.0,\n      \"file_format\": \"jpeg\",\n      \"file_height\": 780,\n      \"file_image\": true,\n      \"file_inverse_aspect_ratio\": 1.0,\n      \"file_landscape\": false,\n      \"file_name\": \"file.jpg\",\n      \"file_portrait\": true,\n      \"file_uid\": \"2019/07/23/5keaaj2wal_file.jpg\",\n      \"file_width\": 780,\n      \"name\": \"Test Asset\",\n      \"subscribed_user_ids\": [\n\n      ],\n      \"tags\": [\n        \"test\"\n      ],\n      \"type\": \"image\",\n      \"updated_at\": \"2019-07-23T18:18:17.409Z\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"assets\": [\n    {\n      \"_id\": \"5d5dbe02d4322a4b69d79ace\",\n      \"created_at\": \"2019-08-21T21:56:18.038Z\",\n      \"file_aspect_ratio\": 1.0,\n      \"file_format\": \"jpeg\",\n      \"file_height\": 780,\n      \"file_image\": true,\n      \"file_inverse_aspect_ratio\": 1.0,\n      \"file_landscape\": false,\n      \"file_name\": \"file.jpg\",\n      \"file_portrait\": true,\n      \"file_uid\": \"2019/08/21/53j855ka53_file.jpg\",\n      \"file_width\": 780,\n      \"name\": \"Test Asset\",\n      \"subscribed_user_ids\": [\n\n      ],\n      \"tags\": [\n        \"test\"\n      ],\n      \"type\": \"image\",\n      \"updated_at\": \"2019-08-21T21:56:18.038Z\"\n    },\n    {\n      \"_id\": \"5d5dbe01d4322a4b69d79acd\",\n      \"created_at\": \"2019-08-21T21:56:17.966Z\",\n      \"file_aspect_ratio\": 1.0,\n      \"file_format\": \"jpeg\",\n      \"file_height\": 780,\n      \"file_image\": true,\n      \"file_inverse_aspect_ratio\": 1.0,\n      \"file_landscape\": false,\n      \"file_name\": \"file.jpg\",\n      \"file_portrait\": true,\n      \"file_uid\": \"2019/08/21/qohiz0fap_file.jpg\",\n      \"file_width\": 780,\n      \"name\": \"Test Asset\",\n      \"subscribed_user_ids\": [\n\n      ],\n      \"tags\": [\n        \"test\"\n      ],\n      \"type\": \"image\",\n      \"updated_at\": \"2019-08-21T21:56:17.966Z\"\n    }\n  ]\n}",
       "response_content_type": "application/json",
       "curl": "curl -g \"https://www.example.com/api/admin/content_assets?page=1&sort_by=created_at&sort_direction=desc\" -X GET "
     }

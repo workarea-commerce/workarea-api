@@ -19,22 +19,22 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"4e834312f571cd8fb6174d93827c1586\"",
+        "ETag": "W/\"688878f71eb26281f251a34c0089cc3a\"",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "71d45c09-b682-437e-897f-c27428792538",
-        "X-Runtime": "0.004347",
+        "X-Request-Id": "a0234a4a-8b69-4bfc-8a22-e9a2c881bda7",
+        "X-Runtime": "0.006112",
         "Expires": "0",
         "Content-Length": "249"
       },
       "request_method": "GET",
-      "request_path": "/api/admin/payment_profiles/5d374f9fd4322a5df916c58d",
+      "request_path": "/api/admin/payment_profiles/5d5dbcd5d4322a4b69d78995",
       "request_body": null,
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"payment_profile\": {\n    \"_id\": \"5d374f9fd4322a5df916c58d\",\n    \"created_at\": \"2019-07-23T18:19:11.930Z\",\n    \"email\": \"user@workarea.com\",\n    \"gateway_id\": null,\n    \"reference\": \"1243\",\n    \"store_credit\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"updated_at\": \"2019-07-23T18:19:11.930Z\"\n  }\n}",
+      "response_body": "{\n  \"payment_profile\": {\n    \"_id\": \"5d5dbcd5d4322a4b69d78995\",\n    \"created_at\": \"2019-08-21T21:51:17.694Z\",\n    \"email\": \"user@workarea.com\",\n    \"gateway_id\": null,\n    \"reference\": \"1243\",\n    \"store_credit\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"updated_at\": \"2019-08-21T21:51:17.694Z\"\n  }\n}",
       "response_content_type": "application/json",
-      "curl": "curl -g \"https://www.example.com/api/admin/payment_profiles/5d374f9fd4322a5df916c58d\" -X GET "
+      "curl": "curl -g \"https://www.example.com/api/admin/payment_profiles/5d5dbcd5d4322a4b69d78995\" -X GET "
     }
   ],
   "resource": "Payment Profiles",

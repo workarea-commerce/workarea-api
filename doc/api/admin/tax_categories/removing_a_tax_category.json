@@ -20,19 +20,19 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "e03e4212-38e0-4a77-92e9-ad0842b6a09a",
-        "X-Runtime": "0.006137",
+        "X-Request-Id": "314e9e9f-10e6-443b-a2bb-a4adc51c8857",
+        "X-Runtime": "0.005894",
         "Expires": "0"
       },
       "request_method": "DELETE",
-      "request_path": "/api/admin/tax_categories/5d374e6cd4322a5df916b199",
+      "request_path": "/api/admin/tax_categories/5d5dbd30d4322a4b69d78e0c",
       "request_body": null,
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/tax_categories/5d374e6cd4322a5df916b199\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
+      "curl": "curl \"https://www.example.com/api/admin/tax_categories/5d5dbd30d4322a4b69d78e0c\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
     }
   ],
   "resource": "Tax Categories",

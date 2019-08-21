@@ -20,19 +20,19 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "ec686a41-bb2d-4454-aaee-652779e3777a",
-        "X-Runtime": "0.048231",
+        "X-Request-Id": "cc036fdb-e3e2-41d5-a56b-fba3d0f63da0",
+        "X-Runtime": "0.048711",
         "Expires": "0"
       },
       "request_method": "PATCH",
-      "request_path": "/api/admin/pages/5d374ef0d4322a5df916bb75",
-      "request_body": "{\"active\":true,\"created_at\":\"2019-07-23T18:16:16.439Z\",\"display_h1\":true,\"name\":\"Test Page\",\"show_navigation\":false,\"subscribed_user_ids\":[],\"tags\":[],\"template\":\"generic\",\"updated_at\":\"2019-07-23T18:16:16.439Z\"}",
+      "request_path": "/api/admin/pages/5d5dbdaad4322a4b69d793c9",
+      "request_body": "{\"active\":true,\"created_at\":\"2019-08-21T21:54:50.980Z\",\"display_h1\":true,\"name\":\"Test Page\",\"show_navigation\":false,\"subscribed_user_ids\":[],\"tags\":[],\"template\":\"generic\",\"updated_at\":\"2019-08-21T21:54:50.980Z\"}",
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/pages/5d374ef0d4322a5df916bb75\" -d '{\"active\":true,\"created_at\":\"2019-07-23T18:16:16.439Z\",\"display_h1\":true,\"name\":\"Test Page\",\"show_navigation\":false,\"subscribed_user_ids\":[],\"tags\":[],\"template\":\"generic\",\"updated_at\":\"2019-07-23T18:16:16.439Z\"}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/pages/5d5dbdaad4322a4b69d793c9\" -d '{\"active\":true,\"created_at\":\"2019-08-21T21:54:50.980Z\",\"display_h1\":true,\"name\":\"Test Page\",\"show_navigation\":false,\"subscribed_user_ids\":[],\"tags\":[],\"template\":\"generic\",\"updated_at\":\"2019-08-21T21:54:50.980Z\"}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Pages",

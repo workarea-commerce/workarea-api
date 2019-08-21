@@ -19,22 +19,22 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"d0b369daebbc34a281d57548b1cacdac\"",
+        "ETag": "W/\"fc84d78d3504b0c482dcc83ce918f84e\"",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "782b609d-19c3-4ab4-a3d8-08da81a49e57",
-        "X-Runtime": "0.005317",
+        "X-Request-Id": "22b952a3-d905-4a48-af91-ec82db188f20",
+        "X-Runtime": "0.004174",
         "Expires": "0",
         "Content-Length": "253"
       },
       "request_method": "GET",
-      "request_path": "/api/admin/promo_code_lists/5d374e86d4322a5df916b36d",
+      "request_path": "/api/admin/promo_code_lists/5d5dbdbed4322a4b69d79539",
       "request_body": null,
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"promo_code_list\": {\n    \"_id\": \"5d374e86d4322a5df916b36d\",\n    \"count\": 2,\n    \"created_at\": \"2019-07-23T18:14:30.421Z\",\n    \"expires_at\": null,\n    \"generation_completed_at\": \"2019-07-23T18:14:30.431Z\",\n    \"name\": \"Test Code List\",\n    \"prefix\": null,\n    \"updated_at\": \"2019-07-23T18:14:30.433Z\"\n  }\n}",
+      "response_body": "{\n  \"promo_code_list\": {\n    \"_id\": \"5d5dbdbed4322a4b69d79539\",\n    \"count\": 2,\n    \"created_at\": \"2019-08-21T21:55:10.042Z\",\n    \"expires_at\": null,\n    \"generation_completed_at\": \"2019-08-21T21:55:10.049Z\",\n    \"name\": \"Test Code List\",\n    \"prefix\": null,\n    \"updated_at\": \"2019-08-21T21:55:10.052Z\"\n  }\n}",
       "response_content_type": "application/json",
-      "curl": "curl -g \"https://www.example.com/api/admin/promo_code_lists/5d374e86d4322a5df916b36d\" -X GET "
+      "curl": "curl -g \"https://www.example.com/api/admin/promo_code_lists/5d5dbdbed4322a4b69d79539\" -X GET "
     }
   ],
   "resource": "Promo Code Lists",

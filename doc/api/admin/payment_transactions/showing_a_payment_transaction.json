@@ -19,22 +19,22 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"eb99b8171c15de8d1938a73719f4d78f\"",
+        "ETag": "W/\"11d51544ed5ea4e2488ad69c2714ca25\"",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "e80ce97c-8e37-464e-af32-9adc93ce162d",
-        "X-Runtime": "0.006845",
+        "X-Request-Id": "ec04a76d-cb28-48e2-a6e2-f9c621c29869",
+        "X-Runtime": "0.005641",
         "Expires": "0",
         "Content-Length": "588"
       },
       "request_method": "GET",
-      "request_path": "/api/admin/payment_transactions/5d374fcbd4322a5df916c858",
+      "request_path": "/api/admin/payment_transactions/5d5dbdbbd4322a4b69d79522",
       "request_body": null,
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"transaction\": {\n    \"_id\": \"5d374fcbd4322a5df916c858\",\n    \"action\": \"authorize\",\n    \"amount\": {\n      \"cents\": 1100.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"canceled_at\": null,\n    \"cancellation\": null,\n    \"created_at\": \"2019-07-23T18:19:55.038Z\",\n    \"payment_id\": \"1234\",\n    \"reference_id\": null,\n    \"response\": {\n      \"success\": true,\n      \"message\": \"Bogus Gateway: Forced success\",\n      \"params\": {\n        \"authorized_amount\": \"11.00\"\n      },\n      \"options\": {\n        \"test\": true,\n        \"authorization\": \"53433\",\n        \"avs_result\": {\n          \"code\": null,\n          \"message\": null,\n          \"street_match\": null,\n          \"postal_match\": null\n        },\n        \"cvv_result\": null\n      }\n    },\n    \"success\": true,\n    \"tender_id\": \"5d374fcad4322a5df916c84b\",\n    \"updated_at\": \"2019-07-23T18:19:55.038Z\"\n  }\n}",
+      "response_body": "{\n  \"transaction\": {\n    \"_id\": \"5d5dbdbbd4322a4b69d79522\",\n    \"action\": \"authorize\",\n    \"amount\": {\n      \"cents\": 1100.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"canceled_at\": null,\n    \"cancellation\": null,\n    \"created_at\": \"2019-08-21T21:55:07.035Z\",\n    \"payment_id\": \"1234\",\n    \"reference_id\": null,\n    \"response\": {\n      \"success\": true,\n      \"message\": \"Bogus Gateway: Forced success\",\n      \"params\": {\n        \"authorized_amount\": \"11.00\"\n      },\n      \"options\": {\n        \"test\": true,\n        \"authorization\": \"53433\",\n        \"avs_result\": {\n          \"code\": null,\n          \"message\": null,\n          \"street_match\": null,\n          \"postal_match\": null\n        },\n        \"cvv_result\": null\n      }\n    },\n    \"success\": true,\n    \"tender_id\": \"5d5dbdbad4322a4b69d79515\",\n    \"updated_at\": \"2019-08-21T21:55:07.035Z\"\n  }\n}",
       "response_content_type": "application/json",
-      "curl": "curl -g \"https://www.example.com/api/admin/payment_transactions/5d374fcbd4322a5df916c858\" -X GET "
+      "curl": "curl -g \"https://www.example.com/api/admin/payment_transactions/5d5dbdbbd4322a4b69d79522\" -X GET "
     }
   ],
   "resource": "Payment transactions",

@@ -9,7 +9,7 @@
     {
       "request_headers": {
         "Content-Type": "application/json",
-        "Authorization": "Token token=\"BpHr88DhRz7caBQA8fkGcmbg\""
+        "Authorization": "Token token=\"sWdWsZwAMRXqfQX53eS5QgFK\""
       },
       "request_query_parameters": {
       },
@@ -26,10 +26,10 @@
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Flash-Messages",
-        "ETag": "W/\"41648982de45db8f2d69157dfdc787aa\"",
+        "ETag": "W/\"d1773c960a12fbd4acdd2865535c1bf5\"",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "11fb3ad6-f429-4d08-b060-73b6c8e79c38",
-        "X-Runtime": "0.010289",
+        "X-Request-Id": "adfb2603-9c23-468d-899a-e7cbab68c30e",
+        "X-Runtime": "0.012313",
         "Expires": "0",
         "Content-Length": "294"
       },
@@ -39,9 +39,9 @@
       "request_content_type": "application/json",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"user_id\": \"5d374f98d4322a5df916c556\",\n  \"id\": \"5d374f98d4322a5df916c55b\",\n  \"url\": \"http://www.example.com/api/storefront/saved_credit_cards/5d374f98d4322a5df916c55b\",\n  \"default\": false,\n  \"issuer\": \"Visa\",\n  \"display_number\": \"XXXX-XXXX-XXXX-1111\",\n  \"month\": 7,\n  \"year\": 2024,\n  \"first_name\": \"Susan\",\n  \"last_name\": \"Baker\"\n}",
+      "response_body": "{\n  \"user_id\": \"5d5dbd6bd4322a4b69d79092\",\n  \"id\": \"5d5dbd6bd4322a4b69d79097\",\n  \"url\": \"http://www.example.com/api/storefront/saved_credit_cards/5d5dbd6bd4322a4b69d79097\",\n  \"default\": false,\n  \"issuer\": \"Visa\",\n  \"display_number\": \"XXXX-XXXX-XXXX-1111\",\n  \"month\": 7,\n  \"year\": 2024,\n  \"first_name\": \"Susan\",\n  \"last_name\": \"Baker\"\n}",
       "response_content_type": "application/json",
-      "curl": "curl \"https://www.example.com/api/storefront/saved_credit_cards\" -d '{\"number\":\"4111111111111111\",\"first_name\":\"Susan\",\"last_name\":\"Baker\",\"month\":\"7\",\"year\":\"2024\",\"cvv\":\"123\"}' -X POST \\\n\t-H \"Content-Type: application/json\" \\\n\t-H \"Authorization: Token token=\\\"BpHr88DhRz7caBQA8fkGcmbg\\\"\""
+      "curl": "curl \"https://www.example.com/api/storefront/saved_credit_cards\" -d '{\"number\":\"4111111111111111\",\"first_name\":\"Susan\",\"last_name\":\"Baker\",\"month\":\"7\",\"year\":\"2024\",\"cvv\":\"123\"}' -X POST \\\n\t-H \"Content-Type: application/json\" \\\n\t-H \"Authorization: Token token=\\\"sWdWsZwAMRXqfQX53eS5QgFK\\\"\""
     }
   ],
   "resource": "Saved Credit Cards",

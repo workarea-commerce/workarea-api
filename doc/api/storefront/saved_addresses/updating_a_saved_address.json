@@ -9,7 +9,7 @@
     {
       "request_headers": {
         "Content-Type": "application/json",
-        "Authorization": "Token token=\"6T3GUajugKf4So8mpo2XDLve\""
+        "Authorization": "Token token=\"DW3FBga4e6SNpi3Uioa3knkG\""
       },
       "request_query_parameters": {
       },
@@ -26,22 +26,22 @@
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Flash-Messages",
-        "ETag": "W/\"43804b67be716cdffbd16e93a3a2767b\"",
+        "ETag": "W/\"2d646328a7ad60faf998ed30871b02f0\"",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "1f24f398-856b-4971-8be2-7ca511b193a0",
-        "X-Runtime": "0.069459",
+        "X-Request-Id": "8b20bda1-23ff-4b34-a398-f1fa01ef1bfe",
+        "X-Runtime": "0.069961",
         "Expires": "0",
         "Content-Length": "377"
       },
       "request_method": "PATCH",
-      "request_path": "/api/storefront/saved_addresses/5d374e95d4322a5df916b423",
+      "request_path": "/api/storefront/saved_addresses/5d5dbcead4322a4b69d78ad1",
       "request_body": "{\"street\":\"4059 Mt Lee Dr.\",\"city\":\"Hollywood\",\"region\":\"CA\",\"postal_code\":\"90068\",\"phone_number\":\"7545552390\"}",
       "request_content_type": "application/json",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"user_id\": \"5d374e95d4322a5df916b420\",\n  \"url\": \"http://www.example.com/api/storefront/saved_addresses/5d374e95d4322a5df916b423\",\n  \"id\": \"5d374e95d4322a5df916b423\",\n  \"first_name\": \"Susan\",\n  \"last_name\": \"Baker\",\n  \"company\": null,\n  \"street\": \"4059 Mt Lee Dr.\",\n  \"street_2\": null,\n  \"city\": \"Hollywood\",\n  \"country\": \"US\",\n  \"region\": \"CA\",\n  \"postal_code\": \"90068\",\n  \"phone_number\": \"7545552390\",\n  \"phone_extension\": null\n}",
+      "response_body": "{\n  \"user_id\": \"5d5dbcead4322a4b69d78ace\",\n  \"url\": \"http://www.example.com/api/storefront/saved_addresses/5d5dbcead4322a4b69d78ad1\",\n  \"id\": \"5d5dbcead4322a4b69d78ad1\",\n  \"first_name\": \"Susan\",\n  \"last_name\": \"Baker\",\n  \"company\": null,\n  \"street\": \"4059 Mt Lee Dr.\",\n  \"street_2\": null,\n  \"city\": \"Hollywood\",\n  \"country\": \"US\",\n  \"region\": \"CA\",\n  \"postal_code\": \"90068\",\n  \"phone_number\": \"7545552390\",\n  \"phone_extension\": null\n}",
       "response_content_type": "application/json",
-      "curl": "curl \"https://www.example.com/api/storefront/saved_addresses/5d374e95d4322a5df916b423\" -d '{\"street\":\"4059 Mt Lee Dr.\",\"city\":\"Hollywood\",\"region\":\"CA\",\"postal_code\":\"90068\",\"phone_number\":\"7545552390\"}' -X PATCH \\\n\t-H \"Content-Type: application/json\" \\\n\t-H \"Authorization: Token token=\\\"6T3GUajugKf4So8mpo2XDLve\\\"\""
+      "curl": "curl \"https://www.example.com/api/storefront/saved_addresses/5d5dbcead4322a4b69d78ad1\" -d '{\"street\":\"4059 Mt Lee Dr.\",\"city\":\"Hollywood\",\"region\":\"CA\",\"postal_code\":\"90068\",\"phone_number\":\"7545552390\"}' -X PATCH \\\n\t-H \"Content-Type: application/json\" \\\n\t-H \"Authorization: Token token=\\\"DW3FBga4e6SNpi3Uioa3knkG\\\"\""
     }
   ],
   "resource": "Saved Addresses",

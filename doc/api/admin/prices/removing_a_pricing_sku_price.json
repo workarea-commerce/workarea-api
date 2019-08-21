@@ -20,19 +20,19 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "825c4987-cab9-4340-b9d9-64dd254b2ffd",
-        "X-Runtime": "0.027167",
+        "X-Request-Id": "e5a0bd92-cd6c-4957-88f2-cfb1bd8dc793",
+        "X-Runtime": "0.028434",
         "Expires": "0"
       },
       "request_method": "DELETE",
-      "request_path": "/api/admin/pricing_skus/2134/prices/5d374ef8d4322a5df916bbcf",
+      "request_path": "/api/admin/pricing_skus/2134/prices/5d5dbde7d4322a4b69d79939",
       "request_body": null,
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/pricing_skus/2134/prices/5d374ef8d4322a5df916bbcf\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
+      "curl": "curl \"https://www.example.com/api/admin/pricing_skus/2134/prices/5d5dbde7d4322a4b69d79939\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
     }
   ],
   "resource": "Prices",

@@ -8,7 +8,7 @@
   "requests": [
     {
       "request_headers": {
-        "Authorization": "Token token=\"2LoDHFUv6mxPJxbjB1b5aJkV\""
+        "Authorization": "Token token=\"k3bTr5Ad4HUmYU1iexYmYyqr\""
       },
       "request_query_parameters": {
       },
@@ -27,8 +27,8 @@
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Flash-Messages",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "bc18878a-2247-499f-a029-a402dc082391",
-        "X-Runtime": "0.007566",
+        "X-Request-Id": "e7b705e8-b6f0-4745-8fb5-b7ce2656e514",
+        "X-Runtime": "0.008088",
         "Expires": "0",
         "Content-Length": "77"
       },
@@ -38,9 +38,9 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": \"5d374e44d4322a5df916afaa\",\n  \"categories\": [\n\n  ],\n  \"products\": [\n\n  ],\n  \"searches\": [\n\n  ]\n}",
+      "response_body": "{\n  \"id\": \"5d5dbce9d4322a4b69d78abf\",\n  \"categories\": [\n\n  ],\n  \"products\": [\n\n  ],\n  \"searches\": [\n\n  ]\n}",
       "response_content_type": "application/json",
-      "curl": "curl -g \"https://www.example.com/api/storefront/recent_views\" -X GET \\\n\t-H \"Authorization: Token token=\\\"2LoDHFUv6mxPJxbjB1b5aJkV\\\"\""
+      "curl": "curl -g \"https://www.example.com/api/storefront/recent_views\" -X GET \\\n\t-H \"Authorization: Token token=\\\"k3bTr5Ad4HUmYU1iexYmYyqr\\\"\""
     }
   ],
   "resource": "Recent views",

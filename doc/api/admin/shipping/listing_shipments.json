@@ -33,10 +33,10 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"552a98fe1e28582b04267f0e6ea55a58\"",
+        "ETag": "W/\"c76039bb15a2dcee1180800f7233ef5e\"",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "2a603285-f97d-4d97-ac2c-642e783a4873",
-        "X-Runtime": "0.017439",
+        "X-Request-Id": "bf6e04ae-1933-42d9-95f4-0e59c15bbcf4",
+        "X-Runtime": "0.006134",
         "Expires": "0",
         "Content-Length": "587"
       },
@@ -46,7 +46,7 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"shippings\": [\n    {\n      \"_id\": \"5d374e8cd4322a5df916b3bf\",\n      \"created_at\": \"2019-07-23T18:14:36.531Z\",\n      \"discount_ids\": [\n\n      ],\n      \"instructions\": null,\n      \"order_id\": \"1234\",\n      \"quantities\": {\n      },\n      \"shipping_total\": {\n        \"cents\": 0.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"tax_total\": {\n        \"cents\": 0.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"updated_at\": \"2019-07-23T18:14:36.531Z\"\n    },\n    {\n      \"_id\": \"5d374e8cd4322a5df916b3be\",\n      \"created_at\": \"2019-07-23T18:14:36.528Z\",\n      \"discount_ids\": [\n\n      ],\n      \"instructions\": null,\n      \"order_id\": \"1234\",\n      \"quantities\": {\n      },\n      \"shipping_total\": {\n        \"cents\": 0.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"tax_total\": {\n        \"cents\": 0.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"updated_at\": \"2019-07-23T18:14:36.528Z\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"shippings\": [\n    {\n      \"_id\": \"5d5dbc6fd4322a4b69d78252\",\n      \"created_at\": \"2019-08-21T21:49:35.015Z\",\n      \"discount_ids\": [\n\n      ],\n      \"instructions\": null,\n      \"order_id\": \"1234\",\n      \"quantities\": {\n      },\n      \"shipping_total\": {\n        \"cents\": 0.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"tax_total\": {\n        \"cents\": 0.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"updated_at\": \"2019-08-21T21:49:35.015Z\"\n    },\n    {\n      \"_id\": \"5d5dbc6fd4322a4b69d78251\",\n      \"created_at\": \"2019-08-21T21:49:35.011Z\",\n      \"discount_ids\": [\n\n      ],\n      \"instructions\": null,\n      \"order_id\": \"1234\",\n      \"quantities\": {\n      },\n      \"shipping_total\": {\n        \"cents\": 0.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"tax_total\": {\n        \"cents\": 0.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"updated_at\": \"2019-08-21T21:49:35.011Z\"\n    }\n  ]\n}",
       "response_content_type": "application/json",
       "curl": "curl -g \"https://www.example.com/api/admin/shippings?page=1&sort_by=created_at&sort_direction=desc\" -X GET "
     }

@@ -20,19 +20,19 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "d3354cdf-2463-429e-8967-3d703100135d",
-        "X-Runtime": "0.010619",
+        "X-Request-Id": "15e67331-e094-411f-8b09-6f0d7d3087ff",
+        "X-Runtime": "0.011932",
         "Expires": "0"
       },
       "request_method": "PATCH",
-      "request_path": "/api/admin/redirects/5d374f30d4322a5df916bfc9",
+      "request_path": "/api/admin/redirects/5d5dbda1d4322a4b69d79346",
       "request_body": "{\"redirect\":{\"path\":\"/foobar\"}}",
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/redirects/5d374f30d4322a5df916bfc9\" -d '{\"redirect\":{\"path\":\"/foobar\"}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/redirects/5d5dbda1d4322a4b69d79346\" -d '{\"redirect\":{\"path\":\"/foobar\"}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Redirects",

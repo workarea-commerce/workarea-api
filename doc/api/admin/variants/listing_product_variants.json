@@ -19,22 +19,22 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"004de2d615b3209ab527c1aabc4339cd\"",
+        "ETag": "W/\"ccb3062c13b58a439fe49a701dda21ee\"",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "0fa7731e-ba1f-42c9-adc9-2a60ea08a19f",
-        "X-Runtime": "0.008109",
+        "X-Request-Id": "d2c1c0ad-17ff-435d-b437-e28b7fd0a2d7",
+        "X-Runtime": "0.008269",
         "Expires": "0",
         "Content-Length": "522"
       },
       "request_method": "GET",
-      "request_path": "/api/admin/products/7439AC5547/variants",
+      "request_path": "/api/admin/products/7C6261B352/variants",
       "request_body": null,
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"variants\": [\n    {\n      \"_id\": \"5d374e68d4322a5df916b168\",\n      \"active\": true,\n      \"created_at\": \"2019-07-23T18:14:00.075Z\",\n      \"details\": {\n      },\n      \"name\": \"SKU811\",\n      \"position\": 0,\n      \"sku\": \"SKU811\",\n      \"updated_at\": \"2019-07-23T18:14:00.075Z\"\n    },\n    {\n      \"_id\": \"5d374e68d4322a5df916b169\",\n      \"active\": true,\n      \"created_at\": \"2019-07-23T18:14:00.154Z\",\n      \"details\": {\n      },\n      \"name\": \"SKU783\",\n      \"position\": 1,\n      \"sku\": \"SKU783\",\n      \"updated_at\": \"2019-07-23T18:14:00.154Z\"\n    },\n    {\n      \"_id\": \"5d374e67d4322a5df916b167\",\n      \"active\": true,\n      \"created_at\": null,\n      \"details\": {\n      },\n      \"name\": \"SKU\",\n      \"position\": 2,\n      \"sku\": \"SKU\",\n      \"updated_at\": null\n    }\n  ]\n}",
+      "response_body": "{\n  \"variants\": [\n    {\n      \"_id\": \"5d5dbd0ad4322a4b69d78bf4\",\n      \"active\": true,\n      \"created_at\": \"2019-08-21T21:52:10.672Z\",\n      \"details\": {\n      },\n      \"name\": \"SKU857\",\n      \"position\": 0,\n      \"sku\": \"SKU857\",\n      \"updated_at\": \"2019-08-21T21:52:10.672Z\"\n    },\n    {\n      \"_id\": \"5d5dbd0ad4322a4b69d78bf5\",\n      \"active\": true,\n      \"created_at\": \"2019-08-21T21:52:10.771Z\",\n      \"details\": {\n      },\n      \"name\": \"SKU948\",\n      \"position\": 1,\n      \"sku\": \"SKU948\",\n      \"updated_at\": \"2019-08-21T21:52:10.771Z\"\n    },\n    {\n      \"_id\": \"5d5dbd0ad4322a4b69d78bf3\",\n      \"active\": true,\n      \"created_at\": null,\n      \"details\": {\n      },\n      \"name\": \"SKU\",\n      \"position\": 2,\n      \"sku\": \"SKU\",\n      \"updated_at\": null\n    }\n  ]\n}",
       "response_content_type": "application/json",
-      "curl": "curl -g \"https://www.example.com/api/admin/products/7439AC5547/variants\" -X GET "
+      "curl": "curl -g \"https://www.example.com/api/admin/products/7C6261B352/variants\" -X GET "
     }
   ],
   "resource": "Variants",
