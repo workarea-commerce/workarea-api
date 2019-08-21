@@ -15,22 +15,19 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "X-Download-Options": "noopen",
-        "X-Permitted-Cross-Domain-Policies": "none",
-        "Referrer-Policy": "strict-origin-when-cross-origin",
-        "Date": "Tue, 23 Jul 2019 18:19:14 GMT",
+        "Date": "Wed, 06 Sep 2017 18:05:48 GMT",
         "Content-Type": "application/json; charset=utf-8",
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Headers": "*",
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
+        "X-Flash-Messages": "{}",
         "Vary": "X-Requested-With, X-Flash-Messages",
-        "Cache-Control": "no-cache, no-store, must-revalidate",
-        "ETag": "W/\"aaa41ceda1d8c796800c66886286fef8\"",
-        "X-Request-Id": "6506f008-bcd1-4481-bbb9-ec433eac41c0",
-        "X-Runtime": "0.007861",
-        "Expires": "0",
-        "Content-Length": "1830"
+        "Cache-Control": "max-age=900, public",
+        "ETag": "W/\"44cba0a5eb47a64b780a3dc497d2cd35\"",
+        "X-Request-Id": "ca49c7e9-26ec-4f73-8cd7-6a9c59abad48",
+        "X-Runtime": "0.041665",
+        "Content-Length": "1755"
       },
       "request_method": "GET",
       "request_path": "/api/storefront/system_content/home_page",
@@ -38,7 +35,7 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": \"5d374fa2d4322a5df916c5a3\",\n  \"name\": \"Home Page\",\n  \"url\": \"http://www.example.com/api/storefront/system_content/Home%20Page\",\n  \"browser_title\": \"Home Page\",\n  \"meta_description\": \"Shop online for Workarea API products\",\n  \"content_blocks\": [\n    {\n      \"id\": \"5d374fa2d4322a5df916c5a4\",\n      \"type\": \"text\",\n      \"area\": \"default\",\n      \"data\": {\n        \"text\": \"Summer is here!\"\n      },\n      \"hidden_breakpoints\": [\n\n      ],\n      \"position\": 0,\n      \"html\": \"<div class=\\\"content-block content-block--text\\\" id=\\\"content_block_5d374fa2d4322a5df916c5a4\\\" data-analytics=\\\"{&quot;event&quot;:&quot;contentBlockDisplay&quot;,&quot;payload&quot;:{&quot;id&quot;:&quot;5d374fa2d4322a5df916c5a4&quot;,&quot;type&quot;:&quot;text&quot;,&quot;position&quot;:0,&quot;data&quot;:{&quot;text&quot;:&quot;Summer is here!&quot;}}}\\\" data-hidden-block-css-content=\\\"Block hidden at this breakpoint\\\"><div class='text-content-block'>Summer is here!</div>\\n</div>\\n\"\n    },\n    {\n      \"id\": \"5d374fa2d4322a5df916c5a5\",\n      \"type\": \"text\",\n      \"area\": \"default\",\n      \"data\": {\n        \"text\": \"Get 20% off all swimwear\"\n      },\n      \"hidden_breakpoints\": [\n\n      ],\n      \"position\": 1,\n      \"html\": \"<div class=\\\"content-block content-block--text\\\" id=\\\"content_block_5d374fa2d4322a5df916c5a5\\\" data-analytics=\\\"{&quot;event&quot;:&quot;contentBlockDisplay&quot;,&quot;payload&quot;:{&quot;id&quot;:&quot;5d374fa2d4322a5df916c5a5&quot;,&quot;type&quot;:&quot;text&quot;,&quot;position&quot;:1,&quot;data&quot;:{&quot;text&quot;:&quot;Get 20% off all swimwear&quot;}}}\\\" data-hidden-block-css-content=\\\"Block hidden at this breakpoint\\\"><div class='text-content-block'>Get 20% off all swimwear</div>\\n</div>\\n\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"id\": \"59b038fc7ceffe612c11925d\",\n  \"name\": \"Home Page\",\n  \"url\": \"http://www.example.com/api/storefront/system_content/Home%20Page\",\n  \"browser_title\": \"Home Page\",\n  \"meta_description\": null,\n  \"content_blocks\": [\n    {\n      \"id\": \"59b038fc7ceffe612c11925e\",\n      \"type\": \"text\",\n      \"area\": \"default\",\n      \"data\": {\n        \"text\": \"Summer is here!\"\n      },\n      \"hidden_breakpoints\": [\n\n      ],\n      \"position\": 0,\n      \"html\": \"<div class=\\\"content-block\\\" id=\\\"content_block_59b038fc7ceffe612c11925e\\\" data-analytics=\\\"{&quot;event&quot;:&quot;contentBlockDisplay&quot;,&quot;payload&quot;:{&quot;id&quot;:&quot;59b038fc7ceffe612c11925e&quot;,&quot;type&quot;:&quot;text&quot;,&quot;position&quot;:0,&quot;data&quot;:{&quot;text&quot;:&quot;Summer is here!&quot;}}}\\\" data-hidden-block-css-content=\\\"Block hidden at this breakpoint\\\"><div class='text-content-block'>Summer is here!</div>\\n</div>\\n\"\n    },\n    {\n      \"id\": \"59b038fc7ceffe612c11925f\",\n      \"type\": \"text\",\n      \"area\": \"default\",\n      \"data\": {\n        \"text\": \"Get 20% off all swimwear\"\n      },\n      \"hidden_breakpoints\": [\n\n      ],\n      \"position\": 1,\n      \"html\": \"<div class=\\\"content-block\\\" id=\\\"content_block_59b038fc7ceffe612c11925f\\\" data-analytics=\\\"{&quot;event&quot;:&quot;contentBlockDisplay&quot;,&quot;payload&quot;:{&quot;id&quot;:&quot;59b038fc7ceffe612c11925f&quot;,&quot;type&quot;:&quot;text&quot;,&quot;position&quot;:1,&quot;data&quot;:{&quot;text&quot;:&quot;Get 20% off all swimwear&quot;}}}\\\" data-hidden-block-css-content=\\\"Block hidden at this breakpoint\\\"><div class='text-content-block'>Get 20% off all swimwear</div>\\n</div>\\n\"\n    }\n  ]\n}",
       "response_content_type": "application/json",
       "curl": "curl -g \"https://www.example.com/api/storefront/system_content/home_page\" -X GET "
     }
@@ -46,6 +43,6 @@
   "resource": "System Content",
   "description": "Showing the home page",
   "route": "/api/storefront/system_content/home_page",
-  "explanation": "            This endpoint returns everything you'll need to render the home\n            page.\n",
-  "http_method": "GET"
+  "http_method": "GET",
+  "explanation": "            This endpoint returns everything you'll need to render the home\n            page.\n"
 }

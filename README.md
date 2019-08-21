@@ -101,7 +101,7 @@ Copyright WebLinc 2017-2019. All rights reserved.
 
 For licensing, contact [sales@workarea.com][]
 
-[Admin API]: https://homebase.weblinc.com/plugins/workarea-api-admin
-[Storefront API]: https://homebase.weblinc.com/plugins/workarea-api-storefront
+[Admin API]: https://plugins.workarea.com/plugins/api-admin
+[Storefront API]: https://plugins.workarea.com/plugins/api-storefront
 [documentation tests]: https://stash.tools.weblinc.com/projects/WL/repos/workarea-api/browse/test/documentation/workarea/api
 [sales@workarea.com]: mailto:sales@workarea.com

@@ -73,7 +73,7 @@ Copyright Workarea 2017-2019. All rights reserved.
 
 For licensing, contact [sales@workarea.com][].
 
-[Workarea API]: https://homebase.weblinc.com/plugins/workarea-api-admin
+[Workarea API]: https://plugins.workarea.com/plugins/api
 [sales@workarea.com]: mailto:sales@workarea.com
 [HTTP Basic Authentication]: https://developer.mozilla.org/en-US/docs/Web/HTTP/Authentication#Basic_authentication_scheme
 [OpenAPI]: https://swagger.io/resources/open-api/

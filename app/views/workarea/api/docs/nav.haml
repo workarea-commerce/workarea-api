@@ -1,4 +1,16 @@
+- global = index.resources.find { |r| r.name == 'Global Functionality' }
+
+- unless global.blank?
+  %strong.nav__heading= global.name
+  %nav.nav
+    %ul.nav__list
+      - global.examples.each do |example|
+        %li.nav__item
+          = link_to example.description, "/#{example.href}"
+
 - index.resources.each do |resource|
+  - next if !global.blank? && resource.name == 'Global Functionality'
+
   %strong.nav__heading= resource.name
   %nav.nav
     %ul.nav__list

@@ -9,7 +9,7 @@
     {
       "request_headers": {
         "Content-Type": "application/json",
-        "Authorization": "Token token=\"acmrFQ2rZ8rxCRTL49da3BVA\""
+        "Authorization": "Token token=\"rQqfT7xEk7SvuUgnvt2uuUZq\""
       },
       "request_query_parameters": {
       },
@@ -17,19 +17,16 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "X-Download-Options": "noopen",
-        "X-Permitted-Cross-Domain-Policies": "none",
-        "Referrer-Policy": "strict-origin-when-cross-origin",
         "Content-Type": "application/json",
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Headers": "*",
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
+        "X-Flash-Messages": "{}",
         "Vary": "X-Requested-With, X-Flash-Messages",
-        "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "a2d0a7fb-3591-4080-9726-de7311186dfd",
-        "X-Runtime": "0.007717",
-        "Expires": "0",
+        "Cache-Control": "no-cache",
+        "X-Request-Id": "72f86e06-81aa-4e7a-a5fd-0f519a0090e7",
+        "X-Runtime": "0.005750",
         "Content-Length": "0"
       },
       "request_method": "PATCH",
@@ -40,12 +37,12 @@
       "response_status_text": "OK",
       "response_body": null,
       "response_content_type": "application/json",
-      "curl": "curl \"https://www.example.com/api/storefront/recent_views\" -d '{\"product_id\":\"367A8BB9B5\",\"category_id\":\"596e739b021823358aabe9df\",\"search\":\"shirts\"}' -X PATCH \\\n\t-H \"Content-Type: application/json\" \\\n\t-H \"Authorization: Token token=\\\"acmrFQ2rZ8rxCRTL49da3BVA\\\"\""
+      "curl": "curl \"https://www.example.com/api/storefront/recent_views\" -d '{\"product_id\":\"367A8BB9B5\",\"category_id\":\"596e739b021823358aabe9df\",\"search\":\"shirts\"}' -X PATCH \\\n\t-H \"Content-Type: application/json\" \\\n\t-H \"Authorization: Token token=\\\"rQqfT7xEk7SvuUgnvt2uuUZq\\\"\""
     }
   ],
   "resource": "Recent views",
   "description": "Updating recent views with authentication",
   "route": "/api/storefront/recent_views",
-  "explanation": "            Use this endpoint like this to keep a accurate list of recent\n            activity by the authenticated customer. Each of the three resources\n            being tracked (products, categories, searches) are optional.\n",
-  "http_method": "PATCH"
+  "http_method": "PATCH",
+  "explanation": "            Use this endpoint like this to keep a accurate list of recent\n            activity by the authenticated customer. Each of the three resources\n            being tracked (products, categories, searches) are optional.\n"
 }

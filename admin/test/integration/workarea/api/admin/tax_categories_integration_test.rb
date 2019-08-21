@@ -21,6 +21,37 @@ module Workarea
           assert_equal(2, result.length)
           assert_equal(tax_categories.second, Tax::Category.new(result.first))
           assert_equal(tax_categories.first, Tax::Category.new(result.second))
+
+          travel_to 1.week.from_now
+
+          get admin_api.tax_categories_path(
+            updated_at_starts_at: 2.days.ago,
+            updated_at_ends_at: 1.day.ago
+          )
+          result = JSON.parse(response.body)['tax_categories']
+          assert_equal(0, result.length)
+
+          get admin_api.tax_categories_path(
+            created_at_starts_at: 5.days.ago,
+            created_at_ends_at: 4.days.ago
+          )
+          result = JSON.parse(response.body)['tax_categories']
+          assert_equal(0, result.length)
+
+          get admin_api.tax_categories_path(
+            updated_at_starts_at: 8.days.ago,
+            updated_at_ends_at: 6.day.from_now
+          )
+
+          result = JSON.parse(response.body)['tax_categories']
+          assert_equal(2, result.length)
+
+          get admin_api.tax_categories_path(
+            created_at_starts_at: 8.days.ago,
+            created_at_ends_at: 6.days.ago
+          )
+          result = JSON.parse(response.body)['tax_categories']
+          assert_equal(2, result.length)
         end
 
         def test_creates_tax_categories

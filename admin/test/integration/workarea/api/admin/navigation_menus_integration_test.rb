@@ -17,6 +17,38 @@ module Workarea
           get admin_api.navigation_menus_path
           result = JSON.parse(response.body)['navigation_menus']
           assert_equal(3, result.length)
+
+          travel_to 1.week.from_now
+
+          get admin_api.navigation_menus_path(
+            updated_at_starts_at: 5.days.ago,
+            updated_at_ends_at: 4.days.ago
+          )
+          result = JSON.parse(response.body)['navigation_menus']
+
+          assert_equal(0, result.length)
+
+          get admin_api.navigation_menus_path(
+            created_at_starts_at: 5.days.ago,
+            created_at_ends_at: 4.days.ago
+          )
+          result = JSON.parse(response.body)['navigation_menus']
+
+          assert_equal(0, result.length)
+
+          get admin_api.navigation_menus_path(
+            updated_at_starts_at: 8.days.ago,
+            updated_at_ends_at: 6.days.ago
+          )
+          result = JSON.parse(response.body)['navigation_menus']
+          assert_equal(3, result.length)
+
+          get admin_api.navigation_menus_path(
+            created_at_starts_at: 8.days.ago,
+            created_at_ends_at: 6.days.ago
+          )
+          result = JSON.parse(response.body)['navigation_menus']
+          assert_equal(3, result.length)
         end
 
         def test_creates_menus

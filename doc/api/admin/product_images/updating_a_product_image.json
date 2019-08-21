@@ -16,23 +16,21 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "X-Download-Options": "noopen",
-        "X-Permitted-Cross-Domain-Policies": "none",
-        "Referrer-Policy": "strict-origin-when-cross-origin",
-        "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "f781fe9c-e791-41d0-a8c4-1eef44db05a6",
-        "X-Runtime": "0.095264",
-        "Expires": "0"
+        "X-Flash-Messages": "{}",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:05:53 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:05:53 -0000",
+        "X-Request-Id": "eaf80b0f-283a-4b22-8c83-121fbf287d27",
+        "X-Runtime": "0.089463"
       },
       "request_method": "PATCH",
-      "request_path": "/api/admin/products/CD715C55C0/images/5d374eb1d4322a5df916b580",
+      "request_path": "/api/admin/products/A70E0CECAA/images/59b039017ceffe612c119296",
       "request_body": "{\"image\":{\"name\":\"foo\"}}",
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/products/CD715C55C0/images/5d374eb1d4322a5df916b580\" -d '{\"image\":{\"name\":\"foo\"}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/products/A70E0CECAA/images/59b039017ceffe612c119296\" -d '{\"image\":{\"name\":\"foo\"}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Product Images",

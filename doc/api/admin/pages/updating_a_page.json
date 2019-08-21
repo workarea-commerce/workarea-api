@@ -16,23 +16,21 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "X-Download-Options": "noopen",
-        "X-Permitted-Cross-Domain-Policies": "none",
-        "Referrer-Policy": "strict-origin-when-cross-origin",
-        "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "ec686a41-bb2d-4454-aaee-652779e3777a",
-        "X-Runtime": "0.048231",
-        "Expires": "0"
+        "X-Flash-Messages": "{}",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:03:57 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:03:57 -0000",
+        "X-Request-Id": "fb7a44b7-32ec-4a27-9a50-b1cabfd67bd0",
+        "X-Runtime": "0.044613"
       },
       "request_method": "PATCH",
-      "request_path": "/api/admin/pages/5d374ef0d4322a5df916bb75",
-      "request_body": "{\"active\":true,\"created_at\":\"2019-07-23T18:16:16.439Z\",\"display_h1\":true,\"name\":\"Test Page\",\"show_navigation\":false,\"subscribed_user_ids\":[],\"tags\":[],\"template\":\"generic\",\"updated_at\":\"2019-07-23T18:16:16.439Z\"}",
+      "request_path": "/api/admin/pages/59b0388d7ceffe612c118869",
+      "request_body": "{\"active\":true,\"created_at\":\"2017-09-06T18:03:57.953Z\",\"display_h1\":true,\"name\":\"Test Page\",\"show_navigation\":false,\"subscribed_user_ids\":[],\"tags\":[],\"template\":\"generic\",\"updated_at\":\"2017-09-06T18:03:57.953Z\"}",
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/pages/5d374ef0d4322a5df916bb75\" -d '{\"active\":true,\"created_at\":\"2019-07-23T18:16:16.439Z\",\"display_h1\":true,\"name\":\"Test Page\",\"show_navigation\":false,\"subscribed_user_ids\":[],\"tags\":[],\"template\":\"generic\",\"updated_at\":\"2019-07-23T18:16:16.439Z\"}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/pages/59b0388d7ceffe612c118869\" -d '{\"active\":true,\"created_at\":\"2017-09-06T18:03:57.953Z\",\"display_h1\":true,\"name\":\"Test Page\",\"show_navigation\":false,\"subscribed_user_ids\":[],\"tags\":[],\"template\":\"generic\",\"updated_at\":\"2017-09-06T18:03:57.953Z\"}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Pages",

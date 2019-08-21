@@ -35,6 +35,10 @@ module Workarea
               key :enum, %w(asc desc)
               key :default, 'desc'
             end
+            parameter :updated_at_starts_at
+            parameter :updated_at_ends_at
+            parameter :created_at_starts_at
+            parameter :created_at_ends_at
 
             response 200 do
               key :description, 'Content assets'
@@ -97,6 +101,8 @@ module Workarea
         def index
           @assets = Content::Asset
                       .all
+                      .by_updated_at(starts_at: params[:updated_at_starts_at], ends_at: params[:updated_at_ends_at])
+                      .by_created_at(starts_at: params[:created_at_starts_at], ends_at: params[:created_at_ends_at])
                       .order_by(sort_field => sort_direction)
                       .page(params[:page])
 

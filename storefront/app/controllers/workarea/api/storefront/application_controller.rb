@@ -2,7 +2,7 @@ module Workarea
   module Api
     module Storefront
       class ApplicationController < Workarea::ApplicationController
-        include Workarea::Storefront::HttpCaching
+        include HttpCaching
         include Api::Storefront::Authentication
         include Api::Storefront::UserActivity
 

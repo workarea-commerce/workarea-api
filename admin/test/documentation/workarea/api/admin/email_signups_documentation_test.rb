@@ -26,12 +26,24 @@ module Workarea
           end
         end
 
-        def test_and_document_show
-          description 'Showing an email signup'
+        def test_and_document_show_by_id
+          description 'Showing an email signup by ID'
           route admin_api.email_signup_path(':id')
 
           record_request do
             get admin_api.email_signup_path(create_email_signup.id)
+            assert_equal(200, response.status)
+          end
+        end
+
+        def test_and_document_show_by_email
+          description 'Showing an email signup by email'
+          route admin_api.email_signup_path(':email')
+
+          signup = create_email_signup(email: 'test@workarea.com')
+
+          record_request do
+            get admin_api.email_signup_path(URI.escape(signup.email, '+@.'))
             assert_equal(200, response.status)
           end
         end

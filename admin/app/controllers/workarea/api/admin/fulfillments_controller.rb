@@ -36,6 +36,11 @@ module Workarea
               key :default, 'desc'
             end
 
+            parameter :updated_at_starts_at
+            parameter :updated_at_ends_at
+            parameter :created_at_starts_at
+            parameter :created_at_ends_at
+
             response 200 do
               key :description, 'Fulfillments'
               schema do
@@ -54,9 +59,9 @@ module Workarea
         def index
           @fulfillments = Fulfillment
                             .all
+                            .by_updated_at(starts_at: params[:updated_at_starts_at], ends_at: params[:updated_at_ends_at])
                             .order_by(sort_field => sort_direction)
                             .page(params[:page])
-
           respond_with fulfillments: @fulfillments
         end
 

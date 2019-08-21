@@ -9,7 +9,7 @@
     {
       "request_headers": {
         "Content-Type": "application/json",
-        "Authorization": "Token token=\"fwgQEk3cEW6tSdH5bM5X54Ze\""
+        "Authorization": "Token token=\"5R3xBHAzS9mPNdGHUHLjN7ST\""
       },
       "request_query_parameters": {
       },
@@ -17,36 +17,33 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "X-Download-Options": "noopen",
-        "X-Permitted-Cross-Domain-Policies": "none",
-        "Referrer-Policy": "strict-origin-when-cross-origin",
         "Content-Type": "application/json; charset=utf-8",
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Headers": "*",
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
+        "X-Flash-Messages": "{}",
         "Vary": "X-Requested-With, X-Flash-Messages",
-        "ETag": "W/\"c956d88d24464230aa9fec7c73c1b6f1\"",
-        "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "504b6499-b76e-4317-b1f3-5725670bb8bb",
-        "X-Runtime": "0.055720",
-        "Expires": "0",
-        "Content-Length": "2428"
+        "ETag": "W/\"491ded29d2a21ab1ca59c471cb33bdc5\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "f8c45945-2b55-4863-9b7f-b1b8db660913",
+        "X-Runtime": "0.054387",
+        "Content-Length": "2216"
       },
       "request_method": "POST",
-      "request_path": "/api/storefront/carts/B500116A84/add_promo_code",
+      "request_path": "/api/storefront/carts/3AC6CA2B55/add_promo_code",
       "request_body": "{\"promo_code\":\"10OFF\"}",
       "request_content_type": "application/json",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": \"B500116A84\",\n  \"url\": \"http://www.example.com/api/storefront/orders/B500116A84\",\n  \"user_id\": \"5d374f78d4322a5df916c3f7\",\n  \"email\": \"bcrouse@workarea.com\",\n  \"placed_at\": null,\n  \"canceled_at\": null,\n  \"promo_codes\": [\n    \"10OFF\"\n  ],\n  \"requires_shipping\": true,\n  \"items\": [\n    {\n      \"id\": \"5d374f79d4322a5df916c3fe\",\n      \"product_id\": \"VINTEE\",\n      \"sku\": \"VT001\",\n      \"quantity\": 2,\n      \"product_url\": \"http://www.example.com/api/storefront/products/vintage-tee?sku=VT001\",\n      \"options\": {\n      },\n      \"customizations\": {\n      },\n      \"product_image\": {\n        \"urls\": [\n          {\n            \"type\": \"small\",\n            \"url\": \"http://www.example.com/product_images/placeholder/small.jpg?c=1563905598\"\n          },\n          {\n            \"type\": \"medium\",\n            \"url\": \"http://www.example.com/product_images/placeholder/medium.jpg?c=1563905598\"\n          },\n          {\n            \"type\": \"small_thumb\",\n            \"url\": \"http://www.example.com/product_images/placeholder/small_thumb.jpg?c=1563905598\"\n          },\n          {\n            \"type\": \"medium_thumb\",\n            \"url\": \"http://www.example.com/product_images/placeholder/medium_thumb.jpg?c=1563905598\"\n          },\n          {\n            \"type\": \"large_thumb\",\n            \"url\": \"http://www.example.com/product_images/placeholder/large_thumb.jpg?c=1563905598\"\n          },\n          {\n            \"type\": \"detail\",\n            \"url\": \"http://www.example.com/product_images/placeholder/detail.jpg?c=1563905598\"\n          },\n          {\n            \"type\": \"zoom\",\n            \"url\": \"http://www.example.com/product_images/placeholder/zoom.jpg?c=1563905598\"\n          },\n          {\n            \"type\": \"super_zoom\",\n            \"url\": \"http://www.example.com/product_images/placeholder/super_zoom.jpg?c=1563905598\"\n          },\n          {\n            \"type\": \"favicon\",\n            \"url\": \"http://www.example.com/product_images/placeholder/favicon.jpg?c=1563905598\"\n          },\n          {\n            \"type\": \"favicon_ico\",\n            \"url\": \"http://www.example.com/product_images/placeholder/favicon_ico.jpg?c=1563905598\"\n          }\n        ]\n      },\n      \"pricing\": {\n        \"price_adjustments\": [\n          {\n            \"description\": \"Item Subtotal\",\n            \"discount\": false,\n            \"amount\": {\n              \"cents\": 1000.0,\n              \"currency_iso\": \"USD\"\n            }\n          },\n          {\n            \"description\": \"Order Total Discount\",\n            \"discount\": true,\n            \"amount\": {\n              \"cents\": -100.0,\n              \"currency_iso\": \"USD\"\n            }\n          }\n        ],\n        \"total_price\": {\n          \"cents\": 1000.0,\n          \"currency_iso\": \"USD\"\n        },\n        \"on_sale\": false,\n        \"original_unit_price\": {\n          \"cents\": 500.0,\n          \"currency_iso\": \"USD\"\n        },\n        \"original_price\": {\n          \"cents\": 500.0,\n          \"currency_iso\": \"USD\"\n        },\n        \"customized\": false,\n        \"customizations_unit_price\": {\n          \"cents\": 0.0,\n          \"currency_iso\": \"USD\"\n        }\n      }\n    }\n  ],\n  \"pricing\": {\n    \"price_adjustments\": [\n      {\n        \"description\": \"Order Total Discount\",\n        \"amount\": {\n          \"cents\": -100.0,\n          \"currency_iso\": \"USD\"\n        }\n      }\n    ],\n    \"shipping_total\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"tax_total\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"subtotal_price\": {\n      \"cents\": 1000.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"total_price\": {\n      \"cents\": 900.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"paid_amount\": {\n      \"cents\": 900.0,\n      \"currency_iso\": \"USD\"\n    }\n  },\n  \"shipping_service\": null,\n  \"tenders\": [\n\n  ]\n}",
+      "response_body": "{\n  \"id\": \"3AC6CA2B55\",\n  \"url\": \"http://www.example.com/api/storefront/orders/3AC6CA2B55\",\n  \"user_id\": \"59b038c47ceffe612c118d3d\",\n  \"email\": \"bcrouse@workarea.com\",\n  \"placed_at\": null,\n  \"canceled_at\": null,\n  \"promo_codes\": [\n    \"10OFF\"\n  ],\n  \"requires_shipping\": true,\n  \"items\": [\n    {\n      \"id\": \"59b038c57ceffe612c118d44\",\n      \"product_id\": \"VINTEE\",\n      \"sku\": \"VT001\",\n      \"quantity\": 2,\n      \"product_url\": \"http://www.example.com/api/storefront/products/vintage-tee?sku=VT001\",\n      \"options\": {\n      },\n      \"customizations\": {\n      },\n      \"product_image\": {\n        \"urls\": [\n          {\n            \"type\": \"small\",\n            \"url\": \"http://www.example.com/product_images/placeholder/small.jpg?c=1504720924\"\n          },\n          {\n            \"type\": \"medium\",\n            \"url\": \"http://www.example.com/product_images/placeholder/medium.jpg?c=1504720924\"\n          },\n          {\n            \"type\": \"small_thumb\",\n            \"url\": \"http://www.example.com/product_images/placeholder/small_thumb.jpg?c=1504720924\"\n          },\n          {\n            \"type\": \"medium_thumb\",\n            \"url\": \"http://www.example.com/product_images/placeholder/medium_thumb.jpg?c=1504720924\"\n          },\n          {\n            \"type\": \"large_thumb\",\n            \"url\": \"http://www.example.com/product_images/placeholder/large_thumb.jpg?c=1504720924\"\n          },\n          {\n            \"type\": \"detail\",\n            \"url\": \"http://www.example.com/product_images/placeholder/detail.jpg?c=1504720924\"\n          },\n          {\n            \"type\": \"zoom\",\n            \"url\": \"http://www.example.com/product_images/placeholder/zoom.jpg?c=1504720924\"\n          },\n          {\n            \"type\": \"super_zoom\",\n            \"url\": \"http://www.example.com/product_images/placeholder/super_zoom.jpg?c=1504720924\"\n          }\n        ]\n      },\n      \"pricing\": {\n        \"price_adjustments\": [\n          {\n            \"description\": \"Item Subtotal\",\n            \"discount\": false,\n            \"amount\": {\n              \"cents\": 1000.0,\n              \"currency_iso\": \"USD\"\n            }\n          },\n          {\n            \"description\": \"Order Total Discount\",\n            \"discount\": true,\n            \"amount\": {\n              \"cents\": -100.0,\n              \"currency_iso\": \"USD\"\n            }\n          }\n        ],\n        \"total_price\": {\n          \"cents\": 1000.0,\n          \"currency_iso\": \"USD\"\n        },\n        \"on_sale\": false,\n        \"original_unit_price\": {\n          \"cents\": 500.0,\n          \"currency_iso\": \"USD\"\n        },\n        \"original_price\": {\n          \"cents\": 500.0,\n          \"currency_iso\": \"USD\"\n        },\n        \"customized\": false,\n        \"customizations_unit_price\": {\n          \"cents\": 0.0,\n          \"currency_iso\": \"USD\"\n        }\n      }\n    }\n  ],\n  \"pricing\": {\n    \"price_adjustments\": [\n      {\n        \"description\": \"Order Total Discount\",\n        \"amount\": {\n          \"cents\": -100.0,\n          \"currency_iso\": \"USD\"\n        }\n      }\n    ],\n    \"shipping_total\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"tax_total\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"subtotal_price\": {\n      \"cents\": 1000.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"total_price\": {\n      \"cents\": 900.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"paid_amount\": {\n      \"cents\": 900.0,\n      \"currency_iso\": \"USD\"\n    }\n  },\n  \"shipping_service\": null,\n  \"tenders\": [\n\n  ]\n}",
       "response_content_type": "application/json",
-      "curl": "curl \"https://www.example.com/api/storefront/carts/B500116A84/add_promo_code\" -d '{\"promo_code\":\"10OFF\"}' -X POST \\\n\t-H \"Content-Type: application/json\" \\\n\t-H \"Authorization: Token token=\\\"fwgQEk3cEW6tSdH5bM5X54Ze\\\"\""
+      "curl": "curl \"https://www.example.com/api/storefront/carts/3AC6CA2B55/add_promo_code\" -d '{\"promo_code\":\"10OFF\"}' -X POST \\\n\t-H \"Content-Type: application/json\" \\\n\t-H \"Authorization: Token token=\\\"5R3xBHAzS9mPNdGHUHLjN7ST\\\"\""
     }
   ],
   "resource": "Cart",
   "description": "Adding a promo code",
   "route": "/api/storefront/carts/:id/add_promo_code",
-  "explanation": "This endpoint will add promo codes to the cart",
-  "http_method": "POST"
+  "http_method": "POST",
+  "explanation": "This endpoint will add promo codes to the cart"
 }

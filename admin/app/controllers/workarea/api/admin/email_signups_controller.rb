@@ -2,6 +2,8 @@ module Workarea
   module Api
     module Admin
       class EmailSignupsController < Admin::ApplicationController
+        before_action :find_email_signup, only: :show
+
         swagger_path '/email_signups' do
           operation :get do
             key :summary, 'All Email Signups'
@@ -34,6 +36,11 @@ module Workarea
               key :default, 'desc'
             end
 
+            parameter :updated_at_starts_at
+            parameter :updated_at_ends_at
+            parameter :created_at_starts_at
+            parameter :created_at_ends_at
+
             response 200 do
               key :description, 'Email Signups'
               schema do
@@ -52,22 +59,24 @@ module Workarea
         def index
           @email_signups = Email::Signup
                             .all
+                            .by_updated_at(starts_at: params[:updated_at_starts_at], ends_at: params[:updated_at_ends_at])
+                            .by_created_at(starts_at: params[:created_at_starts_at], ends_at: params[:created_at_ends_at])
                             .order_by(sort_field => sort_direction)
                             .page(params[:page])
 
           respond_with email_signups: @email_signups
         end
 
-        swagger_path '/email_signups/{id}' do
+        swagger_path '/email_signups/{id_or_email}' do
           operation :get do
-            key :summary, 'Find Email Signup by ID'
+            key :summary, 'Find Email Signup by ID or Email Address'
             key :description, 'Returns a single email signup'
             key :operationId, 'showEmailSignup'
 
             parameter do
               key :name, :id
               key :in, :path
-              key :description, 'ID of email signup to fetch'
+              key :description, 'ID or URI escaped email of email signup to fetch'
               key :required, true
               key :type, :string
             end
@@ -99,8 +108,15 @@ module Workarea
         end
 
         def show
-          @email_signup = Email::Signup.find(params[:id])
           respond_with email_signup: @email_signup
+        end
+
+        private
+
+        def find_email_signup
+          @email_signup = Email::Signup.find(params[:id])
+        rescue Mongoid::Errors::DocumentNotFound
+          @email_signup = Email::Signup.find_by(email: URI.unescape(params[:id]))
         end
       end
     end

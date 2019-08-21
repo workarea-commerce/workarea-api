@@ -29,16 +29,14 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "X-Download-Options": "noopen",
-        "X-Permitted-Cross-Domain-Policies": "none",
-        "Referrer-Policy": "strict-origin-when-cross-origin",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"fe3c7e46ed8733114df24ed33ff6e92e\"",
-        "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "ecb87cf1-7652-4b6f-a215-42da32bf975f",
-        "X-Runtime": "0.006551",
-        "Expires": "0",
-        "Content-Length": "1135"
+        "X-Flash-Messages": "{}",
+        "ETag": "W/\"6117b2a8378ad9e9e757487d8bdfac86\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:02:40 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:02:40 -0000",
+        "X-Request-Id": "0a9159a7-f0ed-49b2-970c-284f2bde219d",
+        "X-Runtime": "0.009911",
+        "Content-Length": "999"
       },
       "request_method": "GET",
       "request_path": "/api/admin/discounts?page=1&sort_by=created_at&sort_direction=desc",
@@ -46,7 +44,7 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"discounts\": [\n    {\n      \"_id\": \"5d374fbcd4322a5df916c712\",\n      \"active\": true,\n      \"allow_sale_items\": true,\n      \"amount\": 50.0,\n      \"amount_type\": \"percent\",\n      \"auto_deactivate\": true,\n      \"auto_deactivated_at\": null,\n      \"compatible_discount_ids\": [\n\n      ],\n      \"created_at\": \"2019-07-23T18:19:40.687Z\",\n      \"excluded_category_ids\": [\n\n      ],\n      \"excluded_product_ids\": [\n\n      ],\n      \"generated_codes_id\": null,\n      \"item_quantity\": 0,\n      \"name\": \"Test Discount\",\n      \"order_total\": null,\n      \"order_total_operator\": \"greater_than\",\n      \"product_ids\": [\n        \"PRODUCT1\"\n      ],\n      \"promo_codes\": [\n\n      ],\n      \"single_use\": false,\n      \"subscribed_user_ids\": [\n\n      ],\n      \"tags\": [\n\n      ],\n      \"updated_at\": \"2019-07-23T18:19:40.687Z\",\n      \"user_tags\": [\n\n      ]\n    },\n    {\n      \"_id\": \"5d374fbcd4322a5df916c711\",\n      \"active\": true,\n      \"allow_sale_items\": true,\n      \"amount\": 50.0,\n      \"amount_type\": \"percent\",\n      \"auto_deactivate\": true,\n      \"auto_deactivated_at\": null,\n      \"compatible_discount_ids\": [\n\n      ],\n      \"created_at\": \"2019-07-23T18:19:40.656Z\",\n      \"excluded_category_ids\": [\n\n      ],\n      \"excluded_product_ids\": [\n\n      ],\n      \"generated_codes_id\": null,\n      \"item_quantity\": 0,\n      \"name\": \"Test Discount\",\n      \"order_total\": null,\n      \"order_total_operator\": \"greater_than\",\n      \"product_ids\": [\n        \"PRODUCT1\"\n      ],\n      \"promo_codes\": [\n\n      ],\n      \"single_use\": false,\n      \"subscribed_user_ids\": [\n\n      ],\n      \"tags\": [\n\n      ],\n      \"updated_at\": \"2019-07-23T18:19:40.656Z\",\n      \"user_tags\": [\n\n      ]\n    }\n  ]\n}",
+      "response_body": "{\n  \"discounts\": [\n    {\n      \"_id\": \"59b038407ceffe612c1180a3\",\n      \"active\": true,\n      \"allow_sale_items\": true,\n      \"amount\": 50.0,\n      \"amount_type\": \"percent\",\n      \"auto_deactivate\": true,\n      \"auto_deactivated_at\": null,\n      \"compatible_discount_ids\": [\n\n      ],\n      \"created_at\": \"2017-09-06T18:02:40.548Z\",\n      \"generated_codes_id\": null,\n      \"item_quantity\": 0,\n      \"name\": \"Test Discount\",\n      \"order_total\": null,\n      \"order_total_operator\": \"greater_than\",\n      \"product_ids\": [\n        \"PRODUCT1\"\n      ],\n      \"promo_codes\": [\n\n      ],\n      \"single_use\": false,\n      \"subscribed_user_ids\": [\n\n      ],\n      \"tags\": [\n\n      ],\n      \"updated_at\": \"2017-09-06T18:02:40.548Z\"\n    },\n    {\n      \"_id\": \"59b038407ceffe612c1180a2\",\n      \"active\": true,\n      \"allow_sale_items\": true,\n      \"amount\": 50.0,\n      \"amount_type\": \"percent\",\n      \"auto_deactivate\": true,\n      \"auto_deactivated_at\": null,\n      \"compatible_discount_ids\": [\n\n      ],\n      \"created_at\": \"2017-09-06T18:02:40.520Z\",\n      \"generated_codes_id\": null,\n      \"item_quantity\": 0,\n      \"name\": \"Test Discount\",\n      \"order_total\": null,\n      \"order_total_operator\": \"greater_than\",\n      \"product_ids\": [\n        \"PRODUCT1\"\n      ],\n      \"promo_codes\": [\n\n      ],\n      \"single_use\": false,\n      \"subscribed_user_ids\": [\n\n      ],\n      \"tags\": [\n\n      ],\n      \"updated_at\": \"2017-09-06T18:02:40.520Z\"\n    }\n  ]\n}",
       "response_content_type": "application/json",
       "curl": "curl -g \"https://www.example.com/api/admin/discounts?page=1&sort_by=created_at&sort_direction=desc\" -X GET "
     }

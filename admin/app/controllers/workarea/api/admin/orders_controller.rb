@@ -47,6 +47,18 @@ module Workarea
               key :type, :string
               key :format, 'date-time'
             end
+            parameter do
+              key :name, :email
+              key :in, :query
+              key :description, 'Email address associated to the orders'
+              key :required, false
+              key :type, :integer
+            end
+
+            parameter :updated_at_starts_at
+            parameter :updated_at_ends_at
+            parameter :created_at_starts_at
+            parameter :created_at_ends_at
 
             response 200 do
               key :description, 'Orders'
@@ -66,6 +78,10 @@ module Workarea
         def index
           criteria = Order.all
 
+          if params[:email].present?
+            criteria = criteria.where(email: params[:email])
+          end
+
           if params[:placed_at_greater_than].present?
             # TODO Workarea v4, rename to placed_at_starts_at
             criteria = criteria.where(:placed_at.gte => params[:placed_at_greater_than])
@@ -73,11 +89,13 @@ module Workarea
 
           if params[:placed_at_less_than].present?
             # TODO Workarea v4, rename to placed_at_ends_at
-            criteria = criteria.where(:placed_at.lt => params[:placed_at_less_than])
+            criteria = criteria.where(:placed_at.lte => params[:placed_at_less_than])
           end
 
           @orders =
             criteria
+            .by_updated_at(starts_at: params[:updated_at_starts_at], ends_at: params[:updated_at_ends_at])
+            .by_created_at(starts_at: params[:created_at_starts_at], ends_at: params[:created_at_ends_at])
             .order_by(sort_field => sort_direction)
             .page(params[:page].presence || 1)
 

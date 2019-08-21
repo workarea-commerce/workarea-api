@@ -19,19 +19,16 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "X-Download-Options": "noopen",
-        "X-Permitted-Cross-Domain-Policies": "none",
-        "Referrer-Policy": "strict-origin-when-cross-origin",
         "Content-Type": "application/json",
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Headers": "*",
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
+        "X-Flash-Messages": "{}",
         "Vary": "X-Requested-With, X-Flash-Messages",
-        "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "363df70a-c80a-4d65-8386-48095681549b",
-        "X-Runtime": "0.006371",
-        "Expires": "0",
+        "Cache-Control": "no-cache",
+        "X-Request-Id": "4dd11c1c-a4ab-4bf7-ab76-cf6e4de89c6a",
+        "X-Runtime": "0.004080",
         "Content-Length": "0"
       },
       "request_method": "PATCH",
@@ -48,6 +45,6 @@
   "resource": "Recent views",
   "description": "Updating recent views with a session_id",
   "route": "/api/storefront/recent_views",
-  "explanation": "            You can also use this endpoint to maintain a recent activity for an\n            anonymous browser. Use a consistent session_id to maintain\n            continuity.\n",
-  "http_method": "PATCH"
+  "http_method": "PATCH",
+  "explanation": "            You can also use this endpoint to maintain a recent activity for an\n            anonymous browser. Use a consistent session_id to maintain\n            continuity.\n"
 }

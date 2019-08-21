@@ -9,7 +9,7 @@
     {
       "request_headers": {
         "Content-Type": "application/json",
-        "Authorization": "Token token=\"6T3GUajugKf4So8mpo2XDLve\""
+        "Authorization": "Token token=\"F2aikyf2W9gLA95zNttB1BeJ\""
       },
       "request_query_parameters": {
       },
@@ -17,31 +17,28 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "X-Download-Options": "noopen",
-        "X-Permitted-Cross-Domain-Policies": "none",
-        "Referrer-Policy": "strict-origin-when-cross-origin",
         "Content-Type": "application/json; charset=utf-8",
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Headers": "*",
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
+        "X-Flash-Messages": "{}",
         "Vary": "X-Requested-With, X-Flash-Messages",
-        "ETag": "W/\"43804b67be716cdffbd16e93a3a2767b\"",
-        "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "1f24f398-856b-4971-8be2-7ca511b193a0",
-        "X-Runtime": "0.069459",
-        "Expires": "0",
+        "ETag": "W/\"30b773b78448bb455b9d14864d1b82b4\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "493713f6-ab07-4b2f-ad88-bff33222f3fe",
+        "X-Runtime": "0.030946",
         "Content-Length": "377"
       },
       "request_method": "PATCH",
-      "request_path": "/api/storefront/saved_addresses/5d374e95d4322a5df916b423",
+      "request_path": "/api/storefront/saved_addresses/59b038847ceffe612c1187f9",
       "request_body": "{\"street\":\"4059 Mt Lee Dr.\",\"city\":\"Hollywood\",\"region\":\"CA\",\"postal_code\":\"90068\",\"phone_number\":\"7545552390\"}",
       "request_content_type": "application/json",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"user_id\": \"5d374e95d4322a5df916b420\",\n  \"url\": \"http://www.example.com/api/storefront/saved_addresses/5d374e95d4322a5df916b423\",\n  \"id\": \"5d374e95d4322a5df916b423\",\n  \"first_name\": \"Susan\",\n  \"last_name\": \"Baker\",\n  \"company\": null,\n  \"street\": \"4059 Mt Lee Dr.\",\n  \"street_2\": null,\n  \"city\": \"Hollywood\",\n  \"country\": \"US\",\n  \"region\": \"CA\",\n  \"postal_code\": \"90068\",\n  \"phone_number\": \"7545552390\",\n  \"phone_extension\": null\n}",
+      "response_body": "{\n  \"user_id\": \"59b038847ceffe612c1187f6\",\n  \"url\": \"http://www.example.com/api/storefront/saved_addresses/59b038847ceffe612c1187f9\",\n  \"id\": \"59b038847ceffe612c1187f9\",\n  \"first_name\": \"Susan\",\n  \"last_name\": \"Baker\",\n  \"company\": null,\n  \"street\": \"4059 Mt Lee Dr.\",\n  \"street_2\": null,\n  \"city\": \"Hollywood\",\n  \"country\": \"US\",\n  \"region\": \"CA\",\n  \"postal_code\": \"90068\",\n  \"phone_number\": \"7545552390\",\n  \"phone_extension\": null\n}",
       "response_content_type": "application/json",
-      "curl": "curl \"https://www.example.com/api/storefront/saved_addresses/5d374e95d4322a5df916b423\" -d '{\"street\":\"4059 Mt Lee Dr.\",\"city\":\"Hollywood\",\"region\":\"CA\",\"postal_code\":\"90068\",\"phone_number\":\"7545552390\"}' -X PATCH \\\n\t-H \"Content-Type: application/json\" \\\n\t-H \"Authorization: Token token=\\\"6T3GUajugKf4So8mpo2XDLve\\\"\""
+      "curl": "curl \"https://www.example.com/api/storefront/saved_addresses/59b038847ceffe612c1187f9\" -d '{\"street\":\"4059 Mt Lee Dr.\",\"city\":\"Hollywood\",\"region\":\"CA\",\"postal_code\":\"90068\",\"phone_number\":\"7545552390\"}' -X PATCH \\\n\t-H \"Content-Type: application/json\" \\\n\t-H \"Authorization: Token token=\\\"F2aikyf2W9gLA95zNttB1BeJ\\\"\""
     }
   ],
   "resource": "Saved Addresses",

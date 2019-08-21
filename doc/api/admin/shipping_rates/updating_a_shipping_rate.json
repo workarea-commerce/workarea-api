@@ -16,23 +16,21 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "X-Download-Options": "noopen",
-        "X-Permitted-Cross-Domain-Policies": "none",
-        "Referrer-Policy": "strict-origin-when-cross-origin",
-        "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "78760da7-a8bf-4bff-a100-982ac8d517f0",
-        "X-Runtime": "0.009457",
-        "Expires": "0"
+        "X-Flash-Messages": "{}",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:02:36 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:02:36 -0000",
+        "X-Request-Id": "d888e907-1e7e-4542-b8fb-314cf5b796d7",
+        "X-Runtime": "0.011059"
       },
       "request_method": "PATCH",
-      "request_path": "/api/admin/shipping_services/5d374f89d4322a5df916c4fd/rates/5d374f89d4322a5df916c4ff",
+      "request_path": "/api/admin/shipping_services/59b0383c7ceffe612c118062/rates/59b0383c7ceffe612c118064",
       "request_body": "{\"rate\":{\"price\":34}}",
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/shipping_services/5d374f89d4322a5df916c4fd/rates/5d374f89d4322a5df916c4ff\" -d '{\"rate\":{\"price\":34}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/shipping_services/59b0383c7ceffe612c118062/rates/59b0383c7ceffe612c118064\" -d '{\"rate\":{\"price\":34}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Shipping Rates",

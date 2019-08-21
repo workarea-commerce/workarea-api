@@ -31,6 +31,38 @@ module Workarea
           assert_equal(2, result.length)
           assert_equal(transactions.second, Payment::Transaction.new(result.first))
           assert_equal(transactions.first, Payment::Transaction.new(result.second))
+
+          travel_to 1.week.from_now
+
+          get admin_api.payment_transactions_path(
+            updated_at_starts_at: 5.days.ago,
+            updated_at_ends_at: 4.days.ago
+          )
+          result = JSON.parse(response.body)['transactions']
+
+          assert_equal(0, result.length)
+
+          get admin_api.payment_transactions_path(
+            created_at_starts_at: 5.days.ago,
+            created_at_ends_at: 4.days.ago
+          )
+          result = JSON.parse(response.body)['transactions']
+
+          assert_equal(0, result.length)
+
+          get admin_api.payment_transactions_path(
+            updated_at_starts_at: 8.days.ago,
+            updated_at_ends_at: 6.days.ago
+          )
+          result = JSON.parse(response.body)['transactions']
+          assert_equal(2, result.length)
+
+          get admin_api.payment_transactions_path(
+            created_at_starts_at: 8.days.ago,
+            created_at_ends_at: 6.days.ago
+          )
+          result = JSON.parse(response.body)['transactions']
+          assert_equal(2, result.length)
         end
 
         def test_shows_transactions

@@ -36,6 +36,11 @@ module Workarea
               key :default, 'desc'
             end
 
+            parameter :updated_at_starts_at
+            parameter :updated_at_ends_at
+            parameter :created_at_starts_at
+            parameter :created_at_ends_at
+
             response 200 do
               key :description, 'User'
               schema do
@@ -94,12 +99,19 @@ module Workarea
           end
         end
 
-
         def index
-          @users = User
-                      .all
-                      .order_by(sort_field => sort_direction)
-                      .page(params[:page])
+          criteria = User.all
+
+          if params[:email].present?
+            criteria = criteria.where(email: params[:email])
+          end
+
+          @users =
+            criteria
+            .by_updated_at(starts_at: params[:updated_at_starts_at], ends_at: params[:updated_at_ends_at])
+            .by_created_at(starts_at: params[:created_at_starts_at], ends_at: params[:created_at_ends_at])
+            .order_by(sort_field => sort_direction)
+            .page(params[:page].presence || 1)
 
           respond_with users: @users.to_a.map { |u| api_attributes_for(u) }
         end
@@ -113,17 +125,17 @@ module Workarea
           )
         end
 
-        swagger_path '/users/{id}' do
+        swagger_path '/users/{id_or_email}' do
           operation :get do
-            key :summary, 'Show User by ID'
-            key :description, 'Returns a user by ID'
+            key :summary, 'Show User by ID or Email'
+            key :description, 'Returns a user by ID or email address'
             key :operationId, 'showUser'
             key :produces, ['application/json']
 
             parameter do
-              key :name, :id
+              key :name, :id_or_email
               key :in, :path
-              key :description, 'user ID'
+              key :description, 'user ID or URL escaped email address'
               key :required, true
               key :type, :string
             end
@@ -145,9 +157,9 @@ module Workarea
             key :operationId, 'updateUser'
 
             parameter do
-              key :name, :id
+              key :name, :id_or_email
               key :in, :path
-              key :description, 'ID of user to update'
+              key :description, 'ID or email address of user to update'
               key :required, true
               key :type, :string
             end
@@ -203,9 +215,9 @@ module Workarea
             key :operationId, 'removeUser'
 
             parameter do
-              key :name, :id
+              key :name, :id_or_email
               key :in, :path
-              key :description, 'ID of user to remove'
+              key :description, 'ID or email address of user to remove'
               key :required, true
               key :type, :string
             end
@@ -285,6 +297,8 @@ module Workarea
 
         def find_user
           @user = User.find(params[:id])
+        rescue Mongoid::Errors::DocumentNotFound
+          @user = User.find_by(email:  URI.unescape(params[:id]))
         end
 
         def api_attributes_for(user)

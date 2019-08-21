@@ -16,23 +16,21 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "X-Download-Options": "noopen",
-        "X-Permitted-Cross-Domain-Policies": "none",
-        "Referrer-Policy": "strict-origin-when-cross-origin",
-        "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "3c8738f7-e027-4195-86fa-48c22d077bc1",
-        "X-Runtime": "0.008427",
-        "Expires": "0"
+        "X-Flash-Messages": "{}",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:02:17 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:02:17 -0000",
+        "X-Request-Id": "72478223-1b32-42b5-959a-fb3d09c62e4c",
+        "X-Runtime": "0.005445"
       },
       "request_method": "DELETE",
-      "request_path": "/api/admin/shipping_services/5d374f85d4322a5df916c4c0",
-      "request_body": null,
+      "request_path": "/api/admin/shipping_services/59b038297ceffe612c117e45",
+      "request_body": "null",
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/shipping_services/5d374f85d4322a5df916c4c0\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/shipping_services/59b038297ceffe612c117e45\" -d 'null' -X DELETE \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Shipping Services",

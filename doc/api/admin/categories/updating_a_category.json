@@ -16,23 +16,21 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "X-Download-Options": "noopen",
-        "X-Permitted-Cross-Domain-Policies": "none",
-        "Referrer-Policy": "strict-origin-when-cross-origin",
-        "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "548aac38-0e09-4987-9513-93dab334aa22",
-        "X-Runtime": "0.074080",
-        "Expires": "0"
+        "X-Flash-Messages": "{}",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:05:18 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:05:18 -0000",
+        "X-Request-Id": "ca3f6f51-3cd3-4556-bcff-61e3041d35ec",
+        "X-Runtime": "0.071815"
       },
       "request_method": "PATCH",
-      "request_path": "/api/admin/categories/5d374e4ad4322a5df916b000",
-      "request_body": "{\"active\":true,\"client_id\":null,\"created_at\":\"2019-07-23T18:13:30.201Z\",\"default_sort\":\"top_sellers\",\"name\":\"Test Category\",\"product_ids\":[],\"product_rules\":[{\"_id\":\"5d374e4ad4322a5df916b005\",\"created_at\":null,\"name\":\"search\",\"operator\":\"equals\",\"updated_at\":null,\"value\":\"*\"}],\"range_facets\":{},\"show_navigation\":true,\"subscribed_user_ids\":[],\"tags\":[],\"terms_facets\":[],\"updated_at\":\"2019-07-23T18:13:30.201Z\"}",
+      "request_path": "/api/admin/categories/59b038de7ceffe612c118f96",
+      "request_body": "{\"active\":true,\"client_id\":null,\"created_at\":\"2017-09-06T18:05:18.676Z\",\"default_sort\":\"top_sellers\",\"name\":\"Test Category\",\"product_ids\":[],\"product_rules\":[{\"_id\":\"59b038de7ceffe612c118f9b\",\"created_at\":null,\"name\":\"search\",\"operator\":\"equals\",\"updated_at\":null,\"value\":\"*\"}],\"range_facets\":{},\"show_navigation\":true,\"subscribed_user_ids\":[],\"tags\":[],\"terms_facets\":[],\"updated_at\":\"2017-09-06T18:05:18.676Z\"}",
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/categories/5d374e4ad4322a5df916b000\" -d '{\"active\":true,\"client_id\":null,\"created_at\":\"2019-07-23T18:13:30.201Z\",\"default_sort\":\"top_sellers\",\"name\":\"Test Category\",\"product_ids\":[],\"product_rules\":[{\"_id\":\"5d374e4ad4322a5df916b005\",\"created_at\":null,\"name\":\"search\",\"operator\":\"equals\",\"updated_at\":null,\"value\":\"*\"}],\"range_facets\":{},\"show_navigation\":true,\"subscribed_user_ids\":[],\"tags\":[],\"terms_facets\":[],\"updated_at\":\"2019-07-23T18:13:30.201Z\"}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/categories/59b038de7ceffe612c118f96\" -d '{\"active\":true,\"client_id\":null,\"created_at\":\"2017-09-06T18:05:18.676Z\",\"default_sort\":\"top_sellers\",\"name\":\"Test Category\",\"product_ids\":[],\"product_rules\":[{\"_id\":\"59b038de7ceffe612c118f9b\",\"created_at\":null,\"name\":\"search\",\"operator\":\"equals\",\"updated_at\":null,\"value\":\"*\"}],\"range_facets\":{},\"show_navigation\":true,\"subscribed_user_ids\":[],\"tags\":[],\"terms_facets\":[],\"updated_at\":\"2017-09-06T18:05:18.676Z\"}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Categories",

@@ -16,20 +16,17 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "X-Download-Options": "noopen",
-        "X-Permitted-Cross-Domain-Policies": "none",
-        "Referrer-Policy": "strict-origin-when-cross-origin",
         "Content-Type": "application/json; charset=utf-8",
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Headers": "*",
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
+        "X-Flash-Messages": "{}",
         "Vary": "X-Requested-With, X-Flash-Messages",
-        "ETag": "W/\"75616e2c04ecaed590312fbcd3baafd8\"",
-        "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "f2614d31-e199-4caf-a40f-f81173bf5f85",
-        "X-Runtime": "0.008491",
-        "Expires": "0",
+        "ETag": "W/\"21e066c0dd36c45fa8cd3b1708812c35\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "e6ad6c62-a2db-42f8-a826-884307a54407",
+        "X-Runtime": "0.016251",
         "Content-Length": "61"
       },
       "request_method": "POST",
@@ -38,7 +35,7 @@
       "request_content_type": "application/json",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": \"5d374e97d4322a5df916b435\",\n  \"email\": \"email@example.com\"\n}",
+      "response_body": "{\n  \"id\": \"59b0382b7ceffe612c117e6d\",\n  \"email\": \"email@example.com\"\n}",
       "response_content_type": "application/json",
       "curl": "curl \"https://www.example.com/api/storefront/email_signups\" -d '{\"email\":\"email@example.com\"}' -X POST \\\n\t-H \"Content-Type: application/json\""
     }
@@ -46,6 +43,6 @@
   "resource": "Email Signups",
   "description": "Creating an email signup",
   "route": "/api/storefront/email_signups",
-  "explanation": "            Use this endpoint to create an email signup. This will usually be\n            forwarded to an Email Service Provider, but Workarea will keep a\n            record of it just in case.\n",
-  "http_method": "POST"
+  "http_method": "POST",
+  "explanation": "            Use this endpoint to create an email signup. This will usually be\n            forwarded to an Email Service Provider, but Workarea will keep a\n            record of it just in case.\n"
 }

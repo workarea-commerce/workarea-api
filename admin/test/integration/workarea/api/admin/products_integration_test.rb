@@ -24,6 +24,41 @@ module Workarea
           assert_equal(products.first, Catalog::Product.new(result.second))
         end
 
+        def test_lists_filtered_products
+          products = [create_product, create_product]
+
+          travel_to 1.week.from_now
+
+          get admin_api.products_path(
+            updated_at_starts_at: 2.days.ago,
+            updated_at_ends_at: 1.day.ago
+          )
+          result = JSON.parse(response.body)['products']
+          assert_equal(0, result.length)
+
+          get admin_api.products_path(
+            created_at_starts_at: 5.days.ago,
+            created_at_ends_at: 4.days.ago
+          )
+          result = JSON.parse(response.body)['products']
+          assert_equal(0, result.length)
+
+          get admin_api.products_path(
+            updated_at_starts_at: 8.days.ago,
+            updated_at_ends_at: 6.day.from_now
+          )
+
+          result = JSON.parse(response.body)['products']
+          assert_equal(3, result.length)
+
+          get admin_api.products_path(
+            created_at_starts_at: 8.days.ago,
+            created_at_ends_at: 6.days.ago
+          )
+          result = JSON.parse(response.body)['products']
+          assert_equal(3, result.length)
+        end
+
         def test_creates_products
           assert_difference 'Catalog::Product.count', 1 do
             post admin_api.products_path, params: { product: @sample_attributes }

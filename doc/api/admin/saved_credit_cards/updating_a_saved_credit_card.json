@@ -16,23 +16,21 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "X-Download-Options": "noopen",
-        "X-Permitted-Cross-Domain-Policies": "none",
-        "Referrer-Policy": "strict-origin-when-cross-origin",
-        "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "5056b8ad-67b4-4340-a469-a384d9f0532f",
-        "X-Runtime": "0.009615",
-        "Expires": "0"
+        "X-Flash-Messages": "{}",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:02:14 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:02:14 -0000",
+        "X-Request-Id": "41f5ba59-6d88-4ee9-b449-2d84d14cddac",
+        "X-Runtime": "0.010078"
       },
       "request_method": "PATCH",
-      "request_path": "/api/admin/payment_profiles/5d374f05d4322a5df916bda3/saved_credit_cards/5d374f05d4322a5df916bda7",
+      "request_path": "/api/admin/payment_profiles/59b038267ceffe612c117e02/saved_credit_cards/59b038267ceffe612c117e03",
       "request_body": "{\"saved_credit_card\":{\"first_name\":\"Ben\"}}",
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/payment_profiles/5d374f05d4322a5df916bda3/saved_credit_cards/5d374f05d4322a5df916bda7\" -d '{\"saved_credit_card\":{\"first_name\":\"Ben\"}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/payment_profiles/59b038267ceffe612c117e02/saved_credit_cards/59b038267ceffe612c117e03\" -d '{\"saved_credit_card\":{\"first_name\":\"Ben\"}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Saved Credit Cards",

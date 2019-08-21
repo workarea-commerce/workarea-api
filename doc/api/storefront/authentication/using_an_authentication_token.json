@@ -8,7 +8,7 @@
   "requests": [
     {
       "request_headers": {
-        "Authorization": "Token token=\"ZvwLFEa8fSXHTGYPdkDe5KZq\""
+        "Authorization": "Token token=\"Y6YLjdH9EeRq8VeWvhfMEPBN\""
       },
       "request_query_parameters": {
       },
@@ -16,20 +16,17 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "X-Download-Options": "noopen",
-        "X-Permitted-Cross-Domain-Policies": "none",
-        "Referrer-Policy": "strict-origin-when-cross-origin",
         "Content-Type": "application/json; charset=utf-8",
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Headers": "*",
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
+        "X-Flash-Messages": "{}",
         "Vary": "X-Requested-With, X-Flash-Messages",
-        "ETag": "W/\"b75c793d2b2f9ff0ff93ca9c498409d8\"",
-        "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "bd1b8c26-3514-42e9-b4d4-167b7f24abce",
-        "X-Runtime": "0.005708",
-        "Expires": "0",
+        "ETag": "W/\"4d02c76ce69f95370e16a798e79dd1d4\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "54bf003b-53ae-4beb-87dc-551726c82027",
+        "X-Runtime": "0.013633",
         "Content-Length": "203"
       },
       "request_method": "GET",
@@ -38,14 +35,14 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": \"5d374f87d4322a5df916c4e5\",\n  \"email\": \"user321@workarea.com\",\n  \"public_info\": \"BC\",\n  \"first_name\": \"Ben\",\n  \"last_name\": \"Crouse\",\n  \"updated_at\": \"2019-07-23T18:18:47.482Z\",\n  \"created_at\": \"2019-07-23T18:18:47.482Z\"\n}",
+      "response_body": "{\n  \"id\": \"59b038f47ceffe612c11919c\",\n  \"email\": \"user322@workarea.com\",\n  \"public_info\": \"BC\",\n  \"first_name\": \"Ben\",\n  \"last_name\": \"Crouse\",\n  \"updated_at\": \"2017-09-06T18:05:40.060Z\",\n  \"created_at\": \"2017-09-06T18:05:40.060Z\"\n}",
       "response_content_type": "application/json",
-      "curl": "curl -g \"https://www.example.com/api/storefront/account\" -X GET \\\n\t-H \"Authorization: Token token=\\\"ZvwLFEa8fSXHTGYPdkDe5KZq\\\"\""
+      "curl": "curl -g \"https://www.example.com/api/storefront/account\" -X GET \\\n\t-H \"Authorization: Token token=\\\"Y6YLjdH9EeRq8VeWvhfMEPBN\\\"\""
     }
   ],
   "resource": "Authentication",
   "description": "Using an authentication token",
   "route": "/api/storefront/account",
-  "explanation": "            After obtaining an authentication token you can use it to request\n            authenticated endpoints by including it in the Authorization header\n            on the request, as demonstrated in this example.\n",
-  "http_method": "GET"
+  "http_method": "GET",
+  "explanation": "            After obtaining an authentication token you can use it to request\n            authenticated endpoints by including it in the Authorization header\n            on the request, as demonstrated in this example.\n"
 }

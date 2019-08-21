@@ -14,26 +14,25 @@
       },
       "response_headers": {
         "Content-Type": "text/html; charset=utf-8",
-        "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "65a159fe-e070-49bb-95a6-5e3c6c7f100a",
-        "X-Runtime": "0.002292",
-        "Expires": "0",
+        "Cache-Control": "no-cache",
+        "X-Request-Id": "552632da-7f4c-48fe-8d70-13a12aa808ae",
+        "X-Runtime": "0.007696",
         "Content-Length": "0"
       },
       "request_method": "POST",
       "request_path": "/api/storefront/analytics/search",
-      "request_body": "{\"q\":\"foo\",\"total_results\":5}",
+      "request_body": "{\"q\":\"foo\",\"total_results\":5,\"filters\":{\"color\":\"Red\"}}",
       "request_content_type": "application/json",
       "response_status": 200,
       "response_status_text": "OK",
       "response_body": null,
       "response_content_type": "text/html",
-      "curl": "curl \"https://www.example.com/api/storefront/analytics/search\" -d '{\"q\":\"foo\",\"total_results\":5}' -X POST \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/storefront/analytics/search\" -d '{\"q\":\"foo\",\"total_results\":5,\"filters\":{\"color\":\"Red\"}}' -X POST \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Analytics",
   "description": "Saving a search",
   "route": "/api/storefront/analytics/search",
-  "explanation": "            Saving a search will be reflected in admin reports. This is intended\n            to be called once per search performed by a customer.\n",
-  "http_method": "POST"
+  "http_method": "POST",
+  "explanation": "            Saving a search will be reflected in admin reports. This is intended\n            to be called once per search performed by a customer.\n"
 }

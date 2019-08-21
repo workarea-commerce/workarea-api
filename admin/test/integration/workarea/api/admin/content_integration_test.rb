@@ -20,6 +20,38 @@ module Workarea
           assert_equal(3, result.length)
           assert_equal(content.second, Content.new(result.first))
           assert_equal(content.first, Content.new(result.second))
+
+          travel_to 1.week.from_now
+
+          get admin_api.content_index_path(
+            updated_at_starts_at: 5.days.ago,
+            updated_at_ends_at: 4.days.ago
+          )
+          result = JSON.parse(response.body)['content']
+
+          assert_equal(0, result.length)
+
+          get admin_api.content_index_path(
+            created_at_starts_at: 5.days.ago,
+            created_at_ends_at: 4.days.ago
+          )
+          result = JSON.parse(response.body)['content']
+
+          assert_equal(0, result.length)
+
+          get admin_api.content_index_path(
+            updated_at_starts_at: 8.days.ago,
+            updated_at_ends_at: 6.days.ago
+          )
+          result = JSON.parse(response.body)['content']
+          assert_equal(3, result.length)
+
+          get admin_api.content_index_path(
+            created_at_starts_at: 8.days.ago,
+            created_at_ends_at: 6.days.ago
+          )
+          result = JSON.parse(response.body)['content']
+          assert_equal(3, result.length)
         end
 
         def test_creates_content

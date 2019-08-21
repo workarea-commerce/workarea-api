@@ -18,4 +18,5 @@ gemspec
 gem 'workarea-api-admin', path: 'admin'
 gem 'workarea-api-storefront', path: 'storefront'
 
-gem 'workarea', '>= 3.4.0'
+#gem 'workarea', '>= 3.4.0'
+gem 'workarea', github: 'workarea-commerce/workarea'

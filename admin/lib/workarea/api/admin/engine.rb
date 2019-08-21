@@ -8,6 +8,10 @@ module Workarea
         config.after_initialize do
           Workarea::Api::Admin::Swagger.generate!
         end
+
+        config.to_prepare do
+          ApplicationDocument.include(Workarea::Api::Admin::DateFiltering)
+        end
       end
     end
   end

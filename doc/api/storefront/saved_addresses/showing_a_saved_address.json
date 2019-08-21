@@ -8,7 +8,7 @@
   "requests": [
     {
       "request_headers": {
-        "Authorization": "Token token=\"oLTmnBufEWBtTM5u3TCE22PG\""
+        "Authorization": "Token token=\"m9WZVqGNWcXBrnkP5U4Y41k7\""
       },
       "request_query_parameters": {
       },
@@ -16,31 +16,28 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "X-Download-Options": "noopen",
-        "X-Permitted-Cross-Domain-Policies": "none",
-        "Referrer-Policy": "strict-origin-when-cross-origin",
         "Content-Type": "application/json; charset=utf-8",
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Headers": "*",
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
+        "X-Flash-Messages": "{}",
         "Vary": "X-Requested-With, X-Flash-Messages",
-        "ETag": "W/\"dcee474e1a7bf029a43e140dd3a7c809\"",
-        "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "681a1346-2076-4c8b-95db-90c2240fafad",
-        "X-Runtime": "0.010553",
-        "Expires": "0",
+        "ETag": "W/\"0b841f6ec4c009a0c55cfc66ad0fab02\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "ff1216e8-aff0-45cc-b227-3b8cb96753cf",
+        "X-Runtime": "0.013453",
         "Content-Length": "377"
       },
       "request_method": "GET",
-      "request_path": "/api/storefront/saved_addresses/5d374e94d4322a5df916b418",
+      "request_path": "/api/storefront/saved_addresses/59b038847ceffe612c1187fe",
       "request_body": null,
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"user_id\": \"5d374e93d4322a5df916b415\",\n  \"url\": \"http://www.example.com/api/storefront/saved_addresses/5d374e94d4322a5df916b418\",\n  \"id\": \"5d374e94d4322a5df916b418\",\n  \"first_name\": \"Susan\",\n  \"last_name\": \"Baker\",\n  \"company\": null,\n  \"street\": \"350 Fifth Avenue\",\n  \"street_2\": null,\n  \"city\": \"New York\",\n  \"country\": \"US\",\n  \"region\": \"NY\",\n  \"postal_code\": \"10118\",\n  \"phone_number\": \"6465552390\",\n  \"phone_extension\": null\n}",
+      "response_body": "{\n  \"user_id\": \"59b038847ceffe612c1187fb\",\n  \"url\": \"http://www.example.com/api/storefront/saved_addresses/59b038847ceffe612c1187fe\",\n  \"id\": \"59b038847ceffe612c1187fe\",\n  \"first_name\": \"Susan\",\n  \"last_name\": \"Baker\",\n  \"company\": null,\n  \"street\": \"350 Fifth Avenue\",\n  \"street_2\": null,\n  \"city\": \"New York\",\n  \"country\": \"US\",\n  \"region\": \"NY\",\n  \"postal_code\": \"10118\",\n  \"phone_number\": \"6465552390\",\n  \"phone_extension\": null\n}",
       "response_content_type": "application/json",
-      "curl": "curl -g \"https://www.example.com/api/storefront/saved_addresses/5d374e94d4322a5df916b418\" -X GET \\\n\t-H \"Authorization: Token token=\\\"oLTmnBufEWBtTM5u3TCE22PG\\\"\""
+      "curl": "curl -g \"https://www.example.com/api/storefront/saved_addresses/59b038847ceffe612c1187fe\" -X GET \\\n\t-H \"Authorization: Token token=\\\"m9WZVqGNWcXBrnkP5U4Y41k7\\\"\""
     }
   ],
   "resource": "Saved Addresses",

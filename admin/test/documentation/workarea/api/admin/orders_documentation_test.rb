@@ -34,17 +34,24 @@ module Workarea
           parameter :sort_direction, 'Direction to sort (asc or desc)'
           parameter :placed_at_greater_than, 'Start of a placed_at date range'
           parameter :placed_at_less_than, 'End of a placed_at date range'
+          parameter :email, 'Email address on the order'
 
           3.times { |i| create_placed_order(id: 1000 + i, placed_at: i.weeks.ago) }
 
+          create_placed_order(email: 'test@workarea.com', id: 10000, placed_at: 0.weeks.ago)
+          create_placed_order(email: 'test@workarea.com', id: 10001, placed_at: 1.weeks.ago)
+          create_placed_order(email: 'test@workarea.com', id: 10002, placed_at: 2.weeks.ago)
+
           record_request do
             get admin_api.orders_path,
-                  params:
-                    { page: 1,
-                      sort_by: 'created_at',
-                      sort_direction: 'desc',
-                      placed_at_greater_than: 2.weeks.ago - 1.day,
-                      placed_at_less_than: 2.weeks.ago + 1.day }
+                  params: {
+                    page: 1,
+                    sort_by: 'created_at',
+                    sort_direction: 'desc',
+                    placed_at_greater_than: 2.weeks.ago - 1.day,
+                    placed_at_less_than: 2.weeks.ago + 1.day,
+                    email: 'test@workarea.com'
+                  }
 
             assert_equal(200, response.status)
           end

@@ -16,23 +16,21 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "X-Download-Options": "noopen",
-        "X-Permitted-Cross-Domain-Policies": "none",
-        "Referrer-Policy": "strict-origin-when-cross-origin",
-        "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "2a45aa2d-694d-40f1-a891-5312eb94f7c5",
-        "X-Runtime": "0.079626",
-        "Expires": "0"
+        "X-Flash-Messages": "{}",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:04:18 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:04:18 -0000",
+        "X-Request-Id": "4a2fc1a4-ccde-4220-8200-20dd1d8a69b4",
+        "X-Runtime": "0.047779"
       },
       "request_method": "PATCH",
       "request_path": "/api/admin/promo_code_lists/bulk",
-      "request_body": "{\"promo_code_lists\":[{\"count\":2,\"created_at\":\"2019-07-23T18:14:29.794Z\",\"expires_at\":null,\"generation_completed_at\":null,\"name\":\"Test Code List\",\"prefix\":null,\"updated_at\":\"2019-07-23T18:14:29.794Z\"},{\"count\":2,\"created_at\":\"2019-07-23T18:14:29.794Z\",\"expires_at\":null,\"generation_completed_at\":null,\"name\":\"Test Code List\",\"prefix\":null,\"updated_at\":\"2019-07-23T18:14:29.794Z\"},{\"count\":2,\"created_at\":\"2019-07-23T18:14:29.794Z\",\"expires_at\":null,\"generation_completed_at\":null,\"name\":\"Test Code List\",\"prefix\":null,\"updated_at\":\"2019-07-23T18:14:29.794Z\"}]}",
+      "request_body": "{\"promo_code_lists\":[{\"count\":2,\"created_at\":\"2017-09-06T18:04:18.041Z\",\"expires_at\":null,\"name\":\"Test Code List\",\"prefix\":null,\"updated_at\":\"2017-09-06T18:04:18.041Z\"},{\"count\":2,\"created_at\":\"2017-09-06T18:04:18.041Z\",\"expires_at\":null,\"name\":\"Test Code List\",\"prefix\":null,\"updated_at\":\"2017-09-06T18:04:18.041Z\"},{\"count\":2,\"created_at\":\"2017-09-06T18:04:18.041Z\",\"expires_at\":null,\"name\":\"Test Code List\",\"prefix\":null,\"updated_at\":\"2017-09-06T18:04:18.041Z\"}]}",
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/promo_code_lists/bulk\" -d '{\"promo_code_lists\":[{\"count\":2,\"created_at\":\"2019-07-23T18:14:29.794Z\",\"expires_at\":null,\"generation_completed_at\":null,\"name\":\"Test Code List\",\"prefix\":null,\"updated_at\":\"2019-07-23T18:14:29.794Z\"},{\"count\":2,\"created_at\":\"2019-07-23T18:14:29.794Z\",\"expires_at\":null,\"generation_completed_at\":null,\"name\":\"Test Code List\",\"prefix\":null,\"updated_at\":\"2019-07-23T18:14:29.794Z\"},{\"count\":2,\"created_at\":\"2019-07-23T18:14:29.794Z\",\"expires_at\":null,\"generation_completed_at\":null,\"name\":\"Test Code List\",\"prefix\":null,\"updated_at\":\"2019-07-23T18:14:29.794Z\"}]}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/promo_code_lists/bulk\" -d '{\"promo_code_lists\":[{\"count\":2,\"created_at\":\"2017-09-06T18:04:18.041Z\",\"expires_at\":null,\"name\":\"Test Code List\",\"prefix\":null,\"updated_at\":\"2017-09-06T18:04:18.041Z\"},{\"count\":2,\"created_at\":\"2017-09-06T18:04:18.041Z\",\"expires_at\":null,\"name\":\"Test Code List\",\"prefix\":null,\"updated_at\":\"2017-09-06T18:04:18.041Z\"},{\"count\":2,\"created_at\":\"2017-09-06T18:04:18.041Z\",\"expires_at\":null,\"name\":\"Test Code List\",\"prefix\":null,\"updated_at\":\"2017-09-06T18:04:18.041Z\"}]}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Promo Code Lists",

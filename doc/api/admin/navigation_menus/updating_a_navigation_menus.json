@@ -16,23 +16,21 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "X-Download-Options": "noopen",
-        "X-Permitted-Cross-Domain-Policies": "none",
-        "Referrer-Policy": "strict-origin-when-cross-origin",
-        "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "77b6c151-6fe8-4fe4-83ce-871d48b30c3a",
-        "X-Runtime": "0.045305",
-        "Expires": "0"
+        "X-Flash-Messages": "{}",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:02:39 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:02:39 -0000",
+        "X-Request-Id": "767cc92f-e56c-4611-bb4c-d1e5babd50e0",
+        "X-Runtime": "0.033583"
       },
       "request_method": "PATCH",
-      "request_path": "/api/admin/navigation_menus/5d374f16d4322a5df916be9b",
+      "request_path": "/api/admin/navigation_menus/59b0383f7ceffe612c11808b",
       "request_body": "{\"navigation_menu\":{\"name\":\"foo\"}}",
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/navigation_menus/5d374f16d4322a5df916be9b\" -d '{\"navigation_menu\":{\"name\":\"foo\"}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/navigation_menus/59b0383f7ceffe612c11808b\" -d '{\"navigation_menu\":{\"name\":\"foo\"}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Navigation menus",

@@ -16,13 +16,11 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "X-Download-Options": "noopen",
-        "X-Permitted-Cross-Domain-Policies": "none",
-        "Referrer-Policy": "strict-origin-when-cross-origin",
-        "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "2628687b-9527-4ae6-a26e-15ba7e5ab3ea",
-        "X-Runtime": "0.014812",
-        "Expires": "0"
+        "X-Flash-Messages": "{}",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:03:05 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:03:05 -0000",
+        "X-Request-Id": "45f0cea1-7afc-4957-973d-99331468d481",
+        "X-Runtime": "0.012795"
       },
       "request_method": "DELETE",
       "request_path": "/api/admin/inventory_skus/SKU",

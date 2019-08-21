@@ -54,5 +54,5 @@ Copyright Workarea 2017-2019. All rights reserved.
 
 For licensing, contact [sales@workarea.com][].
 
-[Workarea API]: https://homebase.weblinc.com/plugins/workarea-api-admin
+[Workarea API]: https://plugins.workarea.com/plugins/api
 [sales@workarea.com]: mailto:sales@workarea.com

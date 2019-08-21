@@ -16,23 +16,21 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "X-Download-Options": "noopen",
-        "X-Permitted-Cross-Domain-Policies": "none",
-        "Referrer-Policy": "strict-origin-when-cross-origin",
-        "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "e93c04b6-e161-496c-b6c8-2c17b9a6972c",
-        "X-Runtime": "0.016762",
-        "Expires": "0"
+        "X-Flash-Messages": "{}",
+        "Cache-Control": "no-cache",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:04:08 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:04:08 -0000",
+        "X-Request-Id": "aa6c3e74-cbf5-4737-9223-6e066b254456",
+        "X-Runtime": "0.014045"
       },
       "request_method": "DELETE",
-      "request_path": "/api/admin/releases/5d374f64d4322a5df916c325",
-      "request_body": null,
+      "request_path": "/api/admin/releases/59b038987ceffe612c1189ee",
+      "request_body": "null",
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/releases/5d374f64d4322a5df916c325\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/releases/59b038987ceffe612c1189ee\" -d 'null' -X DELETE \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Releases",

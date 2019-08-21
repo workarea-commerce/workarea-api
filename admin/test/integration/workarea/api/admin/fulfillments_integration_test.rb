@@ -21,6 +21,28 @@ module Workarea
           assert_equal(fulfillments.first, Fulfillment.new(result.second))
         end
 
+        def test_lists_fulfillments_by_date
+          fulfillments = [create_fulfillment(id: '1'), create_fulfillment(id: '2')]
+          get admin_api.fulfillments_path(
+            updated_at_starts_at: 2.days.ago,
+            updated_at_ends_at: 1.day.ago
+          )
+          result = JSON.parse(response.body)['fulfillments']
+
+          assert_equal(0, result.length)
+
+          get admin_api.fulfillments_path(
+            updated_at_starts_at: 2.days.ago,
+            updated_at_ends_at: 1.day.from_now
+          )
+          result = JSON.parse(response.body)['fulfillments']
+
+          assert_equal(2, result.length)
+          assert_equal(fulfillments.second, Fulfillment.new(result.first))
+          assert_equal(fulfillments.first, Fulfillment.new(result.second))
+        end
+
+
         def test_shows_fulfillments
           fulfillment = create_fulfillment
           get admin_api.fulfillment_path(fulfillment.id)

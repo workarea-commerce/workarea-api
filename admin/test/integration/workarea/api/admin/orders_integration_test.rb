@@ -18,8 +18,8 @@ module Workarea
 
         def test_filters_orders
           orders = [
-            create_order(placed_at: 1.week.ago),
-            create_order(placed_at: 2.days.ago)
+            create_order(email: 'foo@workarea.com', placed_at: 1.week.ago),
+            create_order(email: 'bar@workarea.com', placed_at: 2.days.ago)
           ]
 
           get admin_api.orders_path(
@@ -31,6 +31,45 @@ module Workarea
 
           assert_equal(1, result.length)
           assert_equal(orders.second, Order.new(result.first))
+
+          get admin_api.orders_path(email: 'foo@workarea.com')
+
+          result = JSON.parse(response.body)['orders']
+
+          assert_equal(1, result.length)
+          assert_equal(orders.first, Order.new(result.first))
+
+          travel_to 1.week.from_now
+
+          get admin_api.orders_path(
+            updated_at_starts_at: 5.days.ago,
+            updated_at_ends_at: 4.days.ago
+          )
+          result = JSON.parse(response.body)['orders']
+
+          assert_equal(0, result.length)
+
+          get admin_api.orders_path(
+            created_at_starts_at: 5.days.ago,
+            created_at_ends_at: 4.days.ago
+          )
+          result = JSON.parse(response.body)['orders']
+
+          assert_equal(0, result.length)
+
+          get admin_api.orders_path(
+            updated_at_starts_at: 8.days.ago,
+            updated_at_ends_at: 6.days.ago
+          )
+          result = JSON.parse(response.body)['orders']
+          assert_equal(2, result.length)
+
+          get admin_api.orders_path(
+            created_at_starts_at: 8.days.ago,
+            created_at_ends_at: 6.days.ago
+          )
+          result = JSON.parse(response.body)['orders']
+          assert_equal(2, result.length)
         end
 
         def test_shows_orders

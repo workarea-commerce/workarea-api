@@ -29,16 +29,14 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "X-Download-Options": "noopen",
-        "X-Permitted-Cross-Domain-Policies": "none",
-        "Referrer-Policy": "strict-origin-when-cross-origin",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"120067a4c83eea3e4187a01903b0b27b\"",
-        "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "d82905ba-1ac5-4797-af1f-1d4d1e05e682",
-        "X-Runtime": "0.008220",
-        "Expires": "0",
-        "Content-Length": "438"
+        "X-Flash-Messages": "{}",
+        "ETag": "W/\"610eb7b91e81315222f9d6b8696827e5\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:03:04 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:03:04 -0000",
+        "X-Request-Id": "2e9bc06c-ed01-4a62-919c-1fc9596dea9d",
+        "X-Runtime": "0.008761",
+        "Content-Length": "412"
       },
       "request_method": "GET",
       "request_path": "/api/admin/inventory_skus?page=1&sort_by=created_at&sort_direction=desc",
@@ -46,7 +44,7 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"inventory_skus\": [\n    {\n      \"_id\": \"SKU1\",\n      \"available\": 5,\n      \"backordered\": 0,\n      \"backordered_until\": null,\n      \"created_at\": \"2019-07-23T18:14:38.368Z\",\n      \"policy\": \"standard\",\n      \"purchased\": 0,\n      \"reserve\": 0,\n      \"sellable\": 5,\n      \"updated_at\": \"2019-07-23T18:14:38.368Z\"\n    },\n    {\n      \"_id\": \"SKU0\",\n      \"available\": 5,\n      \"backordered\": 0,\n      \"backordered_until\": null,\n      \"created_at\": \"2019-07-23T18:14:38.342Z\",\n      \"policy\": \"standard\",\n      \"purchased\": 0,\n      \"reserve\": 0,\n      \"sellable\": 5,\n      \"updated_at\": \"2019-07-23T18:14:38.342Z\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"inventory_skus\": [\n    {\n      \"_id\": \"SKU1\",\n      \"available\": 5,\n      \"backordered\": 0,\n      \"backordered_until\": null,\n      \"created_at\": \"2017-09-06T18:03:04.378Z\",\n      \"policy\": \"standard\",\n      \"purchased\": 0,\n      \"reserve\": 0,\n      \"updated_at\": \"2017-09-06T18:03:04.378Z\"\n    },\n    {\n      \"_id\": \"SKU0\",\n      \"available\": 5,\n      \"backordered\": 0,\n      \"backordered_until\": null,\n      \"created_at\": \"2017-09-06T18:03:04.356Z\",\n      \"policy\": \"standard\",\n      \"purchased\": 0,\n      \"reserve\": 0,\n      \"updated_at\": \"2017-09-06T18:03:04.356Z\"\n    }\n  ]\n}",
       "response_content_type": "application/json",
       "curl": "curl -g \"https://www.example.com/api/admin/inventory_skus?page=1&sort_by=created_at&sort_direction=desc\" -X GET "
     }
