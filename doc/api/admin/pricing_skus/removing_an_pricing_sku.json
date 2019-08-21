@@ -16,11 +16,13 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "X-Flash-Messages": "{}",
-        "Cache-Control": "no-cache",
-        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:04:30 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:04:30 -0000",
-        "X-Request-Id": "28f6d71b-ac7e-4165-bb67-e293d6e93cad",
-        "X-Runtime": "0.016493"
+        "X-Download-Options": "noopen",
+        "X-Permitted-Cross-Domain-Policies": "none",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
+        "Cache-Control": "no-cache, no-store, must-revalidate",
+        "X-Request-Id": "1be6165e-e43e-4475-b817-ce71e86886f8",
+        "X-Runtime": "0.018035",
+        "Expires": "0"
       },
       "request_method": "DELETE",
       "request_path": "/api/admin/pricing_skus/2134",

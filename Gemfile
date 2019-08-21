@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+git_source(:github) { |repo| "git@github.com:#{repo}.git" }
 
 # Declare your gem's dependencies in api.gemspec.
 # Bundler will treat runtime dependencies like base dependencies, and
@@ -17,4 +18,4 @@ gemspec
 gem 'workarea-api-admin', path: 'admin'
 gem 'workarea-api-storefront', path: 'storefront'
 
-gem 'workarea', '>= 3.4.0', source: 'https://gems.weblinc.com'
+gem 'workarea', '>= 3.4.0'

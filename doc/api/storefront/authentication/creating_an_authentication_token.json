@@ -16,17 +16,20 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
+        "X-Download-Options": "noopen",
+        "X-Permitted-Cross-Domain-Policies": "none",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
         "Content-Type": "application/json; charset=utf-8",
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Headers": "*",
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
-        "X-Flash-Messages": "{}",
         "Vary": "X-Requested-With, X-Flash-Messages",
-        "ETag": "W/\"20c05fb00593927c4d9e81339b05b60c\"",
-        "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "6f30d7be-38e0-4e11-acf1-ddb9f9540699",
-        "X-Runtime": "0.074071",
+        "ETag": "W/\"ccc17b49a1ce2c83710313e91a9fd9c2\"",
+        "Cache-Control": "no-cache, no-store, must-revalidate",
+        "X-Request-Id": "3e2514b4-e37f-4e13-9405-fe6d59e0b0fa",
+        "X-Runtime": "0.247243",
+        "Expires": "0",
         "Content-Length": "76"
       },
       "request_method": "POST",
@@ -35,7 +38,7 @@
       "request_content_type": "application/json",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"token\": \"528LXDazrD1ap4akMLGe21AW\",\n  \"expires_at\": \"2017-09-13T18:05:39.439Z\"\n}",
+      "response_body": "{\n  \"token\": \"LcTreA1B92HwQ6DYgt2miDFA\",\n  \"expires_at\": \"2019-07-30T18:18:46.974Z\"\n}",
       "response_content_type": "application/json",
       "curl": "curl \"https://www.example.com/api/storefront/authentication_tokens\" -d '{\"email\":\"user320@workarea.com\",\"password\":\"p@assword!\"}' -X POST \\\n\t-H \"Content-Type: application/json\""
     }
@@ -43,6 +46,6 @@
   "resource": "Authentication",
   "description": "Creating an authentication token",
   "route": "/api/storefront/authentication_tokens",
-  "http_method": "POST",
-  "explanation": "            Creating an authentication token is the first step in user\n            authentication. You will use this token to authenticate requests on\n            behalf of the user going forward. To get a token you can use to\n            authenticate an account, use this endpoint. You'll need the email\n            and password from the user, and we'll issue a token that can be used\n            to authenticate further requests for that customer. This token will\n            expire after 7 days.\n            Tokens are also invalidated when a user changes their password. See\n            the \"using an authentication token\" example for how to use an\n            authentication token.\n"
+  "explanation": "            Creating an authentication token is the first step in user\n            authentication. You will use this token to authenticate requests on\n            behalf of the user going forward. To get a token you can use to\n            authenticate an account, use this endpoint. You'll need the email\n            and password from the user, and we'll issue a token that can be used\n            to authenticate further requests for that customer. This token will\n            expire after 7 days.\n            Tokens are also invalidated when a user changes their password. See\n            the \"using an authentication token\" example for how to use an\n            authentication token.\n",
+  "http_method": "POST"
 }

@@ -8,7 +8,7 @@
   "requests": [
     {
       "request_headers": {
-        "Authorization": "Token token=\"vzWoBSx4yy42ktAQj9w7D8Up\""
+        "Authorization": "Token token=\"UjmqtG5i2MSWpBqMLJFDEsQ6\""
       },
       "request_query_parameters": {
       },
@@ -16,17 +16,20 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
+        "X-Download-Options": "noopen",
+        "X-Permitted-Cross-Domain-Policies": "none",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
         "Content-Type": "application/json; charset=utf-8",
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Headers": "*",
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
-        "X-Flash-Messages": "{}",
         "Vary": "X-Requested-With, X-Flash-Messages",
-        "ETag": "W/\"2968d16ad1b7c28bf0748d6174ffb33a\"",
-        "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "c62b7eaa-3248-4482-839f-e1651a973360",
-        "X-Runtime": "0.013769",
+        "ETag": "W/\"48cc4e75105c09da5447e0a4cf4966e5\"",
+        "Cache-Control": "no-cache, no-store, must-revalidate",
+        "X-Request-Id": "ea332330-23cb-4518-8d92-51ee1f0f22c2",
+        "X-Runtime": "0.007575",
+        "Expires": "0",
         "Content-Length": "734"
       },
       "request_method": "GET",
@@ -35,14 +38,14 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"user_id\": \"59b038857ceffe612c118800\",\n  \"addresses\": [\n    {\n      \"url\": \"http://www.example.com/api/storefront/saved_addresses/59b038857ceffe612c118803\",\n      \"id\": \"59b038857ceffe612c118803\",\n      \"first_name\": \"Susan\",\n      \"last_name\": \"Baker\",\n      \"company\": null,\n      \"street\": \"350 Fifth Avenue\",\n      \"street_2\": null,\n      \"city\": \"New York\",\n      \"country\": \"US\",\n      \"region\": \"NY\",\n      \"postal_code\": \"10118\",\n      \"phone_number\": \"6465552390\",\n      \"phone_extension\": null\n    },\n    {\n      \"url\": \"http://www.example.com/api/storefront/saved_addresses/59b038857ceffe612c118804\",\n      \"id\": \"59b038857ceffe612c118804\",\n      \"first_name\": \"Susan\",\n      \"last_name\": \"Baker\",\n      \"company\": null,\n      \"street\": \"4059 Mt Lee Dr.\",\n      \"street_2\": null,\n      \"city\": \"Hollywood\",\n      \"country\": \"US\",\n      \"region\": \"CA\",\n      \"postal_code\": \"90068\",\n      \"phone_number\": \"7545552390\",\n      \"phone_extension\": null\n    }\n  ]\n}",
+      "response_body": "{\n  \"user_id\": \"5d374e95d4322a5df916b425\",\n  \"addresses\": [\n    {\n      \"url\": \"http://www.example.com/api/storefront/saved_addresses/5d374e96d4322a5df916b428\",\n      \"id\": \"5d374e96d4322a5df916b428\",\n      \"first_name\": \"Susan\",\n      \"last_name\": \"Baker\",\n      \"company\": null,\n      \"street\": \"350 Fifth Avenue\",\n      \"street_2\": null,\n      \"city\": \"New York\",\n      \"country\": \"US\",\n      \"region\": \"NY\",\n      \"postal_code\": \"10118\",\n      \"phone_number\": \"6465552390\",\n      \"phone_extension\": null\n    },\n    {\n      \"url\": \"http://www.example.com/api/storefront/saved_addresses/5d374e96d4322a5df916b429\",\n      \"id\": \"5d374e96d4322a5df916b429\",\n      \"first_name\": \"Susan\",\n      \"last_name\": \"Baker\",\n      \"company\": null,\n      \"street\": \"4059 Mt Lee Dr.\",\n      \"street_2\": null,\n      \"city\": \"Hollywood\",\n      \"country\": \"US\",\n      \"region\": \"CA\",\n      \"postal_code\": \"90068\",\n      \"phone_number\": \"7545552390\",\n      \"phone_extension\": null\n    }\n  ]\n}",
       "response_content_type": "application/json",
-      "curl": "curl -g \"https://www.example.com/api/storefront/saved_addresses\" -X GET \\\n\t-H \"Authorization: Token token=\\\"vzWoBSx4yy42ktAQj9w7D8Up\\\"\""
+      "curl": "curl -g \"https://www.example.com/api/storefront/saved_addresses\" -X GET \\\n\t-H \"Authorization: Token token=\\\"UjmqtG5i2MSWpBqMLJFDEsQ6\\\"\""
     }
   ],
   "resource": "Saved Addresses",
   "description": "Listing the user's saved addresses",
   "route": "/api/storefront/saved_addresses",
-  "http_method": "GET",
-  "explanation": "            List a customer's saved addresses. Useful for account management and\n            for using saved addresses in checkout.\n"
+  "explanation": "            List a customer's saved addresses. Useful for account management and\n            for using saved addresses in checkout.\n",
+  "http_method": "GET"
 }

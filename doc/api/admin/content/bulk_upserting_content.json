@@ -16,21 +16,23 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "X-Flash-Messages": "{}",
-        "Cache-Control": "no-cache",
-        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:03:06 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:03:06 -0000",
-        "X-Request-Id": "d2fb5507-fc09-47ec-aa55-8b71c999e34b",
-        "X-Runtime": "0.077891"
+        "X-Download-Options": "noopen",
+        "X-Permitted-Cross-Domain-Policies": "none",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
+        "Cache-Control": "no-cache, no-store, must-revalidate",
+        "X-Request-Id": "5194f707-d0df-45af-870b-ea0863327a4b",
+        "X-Runtime": "0.093903",
+        "Expires": "0"
       },
       "request_method": "PATCH",
       "request_path": "/api/admin/content/bulk",
-      "request_body": "{\"content\":[{\"active\":true,\"automate_metadata\":true,\"browser_title\":null,\"contentable_id\":null,\"contentable_type\":null,\"created_at\":\"2017-09-06T18:03:06.320Z\",\"css\":null,\"javascript\":null,\"meta_description\":null,\"name\":\"Test Content\",\"subscribed_user_ids\":[],\"updated_at\":\"2017-09-06T18:03:06.320Z\"},{\"active\":true,\"automate_metadata\":true,\"browser_title\":null,\"contentable_id\":null,\"contentable_type\":null,\"created_at\":\"2017-09-06T18:03:06.320Z\",\"css\":null,\"javascript\":null,\"meta_description\":null,\"name\":\"Test Content\",\"subscribed_user_ids\":[],\"updated_at\":\"2017-09-06T18:03:06.320Z\"},{\"active\":true,\"automate_metadata\":true,\"browser_title\":null,\"contentable_id\":null,\"contentable_type\":null,\"created_at\":\"2017-09-06T18:03:06.320Z\",\"css\":null,\"javascript\":null,\"meta_description\":null,\"name\":\"Test Content\",\"subscribed_user_ids\":[],\"updated_at\":\"2017-09-06T18:03:06.320Z\"}]}",
+      "request_body": "{\"content\":[{\"active\":true,\"automate_metadata\":true,\"browser_title\":null,\"contentable_id\":null,\"contentable_type\":null,\"created_at\":\"2019-07-23T18:18:29.338Z\",\"css\":null,\"javascript\":null,\"meta_description\":null,\"name\":\"Test Content\",\"open_graph_asset_id\":null,\"subscribed_user_ids\":[],\"updated_at\":\"2019-07-23T18:18:29.338Z\"},{\"active\":true,\"automate_metadata\":true,\"browser_title\":null,\"contentable_id\":null,\"contentable_type\":null,\"created_at\":\"2019-07-23T18:18:29.338Z\",\"css\":null,\"javascript\":null,\"meta_description\":null,\"name\":\"Test Content\",\"open_graph_asset_id\":null,\"subscribed_user_ids\":[],\"updated_at\":\"2019-07-23T18:18:29.338Z\"},{\"active\":true,\"automate_metadata\":true,\"browser_title\":null,\"contentable_id\":null,\"contentable_type\":null,\"created_at\":\"2019-07-23T18:18:29.338Z\",\"css\":null,\"javascript\":null,\"meta_description\":null,\"name\":\"Test Content\",\"open_graph_asset_id\":null,\"subscribed_user_ids\":[],\"updated_at\":\"2019-07-23T18:18:29.338Z\"}]}",
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/content/bulk\" -d '{\"content\":[{\"active\":true,\"automate_metadata\":true,\"browser_title\":null,\"contentable_id\":null,\"contentable_type\":null,\"created_at\":\"2017-09-06T18:03:06.320Z\",\"css\":null,\"javascript\":null,\"meta_description\":null,\"name\":\"Test Content\",\"subscribed_user_ids\":[],\"updated_at\":\"2017-09-06T18:03:06.320Z\"},{\"active\":true,\"automate_metadata\":true,\"browser_title\":null,\"contentable_id\":null,\"contentable_type\":null,\"created_at\":\"2017-09-06T18:03:06.320Z\",\"css\":null,\"javascript\":null,\"meta_description\":null,\"name\":\"Test Content\",\"subscribed_user_ids\":[],\"updated_at\":\"2017-09-06T18:03:06.320Z\"},{\"active\":true,\"automate_metadata\":true,\"browser_title\":null,\"contentable_id\":null,\"contentable_type\":null,\"created_at\":\"2017-09-06T18:03:06.320Z\",\"css\":null,\"javascript\":null,\"meta_description\":null,\"name\":\"Test Content\",\"subscribed_user_ids\":[],\"updated_at\":\"2017-09-06T18:03:06.320Z\"}]}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/content/bulk\" -d '{\"content\":[{\"active\":true,\"automate_metadata\":true,\"browser_title\":null,\"contentable_id\":null,\"contentable_type\":null,\"created_at\":\"2019-07-23T18:18:29.338Z\",\"css\":null,\"javascript\":null,\"meta_description\":null,\"name\":\"Test Content\",\"open_graph_asset_id\":null,\"subscribed_user_ids\":[],\"updated_at\":\"2019-07-23T18:18:29.338Z\"},{\"active\":true,\"automate_metadata\":true,\"browser_title\":null,\"contentable_id\":null,\"contentable_type\":null,\"created_at\":\"2019-07-23T18:18:29.338Z\",\"css\":null,\"javascript\":null,\"meta_description\":null,\"name\":\"Test Content\",\"open_graph_asset_id\":null,\"subscribed_user_ids\":[],\"updated_at\":\"2019-07-23T18:18:29.338Z\"},{\"active\":true,\"automate_metadata\":true,\"browser_title\":null,\"contentable_id\":null,\"contentable_type\":null,\"created_at\":\"2019-07-23T18:18:29.338Z\",\"css\":null,\"javascript\":null,\"meta_description\":null,\"name\":\"Test Content\",\"open_graph_asset_id\":null,\"subscribed_user_ids\":[],\"updated_at\":\"2019-07-23T18:18:29.338Z\"}]}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Content",

@@ -16,21 +16,23 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "X-Flash-Messages": "{}",
-        "Cache-Control": "no-cache",
-        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:03:46 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:03:46 -0000",
-        "X-Request-Id": "d8c45196-7264-41cb-a4f8-fbc256623f28",
-        "X-Runtime": "0.006388"
+        "X-Download-Options": "noopen",
+        "X-Permitted-Cross-Domain-Policies": "none",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
+        "Cache-Control": "no-cache, no-store, must-revalidate",
+        "X-Request-Id": "6d91d901-2531-480e-823e-2431b0ba7473",
+        "X-Runtime": "0.007235",
+        "Expires": "0"
       },
       "request_method": "DELETE",
-      "request_path": "/api/admin/users/59b038817ceffe612c1187d8/saved_addresses/59b038827ceffe612c1187da",
+      "request_path": "/api/admin/users/5d374eabd4322a5df916b54d/saved_addresses/5d374eabd4322a5df916b54f",
       "request_body": null,
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/users/59b038817ceffe612c1187d8/saved_addresses/59b038827ceffe612c1187da\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
+      "curl": "curl \"https://www.example.com/api/admin/users/5d374eabd4322a5df916b54d/saved_addresses/5d374eabd4322a5df916b54f\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
     }
   ],
   "resource": "Saved Addresses",

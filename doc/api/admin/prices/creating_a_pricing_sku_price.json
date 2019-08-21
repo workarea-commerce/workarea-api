@@ -16,15 +16,17 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
+        "X-Download-Options": "noopen",
+        "X-Permitted-Cross-Domain-Policies": "none",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
         "Location": "/api/admin/pricing_skus/2134/prices",
         "Content-Type": "application/json; charset=utf-8",
-        "X-Flash-Messages": "{}",
-        "ETag": "W/\"7bb60e12a1182803b8700dea0f20643b\"",
-        "Cache-Control": "max-age=0, private, must-revalidate",
-        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:03:23 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:03:23 -0000",
-        "X-Request-Id": "09959421-1d60-4dc6-9ba1-8cebfd917f8a",
-        "X-Runtime": "0.012172",
-        "Content-Length": "215"
+        "ETag": "W/\"25ab0807a35da658dc3256baff777d49\"",
+        "Cache-Control": "no-cache, no-store, must-revalidate",
+        "X-Request-Id": "34b7aae1-0667-4c98-ba1e-d063fdfd22c0",
+        "X-Runtime": "0.031721",
+        "Expires": "0",
+        "Content-Length": "231"
       },
       "request_method": "POST",
       "request_path": "/api/admin/pricing_skus/2134/prices",
@@ -32,7 +34,7 @@
       "request_content_type": "application/json",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"price\": {\n    \"_id\": \"59b0386b7ceffe612c1185fc\",\n    \"active\": true,\n    \"created_at\": \"2017-09-06T18:03:23.665Z\",\n    \"min_quantity\": 1,\n    \"regular\": {\n      \"cents\": 1500.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"sale\": null,\n    \"updated_at\": \"2017-09-06T18:03:23.665Z\"\n  }\n}",
+      "response_body": "{\n  \"price\": {\n    \"_id\": \"5d374ef7d4322a5df916bbc6\",\n    \"active\": true,\n    \"created_at\": \"2019-07-23T18:16:23.371Z\",\n    \"min_quantity\": 1,\n    \"on_sale\": false,\n    \"regular\": {\n      \"cents\": 1500.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"sale\": null,\n    \"updated_at\": \"2019-07-23T18:16:23.371Z\"\n  }\n}",
       "response_content_type": "application/json",
       "curl": "curl \"https://www.example.com/api/admin/pricing_skus/2134/prices\" -d '{\"price\":{\"regular\":15}}' -X POST \\\n\t-H \"Content-Type: application/json\""
     }

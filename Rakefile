@@ -80,7 +80,7 @@ task :release do
   # Build documentation
   #
   #
-  system 'GENERATE_API_DOCS=true bin/rails test && git add docs && git commit -am "Update documentation" && git push origin HEAD'
+  system 'GENERATE_API_DOCS=true bundle exec rake test && git add doc && git commit -am "Update documentation" && git push origin HEAD'
 
   #
   # Build gem files

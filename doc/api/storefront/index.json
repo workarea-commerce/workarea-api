@@ -1,75 +1,54 @@
 {
   "resources": [
     {
-      "name": "Saved Credit Cards",
+      "name": "Categories",
       "examples": [
         {
-          "description": "Listing the user's saved credit cards",
-          "link": "storefront/saved_credit_cards/listing_the_user_s_saved_credit_cards.json",
+          "description": "Showing a listing of categories",
+          "link": "storefront/categories/showing_a_listing_of_categories.json",
           "groups": "all",
-          "route": "/api/storefront/saved_credit_cards",
+          "route": "/api/storefront/categories",
           "method": "GET"
         },
         {
-          "description": "Creating a saved credit card",
-          "link": "storefront/saved_credit_cards/creating_a_saved_credit_card.json",
+          "description": "Showing a category",
+          "link": "storefront/categories/showing_a_category.json",
           "groups": "all",
-          "route": "/api/storefront/saved_credit_cards",
-          "method": "POST"
-        },
-        {
-          "description": "Showing a saved credit card",
-          "link": "storefront/saved_credit_cards/showing_a_saved_credit_card.json",
-          "groups": "all",
-          "route": "/api/storefront/saved_credit_cards/:id",
+          "route": "/api/storefront/categories/:slug",
           "method": "GET"
-        },
-        {
-          "description": "Updating a saved credit card",
-          "link": "storefront/saved_credit_cards/updating_a_saved_credit_card.json",
-          "groups": "all",
-          "route": "/api/storefront/saved_credit_cards/:id",
-          "method": "PATCH"
-        },
-        {
-          "description": "Deleting a saved credit card",
-          "link": "storefront/saved_credit_cards/deleting_a_saved_credit_card.json",
-          "groups": "all",
-          "route": "/api/storefront/saved_credit_cards/:id",
-          "method": "DELETE"
         }
       ]
     },
     {
-      "name": "Analytics",
+      "name": "Recent views",
       "examples": [
         {
-          "description": "Saving filters",
-          "link": "storefront/analytics/saving_filters.json",
+          "description": "Updating recent views with authentication",
+          "link": "storefront/recent_views/updating_recent_views_with_authentication.json",
           "groups": "all",
-          "route": "/api/storefront/analytics/filters",
-          "method": "POST"
+          "route": "/api/storefront/recent_views",
+          "method": "PATCH"
         },
         {
-          "description": "Saving a product view",
-          "link": "storefront/analytics/saving_a_product_view.json",
+          "description": "Showing recent views from authentication",
+          "link": "storefront/recent_views/showing_recent_views_from_authentication.json",
           "groups": "all",
-          "route": "/api/storefront/analytics/product_view/:product_id",
-          "method": "POST"
+          "route": "/api/storefront/recent_views",
+          "method": "GET"
         },
         {
-          "description": "Saving a search abandonment",
-          "link": "storefront/analytics/saving_a_search_abandonment.json",
+          "description": "Showing recent views with a session_id",
+          "link": "storefront/recent_views/showing_recent_views_with_a_session_id.json",
           "groups": "all",
-          "route": "/api/storefront/analytics/search_abandonment",
-          "method": "POST"
+          "route": "/api/storefront/recent_views",
+          "method": "GET"
         },
         {
-          "description": "Saving a search",
-          "link": "storefront/analytics/saving_a_search.json",
+          "description": "Updating recent views with a session_id",
+          "link": "storefront/recent_views/updating_recent_views_with_a_session_id.json",
           "groups": "all",
-          "route": "/api/storefront/analytics/search",
-          "method": "POST"
+          "route": "/api/storefront/recent_views",
+          "method": "PATCH"
         }
       ]
     },
@@ -94,119 +73,7 @@
           "description": "Showing a checkout",
           "link": "storefront/checkout/showing_a_checkout.json",
           "groups": "all",
-          "route": "/api/storefront/checkouts/:id/reset",
-          "method": "GET"
-        }
-      ]
-    },
-    {
-      "name": "Password Resets",
-      "examples": [
-        {
-          "description": "Sending a forgot password email",
-          "link": "storefront/password_resets/sending_a_forgot_password_email.json",
-          "groups": "all",
-          "route": "/api/storefront/password_resets",
-          "method": "POST"
-        }
-      ]
-    },
-    {
-      "name": "Taxons",
-      "examples": [
-        {
-          "description": "Showing a taxon",
-          "link": "storefront/taxons/showing_a_taxon.json",
-          "groups": "all",
-          "route": "/api/storefront/taxons/:id",
-          "method": "GET"
-        }
-      ]
-    },
-    {
-      "name": "Authentication",
-      "examples": [
-        {
-          "description": "Using an authentication token",
-          "link": "storefront/authentication/using_an_authentication_token.json",
-          "groups": "all",
-          "route": "/api/storefront/account",
-          "method": "GET"
-        },
-        {
-          "description": "Creating an authentication token",
-          "link": "storefront/authentication/creating_an_authentication_token.json",
-          "groups": "all",
-          "route": "/api/storefront/authentication_tokens",
-          "method": "POST"
-        },
-        {
-          "description": "Refreshing an authentication token",
-          "link": "storefront/authentication/refreshing_an_authentication_token.json",
-          "groups": "all",
-          "route": "/api/storefront/authentication_tokens",
-          "method": "PATCH"
-        }
-      ]
-    },
-    {
-      "name": "Assets",
-      "examples": [
-        {
-          "description": "Showing an asset",
-          "link": "storefront/assets/showing_an_asset.json",
-          "groups": "all",
-          "route": "/api/storefront/assets/:id",
-          "method": "GET"
-        }
-      ]
-    },
-    {
-      "name": "Pages",
-      "examples": [
-        {
-          "description": "Showing a page",
-          "link": "storefront/pages/showing_a_page.json",
-          "groups": "all",
-          "route": "/api/storefront/pages/:slug",
-          "method": "GET"
-        }
-      ]
-    },
-    {
-      "name": "Personalized Recommendations",
-      "examples": [
-        {
-          "description": "Showing recommendations with authentication",
-          "link": "storefront/personalized_recommendations/showing_recommendations_with_authentication.json",
-          "groups": "all",
-          "route": "/api/storefront/recommendations",
-          "method": "GET"
-        },
-        {
-          "description": "Showing recommendations with a session ID",
-          "link": "storefront/personalized_recommendations/showing_recommendations_with_a_session_id.json",
-          "groups": "all",
-          "route": "/api/storefront/recommendations",
-          "method": "GET"
-        }
-      ]
-    },
-    {
-      "name": "Orders",
-      "examples": [
-        {
-          "description": "Listing the user's orders",
-          "link": "storefront/orders/listing_the_user_s_orders.json",
-          "groups": "all",
-          "route": "/api/storefront/orders",
-          "method": "GET"
-        },
-        {
-          "description": "Showing an order",
-          "link": "storefront/orders/showing_an_order.json",
-          "groups": "all",
-          "route": "/api/storefront/orders/:id",
+          "route": "/api/storefront/checkouts/:id",
           "method": "GET"
         }
       ]
@@ -231,86 +98,20 @@
       ]
     },
     {
-      "name": "Validation Errors",
+      "name": "Email Signups",
       "examples": [
         {
-          "description": "Checkout validation errors",
-          "link": "storefront/validation_errors/checkout_validation_errors.json",
+          "description": "Creating an email signup",
+          "link": "storefront/email_signups/creating_an_email_signup.json",
           "groups": "all",
-          "route": "/api/storefront/checkouts/:id",
-          "method": "PATCH"
-        },
-        {
-          "description": "General validation errors",
-          "link": "storefront/validation_errors/general_validation_errors.json",
-          "groups": "all",
-          "route": "/api/storefront/account",
-          "method": "POST"
-        }
-      ]
-    },
-    {
-      "name": "Saved Addresses",
-      "examples": [
-        {
-          "description": "Showing a saved address",
-          "link": "storefront/saved_addresses/showing_a_saved_address.json",
-          "groups": "all",
-          "route": "/api/storefront/saved_addresses/:id",
-          "method": "GET"
-        },
-        {
-          "description": "Creating a saved address",
-          "link": "storefront/saved_addresses/creating_a_saved_address.json",
-          "groups": "all",
-          "route": "/api/storefront/saved_addresses",
+          "route": "/api/storefront/email_signups",
           "method": "POST"
         },
         {
-          "description": "Deleting a saved address",
-          "link": "storefront/saved_addresses/deleting_a_saved_address.json",
+          "description": "Showing an email signup content",
+          "link": "storefront/email_signups/showing_an_email_signup_content.json",
           "groups": "all",
-          "route": "/api/storefront/saved_addresses/:id",
-          "method": "DELETE"
-        },
-        {
-          "description": "Updating a saved address",
-          "link": "storefront/saved_addresses/updating_a_saved_address.json",
-          "groups": "all",
-          "route": "/api/storefront/saved_addresses/:id",
-          "method": "PATCH"
-        },
-        {
-          "description": "Listing the user's saved addresses",
-          "link": "storefront/saved_addresses/listing_the_user_s_saved_addresses.json",
-          "groups": "all",
-          "route": "/api/storefront/saved_addresses",
-          "method": "GET"
-        }
-      ]
-    },
-    {
-      "name": "Accounts",
-      "examples": [
-        {
-          "description": "Updating an account",
-          "link": "storefront/accounts/updating_an_account.json",
-          "groups": "all",
-          "route": "/api/storefront/account",
-          "method": "POST"
-        },
-        {
-          "description": "Creating an account",
-          "link": "storefront/accounts/creating_an_account.json",
-          "groups": "all",
-          "route": "/api/storefront/account",
-          "method": "POST"
-        },
-        {
-          "description": "Getting account details",
-          "link": "storefront/accounts/getting_account_details.json",
-          "groups": "all",
-          "route": "/api/storefront/account",
+          "route": "/api/storefront/email_signups",
           "method": "GET"
         }
       ]
@@ -335,73 +136,28 @@
       ]
     },
     {
-      "name": "Recent views",
+      "name": "Accounts",
       "examples": [
         {
-          "description": "Updating recent views with a session_id",
-          "link": "storefront/recent_views/updating_recent_views_with_a_session_id.json",
+          "description": "Getting account details",
+          "link": "storefront/accounts/getting_account_details.json",
           "groups": "all",
-          "route": "/api/storefront/recent_views",
-          "method": "PATCH"
-        },
-        {
-          "description": "Showing recent views with a session_id",
-          "link": "storefront/recent_views/showing_recent_views_with_a_session_id.json",
-          "groups": "all",
-          "route": "/api/storefront/recent_views",
+          "route": "/api/storefront/account",
           "method": "GET"
         },
         {
-          "description": "Showing recent views from authentication",
-          "link": "storefront/recent_views/showing_recent_views_from_authentication.json",
+          "description": "Creating an account",
+          "link": "storefront/accounts/creating_an_account.json",
           "groups": "all",
-          "route": "/api/storefront/recent_views",
-          "method": "GET"
-        },
-        {
-          "description": "Updating recent views with authentication",
-          "link": "storefront/recent_views/updating_recent_views_with_authentication.json",
-          "groups": "all",
-          "route": "/api/storefront/recent_views",
-          "method": "PATCH"
-        }
-      ]
-    },
-    {
-      "name": "Email Signups",
-      "examples": [
-        {
-          "description": "Creating an email signup",
-          "link": "storefront/email_signups/creating_an_email_signup.json",
-          "groups": "all",
-          "route": "/api/storefront/email_signups",
+          "route": "/api/storefront/account",
           "method": "POST"
         },
         {
-          "description": "Showing an email signup content",
-          "link": "storefront/email_signups/showing_an_email_signup_content.json",
+          "description": "Updating an account",
+          "link": "storefront/accounts/updating_an_account.json",
           "groups": "all",
-          "route": "/api/storefront/email_signups",
-          "method": "GET"
-        }
-      ]
-    },
-    {
-      "name": "Categories",
-      "examples": [
-        {
-          "description": "Showing a category",
-          "link": "storefront/categories/showing_a_category.json",
-          "groups": "all",
-          "route": "/api/storefront/categories/:slug",
-          "method": "GET"
-        },
-        {
-          "description": "Showing a listing of categories",
-          "link": "storefront/categories/showing_a_listing_of_categories.json",
-          "groups": "all",
-          "route": "/api/storefront/categories",
-          "method": "GET"
+          "route": "/api/storefront/account",
+          "method": "POST"
         }
       ]
     },
@@ -425,20 +181,39 @@
       ]
     },
     {
-      "name": "Products",
+      "name": "Password Resets",
       "examples": [
         {
-          "description": "Showing a product",
-          "link": "storefront/products/showing_a_product.json",
+          "description": "Sending a forgot password email",
+          "link": "storefront/password_resets/sending_a_forgot_password_email.json",
           "groups": "all",
-          "route": "/api/storefront/products/:slug",
-          "method": "GET"
+          "route": "/api/storefront/password_resets",
+          "method": "POST"
+        }
+      ]
+    },
+    {
+      "name": "Authentication",
+      "examples": [
+        {
+          "description": "Creating an authentication token",
+          "link": "storefront/authentication/creating_an_authentication_token.json",
+          "groups": "all",
+          "route": "/api/storefront/authentication_tokens",
+          "method": "POST"
         },
         {
-          "description": "Showing a product with a specific SKU selected",
-          "link": "storefront/products/showing_a_product_with_a_specific_sku_selected.json",
+          "description": "Refreshing an authentication token",
+          "link": "storefront/authentication/refreshing_an_authentication_token.json",
           "groups": "all",
-          "route": "/api/storefront/products/:slug",
+          "route": "/api/storefront/authentication_tokens",
+          "method": "PATCH"
+        },
+        {
+          "description": "Using an authentication token",
+          "link": "storefront/authentication/using_an_authentication_token.json",
+          "groups": "all",
+          "route": "/api/storefront/account",
           "method": "GET"
         }
       ]
@@ -456,27 +231,188 @@
       ]
     },
     {
-      "name": "Cart",
+      "name": "Orders",
       "examples": [
         {
-          "description": "Updating an item",
-          "link": "storefront/cart/updating_an_item.json",
+          "description": "Showing an order",
+          "link": "storefront/orders/showing_an_order.json",
           "groups": "all",
-          "route": "/api/storefront/carts/:cart_id/items/:id",
+          "route": "/api/storefront/orders/:id",
+          "method": "GET"
+        },
+        {
+          "description": "Listing the user's orders",
+          "link": "storefront/orders/listing_the_user_s_orders.json",
+          "groups": "all",
+          "route": "/api/storefront/orders",
+          "method": "GET"
+        }
+      ]
+    },
+    {
+      "name": "Pages",
+      "examples": [
+        {
+          "description": "Showing a page",
+          "link": "storefront/pages/showing_a_page.json",
+          "groups": "all",
+          "route": "/api/storefront/pages/:slug",
+          "method": "GET"
+        }
+      ]
+    },
+    {
+      "name": "Personalized Recommendations",
+      "examples": [
+        {
+          "description": "Showing recommendations with a session ID",
+          "link": "storefront/personalized_recommendations/showing_recommendations_with_a_session_id.json",
+          "groups": "all",
+          "route": "/api/storefront/recommendations",
+          "method": "GET"
+        },
+        {
+          "description": "Showing recommendations with authentication",
+          "link": "storefront/personalized_recommendations/showing_recommendations_with_authentication.json",
+          "groups": "all",
+          "route": "/api/storefront/recommendations",
+          "method": "GET"
+        }
+      ]
+    },
+    {
+      "name": "Saved Addresses",
+      "examples": [
+        {
+          "description": "Creating a saved address",
+          "link": "storefront/saved_addresses/creating_a_saved_address.json",
+          "groups": "all",
+          "route": "/api/storefront/saved_addresses",
+          "method": "POST"
+        },
+        {
+          "description": "Updating a saved address",
+          "link": "storefront/saved_addresses/updating_a_saved_address.json",
+          "groups": "all",
+          "route": "/api/storefront/saved_addresses/:id",
           "method": "PATCH"
         },
         {
-          "description": "Delete an item",
-          "link": "storefront/cart/delete_an_item.json",
+          "description": "Listing the user's saved addresses",
+          "link": "storefront/saved_addresses/listing_the_user_s_saved_addresses.json",
           "groups": "all",
-          "route": "/api/storefront/carts/:cart_id/items/:id",
+          "route": "/api/storefront/saved_addresses",
+          "method": "GET"
+        },
+        {
+          "description": "Showing a saved address",
+          "link": "storefront/saved_addresses/showing_a_saved_address.json",
+          "groups": "all",
+          "route": "/api/storefront/saved_addresses/:id",
+          "method": "GET"
+        },
+        {
+          "description": "Deleting a saved address",
+          "link": "storefront/saved_addresses/deleting_a_saved_address.json",
+          "groups": "all",
+          "route": "/api/storefront/saved_addresses/:id",
           "method": "DELETE"
+        }
+      ]
+    },
+    {
+      "name": "Assets",
+      "examples": [
+        {
+          "description": "Showing an asset",
+          "link": "storefront/assets/showing_an_asset.json",
+          "groups": "all",
+          "route": "/api/storefront/assets/:id",
+          "method": "GET"
+        }
+      ]
+    },
+    {
+      "name": "Validation Errors",
+      "examples": [
+        {
+          "description": "Checkout validation errors",
+          "link": "storefront/validation_errors/checkout_validation_errors.json",
+          "groups": "all",
+          "route": "/api/storefront/checkouts/:id",
+          "method": "PATCH"
+        },
+        {
+          "description": "General validation errors",
+          "link": "storefront/validation_errors/general_validation_errors.json",
+          "groups": "all",
+          "route": "/api/storefront/account",
+          "method": "POST"
+        }
+      ]
+    },
+    {
+      "name": "Analytics",
+      "examples": [
+        {
+          "description": "Saving a search abandonment",
+          "link": "storefront/analytics/saving_a_search_abandonment.json",
+          "groups": "all",
+          "route": "/api/storefront/analytics/search_abandonment",
+          "method": "POST"
+        },
+        {
+          "description": "saving a category view",
+          "link": "storefront/analytics/saving_a_category_view.json",
+          "groups": "all",
+          "route": "/api/storefront/analytics/category_view/:category_id",
+          "method": "POST"
+        },
+        {
+          "description": "saving a product view",
+          "link": "storefront/analytics/saving_a_product_view.json",
+          "groups": "all",
+          "route": "/api/storefront/analytics/product_view/:product_id",
+          "method": "POST"
+        },
+        {
+          "description": "Saving a search",
+          "link": "storefront/analytics/saving_a_search.json",
+          "groups": "all",
+          "route": "/api/storefront/analytics/search",
+          "method": "POST"
+        },
+        {
+          "description": "Saving filters",
+          "link": "storefront/analytics/saving_filters.json",
+          "groups": "all",
+          "route": "/api/storefront/analytics/filters",
+          "method": "POST"
+        }
+      ]
+    },
+    {
+      "name": "Cart",
+      "examples": [
+        {
+          "description": "Creating a new cart for a user",
+          "link": "storefront/cart/creating_a_new_cart_for_a_user.json",
+          "groups": "all",
+          "route": "/api/storefront/carts",
+          "method": "POST"
         },
         {
           "description": "Showing cart",
           "link": "storefront/cart/showing_cart.json",
           "groups": "all",
           "route": "/api/storefront/carts/:id",
+          "method": "GET"
+        },
+        {
+          "description": "Listing user's carts",
+          "link": "storefront/cart/listing_user_s_carts.json",
+          "groups": "all",
+          "route": "/api/storefront/carts",
           "method": "GET"
         },
         {
@@ -487,11 +423,11 @@
           "method": "POST"
         },
         {
-          "description": "Adding an item",
-          "link": "storefront/cart/adding_an_item.json",
+          "description": "Delete an item",
+          "link": "storefront/cart/delete_an_item.json",
           "groups": "all",
-          "route": "/api/storefront/carts/:cart_id/items",
-          "method": "POST"
+          "route": "/api/storefront/carts/:cart_id/items/:id",
+          "method": "DELETE"
         },
         {
           "description": "Creating a new guest cart",
@@ -501,17 +437,88 @@
           "method": "POST"
         },
         {
-          "description": "Creating a new cart for a user",
-          "link": "storefront/cart/creating_a_new_cart_for_a_user.json",
+          "description": "Updating an item",
+          "link": "storefront/cart/updating_an_item.json",
           "groups": "all",
-          "route": "/api/storefront/carts",
+          "route": "/api/storefront/carts/:cart_id/items/:id",
+          "method": "PATCH"
+        },
+        {
+          "description": "Adding an item",
+          "link": "storefront/cart/adding_an_item.json",
+          "groups": "all",
+          "route": "/api/storefront/carts/:cart_id/items",
+          "method": "POST"
+        }
+      ]
+    },
+    {
+      "name": "Products",
+      "examples": [
+        {
+          "description": "Showing a product with a specific SKU selected",
+          "link": "storefront/products/showing_a_product_with_a_specific_sku_selected.json",
+          "groups": "all",
+          "route": "/api/storefront/products/:slug",
+          "method": "GET"
+        },
+        {
+          "description": "Showing a product",
+          "link": "storefront/products/showing_a_product.json",
+          "groups": "all",
+          "route": "/api/storefront/products/:slug",
+          "method": "GET"
+        }
+      ]
+    },
+    {
+      "name": "Saved Credit Cards",
+      "examples": [
+        {
+          "description": "Updating a saved credit card",
+          "link": "storefront/saved_credit_cards/updating_a_saved_credit_card.json",
+          "groups": "all",
+          "route": "/api/storefront/saved_credit_cards/:id",
+          "method": "PATCH"
+        },
+        {
+          "description": "Showing a saved credit card",
+          "link": "storefront/saved_credit_cards/showing_a_saved_credit_card.json",
+          "groups": "all",
+          "route": "/api/storefront/saved_credit_cards/:id",
+          "method": "GET"
+        },
+        {
+          "description": "Creating a saved credit card",
+          "link": "storefront/saved_credit_cards/creating_a_saved_credit_card.json",
+          "groups": "all",
+          "route": "/api/storefront/saved_credit_cards",
           "method": "POST"
         },
         {
-          "description": "Listing user's carts",
-          "link": "storefront/cart/listing_user_s_carts.json",
+          "description": "Deleting a saved credit card",
+          "link": "storefront/saved_credit_cards/deleting_a_saved_credit_card.json",
           "groups": "all",
-          "route": "/api/storefront/carts",
+          "route": "/api/storefront/saved_credit_cards/:id",
+          "method": "DELETE"
+        },
+        {
+          "description": "Listing the user's saved credit cards",
+          "link": "storefront/saved_credit_cards/listing_the_user_s_saved_credit_cards.json",
+          "groups": "all",
+          "route": "/api/storefront/saved_credit_cards",
+          "method": "GET"
+        }
+      ]
+    },
+    {
+      "name": "Taxons",
+      "examples": [
+        {
+          "description": "Showing a taxon",
+          "link": "storefront/taxons/showing_a_taxon.json",
+          "groups": "all",
+          "route": "/api/storefront/taxons/:id",
           "method": "GET"
         }
       ]

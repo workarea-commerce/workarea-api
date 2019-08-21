@@ -9,7 +9,7 @@
     {
       "request_headers": {
         "Content-Type": "application/x-www-form-urlencoded",
-        "Authorization": "Token token=\"qyCEyCegXNRCo6mfV41tT4Ft\""
+        "Authorization": "Token token=\"SuxuemAvJSh7899Xzwu4Zwoy\""
       },
       "request_query_parameters": {
       },
@@ -17,25 +17,28 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
+        "X-Download-Options": "noopen",
+        "X-Permitted-Cross-Domain-Policies": "none",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Headers": "*",
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
-        "X-Flash-Messages": "{}",
         "Vary": "X-Requested-With, X-Flash-Messages",
-        "Cache-Control": "no-cache",
-        "X-Request-Id": "c0a9222f-2e69-4cf6-8109-bc6fadb190ff",
-        "X-Runtime": "0.005783"
+        "Cache-Control": "no-cache, no-store, must-revalidate",
+        "X-Request-Id": "f5c8d7d5-dc97-44e3-8ae0-c0d8a1e56f0b",
+        "X-Runtime": "0.005849",
+        "Expires": "0"
       },
       "request_method": "DELETE",
-      "request_path": "/api/storefront/saved_addresses/59b038847ceffe612c1187f4",
+      "request_path": "/api/storefront/saved_addresses/5d374e96d4322a5df916b42e",
       "request_body": null,
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/storefront/saved_addresses/59b038847ceffe612c1187f4\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Authorization: Token token=\\\"qyCEyCegXNRCo6mfV41tT4Ft\\\"\""
+      "curl": "curl \"https://www.example.com/api/storefront/saved_addresses/5d374e96d4322a5df916b42e\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Authorization: Token token=\\\"SuxuemAvJSh7899Xzwu4Zwoy\\\"\""
     }
   ],
   "resource": "Saved Addresses",

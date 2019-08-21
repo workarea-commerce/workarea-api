@@ -145,7 +145,7 @@ module Workarea
         doc_request.response_status = response.status
         doc_request.response_status_text = response.message
         doc_request.response_body = formatted_response_body
-        doc_request.response_headers = response.headers
+        doc_request.response_headers = filtered_response_headers
         doc_request.response_content_type = response.content_type
 
         curl = Curl.new(request.method, request.fullpath, request_body, headers)
@@ -186,6 +186,10 @@ module Workarea
         else
           response.body
         end
+      end
+
+      def filtered_response_headers
+        response.headers.except(*Workarea.config.suppress_api_response_headers)
       end
 
       def env_to_headers(env)

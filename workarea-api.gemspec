@@ -7,11 +7,13 @@ Gem::Specification.new do |s|
   s.version     = Workarea::Api::VERSION
   s.authors     = ['Ben Crouse', 'Curt Howard']
   s.email       = ['bcrouse@weblinc.com', 'choward@weblinc.com']
-  s.homepage    = 'http://www.workarea.com'
+  s.homepage    = 'https://github.com/workarea-commerce/workarea-api'
   s.summary     = 'API for the Workarea commerce platform'
   s.description = 'HTTP API Rails Engine of the Workarea ecommerce platform'
 
   s.files = `git ls-files`.split("\n")
+
+  s.license = 'Business Software License'
 
   s.required_ruby_version = '>= 2.3.0'
 

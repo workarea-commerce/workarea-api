@@ -1,3 +1,32 @@
+Workarea Api 4.4.5 (2019-07-23)
+--------------------------------------------------------------------------------
+
+*   Fix release task
+
+    Curt Howard
+
+
+
+Workarea Api 4.4.4 (2019-07-23)
+--------------------------------------------------------------------------------
+
+*   Suppress Flash Message and Release Cookie headers from examples
+
+    API-226
+    Curt Howard
+
+
+
+Workarea Api 4.4.3 (2019-07-09)
+--------------------------------------------------------------------------------
+
+*   Fix Release task to ensure docs are generated during release
+
+    API-224
+    Curt Howard
+
+
+
 Workarea Api 4.4.2 (2019-06-11)
 --------------------------------------------------------------------------------
 

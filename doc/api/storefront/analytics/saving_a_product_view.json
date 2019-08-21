@@ -14,9 +14,10 @@
       },
       "response_headers": {
         "Content-Type": "text/html; charset=utf-8",
-        "Cache-Control": "no-cache",
-        "X-Request-Id": "f6119d8f-d468-4dc2-ab97-bf6db433f0df",
-        "X-Runtime": "0.004604",
+        "Cache-Control": "no-cache, no-store, must-revalidate",
+        "X-Request-Id": "f2d15b9d-92e5-41e4-b3b9-dc0aa5f3f163",
+        "X-Runtime": "0.002238",
+        "Expires": "0",
         "Content-Length": "0"
       },
       "request_method": "POST",
@@ -31,8 +32,8 @@
     }
   ],
   "resource": "Analytics",
-  "description": "Saving a product view",
+  "description": "saving a product view",
   "route": "/api/storefront/analytics/product_view/:product_id",
-  "http_method": "POST",
-  "explanation": "Saving a product view will be reflected in admin reports"
+  "explanation": "saving a product view will be reflected in admin reports",
+  "http_method": "POST"
 }

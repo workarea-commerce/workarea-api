@@ -16,21 +16,23 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "X-Flash-Messages": "{}",
-        "Cache-Control": "no-cache",
-        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:03:24 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:03:24 -0000",
-        "X-Request-Id": "c6870351-2478-4bee-8832-42543e041a04",
-        "X-Runtime": "0.009148"
+        "X-Download-Options": "noopen",
+        "X-Permitted-Cross-Domain-Policies": "none",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
+        "Cache-Control": "no-cache, no-store, must-revalidate",
+        "X-Request-Id": "a45a7fb5-c715-402a-aac4-153644d1eaeb",
+        "X-Runtime": "0.023450",
+        "Expires": "0"
       },
       "request_method": "PATCH",
-      "request_path": "/api/admin/pricing_skus/2134/prices/59b0386c7ceffe612c118601",
+      "request_path": "/api/admin/pricing_skus/2134/prices/5d374ef7d4322a5df916bbcb",
       "request_body": "price[regular]=15",
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/pricing_skus/2134/prices/59b0386c7ceffe612c118601\" -d 'price[regular]=15' -X PATCH \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
+      "curl": "curl \"https://www.example.com/api/admin/pricing_skus/2134/prices/5d374ef7d4322a5df916bbcb\" -d 'price[regular]=15' -X PATCH \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
     }
   ],
   "resource": "Prices",

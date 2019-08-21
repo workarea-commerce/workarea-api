@@ -1,0 +1,39 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+        "Content-Type": "application/x-www-form-urlencoded"
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Cache-Control": "no-cache, no-store, must-revalidate",
+        "X-Request-Id": "4a02f7fe-9759-4155-a236-f6d96246e89c",
+        "X-Runtime": "0.002596",
+        "Expires": "0",
+        "Content-Length": "0"
+      },
+      "request_method": "POST",
+      "request_path": "/api/storefront/analytics/category_view/12345",
+      "request_body": null,
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": null,
+      "response_content_type": "text/html",
+      "curl": "curl \"https://www.example.com/api/storefront/analytics/category_view/12345\" -d '' -X POST \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
+    }
+  ],
+  "resource": "Analytics",
+  "description": "saving a category view",
+  "route": "/api/storefront/analytics/category_view/:category_id",
+  "explanation": "saving a category view will be reflected in admin reports",
+  "http_method": "POST"
+}

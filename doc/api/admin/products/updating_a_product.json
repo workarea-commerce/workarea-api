@@ -16,21 +16,23 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "X-Flash-Messages": "{}",
-        "Cache-Control": "no-cache",
-        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:05:29 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:05:29 -0000",
-        "X-Request-Id": "c92102a0-4399-40c3-b39c-e7c018ab44e9",
-        "X-Runtime": "0.087750"
+        "X-Download-Options": "noopen",
+        "X-Permitted-Cross-Domain-Policies": "none",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
+        "Cache-Control": "no-cache, no-store, must-revalidate",
+        "X-Request-Id": "928b2a44-ec56-4b1f-8f0a-216302056733",
+        "X-Runtime": "0.066531",
+        "Expires": "0"
       },
       "request_method": "PATCH",
-      "request_path": "/api/admin/products/27734A5265",
-      "request_body": "{\"active\":true,\"browser_title\":null,\"created_at\":\"2017-09-06T18:05:29.855Z\",\"customizations\":null,\"description\":null,\"details\":{\"Material\":[\"Cotton\"],\"Style\":[\"12345\"]},\"digital\":false,\"filters\":{\"Material\":\"Cotton\",\"Style\":\"12345\"},\"meta_description\":null,\"name\":\"Test Product\",\"purchasable\":true,\"subscribed_user_ids\":[],\"tags\":[],\"template\":\"generic\",\"updated_at\":\"2017-09-06T18:05:29.855Z\",\"variants\":[{\"_id\":\"59b038e97ceffe612c1190e6\",\"active\":true,\"created_at\":null,\"details\":{},\"name\":\"SKU\",\"sku\":\"SKU\",\"updated_at\":null}]}",
+      "request_path": "/api/admin/products/97CF8A4B0E",
+      "request_body": "{\"active\":true,\"browser_title\":null,\"copied_from_id\":null,\"created_at\":\"2019-07-23T18:14:19.705Z\",\"customizations\":null,\"default_category_id\":null,\"description\":null,\"details\":{\"Material\":[\"Cotton\"],\"Style\":[\"12345\"]},\"digital\":false,\"filters\":{\"Material\":\"Cotton\",\"Style\":\"12345\"},\"meta_description\":null,\"name\":\"Test Product\",\"purchasable\":true,\"subscribed_user_ids\":[],\"tags\":[],\"template\":\"generic\",\"updated_at\":\"2019-07-23T18:14:19.705Z\",\"variants\":[{\"_id\":\"5d374e7bd4322a5df916b2d8\",\"active\":true,\"created_at\":null,\"details\":{},\"name\":\"SKU\",\"position\":0,\"sku\":\"SKU\",\"updated_at\":null}]}",
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/products/27734A5265\" -d '{\"active\":true,\"browser_title\":null,\"created_at\":\"2017-09-06T18:05:29.855Z\",\"customizations\":null,\"description\":null,\"details\":{\"Material\":[\"Cotton\"],\"Style\":[\"12345\"]},\"digital\":false,\"filters\":{\"Material\":\"Cotton\",\"Style\":\"12345\"},\"meta_description\":null,\"name\":\"Test Product\",\"purchasable\":true,\"subscribed_user_ids\":[],\"tags\":[],\"template\":\"generic\",\"updated_at\":\"2017-09-06T18:05:29.855Z\",\"variants\":[{\"_id\":\"59b038e97ceffe612c1190e6\",\"active\":true,\"created_at\":null,\"details\":{},\"name\":\"SKU\",\"sku\":\"SKU\",\"updated_at\":null}]}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/products/97CF8A4B0E\" -d '{\"active\":true,\"browser_title\":null,\"copied_from_id\":null,\"created_at\":\"2019-07-23T18:14:19.705Z\",\"customizations\":null,\"default_category_id\":null,\"description\":null,\"details\":{\"Material\":[\"Cotton\"],\"Style\":[\"12345\"]},\"digital\":false,\"filters\":{\"Material\":\"Cotton\",\"Style\":\"12345\"},\"meta_description\":null,\"name\":\"Test Product\",\"purchasable\":true,\"subscribed_user_ids\":[],\"tags\":[],\"template\":\"generic\",\"updated_at\":\"2019-07-23T18:14:19.705Z\",\"variants\":[{\"_id\":\"5d374e7bd4322a5df916b2d8\",\"active\":true,\"created_at\":null,\"details\":{},\"name\":\"SKU\",\"position\":0,\"sku\":\"SKU\",\"updated_at\":null}]}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Products",

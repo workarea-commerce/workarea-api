@@ -16,21 +16,23 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "X-Flash-Messages": "{}",
-        "Cache-Control": "no-cache",
-        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:05:19 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:05:19 -0000",
-        "X-Request-Id": "0d8f7db8-ac0e-4f7e-aa0f-c1b50040b2c7",
-        "X-Runtime": "0.031556"
+        "X-Download-Options": "noopen",
+        "X-Permitted-Cross-Domain-Policies": "none",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
+        "Cache-Control": "no-cache, no-store, must-revalidate",
+        "X-Request-Id": "00f036ea-69e9-4ee7-9f8b-c2efdd53a504",
+        "X-Runtime": "0.022586",
+        "Expires": "0"
       },
       "request_method": "DELETE",
-      "request_path": "/api/admin/categories/59b038df7ceffe612c118fac",
-      "request_body": "null",
+      "request_path": "/api/admin/categories/5d374e48d4322a5df916afeb",
+      "request_body": null,
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/categories/59b038df7ceffe612c118fac\" -d 'null' -X DELETE \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/categories/5d374e48d4322a5df916afeb\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Categories",

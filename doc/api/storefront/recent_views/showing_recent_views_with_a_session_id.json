@@ -13,40 +13,43 @@
       "request_headers": {
       },
       "request_query_parameters": {
-        "session_id": "59b038f87ceffe612c1191f9"
+        "session_id": "5d374e43d4322a5df916afa9"
       },
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "ETag": "W/\"28f66f776a4eb84fba2d83b92428b21e\"",
-        "Last-Modified": "Wed, 06 Sep 2017 18:05:44 GMT",
+        "X-Download-Options": "noopen",
+        "X-Permitted-Cross-Domain-Policies": "none",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
+        "ETag": "W/\"05019ffc0b4e5613df46962d1f360242\"",
+        "Last-Modified": "Tue, 23 Jul 2019 18:13:23 GMT",
         "Content-Type": "application/json; charset=utf-8",
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Headers": "*",
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
-        "X-Flash-Messages": "{}",
         "Vary": "X-Requested-With, X-Flash-Messages",
-        "Cache-Control": "public",
-        "X-Request-Id": "756d87bd-b797-4996-83d8-5afa7c6c923c",
-        "X-Runtime": "0.021483",
-        "Content-Length": "857"
+        "Cache-Control": "no-cache, no-store, must-revalidate",
+        "X-Request-Id": "6c7afd72-a6bc-47e0-89f2-0f2bf73c4bc5",
+        "X-Runtime": "0.020368",
+        "Expires": "0",
+        "Content-Length": "849"
       },
       "request_method": "GET",
-      "request_path": "/api/storefront/recent_views?session_id=59b038f87ceffe612c1191f9",
+      "request_path": "/api/storefront/recent_views?session_id=5d374e43d4322a5df916afa9",
       "request_body": null,
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": \"59b038f87ceffe612c1191f9\",\n  \"categories\": [\n    {\n      \"id\": \"59b038f87ceffe612c1191f6\",\n      \"name\": \"Shirts\",\n      \"slug\": \"shirts\",\n      \"url\": \"http://www.example.com/api/storefront/categories/shirts\"\n    }\n  ],\n  \"products\": [\n    {\n      \"id\": \"DD421F6C93\",\n      \"name\": \"Cool Shirt\",\n      \"description\": null,\n      \"slug\": \"cool-shirt\",\n      \"browser_title\": \"Cool Shirt\",\n      \"meta_description\": null,\n      \"template\": \"generic\",\n      \"customizations\": null,\n      \"details\": {\n        \"Material\": [\n          \"Cotton\"\n        ],\n        \"Style\": [\n          \"12345\"\n        ]\n      },\n      \"digital\": false,\n      \"filters\": {\n        \"Material\": \"Cotton\",\n        \"Style\": \"12345\"\n      },\n      \"purchasable\": true,\n      \"inventory_status\": \"In Stock\",\n      \"variants\": [\n        {\n          \"id\": \"59b038f87ceffe612c1191f5\",\n          \"name\": \"SKU\",\n          \"sku\": \"SKU\",\n          \"details\": {\n          }\n        }\n      ],\n      \"sell_min_price\": null,\n      \"sell_max_price\": {\n        \"cents\": 500.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"on_sale\": false,\n      \"original_min_price\": {\n        \"cents\": 500.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"original_max_price\": {\n        \"cents\": 500.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"images\": [\n\n      ]\n    }\n  ],\n  \"searches\": [\n    \"shirt\"\n  ]\n}",
+      "response_body": "{\n  \"id\": \"5d374e43d4322a5df916afa9\",\n  \"categories\": [\n    {\n      \"id\": \"5d374e43d4322a5df916afa6\",\n      \"name\": \"Shirts\",\n      \"slug\": \"shirts\",\n      \"url\": \"http://www.example.com/api/storefront/categories/shirts\"\n    }\n  ],\n  \"products\": [\n    {\n      \"id\": \"20ECFF4BDE\",\n      \"name\": \"Cool Shirt\",\n      \"description\": null,\n      \"slug\": \"cool-shirt\",\n      \"browser_title\": \"Cool Shirt\",\n      \"meta_description\": null,\n      \"template\": \"generic\",\n      \"customizations\": null,\n      \"details\": {\n        \"Material\": [\n          \"Cotton\"\n        ],\n        \"Style\": [\n          \"12345\"\n        ]\n      },\n      \"digital\": false,\n      \"filters\": {\n        \"Material\": \"Cotton\",\n        \"Style\": \"12345\"\n      },\n      \"purchasable\": true,\n      \"inventory_status\": \"\",\n      \"variants\": [\n        {\n          \"id\": \"5d374e43d4322a5df916afa5\",\n          \"name\": \"SKU\",\n          \"sku\": \"SKU\",\n          \"details\": {\n          }\n        }\n      ],\n      \"sell_min_price\": null,\n      \"sell_max_price\": {\n        \"cents\": 500.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"on_sale\": false,\n      \"original_min_price\": {\n        \"cents\": 500.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"original_max_price\": {\n        \"cents\": 500.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"images\": [\n\n      ]\n    }\n  ],\n  \"searches\": [\n    \"shirt\"\n  ]\n}",
       "response_content_type": "application/json",
-      "curl": "curl -g \"https://www.example.com/api/storefront/recent_views?session_id=59b038f87ceffe612c1191f9\" -X GET "
+      "curl": "curl -g \"https://www.example.com/api/storefront/recent_views?session_id=5d374e43d4322a5df916afa9\" -X GET "
     }
   ],
   "resource": "Recent views",
   "description": "Showing recent views with a session_id",
   "route": "/api/storefront/recent_views",
-  "http_method": "GET",
-  "explanation": "            Display recent views based on a session_id you've kept for an\n            anonymous browser (as opposed to displaying them based on\n            authentication).\n"
+  "explanation": "            Display recent views based on a session_id you've kept for an\n            anonymous browser (as opposed to displaying them based on\n            authentication).\n",
+  "http_method": "GET"
 }

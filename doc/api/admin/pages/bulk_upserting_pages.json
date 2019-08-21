@@ -16,21 +16,23 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "X-Flash-Messages": "{}",
-        "Cache-Control": "no-cache",
-        "Set-Cookie": "release_page_views=; path=/; expires=Sun, 06 Sep 2037 18:03:58 -0000\nrelease_changed_at=; path=/; expires=Sun, 06 Sep 2037 18:03:58 -0000",
-        "X-Request-Id": "6bb5519b-7329-47f4-801c-2ca174c2f7a6",
-        "X-Runtime": "0.134486"
+        "X-Download-Options": "noopen",
+        "X-Permitted-Cross-Domain-Policies": "none",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
+        "Cache-Control": "no-cache, no-store, must-revalidate",
+        "X-Request-Id": "04f5d968-a022-423c-bd4f-33b3efc4d31f",
+        "X-Runtime": "0.169656",
+        "Expires": "0"
       },
       "request_method": "PATCH",
       "request_path": "/api/admin/pages/bulk",
-      "request_body": "{\"pages\":[{\"active\":true,\"created_at\":\"2017-09-06T18:03:58.375Z\",\"display_h1\":true,\"name\":\"Test Page\",\"show_navigation\":false,\"subscribed_user_ids\":[],\"tags\":[],\"template\":\"generic\",\"updated_at\":\"2017-09-06T18:03:58.375Z\"},{\"active\":true,\"created_at\":\"2017-09-06T18:03:58.375Z\",\"display_h1\":true,\"name\":\"Test Page\",\"show_navigation\":false,\"subscribed_user_ids\":[],\"tags\":[],\"template\":\"generic\",\"updated_at\":\"2017-09-06T18:03:58.375Z\"},{\"active\":true,\"created_at\":\"2017-09-06T18:03:58.375Z\",\"display_h1\":true,\"name\":\"Test Page\",\"show_navigation\":false,\"subscribed_user_ids\":[],\"tags\":[],\"template\":\"generic\",\"updated_at\":\"2017-09-06T18:03:58.375Z\"}]}",
+      "request_body": "{\"pages\":[{\"active\":true,\"created_at\":\"2019-07-23T18:16:17.092Z\",\"display_h1\":true,\"name\":\"Test Page\",\"show_navigation\":false,\"subscribed_user_ids\":[],\"tags\":[],\"template\":\"generic\",\"updated_at\":\"2019-07-23T18:16:17.092Z\"},{\"active\":true,\"created_at\":\"2019-07-23T18:16:17.092Z\",\"display_h1\":true,\"name\":\"Test Page\",\"show_navigation\":false,\"subscribed_user_ids\":[],\"tags\":[],\"template\":\"generic\",\"updated_at\":\"2019-07-23T18:16:17.092Z\"},{\"active\":true,\"created_at\":\"2019-07-23T18:16:17.092Z\",\"display_h1\":true,\"name\":\"Test Page\",\"show_navigation\":false,\"subscribed_user_ids\":[],\"tags\":[],\"template\":\"generic\",\"updated_at\":\"2019-07-23T18:16:17.092Z\"}]}",
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/pages/bulk\" -d '{\"pages\":[{\"active\":true,\"created_at\":\"2017-09-06T18:03:58.375Z\",\"display_h1\":true,\"name\":\"Test Page\",\"show_navigation\":false,\"subscribed_user_ids\":[],\"tags\":[],\"template\":\"generic\",\"updated_at\":\"2017-09-06T18:03:58.375Z\"},{\"active\":true,\"created_at\":\"2017-09-06T18:03:58.375Z\",\"display_h1\":true,\"name\":\"Test Page\",\"show_navigation\":false,\"subscribed_user_ids\":[],\"tags\":[],\"template\":\"generic\",\"updated_at\":\"2017-09-06T18:03:58.375Z\"},{\"active\":true,\"created_at\":\"2017-09-06T18:03:58.375Z\",\"display_h1\":true,\"name\":\"Test Page\",\"show_navigation\":false,\"subscribed_user_ids\":[],\"tags\":[],\"template\":\"generic\",\"updated_at\":\"2017-09-06T18:03:58.375Z\"}]}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/pages/bulk\" -d '{\"pages\":[{\"active\":true,\"created_at\":\"2019-07-23T18:16:17.092Z\",\"display_h1\":true,\"name\":\"Test Page\",\"show_navigation\":false,\"subscribed_user_ids\":[],\"tags\":[],\"template\":\"generic\",\"updated_at\":\"2019-07-23T18:16:17.092Z\"},{\"active\":true,\"created_at\":\"2019-07-23T18:16:17.092Z\",\"display_h1\":true,\"name\":\"Test Page\",\"show_navigation\":false,\"subscribed_user_ids\":[],\"tags\":[],\"template\":\"generic\",\"updated_at\":\"2019-07-23T18:16:17.092Z\"},{\"active\":true,\"created_at\":\"2019-07-23T18:16:17.092Z\",\"display_h1\":true,\"name\":\"Test Page\",\"show_navigation\":false,\"subscribed_user_ids\":[],\"tags\":[],\"template\":\"generic\",\"updated_at\":\"2019-07-23T18:16:17.092Z\"}]}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Pages",

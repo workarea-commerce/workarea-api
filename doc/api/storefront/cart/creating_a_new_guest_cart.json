@@ -16,17 +16,20 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
+        "X-Download-Options": "noopen",
+        "X-Permitted-Cross-Domain-Policies": "none",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
         "Content-Type": "application/json; charset=utf-8",
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Headers": "*",
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
-        "X-Flash-Messages": "{}",
         "Vary": "X-Requested-With, X-Flash-Messages",
-        "ETag": "W/\"dfc0a8f13b819672027755fa49f15d04\"",
-        "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "d6e8b7f3-968c-4de7-9ae6-63697287a087",
-        "X-Runtime": "0.015573",
+        "ETag": "W/\"4aea2154343ab52b24f671671ff6fa4c\"",
+        "Cache-Control": "no-cache, no-store, must-revalidate",
+        "X-Request-Id": "a6f345aa-386e-4a59-ae14-e1b70a589286",
+        "X-Runtime": "0.009096",
+        "Expires": "0",
         "Content-Length": "522"
       },
       "request_method": "POST",
@@ -35,7 +38,7 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": \"E63B40C7C2\",\n  \"url\": \"http://www.example.com/api/storefront/orders/E63B40C7C2\",\n  \"user_id\": null,\n  \"email\": null,\n  \"placed_at\": null,\n  \"canceled_at\": null,\n  \"promo_codes\": [\n\n  ],\n  \"requires_shipping\": false,\n  \"items\": [\n\n  ],\n  \"pricing\": {\n    \"price_adjustments\": [\n\n    ],\n    \"shipping_total\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"tax_total\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"subtotal_price\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"total_price\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"paid_amount\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    }\n  },\n  \"shipping_service\": null,\n  \"tenders\": [\n\n  ]\n}",
+      "response_body": "{\n  \"id\": \"5626F38D93\",\n  \"url\": \"http://www.example.com/api/storefront/orders/5626F38D93\",\n  \"user_id\": null,\n  \"email\": null,\n  \"placed_at\": null,\n  \"canceled_at\": null,\n  \"promo_codes\": [\n\n  ],\n  \"requires_shipping\": false,\n  \"items\": [\n\n  ],\n  \"pricing\": {\n    \"price_adjustments\": [\n\n    ],\n    \"shipping_total\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"tax_total\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"subtotal_price\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"total_price\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"paid_amount\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    }\n  },\n  \"shipping_service\": null,\n  \"tenders\": [\n\n  ]\n}",
       "response_content_type": "application/json",
       "curl": "curl \"https://www.example.com/api/storefront/carts\" -d '' -X POST \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
     }
@@ -43,6 +46,6 @@
   "resource": "Cart",
   "description": "Creating a new guest cart",
   "route": "/api/storefront/carts",
-  "http_method": "POST",
-  "explanation": "            Use this endpoint to create a cart. This allows the possibility of\n            multiple carts for a user.\n"
+  "explanation": "            Use this endpoint to create a cart. This allows the possibility of\n            multiple carts for a user.\n",
+  "http_method": "POST"
 }
