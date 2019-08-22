@@ -67,14 +67,11 @@ https://youruser@example.com:Password!1@yourtotallyamazingstore.com/api/swagger.
 Point your Swagger client to this endpoint to be able to use and browse
 the Swagger documentation for our API.
 
-## Copyright & Licensing
+License
+--------------------------------------------------------------------------------
+Workarea Commerce Platform is released under the [Business Software License](https://github.com/workarea-commerce/workarea/blob/master/LICENSE)
 
-Copyright Workarea 2017-2019. All rights reserved.
-
-For licensing, contact [sales@workarea.com][].
-
-[Workarea API]: https://homebase.weblinc.com/plugins/workarea-api-admin
-[sales@workarea.com]: mailto:sales@workarea.com
+[Workarea API]: https://github.com/workarea-commerce/workarea-api
 [HTTP Basic Authentication]: https://developer.mozilla.org/en-US/docs/Web/HTTP/Authentication#Basic_authentication_scheme
 [OpenAPI]: https://swagger.io/resources/open-api/
 [Swagger]: https://swagger.io
