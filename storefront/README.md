@@ -48,11 +48,8 @@ curl \
   "http://yourincredibleheadlesscommercesolution.biz/api/carts.json"
 ```
 
-## Copyright & Licensing
+License
+--------------------------------------------------------------------------------
+Workarea Commerce Platform is released under the [Business Software License](https://github.com/workarea-commerce/workarea/blob/master/LICENSE)
 
-Copyright Workarea 2017-2019. All rights reserved.
-
-For licensing, contact [sales@workarea.com][].
-
-[Workarea API]: https://homebase.weblinc.com/plugins/workarea-api-admin
-[sales@workarea.com]: mailto:sales@workarea.com
+[Workarea API]: https://github.com/workarea-commerce/workarea-api
