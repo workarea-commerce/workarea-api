@@ -18,14 +18,10 @@ separate APIs for different purposes:
 
 ## Getting Started
 
-To begin using the Workarea API, add the following to your **Gemfile** in
-the https://gems.weblinc.com `source` block:
+To begin using the Workarea API, add the following to your **Gemfile**:
 
 ```ruby
-source 'https://gems.weblinc.com' do
-  # ... all your other unquestionably fantastic Workarea gems ...
   gem 'weblinc-api'
-end
 ```
 
 Next, mount the API engines into **config/routes.rb**.
@@ -36,7 +32,8 @@ You can either use a path prefix:
 Rails.application.routes.draw do
   # ...all your other absolutely fabulous Workarea routes...
   mount Workarea::Api::Engine => '/api', as: :api
-  # ...except this one. make sure it's last.
+
+# ...except this one. Make sure it's last to correctly handle errors and redirects.
   mount Workarea::Storefront::Engine => '/', as: :storefront
 end
 ```
@@ -95,13 +92,10 @@ describe how each controller and action is to be documented. Look in the
 aforementioned link to see some examples of documentation built using
 the documentation tests.
 
-## Copyright & Licensing
+License
+--------------------------------------------------------------------------------
+Workarea Commerce Platform is released under the [Business Software License](https://github.com/workarea-commerce/workarea/blob/master/LICENSE)
 
-Copyright WebLinc 2017-2019. All rights reserved.
-
-For licensing, contact [sales@workarea.com][]
-
-[Admin API]: https://plugins.workarea.com/plugins/api-admin
-[Storefront API]: https://plugins.workarea.com/plugins/api-storefront
-[documentation tests]: https://stash.tools.weblinc.com/projects/WL/repos/workarea-api/browse/test/documentation/workarea/api
-[sales@workarea.com]: mailto:sales@workarea.com
+[Admin API]: https://github.com/workarea-commerce/workarea-api/tree/master/admin
+[Storefront API]: https://github.com/workarea-commerce/workarea-api/tree/master/storefront
+[documentation tests]: https://github.com/workarea-commerce/workarea-api/blob/master/storefront/test/documentation/workarea/api/storefront/products_documentation_test.rb
