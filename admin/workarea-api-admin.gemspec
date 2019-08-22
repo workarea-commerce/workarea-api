@@ -4,10 +4,11 @@ Gem::Specification.new do |s|
   s.name        = 'workarea-api-admin'
   s.version     = Workarea::Api::VERSION
   s.authors     = ['Ben Crouse']
-  s.email       = ['bcrouse@weblinc.com']
-  s.homepage    = 'http://www.workarea.com'
-  s.summary     = 'Admin API for the Workarea commerce platform'
-  s.description = 'Admin HTTP API Rails Engine of the Workarea ecommerce platform'
+  s.email       = ['bcrouse@workarea.com']
+  s.homepage    = 'https://www.workarea.com'
+  s.license     = 'Business Software License'
+  s.summary     = 'Admin JSON REST API for the Workarea Commerce Platform'
+  s.description = 'This provides an admin JSON REST API for the Workarea Commerce Platform. Useful for managing the site, 3rd party integrations, etc.'
 
   s.files = `git ls-files`.split("\n")
 
