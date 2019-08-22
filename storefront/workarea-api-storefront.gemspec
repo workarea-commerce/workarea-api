@@ -3,11 +3,12 @@ require File.expand_path('../../lib/workarea/api/version', __FILE__)
 Gem::Specification.new do |s|
   s.name        = 'workarea-api-storefront'
   s.version     = Workarea::Api::VERSION
-  s.authors     = ['Curt Howard']
-  s.email       = ['choward@weblinc.com']
-  s.homepage    = 'http://www.workarea.com'
-  s.summary     = 'Storefront API for the Workarea commerce platform'
-  s.description = 'Storefront HTTP API Rails Engine of the Workarea ecommerce platform'
+  s.authors     = ['Ben Crouse']
+  s.email       = ['bcrouse@workarea.com']
+  s.homepage    = 'https://www.workarea.com'
+  s.license     = 'Business Software License'
+  s.summary     = 'Storefront JSON REST API for the Workarea Commerce Platform'
+  s.description = 'This provides a storefront JSON REST API for the Workarea Commerce Platform. Useful for building apps, kiosks, etc.'
 
   s.files = `git ls-files`.split("\n")
 
