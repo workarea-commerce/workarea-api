@@ -20,19 +20,19 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "17f4452c-ccbf-4592-947d-51b5d08b5460",
-        "X-Runtime": "0.030100",
+        "X-Request-Id": "24e0894c-0575-4ebe-8240-cd92eae58790",
+        "X-Runtime": "0.035033",
         "Expires": "0"
       },
       "request_method": "PATCH",
-      "request_path": "/api/admin/content/5d5dbd7ad4322a4b69d7916b",
+      "request_path": "/api/admin/content/5d5ecaa4d4322a04dfbf7002",
       "request_body": "{\"content\":{\"browser_title\":\"foo\"}}",
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/content/5d5dbd7ad4322a4b69d7916b\" -d '{\"content\":{\"browser_title\":\"foo\"}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/content/5d5ecaa4d4322a04dfbf7002\" -d '{\"content\":{\"browser_title\":\"foo\"}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Content",

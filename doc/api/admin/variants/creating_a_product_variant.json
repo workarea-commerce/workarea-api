@@ -21,22 +21,22 @@
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Location": "/api/admin/products/test-product/variants",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"3d0a82d4a96fc48e2dcd8f355716ed0d\"",
+        "ETag": "W/\"11f1faf8271856483ddf01a730154962\"",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "c0d7072c-3001-4f6c-bc71-057b2c7f761a",
-        "X-Runtime": "0.074235",
+        "X-Request-Id": "1aa8e628-b1c9-4133-841a-df2df7dff182",
+        "X-Runtime": "0.091822",
         "Expires": "0",
         "Content-Length": "191"
       },
       "request_method": "POST",
-      "request_path": "/api/admin/products/B08160A16A/variants",
+      "request_path": "/api/admin/products/1AD1D345C3/variants",
       "request_body": "{\"variant\":{\"active\":true,\"created_at\":null,\"details\":{},\"name\":\"SKU\",\"position\":0,\"sku\":\"SKU\",\"updated_at\":null}}",
       "request_content_type": "application/json",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"variant\": {\n    \"_id\": \"5d5dbd09d4322a4b69d78bed\",\n    \"active\": true,\n    \"created_at\": \"2019-08-21T21:52:09.832Z\",\n    \"details\": {\n    },\n    \"name\": \"SKU\",\n    \"position\": 0,\n    \"sku\": \"SKU\",\n    \"updated_at\": \"2019-08-21T21:52:09.832Z\"\n  }\n}",
+      "response_body": "{\n  \"variant\": {\n    \"_id\": \"5d5ecb15d4322a04dfbf7424\",\n    \"active\": true,\n    \"created_at\": \"2019-08-22T17:04:21.906Z\",\n    \"details\": {\n    },\n    \"name\": \"SKU\",\n    \"position\": 0,\n    \"sku\": \"SKU\",\n    \"updated_at\": \"2019-08-22T17:04:21.906Z\"\n  }\n}",
       "response_content_type": "application/json",
-      "curl": "curl \"https://www.example.com/api/admin/products/B08160A16A/variants\" -d '{\"variant\":{\"active\":true,\"created_at\":null,\"details\":{},\"name\":\"SKU\",\"position\":0,\"sku\":\"SKU\",\"updated_at\":null}}' -X POST \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/products/1AD1D345C3/variants\" -d '{\"variant\":{\"active\":true,\"created_at\":null,\"details\":{},\"name\":\"SKU\",\"position\":0,\"sku\":\"SKU\",\"updated_at\":null}}' -X POST \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Variants",

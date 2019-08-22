@@ -29,8 +29,8 @@
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Flash-Messages",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "470d504d-6590-44e5-9b6a-afb932922dd2",
-        "X-Runtime": "0.005608",
+        "X-Request-Id": "e3e031d5-c055-45e8-800a-92ba33797609",
+        "X-Runtime": "0.007861",
         "Expires": "0",
         "Content-Length": "0"
       },
@@ -48,6 +48,6 @@
   "resource": "Recent views",
   "description": "Updating recent views with a session_id",
   "route": "/api/storefront/recent_views",
-  "explanation": "            You can also use this endpoint to maintain a recent activity for an\n            anonymous browser. Use a consistent session_id to maintain\n            continuity.\n",
-  "http_method": "PATCH"
+  "http_method": "PATCH",
+  "explanation": "            You can also use this endpoint to maintain a recent activity for an\n            anonymous browser. Use a consistent session_id to maintain\n            continuity.\n"
 }

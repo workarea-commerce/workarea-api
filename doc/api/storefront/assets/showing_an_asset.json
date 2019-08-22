@@ -24,27 +24,27 @@
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Flash-Messages",
-        "ETag": "W/\"a5c14b557854cee6ec5f29b9abb23921\"",
+        "ETag": "W/\"84d1ea8812e5268e2a39b2febb4e2a52\"",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "7dfd7d27-f044-4216-8024-ebdce1de2ee0",
-        "X-Runtime": "0.004118",
+        "X-Request-Id": "da2a7293-2f25-43cc-a1a6-aefe5e4735a6",
+        "X-Runtime": "0.004657",
         "Expires": "0",
         "Content-Length": "217"
       },
       "request_method": "GET",
-      "request_path": "/api/storefront/assets/5d5dbd2ed4322a4b69d78df5",
+      "request_path": "/api/storefront/assets/5d5ecb4ed4322a04dfbf76e6",
       "request_body": null,
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": \"5d5dbd2ed4322a4b69d78df5\",\n  \"name\": \"Summer Sale Callout\",\n  \"url\": \"http://www.example.com/media/W1siZiIsIjIwMTkvMDgvMjEvNnBrMjhhbDJhel9maWxlLmpwZyJdLFsicCIsIm9wdGltIl1d/file.jpg?sha=158e5af8e3a65664\",\n  \"type\": \"image\"\n}",
+      "response_body": "{\n  \"id\": \"5d5ecb4ed4322a04dfbf76e6\",\n  \"name\": \"Summer Sale Callout\",\n  \"url\": \"http://www.example.com/media/W1siZiIsIjIwMTkvMDgvMjIvOGJ4NzEzZ3k1NF9maWxlLmpwZyJdLFsicCIsIm9wdGltIl1d/file.jpg?sha=ae3e59fda31e8675\",\n  \"type\": \"image\"\n}",
       "response_content_type": "application/json",
-      "curl": "curl -g \"https://www.example.com/api/storefront/assets/5d5dbd2ed4322a4b69d78df5\" -X GET "
+      "curl": "curl -g \"https://www.example.com/api/storefront/assets/5d5ecb4ed4322a04dfbf76e6\" -X GET "
     }
   ],
   "resource": "Assets",
   "description": "Showing an asset",
   "route": "/api/storefront/assets/:id",
-  "explanation": "            Use this endpoint to look up assets stored in Workarea. Often times\n            these will be referenced in content blocks.\n",
-  "http_method": "GET"
+  "http_method": "GET",
+  "explanation": "            Use this endpoint to look up assets stored in Workarea. Often times\n            these will be referenced in content blocks.\n"
 }

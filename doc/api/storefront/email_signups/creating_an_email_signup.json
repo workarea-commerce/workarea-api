@@ -25,10 +25,10 @@
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Flash-Messages",
-        "ETag": "W/\"32291d1d507a8f6b0b38211a17edd5ab\"",
+        "ETag": "W/\"f450e6bbed16875fe3c684da0efe644c\"",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "b391b107-687a-4ab2-9b62-92697a27ada3",
-        "X-Runtime": "0.006754",
+        "X-Request-Id": "75a39e38-3b5b-43e1-8725-6cbb633d1729",
+        "X-Runtime": "0.009484",
         "Expires": "0",
         "Content-Length": "61"
       },
@@ -38,7 +38,7 @@
       "request_content_type": "application/json",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": \"5d5dbdc5d4322a4b69d7959c\",\n  \"email\": \"email@example.com\"\n}",
+      "response_body": "{\n  \"id\": \"5d5ecba1d4322a04dfbf7be3\",\n  \"email\": \"email@example.com\"\n}",
       "response_content_type": "application/json",
       "curl": "curl \"https://www.example.com/api/storefront/email_signups\" -d '{\"email\":\"email@example.com\"}' -X POST \\\n\t-H \"Content-Type: application/json\""
     }
@@ -46,6 +46,6 @@
   "resource": "Email Signups",
   "description": "Creating an email signup",
   "route": "/api/storefront/email_signups",
-  "explanation": "            Use this endpoint to create an email signup. This will usually be\n            forwarded to an Email Service Provider, but Workarea will keep a\n            record of it just in case.\n",
-  "http_method": "POST"
+  "http_method": "POST",
+  "explanation": "            Use this endpoint to create an email signup. This will usually be\n            forwarded to an Email Service Provider, but Workarea will keep a\n            record of it just in case.\n"
 }

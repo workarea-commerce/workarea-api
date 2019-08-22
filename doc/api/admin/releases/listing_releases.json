@@ -33,10 +33,10 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"67a05c0fd3544ced0eb893da3c366b89\"",
+        "ETag": "W/\"a032171ff62d6fd7fcb1e651cddbe31d\"",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "b56accd2-8018-4f21-9bb4-53f980a26f17",
-        "X-Runtime": "0.008892",
+        "X-Request-Id": "d57adca1-433c-482c-893c-b349d2a37ff0",
+        "X-Runtime": "0.007975",
         "Expires": "0",
         "Content-Length": "586"
       },
@@ -46,7 +46,7 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"releases\": [\n    {\n      \"_id\": \"5d5dbd4ad4322a4b69d78f00\",\n      \"created_at\": \"2019-08-21T21:53:14.818Z\",\n      \"name\": \"Content Release\",\n      \"publish_at\": null,\n      \"publish_job_id\": null,\n      \"published_at\": null,\n      \"subscribed_user_ids\": [\n\n      ],\n      \"tags\": [\n\n      ],\n      \"undo_at\": null,\n      \"undo_job_id\": null,\n      \"undone_at\": null,\n      \"updated_at\": \"2019-08-21T21:53:14.818Z\"\n    },\n    {\n      \"_id\": \"5d5dbd4ad4322a4b69d78eff\",\n      \"created_at\": \"2019-08-21T21:53:14.792Z\",\n      \"name\": \"Content Release\",\n      \"publish_at\": null,\n      \"publish_job_id\": null,\n      \"published_at\": null,\n      \"subscribed_user_ids\": [\n\n      ],\n      \"tags\": [\n\n      ],\n      \"undo_at\": null,\n      \"undo_job_id\": null,\n      \"undone_at\": null,\n      \"updated_at\": \"2019-08-21T21:53:14.792Z\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"releases\": [\n    {\n      \"_id\": \"5d5eca72d4322a04dfbf6da7\",\n      \"created_at\": \"2019-08-22T17:01:38.679Z\",\n      \"name\": \"Content Release\",\n      \"publish_at\": null,\n      \"publish_job_id\": null,\n      \"published_at\": null,\n      \"subscribed_user_ids\": [\n\n      ],\n      \"tags\": [\n\n      ],\n      \"undo_at\": null,\n      \"undo_job_id\": null,\n      \"undone_at\": null,\n      \"updated_at\": \"2019-08-22T17:01:38.679Z\"\n    },\n    {\n      \"_id\": \"5d5eca72d4322a04dfbf6da6\",\n      \"created_at\": \"2019-08-22T17:01:38.655Z\",\n      \"name\": \"Content Release\",\n      \"publish_at\": null,\n      \"publish_job_id\": null,\n      \"published_at\": null,\n      \"subscribed_user_ids\": [\n\n      ],\n      \"tags\": [\n\n      ],\n      \"undo_at\": null,\n      \"undo_job_id\": null,\n      \"undone_at\": null,\n      \"updated_at\": \"2019-08-22T17:01:38.655Z\"\n    }\n  ]\n}",
       "response_content_type": "application/json",
       "curl": "curl -g \"https://www.example.com/api/admin/releases?page=1&sort_by=created_at&sort_direction=desc\" -X GET "
     }

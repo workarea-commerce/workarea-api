@@ -19,7 +19,7 @@
         "X-Download-Options": "noopen",
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
-        "Date": "Wed, 21 Aug 2019 21:53:55 GMT",
+        "Date": "Thu, 22 Aug 2019 17:00:24 GMT",
         "Content-Type": "application/json; charset=utf-8",
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Headers": "*",
@@ -27,9 +27,9 @@
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Flash-Messages",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "ETag": "W/\"1f2a9b3dde9fdf74b25d5464ccbe3cfd\"",
-        "X-Request-Id": "9f1210b2-50c7-49bd-9be3-8742c78102f9",
-        "X-Runtime": "0.032883",
+        "ETag": "W/\"5cadef3e3fd1835a35070954308d0d32\"",
+        "X-Request-Id": "02b9b8a2-403b-4f94-83ea-5cebacd48cee",
+        "X-Runtime": "0.055426",
         "Expires": "0",
         "Content-Length": "631"
       },
@@ -39,7 +39,7 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"results\": [\n    {\n      \"value\": \"red\",\n      \"type\": \"Searches\",\n      \"image\": null,\n      \"url\": \"/api/storefront/search?q=red\",\n      \"analytics\": null\n    },\n    {\n      \"value\": \"Red Product\",\n      \"type\": \"Products\",\n      \"image\": \"/product_images/placeholder/small_thumb.jpg?c=1566424156\",\n      \"url\": \"/api/storefront/products/red-product\",\n      \"analytics\": {\n        \"id\": \"2A5AE5CA93\",\n        \"name\": \"Red Product\",\n        \"sku\": null,\n        \"sale\": false,\n        \"price\": 5.0,\n        \"category\": null\n      }\n    },\n    {\n      \"value\": \"Page about Red Products\",\n      \"type\": \"Pages\",\n      \"image\": null,\n      \"url\": \"/api/storefront/pages/page-about-red-products\",\n      \"analytics\": null\n    },\n    {\n      \"value\": \"Red Category\",\n      \"type\": \"Categories\",\n      \"image\": null,\n      \"url\": \"/api/storefront/categories/red-category\",\n      \"analytics\": null\n    }\n  ]\n}",
+      "response_body": "{\n  \"results\": [\n    {\n      \"value\": \"red\",\n      \"type\": \"Searches\",\n      \"image\": null,\n      \"url\": \"/api/storefront/search?q=red\",\n      \"analytics\": null\n    },\n    {\n      \"value\": \"Red Product\",\n      \"type\": \"Products\",\n      \"image\": \"/product_images/placeholder/small_thumb.jpg?c=1566493120\",\n      \"url\": \"/api/storefront/products/red-product\",\n      \"analytics\": {\n        \"id\": \"8CB6DE3B62\",\n        \"name\": \"Red Product\",\n        \"sku\": null,\n        \"sale\": false,\n        \"price\": 5.0,\n        \"category\": null\n      }\n    },\n    {\n      \"value\": \"Page about Red Products\",\n      \"type\": \"Pages\",\n      \"image\": null,\n      \"url\": \"/api/storefront/pages/page-about-red-products\",\n      \"analytics\": null\n    },\n    {\n      \"value\": \"Red Category\",\n      \"type\": \"Categories\",\n      \"image\": null,\n      \"url\": \"/api/storefront/categories/red-category\",\n      \"analytics\": null\n    }\n  ]\n}",
       "response_content_type": "application/json",
       "curl": "curl -g \"https://www.example.com/api/storefront/searches?q=red\" -X GET "
     }
@@ -47,6 +47,6 @@
   "resource": "Searches",
   "description": "Showing search autocomplete suggestions",
   "route": "/api/storefront/searches",
-  "explanation": "            This list will be based on popular search terms and matching\n            products, categories, etc. Useful for showing a autocomplete\n            drop-down as a customer types in a search bar.\n",
-  "http_method": "GET"
+  "http_method": "GET",
+  "explanation": "            This list will be based on popular search terms and matching\n            products, categories, etc. Useful for showing a autocomplete\n            drop-down as a customer types in a search bar.\n"
 }

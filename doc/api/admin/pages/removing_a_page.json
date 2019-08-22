@@ -20,19 +20,19 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "765252e5-6000-420d-8a31-011dff909e70",
-        "X-Runtime": "0.026635",
+        "X-Request-Id": "0186b06c-c442-4918-ae0c-965851ced6a0",
+        "X-Runtime": "0.046146",
         "Expires": "0"
       },
       "request_method": "DELETE",
-      "request_path": "/api/admin/pages/5d5dbda8d4322a4b69d7939f",
+      "request_path": "/api/admin/pages/5d5ecb82d4322a04dfbf79e4",
       "request_body": null,
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/pages/5d5dbda8d4322a4b69d7939f\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/pages/5d5ecb82d4322a04dfbf79e4\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Pages",

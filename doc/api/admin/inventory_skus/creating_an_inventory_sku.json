@@ -21,22 +21,22 @@
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Location": "/api/admin/inventory_skus/SKU2",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"4e52248dfe4eae90e4f2395199a656ee\"",
+        "ETag": "W/\"1b9f8aa8c9fef184081c5fa286f0bc88\"",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "1e576642-618e-4a00-8a3a-1948fdf10ea1",
-        "X-Runtime": "0.028036",
+        "X-Request-Id": "896576ff-e97c-4654-a0a3-0dfa87dcfc11",
+        "X-Runtime": "0.028686",
         "Expires": "0",
         "Content-Length": "226"
       },
       "request_method": "POST",
       "request_path": "/api/admin/inventory_skus",
-      "request_body": "{\"inventory_sku\":{\"available\":5,\"backordered\":0,\"backordered_until\":null,\"created_at\":\"2019-08-21T21:49:40.773Z\",\"policy\":\"standard\",\"purchased\":0,\"reserve\":0,\"sellable\":5,\"updated_at\":\"2019-08-21T21:49:40.773Z\",\"_id\":\"SKU2\"}}",
+      "request_body": "{\"inventory_sku\":{\"available\":5,\"backordered\":0,\"backordered_until\":null,\"created_at\":\"2019-08-22T17:02:54.824Z\",\"policy\":\"standard\",\"purchased\":0,\"reserve\":0,\"sellable\":5,\"updated_at\":\"2019-08-22T17:02:54.824Z\",\"_id\":\"SKU2\"}}",
       "request_content_type": "application/json",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"inventory_sku\": {\n    \"_id\": \"SKU2\",\n    \"available\": 5,\n    \"backordered\": 0,\n    \"backordered_until\": null,\n    \"created_at\": \"2019-08-21T21:49:40.773Z\",\n    \"policy\": \"standard\",\n    \"purchased\": 0,\n    \"reserve\": 0,\n    \"sellable\": 5,\n    \"updated_at\": \"2019-08-21T21:49:40.773Z\"\n  }\n}",
+      "response_body": "{\n  \"inventory_sku\": {\n    \"_id\": \"SKU2\",\n    \"available\": 5,\n    \"backordered\": 0,\n    \"backordered_until\": null,\n    \"created_at\": \"2019-08-22T17:02:54.824Z\",\n    \"policy\": \"standard\",\n    \"purchased\": 0,\n    \"reserve\": 0,\n    \"sellable\": 5,\n    \"updated_at\": \"2019-08-22T17:02:54.824Z\"\n  }\n}",
       "response_content_type": "application/json",
-      "curl": "curl \"https://www.example.com/api/admin/inventory_skus\" -d '{\"inventory_sku\":{\"available\":5,\"backordered\":0,\"backordered_until\":null,\"created_at\":\"2019-08-21T21:49:40.773Z\",\"policy\":\"standard\",\"purchased\":0,\"reserve\":0,\"sellable\":5,\"updated_at\":\"2019-08-21T21:49:40.773Z\",\"_id\":\"SKU2\"}}' -X POST \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/inventory_skus\" -d '{\"inventory_sku\":{\"available\":5,\"backordered\":0,\"backordered_until\":null,\"created_at\":\"2019-08-22T17:02:54.824Z\",\"policy\":\"standard\",\"purchased\":0,\"reserve\":0,\"sellable\":5,\"updated_at\":\"2019-08-22T17:02:54.824Z\",\"_id\":\"SKU2\"}}' -X POST \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Inventory SKUs",

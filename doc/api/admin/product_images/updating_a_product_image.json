@@ -20,19 +20,19 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "ef1ed3bd-d5c8-4b03-8773-1fabd0db215c",
-        "X-Runtime": "0.101313",
+        "X-Request-Id": "d6f02339-1f1c-41f0-a493-5ce5585ab2c6",
+        "X-Runtime": "0.118104",
         "Expires": "0"
       },
       "request_method": "PATCH",
-      "request_path": "/api/admin/products/114020DD70/images/5d5dbd5ad4322a4b69d78fa4",
+      "request_path": "/api/admin/products/0B84E05860/images/5d5ecaa1d4322a04dfbf6fef",
       "request_body": "{\"image\":{\"name\":\"foo\"}}",
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/products/114020DD70/images/5d5dbd5ad4322a4b69d78fa4\" -d '{\"image\":{\"name\":\"foo\"}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/products/0B84E05860/images/5d5ecaa1d4322a04dfbf6fef\" -d '{\"image\":{\"name\":\"foo\"}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Product Images",

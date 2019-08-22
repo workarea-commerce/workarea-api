@@ -20,19 +20,19 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "0803a5be-2ff0-40e2-a694-6dc0fbbcef9d",
-        "X-Runtime": "0.027823",
+        "X-Request-Id": "ef1a4f75-bcbc-4406-b535-463342a9952c",
+        "X-Runtime": "0.031647",
         "Expires": "0"
       },
       "request_method": "PATCH",
-      "request_path": "/api/admin/pricing_skus/2134/prices/5d5dbde9d4322a4b69d79943",
+      "request_path": "/api/admin/pricing_skus/2134/prices/5d5ec9cbd4322a04dfbf630d",
       "request_body": "price[regular]=15",
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/pricing_skus/2134/prices/5d5dbde9d4322a4b69d79943\" -d 'price[regular]=15' -X PATCH \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
+      "curl": "curl \"https://www.example.com/api/admin/pricing_skus/2134/prices/5d5ec9cbd4322a04dfbf630d\" -d 'price[regular]=15' -X PATCH \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
     }
   ],
   "resource": "Prices",

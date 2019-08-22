@@ -22,7 +22,7 @@
         "X-Download-Options": "noopen",
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
-        "Date": "Wed, 21 Aug 2019 21:55:54 GMT",
+        "Date": "Thu, 22 Aug 2019 17:03:13 GMT",
         "Content-Type": "application/json; charset=utf-8",
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Headers": "*",
@@ -30,9 +30,9 @@
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Flash-Messages",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "ETag": "W/\"05d38d1f97f462a1b9640dc566fe2b0c\"",
-        "X-Request-Id": "62b39080-9666-4d5a-855f-011a8589dfd2",
-        "X-Runtime": "0.007178",
+        "ETag": "W/\"ed0f476278477fed176fca81ad3c37f6\"",
+        "X-Request-Id": "ba250ade-99be-40b4-bf62-2b933650ab91",
+        "X-Runtime": "0.005917",
         "Expires": "0",
         "Content-Length": "273"
       },
@@ -42,7 +42,7 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"categories\": [\n    {\n      \"id\": \"5d5dbdead4322a4b69d79953\",\n      \"name\": \"Shirts\",\n      \"slug\": \"shirts\",\n      \"url\": \"http://www.example.com/api/storefront/categories/shirts\"\n    },\n    {\n      \"id\": \"5d5dbdead4322a4b69d7995b\",\n      \"name\": \"Pants\",\n      \"slug\": \"pants\",\n      \"url\": \"http://www.example.com/api/storefront/categories/pants\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"categories\": [\n    {\n      \"id\": \"5d5ecad1d4322a04dfbf712a\",\n      \"name\": \"Shirts\",\n      \"slug\": \"shirts\",\n      \"url\": \"http://www.example.com/api/storefront/categories/shirts\"\n    },\n    {\n      \"id\": \"5d5ecad1d4322a04dfbf7132\",\n      \"name\": \"Pants\",\n      \"slug\": \"pants\",\n      \"url\": \"http://www.example.com/api/storefront/categories/pants\"\n    }\n  ]\n}",
       "response_content_type": "application/json",
       "curl": "curl -g \"https://www.example.com/api/storefront/categories?page=1\" -X GET "
     }
@@ -50,6 +50,6 @@
   "resource": "Categories",
   "description": "Showing a listing of categories",
   "route": "/api/storefront/categories",
-  "explanation": "            This endpoint will give you a paginated list of all active\n            categories, that is, all categories that could be shown on the\n            storefront.\n",
-  "http_method": "GET"
+  "http_method": "GET",
+  "explanation": "            This endpoint will give you a paginated list of all active\n            categories, that is, all categories that could be shown on the\n            storefront.\n"
 }

@@ -19,22 +19,22 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"51320d66d8e2e2aac087d23b86d930dc\"",
+        "ETag": "W/\"3d8961c247cbc3faa63cce0a0fe731d8\"",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "9169dce1-be2a-4bbb-9f8f-689ea9d3d2d6",
-        "X-Runtime": "0.009984",
+        "X-Request-Id": "c3e79898-f72c-4d40-95b3-dba1889b8f97",
+        "X-Runtime": "0.007918",
         "Expires": "0",
         "Content-Length": "690"
       },
       "request_method": "GET",
-      "request_path": "/api/admin/products/D3CEB7D152",
+      "request_path": "/api/admin/products/7641326D8A",
       "request_body": null,
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"product\": {\n    \"_id\": \"D3CEB7D152\",\n    \"active\": true,\n    \"browser_title\": null,\n    \"copied_from_id\": null,\n    \"created_at\": \"2019-08-21T21:49:21.214Z\",\n    \"customizations\": null,\n    \"default_category_id\": null,\n    \"description\": null,\n    \"details\": {\n      \"Material\": [\n        \"Cotton\"\n      ],\n      \"Style\": [\n        \"12345\"\n      ]\n    },\n    \"digital\": false,\n    \"filters\": {\n      \"Material\": \"Cotton\",\n      \"Style\": \"12345\"\n    },\n    \"last_indexed_at\": \"2019-08-21T21:49:21.356Z\",\n    \"meta_description\": null,\n    \"name\": \"Test Product\",\n    \"purchasable\": true,\n    \"slug\": \"test-product\",\n    \"subscribed_user_ids\": [\n\n    ],\n    \"tags\": [\n\n    ],\n    \"template\": \"generic\",\n    \"updated_at\": \"2019-08-21T21:49:21.214Z\",\n    \"variants\": [\n      {\n        \"_id\": \"5d5dbc61d4322a4b69d78213\",\n        \"active\": true,\n        \"created_at\": null,\n        \"details\": {\n        },\n        \"name\": \"SKU\",\n        \"position\": 0,\n        \"sku\": \"SKU\",\n        \"updated_at\": null\n      }\n    ]\n  }\n}",
+      "response_body": "{\n  \"product\": {\n    \"_id\": \"7641326D8A\",\n    \"active\": true,\n    \"browser_title\": null,\n    \"copied_from_id\": null,\n    \"created_at\": \"2019-08-22T17:04:10.368Z\",\n    \"customizations\": null,\n    \"default_category_id\": null,\n    \"description\": null,\n    \"details\": {\n      \"Material\": [\n        \"Cotton\"\n      ],\n      \"Style\": [\n        \"12345\"\n      ]\n    },\n    \"digital\": false,\n    \"filters\": {\n      \"Material\": \"Cotton\",\n      \"Style\": \"12345\"\n    },\n    \"last_indexed_at\": \"2019-08-22T17:04:10.520Z\",\n    \"meta_description\": null,\n    \"name\": \"Test Product\",\n    \"purchasable\": true,\n    \"slug\": \"test-product\",\n    \"subscribed_user_ids\": [\n\n    ],\n    \"tags\": [\n\n    ],\n    \"template\": \"generic\",\n    \"updated_at\": \"2019-08-22T17:04:10.368Z\",\n    \"variants\": [\n      {\n        \"_id\": \"5d5ecb0ad4322a04dfbf73b9\",\n        \"active\": true,\n        \"created_at\": null,\n        \"details\": {\n        },\n        \"name\": \"SKU\",\n        \"position\": 0,\n        \"sku\": \"SKU\",\n        \"updated_at\": null\n      }\n    ]\n  }\n}",
       "response_content_type": "application/json",
-      "curl": "curl -g \"https://www.example.com/api/admin/products/D3CEB7D152\" -X GET "
+      "curl": "curl -g \"https://www.example.com/api/admin/products/7641326D8A\" -X GET "
     }
   ],
   "resource": "Products",

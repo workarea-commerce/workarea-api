@@ -19,22 +19,22 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"aac916824d121c58398a7538aa5bd1fd\"",
+        "ETag": "W/\"06e6ebc2f5b68b8507b5cd49433a42e5\"",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "417f8be4-1a1a-48e1-9e4f-d4451d27c6a2",
-        "X-Runtime": "0.005858",
+        "X-Request-Id": "f23f8785-88e0-47a1-8020-b6aecec35269",
+        "X-Runtime": "0.007277",
         "Expires": "0",
         "Content-Length": "543"
       },
       "request_method": "GET",
-      "request_path": "/api/admin/shipping_services/5d5dbd6bd4322a4b69d7908d/rates",
+      "request_path": "/api/admin/shipping_services/5d5eca94d4322a04dfbf6f58/rates",
       "request_body": null,
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"rates\": [\n    {\n      \"_id\": \"5d5dbd6bd4322a4b69d7908e\",\n      \"created_at\": null,\n      \"price\": {\n        \"cents\": 100.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"tier_max\": null,\n      \"tier_min\": null,\n      \"updated_at\": null\n    },\n    {\n      \"_id\": \"5d5dbd6bd4322a4b69d7908f\",\n      \"created_at\": \"2019-08-21T21:53:47.161Z\",\n      \"price\": {\n        \"cents\": 100.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"tier_max\": null,\n      \"tier_min\": null,\n      \"updated_at\": \"2019-08-21T21:53:47.161Z\"\n    },\n    {\n      \"_id\": \"5d5dbd6bd4322a4b69d79090\",\n      \"created_at\": \"2019-08-21T21:53:47.164Z\",\n      \"price\": {\n        \"cents\": 100.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"tier_max\": null,\n      \"tier_min\": null,\n      \"updated_at\": \"2019-08-21T21:53:47.164Z\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"rates\": [\n    {\n      \"_id\": \"5d5eca94d4322a04dfbf6f59\",\n      \"created_at\": null,\n      \"price\": {\n        \"cents\": 100.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"tier_max\": null,\n      \"tier_min\": null,\n      \"updated_at\": null\n    },\n    {\n      \"_id\": \"5d5eca94d4322a04dfbf6f5a\",\n      \"created_at\": \"2019-08-22T17:02:12.876Z\",\n      \"price\": {\n        \"cents\": 100.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"tier_max\": null,\n      \"tier_min\": null,\n      \"updated_at\": \"2019-08-22T17:02:12.876Z\"\n    },\n    {\n      \"_id\": \"5d5eca94d4322a04dfbf6f5b\",\n      \"created_at\": \"2019-08-22T17:02:12.879Z\",\n      \"price\": {\n        \"cents\": 100.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"tier_max\": null,\n      \"tier_min\": null,\n      \"updated_at\": \"2019-08-22T17:02:12.879Z\"\n    }\n  ]\n}",
       "response_content_type": "application/json",
-      "curl": "curl -g \"https://www.example.com/api/admin/shipping_services/5d5dbd6bd4322a4b69d7908d/rates\" -X GET "
+      "curl": "curl -g \"https://www.example.com/api/admin/shipping_services/5d5eca94d4322a04dfbf6f58/rates\" -X GET "
     }
   ],
   "resource": "Shipping Rates",

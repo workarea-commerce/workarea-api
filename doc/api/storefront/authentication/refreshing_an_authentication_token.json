@@ -9,7 +9,7 @@
     {
       "request_headers": {
         "Content-Type": "application/x-www-form-urlencoded",
-        "Authorization": "Token token=\"igReqgpz6Y9DGU4FFhwSkKnJ\""
+        "Authorization": "Token token=\"P18mWxiY3xFv5NBzNQXyUtDy\""
       },
       "request_query_parameters": {
       },
@@ -26,10 +26,10 @@
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Flash-Messages",
-        "ETag": "W/\"66a238fd3ae548835be1e293b3f05cd9\"",
+        "ETag": "W/\"3c498ff26a4f29dbd604930395323dfd\"",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "b42d9eaf-b00a-4cae-9e64-64f82613936e",
-        "X-Runtime": "0.007278",
+        "X-Request-Id": "4efe4660-f394-49ca-9691-3a2aff761751",
+        "X-Runtime": "0.006391",
         "Expires": "0",
         "Content-Length": "76"
       },
@@ -39,14 +39,14 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"token\": \"igReqgpz6Y9DGU4FFhwSkKnJ\",\n  \"expires_at\": \"2019-08-28T21:49:33.839Z\"\n}",
+      "response_body": "{\n  \"token\": \"P18mWxiY3xFv5NBzNQXyUtDy\",\n  \"expires_at\": \"2019-08-29T17:06:43.807Z\"\n}",
       "response_content_type": "application/json",
-      "curl": "curl \"https://www.example.com/api/storefront/authentication_tokens\" -d '' -X PATCH \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Authorization: Token token=\\\"igReqgpz6Y9DGU4FFhwSkKnJ\\\"\""
+      "curl": "curl \"https://www.example.com/api/storefront/authentication_tokens\" -d '' -X PATCH \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Authorization: Token token=\\\"P18mWxiY3xFv5NBzNQXyUtDy\\\"\""
     }
   ],
   "resource": "Authentication",
   "description": "Refreshing an authentication token",
   "route": "/api/storefront/authentication_tokens",
-  "explanation": "            Refreshing an authentication token extends its expiration so that it\n            can continue to be used.\n",
-  "http_method": "PATCH"
+  "http_method": "PATCH",
+  "explanation": "            Refreshing an authentication token extends its expiration so that it\n            can continue to be used.\n"
 }

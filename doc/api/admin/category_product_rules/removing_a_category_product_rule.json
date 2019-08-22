@@ -20,19 +20,19 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "51666e19-2d4e-4367-867c-51ec8fa9cb62",
-        "X-Runtime": "0.018222",
+        "X-Request-Id": "d9cef5e7-f0f4-416d-a720-cf96e7c013b2",
+        "X-Runtime": "0.016786",
         "Expires": "0"
       },
       "request_method": "DELETE",
-      "request_path": "/api/admin/categories/5d5dbcc9d4322a4b69d78920/product_rules/5d5dbccad4322a4b69d78923",
+      "request_path": "/api/admin/categories/5d5ec9c9d4322a04dfbf62ff/product_rules/5d5ec9c9d4322a04dfbf6302",
       "request_body": null,
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/categories/5d5dbcc9d4322a4b69d78920/product_rules/5d5dbccad4322a4b69d78923\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
+      "curl": "curl \"https://www.example.com/api/admin/categories/5d5ec9c9d4322a04dfbf62ff/product_rules/5d5ec9c9d4322a04dfbf6302\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
     }
   ],
   "resource": "Category Product Rules",

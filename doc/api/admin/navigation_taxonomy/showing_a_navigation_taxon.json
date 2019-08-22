@@ -19,22 +19,22 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"5074164767a48dd518dbd01a78894b31\"",
+        "ETag": "W/\"954a483639aa271a716bc9d49781824f\"",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "b45cfce9-aa27-4fc5-a626-13c7444dbc69",
-        "X-Runtime": "0.005554",
+        "X-Request-Id": "94c0c5cc-947d-4b01-9ef6-87ea9cccc485",
+        "X-Runtime": "0.004896",
         "Expires": "0",
         "Content-Length": "353"
       },
       "request_method": "GET",
-      "request_path": "/api/admin/navigation_taxons/5d5dbcd2d4322a4b69d7896c",
+      "request_path": "/api/admin/navigation_taxons/5d5ecb1fd4322a04dfbf74a0",
       "request_body": null,
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"navigation_taxon\": {\n    \"_id\": \"5d5dbcd2d4322a4b69d7896c\",\n    \"children_count\": 0,\n    \"created_at\": \"2019-08-21T21:51:14.757Z\",\n    \"depth\": 1,\n    \"name\": \"Test Taxon\",\n    \"navigable_id\": null,\n    \"navigable_slug\": null,\n    \"navigable_type\": null,\n    \"parent_id\": \"5d5dbcd2d4322a4b69d7896d\",\n    \"parent_ids\": [\n      \"5d5dbcd2d4322a4b69d7896d\"\n    ],\n    \"position\": 0,\n    \"updated_at\": \"2019-08-21T21:51:14.757Z\",\n    \"url\": null\n  }\n}",
+      "response_body": "{\n  \"navigation_taxon\": {\n    \"_id\": \"5d5ecb1fd4322a04dfbf74a0\",\n    \"children_count\": 0,\n    \"created_at\": \"2019-08-22T17:04:31.301Z\",\n    \"depth\": 1,\n    \"name\": \"Test Taxon\",\n    \"navigable_id\": null,\n    \"navigable_slug\": null,\n    \"navigable_type\": null,\n    \"parent_id\": \"5d5ecb1fd4322a04dfbf74a1\",\n    \"parent_ids\": [\n      \"5d5ecb1fd4322a04dfbf74a1\"\n    ],\n    \"position\": 0,\n    \"updated_at\": \"2019-08-22T17:04:31.301Z\",\n    \"url\": null\n  }\n}",
       "response_content_type": "application/json",
-      "curl": "curl -g \"https://www.example.com/api/admin/navigation_taxons/5d5dbcd2d4322a4b69d7896c\" -X GET "
+      "curl": "curl -g \"https://www.example.com/api/admin/navigation_taxons/5d5ecb1fd4322a04dfbf74a0\" -X GET "
     }
   ],
   "resource": "Navigation taxonomy",

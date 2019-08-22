@@ -9,7 +9,7 @@
     {
       "request_headers": {
         "Content-Type": "application/x-www-form-urlencoded",
-        "Authorization": "Token token=\"hTKRcBZg6rPzZr99CVedHNUK\""
+        "Authorization": "Token token=\"4rpLsZrnP7ckZABRgAtSLPh5\""
       },
       "request_query_parameters": {
       },
@@ -26,27 +26,27 @@
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Flash-Messages",
-        "ETag": "W/\"d12ed96b7ef67d31b16ac7dd243dcb21\"",
+        "ETag": "W/\"b9b9bbd05d85d21a031ade80e2e8f7e8\"",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "9a80447f-4960-4e5a-9283-df2d9ba0aaec",
-        "X-Runtime": "0.023790",
+        "X-Request-Id": "172ca661-9a58-40f6-b634-54cdc1cb61b7",
+        "X-Runtime": "0.026547",
         "Expires": "0",
         "Content-Length": "572"
       },
       "request_method": "DELETE",
-      "request_path": "/api/storefront/carts/075FCC7AD7/items/5d5dbc8ed4322a4b69d78404",
+      "request_path": "/api/storefront/carts/85BAD11EE5/items/5d5eca75d4322a04dfbf6dbf",
       "request_body": null,
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"order\": {\n    \"id\": \"075FCC7AD7\",\n    \"url\": \"http://www.example.com/api/storefront/orders/075FCC7AD7\",\n    \"user_id\": \"5d5dbc8ed4322a4b69d783fd\",\n    \"email\": \"bcrouse@workarea.com\",\n    \"placed_at\": null,\n    \"canceled_at\": null,\n    \"promo_codes\": [\n\n    ],\n    \"requires_shipping\": false,\n    \"items\": [\n\n    ],\n    \"pricing\": {\n      \"price_adjustments\": [\n\n      ],\n      \"shipping_total\": {\n        \"cents\": 0.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"tax_total\": {\n        \"cents\": 0.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"subtotal_price\": {\n        \"cents\": 0.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"total_price\": {\n        \"cents\": 0.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"paid_amount\": {\n        \"cents\": 0.0,\n        \"currency_iso\": \"USD\"\n      }\n    },\n    \"shipping_service\": null,\n    \"tenders\": [\n\n    ]\n  }\n}",
+      "response_body": "{\n  \"order\": {\n    \"id\": \"85BAD11EE5\",\n    \"url\": \"http://www.example.com/api/storefront/orders/85BAD11EE5\",\n    \"user_id\": \"5d5eca75d4322a04dfbf6db8\",\n    \"email\": \"bcrouse@workarea.com\",\n    \"placed_at\": null,\n    \"canceled_at\": null,\n    \"promo_codes\": [\n\n    ],\n    \"requires_shipping\": false,\n    \"items\": [\n\n    ],\n    \"pricing\": {\n      \"price_adjustments\": [\n\n      ],\n      \"shipping_total\": {\n        \"cents\": 0.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"tax_total\": {\n        \"cents\": 0.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"subtotal_price\": {\n        \"cents\": 0.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"total_price\": {\n        \"cents\": 0.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"paid_amount\": {\n        \"cents\": 0.0,\n        \"currency_iso\": \"USD\"\n      }\n    },\n    \"shipping_service\": null,\n    \"tenders\": [\n\n    ]\n  }\n}",
       "response_content_type": "application/json",
-      "curl": "curl \"https://www.example.com/api/storefront/carts/075FCC7AD7/items/5d5dbc8ed4322a4b69d78404\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Authorization: Token token=\\\"hTKRcBZg6rPzZr99CVedHNUK\\\"\""
+      "curl": "curl \"https://www.example.com/api/storefront/carts/85BAD11EE5/items/5d5eca75d4322a04dfbf6dbf\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Authorization: Token token=\\\"4rpLsZrnP7ckZABRgAtSLPh5\\\"\""
     }
   ],
   "resource": "Cart",
   "description": "Delete an item",
   "route": "/api/storefront/carts/:cart_id/items/:id",
-  "explanation": "            Removes an item in the cart. Use the create a cart endpoint to get a\n            cart ID to use with this endpoint, and use the adding an item\n            endpoint to get an ID for an item.\n",
-  "http_method": "DELETE"
+  "http_method": "DELETE",
+  "explanation": "            Removes an item in the cart. Use the create a cart endpoint to get a\n            cart ID to use with this endpoint, and use the adding an item\n            endpoint to get an ID for an item.\n"
 }

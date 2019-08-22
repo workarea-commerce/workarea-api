@@ -20,24 +20,24 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "7ff17c96-8db9-4638-a879-b7b0b30a0eec",
-        "X-Runtime": "0.141035",
+        "X-Request-Id": "ad3dfb57-bc02-4100-a0d7-ca49c7cf28e9",
+        "X-Runtime": "0.128448",
         "Expires": "0"
       },
       "request_method": "PATCH",
-      "request_path": "/api/admin/products/8261FA2B52",
-      "request_body": "{\"product\":{\"name\":\"foo\"},\"release_id\":\"5d5dbc5fd4322a4b69d78203\"}",
+      "request_path": "/api/admin/products/ED06E210DF",
+      "request_body": "{\"product\":{\"name\":\"foo\"},\"release_id\":\"5d5ecb34d4322a04dfbf7565\"}",
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/products/8261FA2B52\" -d '{\"product\":{\"name\":\"foo\"},\"release_id\":\"5d5dbc5fd4322a4b69d78203\"}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/products/ED06E210DF\" -d '{\"product\":{\"name\":\"foo\"},\"release_id\":\"5d5ecb34d4322a04dfbf7565\"}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Release Changes",
   "description": "Adding changes to a release",
   "route": "/api/admin/products/:id",
-  "explanation": "release_id can be sent with any patch request             to resources that can be changed through releases",
-  "http_method": "PATCH"
+  "http_method": "PATCH",
+  "explanation": "release_id can be sent with any patch request             to resources that can be changed through releases"
 }

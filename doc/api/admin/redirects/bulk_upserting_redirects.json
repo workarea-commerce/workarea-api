@@ -20,19 +20,19 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "781698c7-1d23-4c5b-a71f-43dcd2de83da",
-        "X-Runtime": "0.035492",
+        "X-Request-Id": "85698d6d-1e4f-4b0f-b3fd-2fc2d8737016",
+        "X-Runtime": "0.037441",
         "Expires": "0"
       },
       "request_method": "PATCH",
       "request_path": "/api/admin/redirects/bulk",
-      "request_body": "{\"redirects\":[{\"created_at\":\"2019-08-21T21:54:39.618Z\",\"destination\":\"/pages/faq\",\"path\":\"/foo0\",\"updated_at\":\"2019-08-21T21:54:39.618Z\"},{\"created_at\":\"2019-08-21T21:54:39.618Z\",\"destination\":\"/pages/faq\",\"path\":\"/foo1\",\"updated_at\":\"2019-08-21T21:54:39.618Z\"},{\"created_at\":\"2019-08-21T21:54:39.618Z\",\"destination\":\"/pages/faq\",\"path\":\"/foo1\",\"updated_at\":\"2019-08-21T21:54:39.618Z\"}]}",
+      "request_body": "{\"redirects\":[{\"created_at\":\"2019-08-22T17:04:50.498Z\",\"destination\":\"/pages/faq\",\"path\":\"/foo0\",\"updated_at\":\"2019-08-22T17:04:50.498Z\"},{\"created_at\":\"2019-08-22T17:04:50.498Z\",\"destination\":\"/pages/faq\",\"path\":\"/foo1\",\"updated_at\":\"2019-08-22T17:04:50.498Z\"},{\"created_at\":\"2019-08-22T17:04:50.498Z\",\"destination\":\"/pages/faq\",\"path\":\"/foo1\",\"updated_at\":\"2019-08-22T17:04:50.498Z\"}]}",
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/redirects/bulk\" -d '{\"redirects\":[{\"created_at\":\"2019-08-21T21:54:39.618Z\",\"destination\":\"/pages/faq\",\"path\":\"/foo0\",\"updated_at\":\"2019-08-21T21:54:39.618Z\"},{\"created_at\":\"2019-08-21T21:54:39.618Z\",\"destination\":\"/pages/faq\",\"path\":\"/foo1\",\"updated_at\":\"2019-08-21T21:54:39.618Z\"},{\"created_at\":\"2019-08-21T21:54:39.618Z\",\"destination\":\"/pages/faq\",\"path\":\"/foo1\",\"updated_at\":\"2019-08-21T21:54:39.618Z\"}]}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/redirects/bulk\" -d '{\"redirects\":[{\"created_at\":\"2019-08-22T17:04:50.498Z\",\"destination\":\"/pages/faq\",\"path\":\"/foo0\",\"updated_at\":\"2019-08-22T17:04:50.498Z\"},{\"created_at\":\"2019-08-22T17:04:50.498Z\",\"destination\":\"/pages/faq\",\"path\":\"/foo1\",\"updated_at\":\"2019-08-22T17:04:50.498Z\"},{\"created_at\":\"2019-08-22T17:04:50.498Z\",\"destination\":\"/pages/faq\",\"path\":\"/foo1\",\"updated_at\":\"2019-08-22T17:04:50.498Z\"}]}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Redirects",

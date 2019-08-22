@@ -21,10 +21,10 @@
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Location": "/api/admin/pricing_skus/2134/prices",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"c0a5bcc786d6b5f92274198be2a695cd\"",
+        "ETag": "W/\"42984700c368e98ea6eff1f48e75ae88\"",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "f22c0baa-61bc-4b5f-be58-a8271f6583bd",
-        "X-Runtime": "0.033964",
+        "X-Request-Id": "6925b7ba-b96b-4f09-a434-3233d7f9825d",
+        "X-Runtime": "0.036058",
         "Expires": "0",
         "Content-Length": "231"
       },
@@ -34,7 +34,7 @@
       "request_content_type": "application/json",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"price\": {\n    \"_id\": \"5d5dbde7d4322a4b69d79934\",\n    \"active\": true,\n    \"created_at\": \"2019-08-21T21:55:51.340Z\",\n    \"min_quantity\": 1,\n    \"on_sale\": false,\n    \"regular\": {\n      \"cents\": 1500.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"sale\": null,\n    \"updated_at\": \"2019-08-21T21:55:51.340Z\"\n  }\n}",
+      "response_body": "{\n  \"price\": {\n    \"_id\": \"5d5ec9ccd4322a04dfbf6316\",\n    \"active\": true,\n    \"created_at\": \"2019-08-22T16:58:52.727Z\",\n    \"min_quantity\": 1,\n    \"on_sale\": false,\n    \"regular\": {\n      \"cents\": 1500.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"sale\": null,\n    \"updated_at\": \"2019-08-22T16:58:52.727Z\"\n  }\n}",
       "response_content_type": "application/json",
       "curl": "curl \"https://www.example.com/api/admin/pricing_skus/2134/prices\" -d '{\"price\":{\"regular\":15}}' -X POST \\\n\t-H \"Content-Type: application/json\""
     }

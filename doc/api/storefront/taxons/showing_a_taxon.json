@@ -18,7 +18,7 @@
         "X-Download-Options": "noopen",
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
-        "Date": "Wed, 21 Aug 2019 21:55:46 GMT",
+        "Date": "Thu, 22 Aug 2019 17:02:10 GMT",
         "Content-Type": "application/json; charset=utf-8",
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Headers": "*",
@@ -26,26 +26,26 @@
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Flash-Messages",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "ETag": "W/\"4969afb2dc3014d92381339692b3c60e\"",
-        "X-Request-Id": "45b2ec42-6afd-40d6-9de9-6274b67e5eed",
-        "X-Runtime": "0.006233",
+        "ETag": "W/\"68a6afbf1d116813312ea2a8cb13646d\"",
+        "X-Request-Id": "335b1d1a-a625-4d60-b1d5-774f0d1d5b7b",
+        "X-Runtime": "0.009750",
         "Expires": "0",
         "Content-Length": "534"
       },
       "request_method": "GET",
-      "request_path": "/api/storefront/taxons/5d5dbde2d4322a4b69d7990b",
+      "request_path": "/api/storefront/taxons/5d5eca92d4322a04dfbf6f44",
       "request_body": null,
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"taxon\": {\n    \"id\": \"5d5dbde2d4322a4b69d7990b\",\n    \"url\": \"/api/storefront/taxons/5d5dbde2d4322a4b69d7990b\",\n    \"name\": \"Mens\",\n    \"depth\": 1,\n    \"navigable_url\": \"http://example.com/pages/mens\",\n    \"parent_id\": \"5d5dbde2d4322a4b69d7990c\",\n    \"parent_ids\": [\n      \"5d5dbde2d4322a4b69d7990c\"\n    ],\n    \"position\": 0\n  },\n  \"children\": [\n    {\n      \"id\": \"5d5dbde2d4322a4b69d7990d\",\n      \"url\": \"/api/storefront/taxons/5d5dbde2d4322a4b69d7990d\",\n      \"name\": \"Sale\",\n      \"depth\": 2,\n      \"navigable_url\": null,\n      \"parent_id\": \"5d5dbde2d4322a4b69d7990b\",\n      \"parent_ids\": [\n        \"5d5dbde2d4322a4b69d7990c\",\n        \"5d5dbde2d4322a4b69d7990b\"\n      ],\n      \"position\": 0\n    }\n  ]\n}",
+      "response_body": "{\n  \"taxon\": {\n    \"id\": \"5d5eca92d4322a04dfbf6f44\",\n    \"url\": \"/api/storefront/taxons/5d5eca92d4322a04dfbf6f44\",\n    \"name\": \"Mens\",\n    \"depth\": 1,\n    \"navigable_url\": \"http://example.com/pages/mens\",\n    \"parent_id\": \"5d5eca92d4322a04dfbf6f45\",\n    \"parent_ids\": [\n      \"5d5eca92d4322a04dfbf6f45\"\n    ],\n    \"position\": 0\n  },\n  \"children\": [\n    {\n      \"id\": \"5d5eca92d4322a04dfbf6f46\",\n      \"url\": \"/api/storefront/taxons/5d5eca92d4322a04dfbf6f46\",\n      \"name\": \"Sale\",\n      \"depth\": 2,\n      \"navigable_url\": null,\n      \"parent_id\": \"5d5eca92d4322a04dfbf6f44\",\n      \"parent_ids\": [\n        \"5d5eca92d4322a04dfbf6f45\",\n        \"5d5eca92d4322a04dfbf6f44\"\n      ],\n      \"position\": 0\n    }\n  ]\n}",
       "response_content_type": "application/json",
-      "curl": "curl -g \"https://www.example.com/api/storefront/taxons/5d5dbde2d4322a4b69d7990b\" -X GET "
+      "curl": "curl -g \"https://www.example.com/api/storefront/taxons/5d5eca92d4322a04dfbf6f44\" -X GET "
     }
   ],
   "resource": "Taxons",
   "description": "Showing a taxon",
   "route": "/api/storefront/taxons/:id",
-  "explanation": "            This endpoint will show details on a particular node (or taxon) of\n            the site taxonomy, along with its children.\n",
-  "http_method": "GET"
+  "http_method": "GET",
+  "explanation": "            This endpoint will show details on a particular node (or taxon) of\n            the site taxonomy, along with its children.\n"
 }

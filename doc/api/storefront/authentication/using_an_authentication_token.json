@@ -8,7 +8,7 @@
   "requests": [
     {
       "request_headers": {
-        "Authorization": "Token token=\"bAaGYejkbNMHfx6TDqQdXuTu\""
+        "Authorization": "Token token=\"BkPF5tvB28Mw4xoxngr1Ykdg\""
       },
       "request_query_parameters": {
       },
@@ -25,12 +25,12 @@
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Flash-Messages",
-        "ETag": "W/\"2ec39cbe1d046132f0de3ce94564baa6\"",
+        "ETag": "W/\"4175ee7f97c7634deea80a2a9368559a\"",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "f40761b7-f873-4dbc-9c39-ed344380b7d9",
-        "X-Runtime": "0.009212",
+        "X-Request-Id": "a70bffbe-babf-4744-b283-cf131b855caf",
+        "X-Runtime": "0.007518",
         "Expires": "0",
-        "Content-Length": "202"
+        "Content-Length": "203"
       },
       "request_method": "GET",
       "request_path": "/api/storefront/account",
@@ -38,14 +38,14 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": \"5d5dbc6ed4322a4b69d7824b\",\n  \"email\": \"user10@workarea.com\",\n  \"public_info\": \"BC\",\n  \"first_name\": \"Ben\",\n  \"last_name\": \"Crouse\",\n  \"updated_at\": \"2019-08-21T21:49:34.380Z\",\n  \"created_at\": \"2019-08-21T21:49:34.380Z\"\n}",
+      "response_body": "{\n  \"id\": \"5d5ecba3d4322a04dfbf7bec\",\n  \"email\": \"user401@workarea.com\",\n  \"public_info\": \"BC\",\n  \"first_name\": \"Ben\",\n  \"last_name\": \"Crouse\",\n  \"updated_at\": \"2019-08-22T17:06:43.165Z\",\n  \"created_at\": \"2019-08-22T17:06:43.165Z\"\n}",
       "response_content_type": "application/json",
-      "curl": "curl -g \"https://www.example.com/api/storefront/account\" -X GET \\\n\t-H \"Authorization: Token token=\\\"bAaGYejkbNMHfx6TDqQdXuTu\\\"\""
+      "curl": "curl -g \"https://www.example.com/api/storefront/account\" -X GET \\\n\t-H \"Authorization: Token token=\\\"BkPF5tvB28Mw4xoxngr1Ykdg\\\"\""
     }
   ],
   "resource": "Authentication",
   "description": "Using an authentication token",
   "route": "/api/storefront/account",
-  "explanation": "            After obtaining an authentication token you can use it to request\n            authenticated endpoints by including it in the Authorization header\n            on the request, as demonstrated in this example.\n",
-  "http_method": "GET"
+  "http_method": "GET",
+  "explanation": "            After obtaining an authentication token you can use it to request\n            authenticated endpoints by including it in the Authorization header\n            on the request, as demonstrated in this example.\n"
 }

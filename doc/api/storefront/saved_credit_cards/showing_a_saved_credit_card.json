@@ -8,7 +8,7 @@
   "requests": [
     {
       "request_headers": {
-        "Authorization": "Token token=\"8iKJ3VEmcfyhdH7Ppy7BPBiz\""
+        "Authorization": "Token token=\"3gstq5QbUorVGaQ68esor1nD\""
       },
       "request_query_parameters": {
       },
@@ -25,22 +25,22 @@
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Flash-Messages",
-        "ETag": "W/\"caea022584c113878675ef307855910a\"",
+        "ETag": "W/\"52292c68f1c4a0050eafa702eb3dd1d6\"",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "c7577fce-775e-4e71-9ab1-3b0fd79d1127",
-        "X-Runtime": "0.007011",
+        "X-Request-Id": "291bedc7-9905-4898-98e8-f70e8107d308",
+        "X-Runtime": "0.006976",
         "Expires": "0",
         "Content-Length": "294"
       },
       "request_method": "GET",
-      "request_path": "/api/storefront/saved_credit_cards/5d5dbd6dd4322a4b69d790aa",
+      "request_path": "/api/storefront/saved_credit_cards/5d5ec9d0d4322a04dfbf6336",
       "request_body": null,
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"user_id\": \"5d5dbd6dd4322a4b69d790a6\",\n  \"id\": \"5d5dbd6dd4322a4b69d790aa\",\n  \"url\": \"http://www.example.com/api/storefront/saved_credit_cards/5d5dbd6dd4322a4b69d790aa\",\n  \"default\": false,\n  \"issuer\": \"Visa\",\n  \"display_number\": \"XXXX-XXXX-XXXX-1881\",\n  \"month\": 3,\n  \"year\": 2023,\n  \"first_name\": \"Susan\",\n  \"last_name\": \"Baker\"\n}",
+      "response_body": "{\n  \"user_id\": \"5d5ec9d0d4322a04dfbf6332\",\n  \"id\": \"5d5ec9d0d4322a04dfbf6336\",\n  \"url\": \"http://www.example.com/api/storefront/saved_credit_cards/5d5ec9d0d4322a04dfbf6336\",\n  \"default\": false,\n  \"issuer\": \"Visa\",\n  \"display_number\": \"XXXX-XXXX-XXXX-1881\",\n  \"month\": 3,\n  \"year\": 2023,\n  \"first_name\": \"Susan\",\n  \"last_name\": \"Baker\"\n}",
       "response_content_type": "application/json",
-      "curl": "curl -g \"https://www.example.com/api/storefront/saved_credit_cards/5d5dbd6dd4322a4b69d790aa\" -X GET \\\n\t-H \"Authorization: Token token=\\\"8iKJ3VEmcfyhdH7Ppy7BPBiz\\\"\""
+      "curl": "curl -g \"https://www.example.com/api/storefront/saved_credit_cards/5d5ec9d0d4322a04dfbf6336\" -X GET \\\n\t-H \"Authorization: Token token=\\\"3gstq5QbUorVGaQ68esor1nD\\\"\""
     }
   ],
   "resource": "Saved Credit Cards",

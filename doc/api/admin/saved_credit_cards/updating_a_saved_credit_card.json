@@ -20,19 +20,19 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "b57c1c80-13ad-4e74-95c2-1b1dd47c4e4f",
-        "X-Runtime": "0.007786",
+        "X-Request-Id": "11dd3eef-5341-4cd8-8148-ea9d45e214ba",
+        "X-Runtime": "0.012037",
         "Expires": "0"
       },
       "request_method": "PATCH",
-      "request_path": "/api/admin/payment_profiles/5d5dbd7fd4322a4b69d7919a/saved_credit_cards/5d5dbd7fd4322a4b69d7919e",
+      "request_path": "/api/admin/payment_profiles/5d5ecb27d4322a04dfbf74e8/saved_credit_cards/5d5ecb28d4322a04dfbf74ec",
       "request_body": "{\"saved_credit_card\":{\"first_name\":\"Ben\"}}",
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/payment_profiles/5d5dbd7fd4322a4b69d7919a/saved_credit_cards/5d5dbd7fd4322a4b69d7919e\" -d '{\"saved_credit_card\":{\"first_name\":\"Ben\"}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/payment_profiles/5d5ecb27d4322a04dfbf74e8/saved_credit_cards/5d5ecb28d4322a04dfbf74ec\" -d '{\"saved_credit_card\":{\"first_name\":\"Ben\"}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Saved Credit Cards",

@@ -30,22 +30,22 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"9ac1581976228c0ac46f8c5e5dd0800e\"",
+        "ETag": "W/\"def334a1399a4310559b83ccf90e9ef5\"",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "a6905c11-f89a-4292-a496-42582a2dd0a2",
-        "X-Runtime": "0.005539",
+        "X-Request-Id": "9a3eacec-70b1-4418-9cd3-bf5dd3a024fb",
+        "X-Runtime": "0.008088",
         "Expires": "0",
         "Content-Length": "628"
       },
       "request_method": "GET",
-      "request_path": "/api/admin/payment_profiles/5d5dbd7cd4322a4b69d7917b/saved_credit_cards",
+      "request_path": "/api/admin/payment_profiles/5d5ecb26d4322a04dfbf74dc/saved_credit_cards",
       "request_body": null,
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"saved_credit_cards\": [\n    {\n      \"_id\": \"5d5dbd7cd4322a4b69d7917f\",\n      \"created_at\": \"2019-08-21T21:54:04.844Z\",\n      \"default\": false,\n      \"display_number\": \"XXXX-XXXX-XXXX-1\",\n      \"first_name\": \"Ben\",\n      \"issuer\": \"Test Card\",\n      \"last_name\": \"Crouse\",\n      \"month\": 1,\n      \"profile_id\": \"5d5dbd7cd4322a4b69d7917b\",\n      \"token\": \"1\",\n      \"updated_at\": \"2019-08-21T21:54:04.844Z\",\n      \"year\": 2020\n    },\n    {\n      \"_id\": \"5d5dbd7dd4322a4b69d79183\",\n      \"created_at\": \"2019-08-21T21:54:05.116Z\",\n      \"default\": false,\n      \"display_number\": \"XXXX-XXXX-XXXX-1\",\n      \"first_name\": \"Ben\",\n      \"issuer\": \"Test Card\",\n      \"last_name\": \"Crouse\",\n      \"month\": 1,\n      \"profile_id\": \"5d5dbd7cd4322a4b69d7917b\",\n      \"token\": \"1\",\n      \"updated_at\": \"2019-08-21T21:54:05.116Z\",\n      \"year\": 2020\n    }\n  ]\n}",
+      "response_body": "{\n  \"saved_credit_cards\": [\n    {\n      \"_id\": \"5d5ecb26d4322a04dfbf74e0\",\n      \"created_at\": \"2019-08-22T17:04:38.771Z\",\n      \"default\": false,\n      \"display_number\": \"XXXX-XXXX-XXXX-1\",\n      \"first_name\": \"Ben\",\n      \"issuer\": \"Test Card\",\n      \"last_name\": \"Crouse\",\n      \"month\": 1,\n      \"profile_id\": \"5d5ecb26d4322a04dfbf74dc\",\n      \"token\": \"1\",\n      \"updated_at\": \"2019-08-22T17:04:38.771Z\",\n      \"year\": 2020\n    },\n    {\n      \"_id\": \"5d5ecb27d4322a04dfbf74e4\",\n      \"created_at\": \"2019-08-22T17:04:39.067Z\",\n      \"default\": false,\n      \"display_number\": \"XXXX-XXXX-XXXX-1\",\n      \"first_name\": \"Ben\",\n      \"issuer\": \"Test Card\",\n      \"last_name\": \"Crouse\",\n      \"month\": 1,\n      \"profile_id\": \"5d5ecb26d4322a04dfbf74dc\",\n      \"token\": \"1\",\n      \"updated_at\": \"2019-08-22T17:04:39.067Z\",\n      \"year\": 2020\n    }\n  ]\n}",
       "response_content_type": "application/json",
-      "curl": "curl -g \"https://www.example.com/api/admin/payment_profiles/5d5dbd7cd4322a4b69d7917b/saved_credit_cards\" -X GET "
+      "curl": "curl -g \"https://www.example.com/api/admin/payment_profiles/5d5ecb26d4322a04dfbf74dc/saved_credit_cards\" -X GET "
     }
   ],
   "resource": "Saved Credit Cards",

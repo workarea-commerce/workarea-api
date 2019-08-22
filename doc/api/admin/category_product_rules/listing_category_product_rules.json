@@ -19,22 +19,22 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"482ab7ef85428a9e2d7bfd140fb83557\"",
+        "ETag": "W/\"d102c60250c61119a51a74a73f6c67bd\"",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "df6e20bc-0a1e-4b73-be67-57ad21879af4",
-        "X-Runtime": "0.006341",
+        "X-Request-Id": "ac914dae-3124-4c7e-8e84-0710858d34cd",
+        "X-Runtime": "0.008257",
         "Expires": "0",
         "Content-Length": "345"
       },
       "request_method": "GET",
-      "request_path": "/api/admin/categories/5d5dbcc9d4322a4b69d78919/product_rules",
+      "request_path": "/api/admin/categories/5d5ec9cad4322a04dfbf6306/product_rules",
       "request_body": null,
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"product_rules\": [\n    {\n      \"_id\": \"5d5dbcc9d4322a4b69d7891c\",\n      \"created_at\": \"2019-08-21T21:51:05.314Z\",\n      \"name\": \"search\",\n      \"operator\": \"equals\",\n      \"updated_at\": \"2019-08-21T21:51:05.314Z\",\n      \"value\": \"*\"\n    },\n    {\n      \"_id\": \"5d5dbcc9d4322a4b69d7891d\",\n      \"created_at\": \"2019-08-21T21:51:05.347Z\",\n      \"name\": \"search\",\n      \"operator\": \"equals\",\n      \"updated_at\": \"2019-08-21T21:51:05.347Z\",\n      \"value\": \"*\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"product_rules\": [\n    {\n      \"_id\": \"5d5ec9cad4322a04dfbf6309\",\n      \"created_at\": \"2019-08-22T16:58:50.516Z\",\n      \"name\": \"search\",\n      \"operator\": \"equals\",\n      \"updated_at\": \"2019-08-22T16:58:50.516Z\",\n      \"value\": \"*\"\n    },\n    {\n      \"_id\": \"5d5ec9cad4322a04dfbf630a\",\n      \"created_at\": \"2019-08-22T16:58:50.552Z\",\n      \"name\": \"search\",\n      \"operator\": \"equals\",\n      \"updated_at\": \"2019-08-22T16:58:50.552Z\",\n      \"value\": \"*\"\n    }\n  ]\n}",
       "response_content_type": "application/json",
-      "curl": "curl -g \"https://www.example.com/api/admin/categories/5d5dbcc9d4322a4b69d78919/product_rules\" -X GET "
+      "curl": "curl -g \"https://www.example.com/api/admin/categories/5d5ec9cad4322a04dfbf6306/product_rules\" -X GET "
     }
   ],
   "resource": "Category Product Rules",

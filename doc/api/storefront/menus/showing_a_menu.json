@@ -18,7 +18,7 @@
         "X-Download-Options": "noopen",
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
-        "Date": "Wed, 21 Aug 2019 21:51:25 GMT",
+        "Date": "Thu, 22 Aug 2019 17:05:55 GMT",
         "Content-Type": "application/json; charset=utf-8",
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Headers": "*",
@@ -26,26 +26,26 @@
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Flash-Messages",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "ETag": "W/\"b335c3d987c8cfffce52ba5ef4f8ef55\"",
-        "X-Request-Id": "f8120cc3-8209-49f2-934b-8e05337afa4c",
-        "X-Runtime": "0.013205",
+        "ETag": "W/\"22005042de552256e0f095a6331dc504\"",
+        "X-Request-Id": "c1ff732e-f004-43e2-9f82-d2c44f16147d",
+        "X-Runtime": "0.012242",
         "Expires": "0",
         "Content-Length": "1719"
       },
       "request_method": "GET",
-      "request_path": "/api/storefront/menus/5d5dbcddd4322a4b69d789e6",
+      "request_path": "/api/storefront/menus/5d5ecb72d4322a04dfbf7924",
       "request_body": null,
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": \"5d5dbcddd4322a4b69d789e6\",\n  \"name\": \"Men\",\n  \"position\": 0,\n  \"url\": \"/api/storefront/menus/5d5dbcddd4322a4b69d789e6\",\n  \"taxon_url\": \"http://example.com/men\",\n  \"content_blocks\": [\n    {\n      \"id\": \"5d5dbcddd4322a4b69d789e8\",\n      \"type\": \"taxonomy\",\n      \"area\": \"default\",\n      \"data\": {\n        \"start\": \"5d5dbcddd4322a4b69d789e4\",\n        \"header\": \"\",\n        \"show_starting_taxon\": true,\n        \"image\": \"\",\n        \"image_alt\": \"\",\n        \"image_link\": \"\",\n        \"image_position\": \"\"\n      },\n      \"hidden_breakpoints\": [\n\n      ],\n      \"position\": 0,\n      \"html\": \"<div class=\\\"content-block content-block--taxonomy\\\" id=\\\"content_block_5d5dbcddd4322a4b69d789e8\\\" data-analytics=\\\"{&quot;event&quot;:&quot;contentBlockDisplay&quot;,&quot;payload&quot;:{&quot;id&quot;:&quot;5d5dbcddd4322a4b69d789e8&quot;,&quot;type&quot;:&quot;taxonomy&quot;,&quot;position&quot;:0,&quot;data&quot;:{&quot;start&quot;:&quot;5d5dbcddd4322a4b69d789e4&quot;,&quot;header&quot;:&quot;&quot;,&quot;show_starting_taxon&quot;:true,&quot;image&quot;:&quot;&quot;,&quot;image_alt&quot;:&quot;&quot;,&quot;image_link&quot;:&quot;&quot;,&quot;image_position&quot;:&quot;&quot;}}}\\\" data-hidden-block-css-content=\\\"Block hidden at this breakpoint\\\"><div class='taxonomy-content-block'>\\n<div class='taxonomy-content-block__container taxonomy-content-block__container--without-image'>\\n<ul class='taxonomy-content-block__menu'>\\n<li class='taxonomy-content-block__menu-item taxonomy-content-block__menu-item--start'>\\nSale\\n</li>\\n</ul>\\n</div>\\n</div>\\n</div>\\n\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"id\": \"5d5ecb72d4322a04dfbf7924\",\n  \"name\": \"Men\",\n  \"position\": 0,\n  \"url\": \"/api/storefront/menus/5d5ecb72d4322a04dfbf7924\",\n  \"taxon_url\": \"http://example.com/men\",\n  \"content_blocks\": [\n    {\n      \"id\": \"5d5ecb73d4322a04dfbf7926\",\n      \"type\": \"taxonomy\",\n      \"area\": \"default\",\n      \"data\": {\n        \"start\": \"5d5ecb72d4322a04dfbf7922\",\n        \"header\": \"\",\n        \"show_starting_taxon\": true,\n        \"image\": \"\",\n        \"image_alt\": \"\",\n        \"image_link\": \"\",\n        \"image_position\": \"\"\n      },\n      \"hidden_breakpoints\": [\n\n      ],\n      \"position\": 0,\n      \"html\": \"<div class=\\\"content-block content-block--taxonomy\\\" id=\\\"content_block_5d5ecb73d4322a04dfbf7926\\\" data-analytics=\\\"{&quot;event&quot;:&quot;contentBlockDisplay&quot;,&quot;payload&quot;:{&quot;id&quot;:&quot;5d5ecb73d4322a04dfbf7926&quot;,&quot;type&quot;:&quot;taxonomy&quot;,&quot;position&quot;:0,&quot;data&quot;:{&quot;start&quot;:&quot;5d5ecb72d4322a04dfbf7922&quot;,&quot;header&quot;:&quot;&quot;,&quot;show_starting_taxon&quot;:true,&quot;image&quot;:&quot;&quot;,&quot;image_alt&quot;:&quot;&quot;,&quot;image_link&quot;:&quot;&quot;,&quot;image_position&quot;:&quot;&quot;}}}\\\" data-hidden-block-css-content=\\\"Block hidden at this breakpoint\\\"><div class='taxonomy-content-block'>\\n<div class='taxonomy-content-block__container taxonomy-content-block__container--without-image'>\\n<ul class='taxonomy-content-block__menu'>\\n<li class='taxonomy-content-block__menu-item taxonomy-content-block__menu-item--start'>\\nSale\\n</li>\\n</ul>\\n</div>\\n</div>\\n</div>\\n\"\n    }\n  ]\n}",
       "response_content_type": "application/json",
-      "curl": "curl -g \"https://www.example.com/api/storefront/menus/5d5dbcddd4322a4b69d789e6\" -X GET "
+      "curl": "curl -g \"https://www.example.com/api/storefront/menus/5d5ecb72d4322a04dfbf7924\" -X GET "
     }
   ],
   "resource": "Menus",
   "description": "Showing a menu",
   "route": "/api/storefront/menus/:id",
-  "explanation": "            This endpoint will return all the data used to render a menu. This\n            includes the corresponding content, as well a link to where the\n            menu points at in the taxonomy.\n",
-  "http_method": "GET"
+  "http_method": "GET",
+  "explanation": "            This endpoint will return all the data used to render a menu. This\n            includes the corresponding content, as well a link to where the\n            menu points at in the taxonomy.\n"
 }

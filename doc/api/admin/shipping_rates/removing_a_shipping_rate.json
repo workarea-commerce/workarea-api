@@ -20,19 +20,19 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "8e363331-be7e-44f1-ad26-bef24e54c241",
-        "X-Runtime": "0.007751",
+        "X-Request-Id": "1785dd41-a7e4-440c-91f0-7a4b9d96e612",
+        "X-Runtime": "0.007890",
         "Expires": "0"
       },
       "request_method": "DELETE",
-      "request_path": "/api/admin/shipping_services/5d5dbd6ad4322a4b69d79086/rates/5d5dbd6ad4322a4b69d79088",
+      "request_path": "/api/admin/shipping_services/5d5eca94d4322a04dfbf6f51/rates/5d5eca94d4322a04dfbf6f53",
       "request_body": null,
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/shipping_services/5d5dbd6ad4322a4b69d79086/rates/5d5dbd6ad4322a4b69d79088\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
+      "curl": "curl \"https://www.example.com/api/admin/shipping_services/5d5eca94d4322a04dfbf6f51/rates/5d5eca94d4322a04dfbf6f53\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
     }
   ],
   "resource": "Shipping Rates",

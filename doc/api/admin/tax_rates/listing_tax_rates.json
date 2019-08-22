@@ -19,22 +19,22 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"95c5f7eb247fe49d47124a59477a6787\"",
+        "ETag": "W/\"f7b2435aef0c34e0bd567b47d5e57a7d\"",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "a78ecada-5fe9-474f-b37f-9ece884dd74f",
-        "X-Runtime": "0.005613",
+        "X-Request-Id": "554decee-6223-479c-93de-ec47afcf6723",
+        "X-Runtime": "0.009372",
         "Expires": "0",
         "Content-Length": "851"
       },
       "request_method": "GET",
-      "request_path": "/api/admin/tax_categories/5d5dbcccd4322a4b69d78936/rates",
+      "request_path": "/api/admin/tax_categories/5d5ecb2ad4322a04dfbf7508/rates",
       "request_body": null,
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"rates\": [\n    {\n      \"_id\": \"5d5dbcccd4322a4b69d78935\",\n      \"category_id\": \"5d5dbcccd4322a4b69d78936\",\n      \"charge_on_shipping\": true,\n      \"country\": \"US\",\n      \"created_at\": \"2019-08-21T21:51:08.994Z\",\n      \"percentage\": 0.06,\n      \"postal_code\": null,\n      \"region\": \"PA\",\n      \"tier_max\": null,\n      \"tier_min\": null,\n      \"updated_at\": \"2019-08-21T21:51:08.994Z\"\n    },\n    {\n      \"_id\": \"5d5dbcccd4322a4b69d78937\",\n      \"category_id\": \"5d5dbcccd4322a4b69d78936\",\n      \"charge_on_shipping\": true,\n      \"country\": \"US\",\n      \"created_at\": \"2019-08-21T21:51:08.994Z\",\n      \"percentage\": 0.06,\n      \"postal_code\": null,\n      \"region\": \"PA\",\n      \"tier_max\": null,\n      \"tier_min\": null,\n      \"updated_at\": \"2019-08-21T21:51:08.994Z\"\n    },\n    {\n      \"_id\": \"5d5dbcccd4322a4b69d78938\",\n      \"category_id\": \"5d5dbcccd4322a4b69d78936\",\n      \"charge_on_shipping\": true,\n      \"country\": \"US\",\n      \"created_at\": \"2019-08-21T21:51:08.994Z\",\n      \"percentage\": 0.06,\n      \"postal_code\": null,\n      \"region\": \"PA\",\n      \"tier_max\": null,\n      \"tier_min\": null,\n      \"updated_at\": \"2019-08-21T21:51:08.994Z\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"rates\": [\n    {\n      \"_id\": \"5d5ecb2ad4322a04dfbf7507\",\n      \"category_id\": \"5d5ecb2ad4322a04dfbf7508\",\n      \"charge_on_shipping\": true,\n      \"country\": \"US\",\n      \"created_at\": \"2019-08-22T17:04:42.846Z\",\n      \"percentage\": 0.06,\n      \"postal_code\": null,\n      \"region\": \"PA\",\n      \"tier_max\": null,\n      \"tier_min\": null,\n      \"updated_at\": \"2019-08-22T17:04:42.846Z\"\n    },\n    {\n      \"_id\": \"5d5ecb2ad4322a04dfbf7509\",\n      \"category_id\": \"5d5ecb2ad4322a04dfbf7508\",\n      \"charge_on_shipping\": true,\n      \"country\": \"US\",\n      \"created_at\": \"2019-08-22T17:04:42.846Z\",\n      \"percentage\": 0.06,\n      \"postal_code\": null,\n      \"region\": \"PA\",\n      \"tier_max\": null,\n      \"tier_min\": null,\n      \"updated_at\": \"2019-08-22T17:04:42.846Z\"\n    },\n    {\n      \"_id\": \"5d5ecb2ad4322a04dfbf750a\",\n      \"category_id\": \"5d5ecb2ad4322a04dfbf7508\",\n      \"charge_on_shipping\": true,\n      \"country\": \"US\",\n      \"created_at\": \"2019-08-22T17:04:42.846Z\",\n      \"percentage\": 0.06,\n      \"postal_code\": null,\n      \"region\": \"PA\",\n      \"tier_max\": null,\n      \"tier_min\": null,\n      \"updated_at\": \"2019-08-22T17:04:42.846Z\"\n    }\n  ]\n}",
       "response_content_type": "application/json",
-      "curl": "curl -g \"https://www.example.com/api/admin/tax_categories/5d5dbcccd4322a4b69d78936/rates\" -X GET "
+      "curl": "curl -g \"https://www.example.com/api/admin/tax_categories/5d5ecb2ad4322a04dfbf7508/rates\" -X GET "
     }
   ],
   "resource": "Tax Rates",

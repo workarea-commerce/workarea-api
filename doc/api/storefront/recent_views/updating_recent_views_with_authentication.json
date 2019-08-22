@@ -9,7 +9,7 @@
     {
       "request_headers": {
         "Content-Type": "application/json",
-        "Authorization": "Token token=\"wAmyRLpRBAzCSAbG98ZwuibF\""
+        "Authorization": "Token token=\"qmXCULteWZ4Z6mgbaT3NiHnn\""
       },
       "request_query_parameters": {
       },
@@ -27,8 +27,8 @@
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Flash-Messages",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "cbfdcebe-2696-431f-8771-d9ab02d0b00c",
-        "X-Runtime": "0.010654",
+        "X-Request-Id": "e5c5ca29-6a7d-442c-b80d-899d1c907697",
+        "X-Runtime": "0.009277",
         "Expires": "0",
         "Content-Length": "0"
       },
@@ -40,12 +40,12 @@
       "response_status_text": "OK",
       "response_body": null,
       "response_content_type": "application/json",
-      "curl": "curl \"https://www.example.com/api/storefront/recent_views\" -d '{\"product_id\":\"367A8BB9B5\",\"category_id\":\"596e739b021823358aabe9df\",\"search\":\"shirts\"}' -X PATCH \\\n\t-H \"Content-Type: application/json\" \\\n\t-H \"Authorization: Token token=\\\"wAmyRLpRBAzCSAbG98ZwuibF\\\"\""
+      "curl": "curl \"https://www.example.com/api/storefront/recent_views\" -d '{\"product_id\":\"367A8BB9B5\",\"category_id\":\"596e739b021823358aabe9df\",\"search\":\"shirts\"}' -X PATCH \\\n\t-H \"Content-Type: application/json\" \\\n\t-H \"Authorization: Token token=\\\"qmXCULteWZ4Z6mgbaT3NiHnn\\\"\""
     }
   ],
   "resource": "Recent views",
   "description": "Updating recent views with authentication",
   "route": "/api/storefront/recent_views",
-  "explanation": "            Use this endpoint like this to keep a accurate list of recent\n            activity by the authenticated customer. Each of the three resources\n            being tracked (products, categories, searches) are optional.\n",
-  "http_method": "PATCH"
+  "http_method": "PATCH",
+  "explanation": "            Use this endpoint like this to keep a accurate list of recent\n            activity by the authenticated customer. Each of the three resources\n            being tracked (products, categories, searches) are optional.\n"
 }

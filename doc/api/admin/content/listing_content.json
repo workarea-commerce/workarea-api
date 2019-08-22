@@ -32,10 +32,10 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"00bdd6798724bc00e052664447cbe153\"",
+        "ETag": "W/\"202da84dc7d9e67cc842cfab1d475946\"",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "a6faa3fe-762f-4432-9c0f-541e6f24244b",
-        "X-Runtime": "0.005504",
+        "X-Request-Id": "4d1a49d7-447d-4305-af34-85e274b0f679",
+        "X-Runtime": "0.007610",
         "Expires": "0",
         "Content-Length": "709"
       },
@@ -45,7 +45,7 @@
       "request_content_type": "application/json",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"content\": [\n    {\n      \"_id\": \"5d5dbd7bd4322a4b69d79177\",\n      \"active\": true,\n      \"automate_metadata\": true,\n      \"browser_title\": null,\n      \"contentable_id\": null,\n      \"contentable_type\": null,\n      \"created_at\": \"2019-08-21T21:54:03.970Z\",\n      \"css\": null,\n      \"javascript\": null,\n      \"meta_description\": null,\n      \"name\": \"Test Content\",\n      \"open_graph_asset_id\": null,\n      \"subscribed_user_ids\": [\n\n      ],\n      \"updated_at\": \"2019-08-21T21:54:03.970Z\"\n    },\n    {\n      \"_id\": \"5d5dbd7bd4322a4b69d79176\",\n      \"active\": true,\n      \"automate_metadata\": true,\n      \"browser_title\": null,\n      \"contentable_id\": null,\n      \"contentable_type\": null,\n      \"created_at\": \"2019-08-21T21:54:03.940Z\",\n      \"css\": null,\n      \"javascript\": null,\n      \"meta_description\": null,\n      \"name\": \"Test Content\",\n      \"open_graph_asset_id\": null,\n      \"subscribed_user_ids\": [\n\n      ],\n      \"updated_at\": \"2019-08-21T21:54:03.940Z\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"content\": [\n    {\n      \"_id\": \"5d5ecaa6d4322a04dfbf700e\",\n      \"active\": true,\n      \"automate_metadata\": true,\n      \"browser_title\": null,\n      \"contentable_id\": null,\n      \"contentable_type\": null,\n      \"created_at\": \"2019-08-22T17:02:30.014Z\",\n      \"css\": null,\n      \"javascript\": null,\n      \"meta_description\": null,\n      \"name\": \"Test Content\",\n      \"open_graph_asset_id\": null,\n      \"subscribed_user_ids\": [\n\n      ],\n      \"updated_at\": \"2019-08-22T17:02:30.014Z\"\n    },\n    {\n      \"_id\": \"5d5ecaa5d4322a04dfbf700d\",\n      \"active\": true,\n      \"automate_metadata\": true,\n      \"browser_title\": null,\n      \"contentable_id\": null,\n      \"contentable_type\": null,\n      \"created_at\": \"2019-08-22T17:02:29.981Z\",\n      \"css\": null,\n      \"javascript\": null,\n      \"meta_description\": null,\n      \"name\": \"Test Content\",\n      \"open_graph_asset_id\": null,\n      \"subscribed_user_ids\": [\n\n      ],\n      \"updated_at\": \"2019-08-22T17:02:29.981Z\"\n    }\n  ]\n}",
       "response_content_type": "application/json",
       "curl": "curl \"https://www.example.com/api/admin/content\" -d '{\"page\":1,\"sort_by\":\"created_at\",\"sort_direction\":\"desc\"}' -X POST \\\n\t-H \"Content-Type: application/json\" \\\n\t-H \"X-Http-Method-Override: GET\""
     }

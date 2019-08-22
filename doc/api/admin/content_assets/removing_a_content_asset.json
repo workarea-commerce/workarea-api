@@ -20,19 +20,19 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "c34fc6ac-7b56-4ec6-8f92-c17c8eb07b45",
-        "X-Runtime": "0.015661",
+        "X-Request-Id": "32302c96-448a-470d-9e6a-c186d7d2dcd5",
+        "X-Runtime": "0.016408",
         "Expires": "0"
       },
       "request_method": "DELETE",
-      "request_path": "/api/admin/content_assets/5d5dbdffd4322a4b69d79ab5",
+      "request_path": "/api/admin/content_assets/5d5ecb2cd4322a04dfbf751b",
       "request_body": null,
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/content_assets/5d5dbdffd4322a4b69d79ab5\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
+      "curl": "curl \"https://www.example.com/api/admin/content_assets/5d5ecb2cd4322a04dfbf751b\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
     }
   ],
   "resource": "Content Assets",

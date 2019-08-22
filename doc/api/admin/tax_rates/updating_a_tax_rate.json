@@ -20,19 +20,19 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "537b860e-f50f-46a2-a30d-7c3ae4cd95c4",
-        "X-Runtime": "0.010097",
+        "X-Request-Id": "318e7a98-b85a-4f86-85fb-60e03f58ed2b",
+        "X-Runtime": "0.011764",
         "Expires": "0"
       },
       "request_method": "PATCH",
-      "request_path": "/api/admin/tax_categories/5d5dbccdd4322a4b69d7893d/rates/5d5dbccdd4322a4b69d7893e",
+      "request_path": "/api/admin/tax_categories/5d5ecb29d4322a04dfbf74fb/rates/5d5ecb29d4322a04dfbf74fc",
       "request_body": "{\"rate\":{\"percentage\":0.04}}",
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/tax_categories/5d5dbccdd4322a4b69d7893d/rates/5d5dbccdd4322a4b69d7893e\" -d '{\"rate\":{\"percentage\":0.04}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/tax_categories/5d5ecb29d4322a04dfbf74fb/rates/5d5ecb29d4322a04dfbf74fc\" -d '{\"rate\":{\"percentage\":0.04}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Tax Rates",

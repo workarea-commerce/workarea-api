@@ -20,19 +20,19 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "c4ae2cf2-3908-4d64-b268-06e664886bb1",
-        "X-Runtime": "0.021096",
+        "X-Request-Id": "d001e8ec-f648-4261-b34d-0c751e446bfc",
+        "X-Runtime": "0.016966",
         "Expires": "0"
       },
       "request_method": "DELETE",
-      "request_path": "/api/admin/discounts/5d5dbd9ad4322a4b69d792f8",
+      "request_path": "/api/admin/discounts/5d5ecafed4322a04dfbf7353",
       "request_body": null,
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/discounts/5d5dbd9ad4322a4b69d792f8\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
+      "curl": "curl \"https://www.example.com/api/admin/discounts/5d5ecafed4322a04dfbf7353\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
     }
   ],
   "resource": "Discounts",

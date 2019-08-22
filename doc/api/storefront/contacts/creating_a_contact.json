@@ -25,10 +25,10 @@
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Flash-Messages",
-        "ETag": "W/\"76880827332a021ed329f2d9accad414\"",
+        "ETag": "W/\"23c8441f9c0099654c530606a8f94a48\"",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "5aeaea80-91ae-4792-817c-c62039897f8e",
-        "X-Runtime": "0.027782",
+        "X-Request-Id": "68a3e29d-cd7f-47cb-82bd-c12f2baac9fd",
+        "X-Runtime": "0.082381",
         "Expires": "0",
         "Content-Length": "228"
       },
@@ -38,7 +38,7 @@
       "request_content_type": "application/json",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"inquiry\": {\n    \"_id\": \"5d5dbcd7d4322a4b69d789ab\",\n    \"created_at\": \"2019-08-21T21:51:19.702Z\",\n    \"email\": \"email@example.com\",\n    \"message\": \"Message\",\n    \"name\": \"Name\",\n    \"order_id\": \"OrderID\",\n    \"subject\": \"orders\",\n    \"updated_at\": \"2019-08-21T21:51:19.702Z\"\n  }\n}",
+      "response_body": "{\n  \"inquiry\": {\n    \"_id\": \"5d5eca61d4322a04dfbf6ca0\",\n    \"created_at\": \"2019-08-22T17:01:21.027Z\",\n    \"email\": \"email@example.com\",\n    \"message\": \"Message\",\n    \"name\": \"Name\",\n    \"order_id\": \"OrderID\",\n    \"subject\": \"orders\",\n    \"updated_at\": \"2019-08-22T17:01:21.027Z\"\n  }\n}",
       "response_content_type": "application/json",
       "curl": "curl \"https://www.example.com/api/storefront/contacts\" -d '{\"name\":\"Name\",\"email\":\"email@example.com\",\"order_id\":\"OrderID\",\"subject\":\"orders\",\"message\":\"Message\"}' -X POST \\\n\t-H \"Content-Type: application/json\""
     }
@@ -46,6 +46,6 @@
   "resource": "Contacts",
   "description": "Creating a contact",
   "route": "/api/storefront/contacts",
-  "explanation": "            This endpoints creates a customer service inquiry on behalf of the\n            customer, and will send an email to the address in\n            Workarea.config.email_to\n",
-  "http_method": "POST"
+  "http_method": "POST",
+  "explanation": "            This endpoints creates a customer service inquiry on behalf of the\n            customer, and will send an email to the address in\n            Workarea.config.email_to\n"
 }

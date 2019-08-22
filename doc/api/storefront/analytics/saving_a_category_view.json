@@ -15,8 +15,8 @@
       "response_headers": {
         "Content-Type": "text/html; charset=utf-8",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "6d988bfd-dc84-4ac1-91f9-e9e3ca779a65",
-        "X-Runtime": "0.002649",
+        "X-Request-Id": "e83dabd2-201c-46bb-b617-9a066f34760c",
+        "X-Runtime": "0.002698",
         "Expires": "0",
         "Content-Length": "0"
       },
@@ -34,6 +34,6 @@
   "resource": "Analytics",
   "description": "saving a category view",
   "route": "/api/storefront/analytics/category_view/:category_id",
-  "explanation": "saving a category view will be reflected in admin reports",
-  "http_method": "POST"
+  "http_method": "POST",
+  "explanation": "saving a category view will be reflected in admin reports"
 }

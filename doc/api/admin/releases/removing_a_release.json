@@ -20,19 +20,19 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "10cd51e4-9058-438c-9d39-dd3d0a1b8e98",
-        "X-Runtime": "0.014429",
+        "X-Request-Id": "8fc735be-c059-4811-8499-0fe44db3fd0d",
+        "X-Runtime": "0.017714",
         "Expires": "0"
       },
       "request_method": "DELETE",
-      "request_path": "/api/admin/releases/5d5dbd4ad4322a4b69d78ef9",
+      "request_path": "/api/admin/releases/5d5eca71d4322a04dfbf6d92",
       "request_body": null,
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/releases/5d5dbd4ad4322a4b69d78ef9\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/releases/5d5eca71d4322a04dfbf6d92\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Releases",

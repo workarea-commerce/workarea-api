@@ -24,10 +24,10 @@
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Flash-Messages",
-        "ETag": "W/\"96ed7403230af7f94fa75ae4616e8d73\"",
+        "ETag": "W/\"0751e079ab614d2b7c3d88d04ee2dfc7\"",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "2c53a37f-32d4-412c-af96-1e50dd316d36",
-        "X-Runtime": "0.007337",
+        "X-Request-Id": "f49c7cf8-b415-46c3-a61c-62745596c4c5",
+        "X-Runtime": "0.008116",
         "Expires": "0",
         "Content-Length": "900"
       },
@@ -37,7 +37,7 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"title\": \"Sign up for our email list\",\n  \"content_blocks\": [\n    {\n      \"id\": \"5d5dbdc5d4322a4b69d7959f\",\n      \"type\": \"text\",\n      \"area\": \"default\",\n      \"data\": {\n        \"text\": \"Here is some administrated content\"\n      },\n      \"hidden_breakpoints\": [\n\n      ],\n      \"position\": 0,\n      \"html\": \"<div class=\\\"content-block content-block--text\\\" id=\\\"content_block_5d5dbdc5d4322a4b69d7959f\\\" data-analytics=\\\"{&quot;event&quot;:&quot;contentBlockDisplay&quot;,&quot;payload&quot;:{&quot;id&quot;:&quot;5d5dbdc5d4322a4b69d7959f&quot;,&quot;type&quot;:&quot;text&quot;,&quot;position&quot;:0,&quot;data&quot;:{&quot;text&quot;:&quot;Here is some administrated content&quot;}}}\\\" data-hidden-block-css-content=\\\"Block hidden at this breakpoint\\\"><div class='text-content-block'>Here is some administrated content</div>\\n</div>\\n\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"title\": \"Sign up for our email list\",\n  \"content_blocks\": [\n    {\n      \"id\": \"5d5ecba1d4322a04dfbf7be6\",\n      \"type\": \"text\",\n      \"area\": \"default\",\n      \"data\": {\n        \"text\": \"Here is some administrated content\"\n      },\n      \"hidden_breakpoints\": [\n\n      ],\n      \"position\": 0,\n      \"html\": \"<div class=\\\"content-block content-block--text\\\" id=\\\"content_block_5d5ecba1d4322a04dfbf7be6\\\" data-analytics=\\\"{&quot;event&quot;:&quot;contentBlockDisplay&quot;,&quot;payload&quot;:{&quot;id&quot;:&quot;5d5ecba1d4322a04dfbf7be6&quot;,&quot;type&quot;:&quot;text&quot;,&quot;position&quot;:0,&quot;data&quot;:{&quot;text&quot;:&quot;Here is some administrated content&quot;}}}\\\" data-hidden-block-css-content=\\\"Block hidden at this breakpoint\\\"><div class='text-content-block'>Here is some administrated content</div>\\n</div>\\n\"\n    }\n  ]\n}",
       "response_content_type": "application/json",
       "curl": "curl -g \"https://www.example.com/api/storefront/email_signups\" -X GET "
     }
@@ -45,6 +45,6 @@
   "resource": "Email Signups",
   "description": "Showing an email signup content",
   "route": "/api/storefront/email_signups",
-  "explanation": "            This endpoint will return all relevant data for showing an email\n            sign up form.\n",
-  "http_method": "GET"
+  "http_method": "GET",
+  "explanation": "            This endpoint will return all relevant data for showing an email\n            sign up form.\n"
 }

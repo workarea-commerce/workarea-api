@@ -8,7 +8,7 @@
   "requests": [
     {
       "request_headers": {
-        "Authorization": "Token token=\"E4LQGbZn2hQhMhuR841d5npM\""
+        "Authorization": "Token token=\"utvVgqxLKdG2wow2iQaEddgJ\""
       },
       "request_query_parameters": {
       },
@@ -25,10 +25,10 @@
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Flash-Messages",
-        "ETag": "W/\"554cbff71725a67122e8807dd5e5edd8\"",
+        "ETag": "W/\"9f1162d42524808f1bfe2f68244bd2ad\"",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "a4767cc7-3617-44b4-89fb-9441540bcb9a",
-        "X-Runtime": "0.006550",
+        "X-Request-Id": "da123363-5a46-4c68-9c9c-119b4eec1f16",
+        "X-Runtime": "0.016395",
         "Expires": "0",
         "Content-Length": "734"
       },
@@ -38,14 +38,14 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"user_id\": \"5d5dbcecd4322a4b69d78ade\",\n  \"addresses\": [\n    {\n      \"url\": \"http://www.example.com/api/storefront/saved_addresses/5d5dbcecd4322a4b69d78ae1\",\n      \"id\": \"5d5dbcecd4322a4b69d78ae1\",\n      \"first_name\": \"Susan\",\n      \"last_name\": \"Baker\",\n      \"company\": null,\n      \"street\": \"350 Fifth Avenue\",\n      \"street_2\": null,\n      \"city\": \"New York\",\n      \"country\": \"US\",\n      \"region\": \"NY\",\n      \"postal_code\": \"10118\",\n      \"phone_number\": \"6465552390\",\n      \"phone_extension\": null\n    },\n    {\n      \"url\": \"http://www.example.com/api/storefront/saved_addresses/5d5dbcedd4322a4b69d78ae2\",\n      \"id\": \"5d5dbcedd4322a4b69d78ae2\",\n      \"first_name\": \"Susan\",\n      \"last_name\": \"Baker\",\n      \"company\": null,\n      \"street\": \"4059 Mt Lee Dr.\",\n      \"street_2\": null,\n      \"city\": \"Hollywood\",\n      \"country\": \"US\",\n      \"region\": \"CA\",\n      \"postal_code\": \"90068\",\n      \"phone_number\": \"7545552390\",\n      \"phone_extension\": null\n    }\n  ]\n}",
+      "response_body": "{\n  \"user_id\": \"5d5eca4ed4322a04dfbf6bfb\",\n  \"addresses\": [\n    {\n      \"url\": \"http://www.example.com/api/storefront/saved_addresses/5d5eca4ed4322a04dfbf6bfe\",\n      \"id\": \"5d5eca4ed4322a04dfbf6bfe\",\n      \"first_name\": \"Susan\",\n      \"last_name\": \"Baker\",\n      \"company\": null,\n      \"street\": \"350 Fifth Avenue\",\n      \"street_2\": null,\n      \"city\": \"New York\",\n      \"country\": \"US\",\n      \"region\": \"NY\",\n      \"postal_code\": \"10118\",\n      \"phone_number\": \"6465552390\",\n      \"phone_extension\": null\n    },\n    {\n      \"url\": \"http://www.example.com/api/storefront/saved_addresses/5d5eca4ed4322a04dfbf6bff\",\n      \"id\": \"5d5eca4ed4322a04dfbf6bff\",\n      \"first_name\": \"Susan\",\n      \"last_name\": \"Baker\",\n      \"company\": null,\n      \"street\": \"4059 Mt Lee Dr.\",\n      \"street_2\": null,\n      \"city\": \"Hollywood\",\n      \"country\": \"US\",\n      \"region\": \"CA\",\n      \"postal_code\": \"90068\",\n      \"phone_number\": \"7545552390\",\n      \"phone_extension\": null\n    }\n  ]\n}",
       "response_content_type": "application/json",
-      "curl": "curl -g \"https://www.example.com/api/storefront/saved_addresses\" -X GET \\\n\t-H \"Authorization: Token token=\\\"E4LQGbZn2hQhMhuR841d5npM\\\"\""
+      "curl": "curl -g \"https://www.example.com/api/storefront/saved_addresses\" -X GET \\\n\t-H \"Authorization: Token token=\\\"utvVgqxLKdG2wow2iQaEddgJ\\\"\""
     }
   ],
   "resource": "Saved Addresses",
   "description": "Listing the user's saved addresses",
   "route": "/api/storefront/saved_addresses",
-  "explanation": "            List a customer's saved addresses. Useful for account management and\n            for using saved addresses in checkout.\n",
-  "http_method": "GET"
+  "http_method": "GET",
+  "explanation": "            List a customer's saved addresses. Useful for account management and\n            for using saved addresses in checkout.\n"
 }

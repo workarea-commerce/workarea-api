@@ -21,22 +21,22 @@
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Location": "/api/admin/fulfillments/1234",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"24492b41765e7247d71d6dfabc79ca2d\"",
+        "ETag": "W/\"e33276c7ec1dae27cdb190f9892e54ec\"",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "9fbef416-6104-4c75-985f-ab5b713b5d69",
-        "X-Runtime": "0.257822",
+        "X-Request-Id": "b6cc63e5-3373-4b7e-98bb-d8a42d63cc6f",
+        "X-Runtime": "0.232627",
         "Expires": "0",
         "Content-Length": "437"
       },
       "request_method": "POST",
       "request_path": "/api/admin/fulfillments/1234/ship_items",
-      "request_body": "{\"tracking_number\":\"1Z\",\"items\":[{\"id\":\"5d5dbc81d4322a4b69d7834d\",\"quantity\":1}]}",
+      "request_body": "{\"tracking_number\":\"1Z\",\"items\":[{\"id\":\"5d5ecb5fd4322a04dfbf77e5\",\"quantity\":1}]}",
       "request_content_type": "application/json",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"fulfillment\": {\n    \"_id\": \"1234\",\n    \"created_at\": \"2019-08-21T21:49:55.910Z\",\n    \"items\": [\n      {\n        \"_id\": \"5d5dbc83d4322a4b69d7837a\",\n        \"created_at\": null,\n        \"events\": [\n          {\n            \"_id\": \"5d5dbc84d4322a4b69d7837b\",\n            \"created_at\": \"2019-08-21T21:49:56.213Z\",\n            \"data\": {\n              \"tracking_number\": \"1z\"\n            },\n            \"quantity\": 1,\n            \"status\": \"shipped\",\n            \"updated_at\": \"2019-08-21T21:49:56.213Z\"\n          }\n        ],\n        \"order_item_id\": \"5d5dbc81d4322a4b69d7834d\",\n        \"quantity\": 2,\n        \"updated_at\": null\n      }\n    ],\n    \"updated_at\": \"2019-08-21T21:49:56.217Z\"\n  }\n}",
+      "response_body": "{\n  \"fulfillment\": {\n    \"_id\": \"1234\",\n    \"created_at\": \"2019-08-22T17:05:38.277Z\",\n    \"items\": [\n      {\n        \"_id\": \"5d5ecb62d4322a04dfbf7812\",\n        \"created_at\": null,\n        \"events\": [\n          {\n            \"_id\": \"5d5ecb62d4322a04dfbf7813\",\n            \"created_at\": \"2019-08-22T17:05:38.606Z\",\n            \"data\": {\n              \"tracking_number\": \"1z\"\n            },\n            \"quantity\": 1,\n            \"status\": \"shipped\",\n            \"updated_at\": \"2019-08-22T17:05:38.606Z\"\n          }\n        ],\n        \"order_item_id\": \"5d5ecb5fd4322a04dfbf77e5\",\n        \"quantity\": 2,\n        \"updated_at\": null\n      }\n    ],\n    \"updated_at\": \"2019-08-22T17:05:38.609Z\"\n  }\n}",
       "response_content_type": "application/json",
-      "curl": "curl \"https://www.example.com/api/admin/fulfillments/1234/ship_items\" -d '{\"tracking_number\":\"1Z\",\"items\":[{\"id\":\"5d5dbc81d4322a4b69d7834d\",\"quantity\":1}]}' -X POST \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/fulfillments/1234/ship_items\" -d '{\"tracking_number\":\"1Z\",\"items\":[{\"id\":\"5d5ecb5fd4322a04dfbf77e5\",\"quantity\":1}]}' -X POST \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Fulfillment",

@@ -15,8 +15,8 @@
       "response_headers": {
         "Content-Type": "text/html; charset=utf-8",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "3aa00741-ae34-41b9-9c23-2dc758d19151",
-        "X-Runtime": "0.002840",
+        "X-Request-Id": "762b3a63-c78b-46ad-9b84-1ef43d14cf1f",
+        "X-Runtime": "0.002679",
         "Expires": "0",
         "Content-Length": "0"
       },
@@ -34,6 +34,6 @@
   "resource": "Analytics",
   "description": "saving a product view",
   "route": "/api/storefront/analytics/product_view/:product_id",
-  "explanation": "saving a product view will be reflected in admin reports",
-  "http_method": "POST"
+  "http_method": "POST",
+  "explanation": "saving a product view will be reflected in admin reports"
 }

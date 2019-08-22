@@ -19,22 +19,22 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"4fc3a3976ad0fd4dc8337db92433d612\"",
+        "ETag": "W/\"4f3a1b3d9b5050de86110731e5a45d9e\"",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "7f485664-bed6-4468-be2b-7687a1cad1dd",
-        "X-Runtime": "0.006637",
+        "X-Request-Id": "b7836a75-f4d9-4f6f-a2b1-ca2b6e9177f9",
+        "X-Runtime": "0.007349",
         "Expires": "0",
         "Content-Length": "481"
       },
       "request_method": "GET",
-      "request_path": "/api/admin/categories/5d5dbe05d4322a4b69d79b06",
+      "request_path": "/api/admin/categories/5d5ec9d6d4322a04dfbf638c",
       "request_body": null,
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"category\": {\n    \"_id\": \"5d5dbe05d4322a4b69d79b06\",\n    \"active\": true,\n    \"client_id\": null,\n    \"created_at\": \"2019-08-21T21:56:21.806Z\",\n    \"default_sort\": \"top_sellers\",\n    \"name\": \"Test Category\",\n    \"product_ids\": [\n\n    ],\n    \"product_rules\": [\n      {\n        \"_id\": \"5d5dbe05d4322a4b69d79b07\",\n        \"created_at\": null,\n        \"name\": \"search\",\n        \"operator\": \"equals\",\n        \"updated_at\": null,\n        \"value\": \"*\"\n      }\n    ],\n    \"range_facets\": {\n    },\n    \"show_navigation\": true,\n    \"slug\": \"test-category\",\n    \"subscribed_user_ids\": [\n\n    ],\n    \"tags\": [\n\n    ],\n    \"terms_facets\": [\n\n    ],\n    \"updated_at\": \"2019-08-21T21:56:21.806Z\"\n  }\n}",
+      "response_body": "{\n  \"category\": {\n    \"_id\": \"5d5ec9d6d4322a04dfbf638c\",\n    \"active\": true,\n    \"client_id\": null,\n    \"created_at\": \"2019-08-22T16:59:02.815Z\",\n    \"default_sort\": \"top_sellers\",\n    \"name\": \"Test Category\",\n    \"product_ids\": [\n\n    ],\n    \"product_rules\": [\n      {\n        \"_id\": \"5d5ec9d6d4322a04dfbf638d\",\n        \"created_at\": null,\n        \"name\": \"search\",\n        \"operator\": \"equals\",\n        \"updated_at\": null,\n        \"value\": \"*\"\n      }\n    ],\n    \"range_facets\": {\n    },\n    \"show_navigation\": true,\n    \"slug\": \"test-category\",\n    \"subscribed_user_ids\": [\n\n    ],\n    \"tags\": [\n\n    ],\n    \"terms_facets\": [\n\n    ],\n    \"updated_at\": \"2019-08-22T16:59:02.815Z\"\n  }\n}",
       "response_content_type": "application/json",
-      "curl": "curl -g \"https://www.example.com/api/admin/categories/5d5dbe05d4322a4b69d79b06\" -X GET "
+      "curl": "curl -g \"https://www.example.com/api/admin/categories/5d5ec9d6d4322a04dfbf638c\" -X GET "
     }
   ],
   "resource": "Categories",

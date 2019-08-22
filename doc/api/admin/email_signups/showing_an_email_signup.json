@@ -19,22 +19,22 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"2222a485cb64774a3dbc169ba6d40d6e\"",
+        "ETag": "W/\"bfb0d0b5eac41d5ce3ea59a262eb32c5\"",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "14e2036f-7d68-423f-ab31-6320f2d5f46b",
-        "X-Runtime": "0.004002",
+        "X-Request-Id": "b6e68d8f-7d9d-4f0c-b22f-037c6cb7cc19",
+        "X-Runtime": "0.006189",
         "Expires": "0",
         "Content-Length": "169"
       },
       "request_method": "GET",
-      "request_path": "/api/admin/email_signups/5d5dbdc0d4322a4b69d79579",
+      "request_path": "/api/admin/email_signups/5d5eca12d4322a04dfbf689e",
       "request_body": null,
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"email_signup\": {\n    \"_id\": \"5d5dbdc0d4322a4b69d79579\",\n    \"created_at\": \"2019-08-21T21:55:12.982Z\",\n    \"email\": \"email-signup-3@workarea.com\",\n    \"updated_at\": \"2019-08-21T21:55:12.982Z\"\n  }\n}",
+      "response_body": "{\n  \"email_signup\": {\n    \"_id\": \"5d5eca12d4322a04dfbf689e\",\n    \"created_at\": \"2019-08-22T17:00:02.390Z\",\n    \"email\": \"email-signup-2@workarea.com\",\n    \"updated_at\": \"2019-08-22T17:00:02.390Z\"\n  }\n}",
       "response_content_type": "application/json",
-      "curl": "curl -g \"https://www.example.com/api/admin/email_signups/5d5dbdc0d4322a4b69d79579\" -X GET "
+      "curl": "curl -g \"https://www.example.com/api/admin/email_signups/5d5eca12d4322a04dfbf689e\" -X GET "
     }
   ],
   "resource": "Email Signups",

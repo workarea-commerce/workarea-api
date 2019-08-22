@@ -20,19 +20,19 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "45d452b6-1275-481d-8f73-b29bba3f9235",
-        "X-Runtime": "0.033153",
+        "X-Request-Id": "f77a95ec-bb03-40f8-85b0-110af0008240",
+        "X-Runtime": "0.035572",
         "Expires": "0"
       },
       "request_method": "PATCH",
-      "request_path": "/api/admin/categories/5d5dbccad4322a4b69d78927/product_rules/5d5dbccad4322a4b69d7892a",
+      "request_path": "/api/admin/categories/5d5ec9c8d4322a04dfbf62f8/product_rules/5d5ec9c8d4322a04dfbf62fb",
       "request_body": "{\"product_rule\":{\"value\":\"foo\"}}",
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/categories/5d5dbccad4322a4b69d78927/product_rules/5d5dbccad4322a4b69d7892a\" -d '{\"product_rule\":{\"value\":\"foo\"}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/categories/5d5ec9c8d4322a04dfbf62f8/product_rules/5d5ec9c8d4322a04dfbf62fb\" -d '{\"product_rule\":{\"value\":\"foo\"}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Category Product Rules",

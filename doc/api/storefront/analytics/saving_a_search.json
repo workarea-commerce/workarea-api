@@ -15,8 +15,8 @@
       "response_headers": {
         "Content-Type": "text/html; charset=utf-8",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "8b19fca8-2746-49bc-94df-e191552aa898",
-        "X-Runtime": "0.002739",
+        "X-Request-Id": "e261574b-09b6-4a7f-85f5-52383e08314f",
+        "X-Runtime": "0.003015",
         "Expires": "0",
         "Content-Length": "0"
       },
@@ -34,6 +34,6 @@
   "resource": "Analytics",
   "description": "Saving a search",
   "route": "/api/storefront/analytics/search",
-  "explanation": "            Saving a search will be reflected in admin reports. This is intended\n            to be called once per search performed by a customer.\n",
-  "http_method": "POST"
+  "http_method": "POST",
+  "explanation": "            Saving a search will be reflected in admin reports. This is intended\n            to be called once per search performed by a customer.\n"
 }

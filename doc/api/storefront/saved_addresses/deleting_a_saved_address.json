@@ -9,7 +9,7 @@
     {
       "request_headers": {
         "Content-Type": "application/x-www-form-urlencoded",
-        "Authorization": "Token token=\"H8SfGLzxxUEmFkLrk6SxFBax\""
+        "Authorization": "Token token=\"NdMjPTc3rwCYLcoJsw15HAL3\""
       },
       "request_query_parameters": {
       },
@@ -26,19 +26,19 @@
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Flash-Messages",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "62736dc0-d9aa-49e8-bfba-a661f1d331d2",
-        "X-Runtime": "0.006406",
+        "X-Request-Id": "bd4637fe-12ee-4baa-b0d7-4ef64a1ac02d",
+        "X-Runtime": "0.006546",
         "Expires": "0"
       },
       "request_method": "DELETE",
-      "request_path": "/api/storefront/saved_addresses/5d5dbcead4322a4b69d78acc",
+      "request_path": "/api/storefront/saved_addresses/5d5eca51d4322a04dfbf6c14",
       "request_body": null,
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/storefront/saved_addresses/5d5dbcead4322a4b69d78acc\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Authorization: Token token=\\\"H8SfGLzxxUEmFkLrk6SxFBax\\\"\""
+      "curl": "curl \"https://www.example.com/api/storefront/saved_addresses/5d5eca51d4322a04dfbf6c14\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Authorization: Token token=\\\"NdMjPTc3rwCYLcoJsw15HAL3\\\"\""
     }
   ],
   "resource": "Saved Addresses",

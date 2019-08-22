@@ -20,19 +20,19 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "347c9c07-9bc9-4d3b-8ae1-145d8a8d2853",
-        "X-Runtime": "0.074538",
+        "X-Request-Id": "bcfa4f6d-9422-41e7-8208-8e73ecd762ca",
+        "X-Runtime": "0.081911",
         "Expires": "0"
       },
       "request_method": "PATCH",
       "request_path": "/api/admin/inventory_skus/bulk",
-      "request_body": "{\"inventory_skus\":[{\"available\":5,\"backordered\":0,\"backordered_until\":null,\"created_at\":\"2019-08-21T21:49:40.125Z\",\"policy\":\"standard\",\"purchased\":0,\"reserve\":0,\"sellable\":5,\"updated_at\":\"2019-08-21T21:49:40.125Z\",\"_id\":1},{\"available\":5,\"backordered\":0,\"backordered_until\":null,\"created_at\":\"2019-08-21T21:49:40.125Z\",\"policy\":\"standard\",\"purchased\":0,\"reserve\":0,\"sellable\":5,\"updated_at\":\"2019-08-21T21:49:40.125Z\",\"_id\":1},{\"available\":5,\"backordered\":0,\"backordered_until\":null,\"created_at\":\"2019-08-21T21:49:40.125Z\",\"policy\":\"standard\",\"purchased\":0,\"reserve\":0,\"sellable\":5,\"updated_at\":\"2019-08-21T21:49:40.125Z\",\"_id\":1}]}",
+      "request_body": "{\"inventory_skus\":[{\"available\":5,\"backordered\":0,\"backordered_until\":null,\"created_at\":\"2019-08-22T17:02:51.415Z\",\"policy\":\"standard\",\"purchased\":0,\"reserve\":0,\"sellable\":5,\"updated_at\":\"2019-08-22T17:02:51.415Z\",\"_id\":1},{\"available\":5,\"backordered\":0,\"backordered_until\":null,\"created_at\":\"2019-08-22T17:02:51.415Z\",\"policy\":\"standard\",\"purchased\":0,\"reserve\":0,\"sellable\":5,\"updated_at\":\"2019-08-22T17:02:51.415Z\",\"_id\":1},{\"available\":5,\"backordered\":0,\"backordered_until\":null,\"created_at\":\"2019-08-22T17:02:51.415Z\",\"policy\":\"standard\",\"purchased\":0,\"reserve\":0,\"sellable\":5,\"updated_at\":\"2019-08-22T17:02:51.415Z\",\"_id\":1}]}",
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/inventory_skus/bulk\" -d '{\"inventory_skus\":[{\"available\":5,\"backordered\":0,\"backordered_until\":null,\"created_at\":\"2019-08-21T21:49:40.125Z\",\"policy\":\"standard\",\"purchased\":0,\"reserve\":0,\"sellable\":5,\"updated_at\":\"2019-08-21T21:49:40.125Z\",\"_id\":1},{\"available\":5,\"backordered\":0,\"backordered_until\":null,\"created_at\":\"2019-08-21T21:49:40.125Z\",\"policy\":\"standard\",\"purchased\":0,\"reserve\":0,\"sellable\":5,\"updated_at\":\"2019-08-21T21:49:40.125Z\",\"_id\":1},{\"available\":5,\"backordered\":0,\"backordered_until\":null,\"created_at\":\"2019-08-21T21:49:40.125Z\",\"policy\":\"standard\",\"purchased\":0,\"reserve\":0,\"sellable\":5,\"updated_at\":\"2019-08-21T21:49:40.125Z\",\"_id\":1}]}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/inventory_skus/bulk\" -d '{\"inventory_skus\":[{\"available\":5,\"backordered\":0,\"backordered_until\":null,\"created_at\":\"2019-08-22T17:02:51.415Z\",\"policy\":\"standard\",\"purchased\":0,\"reserve\":0,\"sellable\":5,\"updated_at\":\"2019-08-22T17:02:51.415Z\",\"_id\":1},{\"available\":5,\"backordered\":0,\"backordered_until\":null,\"created_at\":\"2019-08-22T17:02:51.415Z\",\"policy\":\"standard\",\"purchased\":0,\"reserve\":0,\"sellable\":5,\"updated_at\":\"2019-08-22T17:02:51.415Z\",\"_id\":1},{\"available\":5,\"backordered\":0,\"backordered_until\":null,\"created_at\":\"2019-08-22T17:02:51.415Z\",\"policy\":\"standard\",\"purchased\":0,\"reserve\":0,\"sellable\":5,\"updated_at\":\"2019-08-22T17:02:51.415Z\",\"_id\":1}]}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Inventory SKUs",

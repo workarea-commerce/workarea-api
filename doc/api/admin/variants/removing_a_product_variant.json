@@ -20,19 +20,19 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "e8d7089c-d4f3-45d5-b84a-5f78eb4cbd52",
-        "X-Runtime": "0.066995",
+        "X-Request-Id": "22fb7dc7-13b9-44fc-9d2d-131dde2bd378",
+        "X-Runtime": "0.101082",
         "Expires": "0"
       },
       "request_method": "DELETE",
-      "request_path": "/api/admin/products/EAC79FEB2C/variants/5d5dbd0bd4322a4b69d78bfb",
+      "request_path": "/api/admin/products/FFFD575DE6/variants/5d5ecb16d4322a04dfbf742b",
       "request_body": null,
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/products/EAC79FEB2C/variants/5d5dbd0bd4322a4b69d78bfb\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
+      "curl": "curl \"https://www.example.com/api/admin/products/FFFD575DE6/variants/5d5ecb16d4322a04dfbf742b\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
     }
   ],
   "resource": "Variants",

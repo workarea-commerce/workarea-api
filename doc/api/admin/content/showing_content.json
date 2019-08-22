@@ -19,22 +19,22 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"335079eb7ab65e8bfbe9c1cb78ed35d8\"",
+        "ETag": "W/\"fdb591bf7e44513edae7801298c9e931\"",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "a1f0eefd-dc4d-46e4-8ac4-51d2e1f08456",
-        "X-Runtime": "0.005467",
+        "X-Request-Id": "9b683667-3e86-4598-89bb-5a8331daf0f4",
+        "X-Runtime": "0.008385",
         "Expires": "0",
         "Content-Length": "359"
       },
       "request_method": "GET",
-      "request_path": "/api/admin/content/5d5dbd7ad4322a4b69d79167",
+      "request_path": "/api/admin/content/5d5ecaa7d4322a04dfbf7020",
       "request_body": null,
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"content\": {\n    \"_id\": \"5d5dbd7ad4322a4b69d79167\",\n    \"active\": true,\n    \"automate_metadata\": true,\n    \"browser_title\": null,\n    \"contentable_id\": null,\n    \"contentable_type\": null,\n    \"created_at\": \"2019-08-21T21:54:02.179Z\",\n    \"css\": null,\n    \"javascript\": null,\n    \"meta_description\": null,\n    \"name\": \"Test Content\",\n    \"open_graph_asset_id\": null,\n    \"subscribed_user_ids\": [\n\n    ],\n    \"updated_at\": \"2019-08-21T21:54:02.179Z\"\n  }\n}",
+      "response_body": "{\n  \"content\": {\n    \"_id\": \"5d5ecaa7d4322a04dfbf7020\",\n    \"active\": true,\n    \"automate_metadata\": true,\n    \"browser_title\": null,\n    \"contentable_id\": null,\n    \"contentable_type\": null,\n    \"created_at\": \"2019-08-22T17:02:31.432Z\",\n    \"css\": null,\n    \"javascript\": null,\n    \"meta_description\": null,\n    \"name\": \"Test Content\",\n    \"open_graph_asset_id\": null,\n    \"subscribed_user_ids\": [\n\n    ],\n    \"updated_at\": \"2019-08-22T17:02:31.432Z\"\n  }\n}",
       "response_content_type": "application/json",
-      "curl": "curl -g \"https://www.example.com/api/admin/content/5d5dbd7ad4322a4b69d79167\" -X GET "
+      "curl": "curl -g \"https://www.example.com/api/admin/content/5d5ecaa7d4322a04dfbf7020\" -X GET "
     }
   ],
   "resource": "Content",

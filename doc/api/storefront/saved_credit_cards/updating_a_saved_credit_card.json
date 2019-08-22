@@ -9,7 +9,7 @@
     {
       "request_headers": {
         "Content-Type": "application/json",
-        "Authorization": "Token token=\"UgTGvTKKVmhPThYBB3S448td\""
+        "Authorization": "Token token=\"znRJwJSwnksRNf3hhfbHoWHa\""
       },
       "request_query_parameters": {
       },
@@ -26,22 +26,22 @@
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Flash-Messages",
-        "ETag": "W/\"5cc83d0b5d528dca0dbb2f407d5da9f2\"",
+        "ETag": "W/\"0038cc54b80e1fb6e7943b4bf37a94b8\"",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "7dad7a77-4268-4c93-abbe-dc44f7d03cdc",
-        "X-Runtime": "0.011068",
+        "X-Request-Id": "1c143b11-ba5e-4272-aeef-4dadbbb0d752",
+        "X-Runtime": "0.017047",
         "Expires": "0",
         "Content-Length": "294"
       },
       "request_method": "PATCH",
-      "request_path": "/api/storefront/saved_credit_cards/5d5dbd6ed4322a4b69d790b0",
+      "request_path": "/api/storefront/saved_credit_cards/5d5ec9ced4322a04dfbf6322",
       "request_body": "{\"month\":\"7\",\"year\":\"2024\",\"cvv\":\"123\"}",
       "request_content_type": "application/json",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"user_id\": \"5d5dbd6dd4322a4b69d790ac\",\n  \"id\": \"5d5dbd6ed4322a4b69d790b0\",\n  \"url\": \"http://www.example.com/api/storefront/saved_credit_cards/5d5dbd6ed4322a4b69d790b0\",\n  \"default\": false,\n  \"issuer\": \"Visa\",\n  \"display_number\": \"XXXX-XXXX-XXXX-1881\",\n  \"month\": 7,\n  \"year\": 2024,\n  \"first_name\": \"Susan\",\n  \"last_name\": \"Baker\"\n}",
+      "response_body": "{\n  \"user_id\": \"5d5ec9ced4322a04dfbf631e\",\n  \"id\": \"5d5ec9ced4322a04dfbf6322\",\n  \"url\": \"http://www.example.com/api/storefront/saved_credit_cards/5d5ec9ced4322a04dfbf6322\",\n  \"default\": false,\n  \"issuer\": \"Visa\",\n  \"display_number\": \"XXXX-XXXX-XXXX-1881\",\n  \"month\": 7,\n  \"year\": 2024,\n  \"first_name\": \"Susan\",\n  \"last_name\": \"Baker\"\n}",
       "response_content_type": "application/json",
-      "curl": "curl \"https://www.example.com/api/storefront/saved_credit_cards/5d5dbd6ed4322a4b69d790b0\" -d '{\"month\":\"7\",\"year\":\"2024\",\"cvv\":\"123\"}' -X PATCH \\\n\t-H \"Content-Type: application/json\" \\\n\t-H \"Authorization: Token token=\\\"UgTGvTKKVmhPThYBB3S448td\\\"\""
+      "curl": "curl \"https://www.example.com/api/storefront/saved_credit_cards/5d5ec9ced4322a04dfbf6322\" -d '{\"month\":\"7\",\"year\":\"2024\",\"cvv\":\"123\"}' -X PATCH \\\n\t-H \"Content-Type: application/json\" \\\n\t-H \"Authorization: Token token=\\\"znRJwJSwnksRNf3hhfbHoWHa\\\"\""
     }
   ],
   "resource": "Saved Credit Cards",
