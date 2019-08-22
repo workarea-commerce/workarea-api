@@ -6,10 +6,10 @@ Gem::Specification.new do |s|
   s.name        = 'workarea-api'
   s.version     = Workarea::Api::VERSION
   s.authors     = ['Ben Crouse', 'Curt Howard']
-  s.email       = ['bcrouse@weblinc.com', 'choward@weblinc.com']
+  s.email       = ['bcrouse@workarea.com', 'choward@workarea.com']
   s.homepage    = 'https://github.com/workarea-commerce/workarea-api'
-  s.summary     = 'API for the Workarea commerce platform'
-  s.description = 'HTTP API Rails Engine of the Workarea ecommerce platform'
+  s.summary     = 'Adds a JSON REST API to the Workarea Commerce Platform'
+  s.description = 'This wraps gems for a storefront and admin JSON REST API for the Workarea Commerce Platform.'
 
   s.files = `git ls-files`.split("\n")
 
