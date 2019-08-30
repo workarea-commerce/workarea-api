@@ -2,7 +2,7 @@ module Workarea
   module Api
     module Storefront
       class RecentViewsController < Api::Storefront::ApplicationController
-        before_action :assert_current_user_activity_id
+        before_action :assert_current_metrics_id
 
         def show
           if stale?(
@@ -17,26 +17,17 @@ module Workarea
         end
 
         def update
-          if params[:product_id].present?
-            Recommendation::UserActivity.save_product(
-              current_user_activity_id,
-              params[:product_id]
-            )
-          end
+          product_ids = Array.wrap(params[:product_id])
+          category_ids = Array.wrap(params[:category_id])
+          search_ids = Array.wrap(params[:search])
 
-          if params[:category_id].present?
-            Recommendation::UserActivity.save_category(
-              current_user_activity_id,
-              params[:category_id]
-            )
-          end
-
-          if params[:search].present?
-            Recommendation::UserActivity.save_search(
-              current_user_activity_id,
-              params[:search]
-            )
-          end
+          Metrics::User.save_affinity(
+            id: current_metrics_id,
+            action: 'viewed',
+            product_ids: product_ids,
+            category_ids: category_ids,
+            search_ids: search_ids
+          )
 
           head :ok
         end
