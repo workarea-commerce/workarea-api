@@ -4,42 +4,6 @@ module Workarea
   module Api
     module Storefront
       class SearchesIntegrationTest < IntegrationTest
-        def test_showing_search_autocomplete
-          create_product(name: 'Foo')
-          create_category(name: 'Foo Category')
-          create_page(name: 'Foo Page')
-
-          Metrics::SearchByDay.save_search('foo', 3)
-          travel_to 1.weeks.from_now
-          GenerateInsights.generate_all!
-          BulkIndexSearches.perform
-
-          get storefront_api.searches_path(q: 'foo')
-          results = JSON.parse(response.body)['results']
-          assert_equal(4, results.length)
-
-          search = results.detect { |r| r['type'] == 'Searches' }
-          assert(search.present?)
-          assert_equal('foo', search['value'])
-          assert_equal(storefront_api.search_path(q: 'foo'), search['url'])
-
-          product = results.detect { |r| r['type'] == 'Products' }
-          assert(product.present?)
-          assert_equal('Foo', product['value'])
-          assert_match(/product_images/, product['image'])
-          assert_equal(storefront_api.product_path('foo'), product['url'])
-
-          category = results.detect { |r| r['type'] == 'Categories' }
-          assert(category.present?)
-          assert_equal('Foo Category', category['value'])
-          assert_equal(storefront_api.category_path('foo-category'), category['url'])
-
-          page = results.detect { |r| r['type'] == 'Pages' }
-          assert(page.present?)
-          assert_equal('Foo Page', page['value'])
-          assert_equal(storefront_api.page_path('foo-page'), page['url'])
-        end
-
         def test_shows_search_results
           Search::Settings.current.update_attributes!(terms_facets: %w(Color Size))
           create_product(
