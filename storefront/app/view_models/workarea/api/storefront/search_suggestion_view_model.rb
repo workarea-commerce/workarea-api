@@ -1,7 +1,7 @@
 module Workarea
   module Api
     module Storefront
-      class SearchSuggestionViewModel < Workarea::Storefront::SearchSuggestionViewModel
+      class SearchSuggestionViewModel < ApplicationViewModel
         def url
           helpers = Api::Storefront::Engine.routes.url_helpers
 

@@ -17,7 +17,7 @@ Workarea::Api::Storefront::Engine.routes.draw do
   resources :saved_addresses, except: [:new, :edit]
   resources :saved_credit_cards, except: [:new, :edit]
   resource :search, only: :show
-  resources :searches, only: :index
+  # resources :searches, only: :index
   resources :system_content, only: :show
   resources :menus, only: [:index, :show]
   resource :email_signups, only: [:show, :create]
