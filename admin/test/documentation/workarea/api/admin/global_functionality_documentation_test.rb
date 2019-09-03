@@ -132,7 +132,6 @@ module Workarea
             end
           end
         end
-
       end
     end
   end

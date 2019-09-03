@@ -5,11 +5,14 @@ rescue LoadError
   puts 'You must `gem install bundler` and `bundle install` to run rake tasks'
 end
 
+require 'rails'
+require 'workarea/core'
 require 'rake/testtask'
 require 'date'
 
 load 'rails/test_unit/testing.rake'
 load 'workarea/changelog.rake'
+load Workarea::Core::Engine.root.join('lib', 'tasks', 'services.rake')
 
 GEMS = %w(admin storefront).freeze
 ROOT_DIR = Dir.pwd
