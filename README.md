@@ -1,4 +1,5 @@
 # Workarea API
+[![CI Status](https://github.com/workarea-commerce/workarea-api/workflows/CI/badge.svg)](https://github.com/workarea-commerce/workarea-api/actions)
 
 **workarea-api** defines an HTTP API, using JSON as a data format, for
 programmatic access to your Workarea application. The Workarea API is
