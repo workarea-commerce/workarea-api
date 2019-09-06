@@ -14,10 +14,12 @@ module Workarea
           route admin_api.products_path
           parameter :locale, 'I18n locale key'
 
-          product = create_product
-
-          set_locales(available: [:en, :es], default: :en, current: :es)
-          product.update!(name: 'Producto de prueba')
+          set_locales(available: [:en, :es], default: :en)
+          create_product(name_translations: {
+              en: 'Test Product',
+              es: 'Producto de prueba'
+            }
+          )
 
           record_request do
             get admin_api.products_path,
