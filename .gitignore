@@ -22,3 +22,4 @@ node_modules
 test/reports
 package.json
 yarn.lock
+.rubocop-http*
