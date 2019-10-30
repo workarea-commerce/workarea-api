@@ -61,6 +61,18 @@ end
 
 That will allow clients to access your API at https://api.yourtotallyamazingstore.com
 
+If you use a routing constraint for your API, be sure to add the
+following to **test/test_helper.rb** in your application to use the
+correct domain for API requests:
+
+```ruby
+class Workarea::IntegrationTest
+  setup do
+    host! host.gsub(/www/, 'api') if self.class.name.include?('Api::')
+  end
+end
+```
+
 ## Configuration
 
 This plugin provides a number of options for configuring its usage...
