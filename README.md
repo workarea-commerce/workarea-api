@@ -22,56 +22,30 @@ separate APIs for different purposes:
 To begin using the Workarea API, add the following to your **Gemfile**:
 
 ```ruby
-  gem 'weblinc-api'
+gem 'weblinc-api'
 ```
 
-Next, mount the API engines into **config/routes.rb**.
-
-You can either use a path prefix:
+Next, mount the API engines into **config/routes.rb**:
 
 ```ruby
 Rails.application.routes.draw do
-  # ...all your other absolutely fabulous Workarea routes...
-  mount Workarea::Api::Engine => '/api', as: :api
-
-# ...except this one. Make sure it's last to correctly handle errors and redirects.
-  mount Workarea::Storefront::Engine => '/', as: :storefront
+  mount_workarea_api at: '/api'
 end
 ```
 
-Or, a subdomain. To use a subdomain for your API, create a file at
-**app/routing_constraints/api_subdomain_constraint.rb** with the
-following contents:
+You'll be able to access the API at https://yourtotallyamazingstore.com/api
+
+To use a subdomain for your API, configure your routes like so:
 
 ```ruby
-class ApiSubdomainConstraint
-  def self.matches?(request)
-    request.subdomain =~ /^api/
-  end
+Rails.application.routes.draw do
+  mount_workarea_api subdomain: 'api'
 end
 ```
 
-Then, wrap your `mount` statement with a `constraints` block:
+This will allow access to your API at https://api.yourtotallyamazingstore.com
 
-```ruby
-constraints ApiSubdomainConstraint do
-  mount Workarea::Api::Engine => '/', as: :api
-end
-```
-
-That will allow clients to access your API at https://api.yourtotallyamazingstore.com
-
-If you use a routing constraint for your API, be sure to add the
-following to **test/test_helper.rb** in your application to use the
-correct domain for API requests:
-
-```ruby
-class Workarea::IntegrationTest
-  setup do
-    host! host.gsub(/www/, 'api') if self.class.name.include?('Api::')
-  end
-end
-```
+When using routing constraints for the API, all test cases that use the
 
 ## Configuration
 

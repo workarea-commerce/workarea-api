@@ -1,0 +1,26 @@
+module ActionDispatch
+  module Routing
+    decorate Mapper, with: :workarea_api do
+      # Mount the Workarea API routes to a specified path, which is `/` by
+      # default.
+      #
+      # @example Using a path
+      #   Rails.application.routes.draw do
+      #     mount_workarea_api at: '/api'
+      #   end
+      # @example Using a subdomain
+      #   Rails.application.routes.draw do
+      #     mount_workarea_api subdomain: 'api'
+      #   end
+      # @param [String] at - Path to mount the engine to
+      # @param [Hash] params - Additional routing constraints
+      def mount_workarea_api(at: '/', **params)
+        Workarea::Api.routing_constraints = params
+
+        constraints(params) do
+          mount Workarea::Api::Engine, at: at
+        end
+      end
+    end
+  end
+end
