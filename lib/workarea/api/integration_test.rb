@@ -13,19 +13,15 @@ module Workarea
       private
 
       def setup_host
-        return unless constrain_routes?
+        return unless Workarea::Api.routing_constraints.present?
 
         uri = URI.parse(host)
 
-        routing_constraints.each do |constraint, value|
+        Workarea::Api.routing_constraints.each do |constraint, value|
           uri.send("#{constraint}=", value)
         end
 
         host! uri.to_s
-      end
-
-      def constrain_routes?
-        routing_constraints.present? && self.class.name.include?('Workarea::Api')
       end
     end
   end
