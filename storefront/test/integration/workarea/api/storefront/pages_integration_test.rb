@@ -4,7 +4,7 @@ module Workarea
   module Api
     module Storefront
       class PagesIntegrationTest < IntegrationTest
-        include Workarea::Api::IntegrationTest
+        include Workarea::Api::IntegrationTesting
         setup :set_page
         setup :set_taxonomy
         setup :set_content

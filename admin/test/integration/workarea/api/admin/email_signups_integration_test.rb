@@ -4,7 +4,7 @@ module Workarea
   module Api
     module Admin
       class EmailSignupsIntegrationTest < IntegrationTest
-        include Workarea::Api::IntegrationTest
+        include Workarea::Api::IntegrationTesting
         include Workarea::Admin::IntegrationTest
 
         def test_lists_email_signups

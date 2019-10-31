@@ -4,7 +4,7 @@ module Workarea
   module Api
     module Storefront
       class AssetsIntegrationTest < IntegrationTest
-        include Workarea::Api::IntegrationTest
+        include Workarea::Api::IntegrationTesting
         setup :set_asset
 
         def set_asset

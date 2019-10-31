@@ -4,7 +4,7 @@ module Workarea
   module Api
     module Storefront
       class CategoriesIntegrationTest < IntegrationTest
-        include Workarea::Api::IntegrationTest
+        include Workarea::Api::IntegrationTesting
         setup :set_product
         setup :set_category
         setup :set_taxonomy

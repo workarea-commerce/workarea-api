@@ -4,7 +4,7 @@ module Workarea
   module Api
     module Storefront
       class OrdersIntegrationTest < IntegrationTest
-        include Workarea::Api::IntegrationTest
+        include Workarea::Api::IntegrationTesting
         include AuthenticationTest
 
         setup :set_user

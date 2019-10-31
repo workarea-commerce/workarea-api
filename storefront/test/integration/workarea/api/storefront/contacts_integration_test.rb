@@ -4,7 +4,7 @@ module Workarea
   module Api
     module Storefront
       class ContactsIntegrationTest < IntegrationTest
-        include Workarea::Api::IntegrationTest
+        include Workarea::Api::IntegrationTesting
         setup :set_contact_params
 
         def set_contact_params

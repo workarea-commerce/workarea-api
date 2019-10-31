@@ -4,7 +4,7 @@ module Workarea
   module Api
     module Admin
       class UsersIntegrationTest < IntegrationTest
-        include Workarea::Api::IntegrationTest
+        include Workarea::Api::IntegrationTesting
         include Workarea::Admin::IntegrationTest
 
         def sample_attributes

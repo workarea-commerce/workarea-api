@@ -4,7 +4,7 @@ module Workarea
   module Api
     module Admin
       class PaymentsIntegrationTest < IntegrationTest
-        include Workarea::Api::IntegrationTest
+        include Workarea::Api::IntegrationTesting
         include Workarea::Admin::IntegrationTest
 
         def test_lists_payments

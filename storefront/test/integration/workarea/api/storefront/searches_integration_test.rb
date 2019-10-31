@@ -4,7 +4,7 @@ module Workarea
   module Api
     module Storefront
       class SearchesIntegrationTest < IntegrationTest
-        include Workarea::Api::IntegrationTest
+        include Workarea::Api::IntegrationTesting
         def test_shows_search_results
           Search::Settings.current.update_attributes!(terms_facets: %w(Color Size))
           create_product(

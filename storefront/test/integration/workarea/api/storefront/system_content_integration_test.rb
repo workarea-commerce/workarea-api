@@ -4,7 +4,7 @@ module Workarea
   module Api
     module Storefront
       class SystemContentIntegrationTest < IntegrationTest
-        include Workarea::Api::IntegrationTest
+        include Workarea::Api::IntegrationTesting
         include Workarea::Storefront::IntegrationTest
 
         setup :set_content

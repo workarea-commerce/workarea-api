@@ -4,7 +4,7 @@ module Workarea
   module Api
     module Admin
       class PromoCodeListsIntegrationTest < IntegrationTest
-        include Workarea::Api::IntegrationTest
+        include Workarea::Api::IntegrationTesting
         include Workarea::Admin::IntegrationTest
 
         setup :set_sample_attributes

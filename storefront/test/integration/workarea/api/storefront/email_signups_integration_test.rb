@@ -4,7 +4,7 @@ module Workarea
   module Api
     module Storefront
       class EmailSignupsIntegrationTest < IntegrationTest
-        include Workarea::Api::IntegrationTest
+        include Workarea::Api::IntegrationTesting
         setup :set_content
 
         def set_content
