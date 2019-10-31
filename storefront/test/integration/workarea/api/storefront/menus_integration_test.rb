@@ -4,6 +4,7 @@ module Workarea
   module Api
     module Storefront
       class MenusIntegrationTest < IntegrationTest
+        include Workarea::Api::IntegrationTest
         include Workarea::Storefront::IntegrationTest
 
         setup :set_navigation_menu

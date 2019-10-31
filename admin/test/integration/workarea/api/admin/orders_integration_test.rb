@@ -4,6 +4,7 @@ module Workarea
   module Api
     module Admin
       class OrdersIntegrationTest < IntegrationTest
+        include Workarea::Api::IntegrationTest
         include Workarea::Admin::IntegrationTest
 
         def test_lists_orders

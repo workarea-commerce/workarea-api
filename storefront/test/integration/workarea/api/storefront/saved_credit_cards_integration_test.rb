@@ -4,6 +4,7 @@ module Workarea
   module Api
     module Storefront
       class SavedCreditCardsIntegrationTest < IntegrationTest
+        include Workarea::Api::IntegrationTest
         include AuthenticationTest
 
         setup :set_user

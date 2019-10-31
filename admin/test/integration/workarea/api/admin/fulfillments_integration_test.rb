@@ -4,6 +4,7 @@ module Workarea
   module Api
     module Admin
       class FulfillmentsIntegrationTest < IntegrationTest
+        include Workarea::Api::IntegrationTest
         include Workarea::Admin::IntegrationTest
 
         def create_fulfillment(*args)

@@ -4,6 +4,7 @@ module Workarea
   module Api
     module Admin
       class ProductImagesIntegrationTest < IntegrationTest
+        include Workarea::Api::IntegrationTest
         include Workarea::Admin::IntegrationTest
 
         setup :set_sample_attributes

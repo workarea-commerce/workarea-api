@@ -4,6 +4,7 @@ module Workarea
   module Api
     module Admin
       class ErrorHandlingIntegrationTest < IntegrationTest
+        include Workarea::Api::IntegrationTest
         include Workarea::Admin::IntegrationTest
 
         def test_handles_mongoid_not_found

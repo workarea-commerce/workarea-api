@@ -4,6 +4,7 @@ module Workarea
   module Api
     module Admin
       class AuditLogIntegrationTest < IntegrationTest
+        include Workarea::Api::IntegrationTest
         include Workarea::Admin::IntegrationTest
 
         def test_records_changes_in_the_audit_log

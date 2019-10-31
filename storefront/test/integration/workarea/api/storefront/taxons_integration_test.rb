@@ -4,6 +4,7 @@ module Workarea
   module Api
     module Storefront
       class TaxonsIntegrationTest < IntegrationTest
+        include Workarea::Api::IntegrationTest
         setup :set_taxons
 
         def set_taxons

@@ -4,6 +4,7 @@ module Workarea
   module Api
     module Storefront
       class AccountsIntegrationTest < IntegrationTest
+        include Workarea::Api::IntegrationTest
         include AuthenticationTest
 
         def test_show

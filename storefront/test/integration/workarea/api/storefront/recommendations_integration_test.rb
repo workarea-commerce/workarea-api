@@ -4,6 +4,7 @@ module Workarea
   module Api
     module Storefront
       class RecommendationsIntegrationTest < IntegrationTest
+        include Workarea::Api::IntegrationTest
         include AuthenticationTest
 
         setup :set_auth

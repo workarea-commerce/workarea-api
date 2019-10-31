@@ -4,6 +4,7 @@ module Workarea
   module Api
     module Storefront
       class CartItemsIntegrationTest < IntegrationTest
+        include Workarea::Api::IntegrationTest
         include OrdersTest
         include Workarea::Storefront::CatalogCustomizationTestClass
 

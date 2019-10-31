@@ -4,6 +4,7 @@ module Workarea
   module Api
     module Admin
       class TaxCategoriesIntegrationTest < IntegrationTest
+        include Workarea::Api::IntegrationTest
         include Workarea::Admin::IntegrationTest
 
         def sample_attributes

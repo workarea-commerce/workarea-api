@@ -4,6 +4,7 @@ module Workarea
   module Api
     module Admin
       class AuthenticationIntegrationTest < IntegrationTest
+        include Workarea::Api::IntegrationTest
         def encode_credentials(*args)
           ActionController::HttpAuthentication::Basic.encode_credentials(*args)
         end

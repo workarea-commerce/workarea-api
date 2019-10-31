@@ -4,6 +4,7 @@ module Workarea
   module Api
     module Admin
       class RecommendationSettingsIntegrationTest < IntegrationTest
+        include Workarea::Api::IntegrationTest
         include Workarea::Admin::IntegrationTest
 
         setup :set_product

@@ -4,6 +4,7 @@ module Workarea
   module Api
     module Storefront
       class CheckoutsIntegrationTest < IntegrationTest
+        include Workarea::Api::IntegrationTest
         include OrdersTest
 
         setup :set_product, :set_order, :set_checkout_data

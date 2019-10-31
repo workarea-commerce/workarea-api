@@ -3,7 +3,7 @@ module Workarea
     # Integration testing support for API routes that have been
     # configured in the router to use constraints rather than the
     # default of using the same host for every request.
-    module IntegrationTesting
+    module IntegrationTest
       extend ActiveSupport::Concern
 
       included do
