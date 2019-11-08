@@ -22,6 +22,12 @@ module Workarea
           @requests = []
         end
 
+        def explanation=(value)
+          @explanation = Redcarpet::Markdown
+            .new(Redcarpet::Render::HTML.new(hard_wrap: true))
+            .render(value.strip)
+        end
+
         def file_name
           name = @description.presence || "#{@http_method} #{@route}"
           "#{name.systemize}.json"
@@ -102,6 +108,9 @@ module Workarea
               }
             end
           end
+
+          results['resources'].sort_by! { |r| r['name'] }
+          results['resources'].each { |r| r['examples'].sort_by! { |e| e['description'] } }
 
           File.open(root.join('index.json'), 'w') do |file|
             file.write(JSON.pretty_generate(results))
