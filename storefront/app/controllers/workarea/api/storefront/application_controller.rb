@@ -4,13 +4,13 @@ module Workarea
       class ApplicationController < Workarea::ApplicationController
         include HttpCaching
         include Api::Storefront::Authentication
-        include Api::Storefront::UserActivity
 
         respond_to :json
 
         before_action :set_json_format
         before_action :skip_session
         before_action { params.permit! }
+        around_action :apply_segments
         after_action :disable_cors_protection
 
         rescue_from Mongoid::Errors::DocumentNotFound, with: :handle_not_found
@@ -26,6 +26,19 @@ module Workarea
 
         def skip_session
           request.session_options[:skip] = true
+        end
+
+        def assert_current_metrics_id
+          if current_metrics_id.blank?
+            render(
+              json: {
+                problem: t('workarea.api.storefront.recent_views.missing_id')
+              },
+              status: :unprocessable_entity
+            )
+
+            return false
+          end
         end
 
         private

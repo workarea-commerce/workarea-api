@@ -10,7 +10,7 @@ end
 module Workarea
   module Api
     class DocumentationTest < Workarea::IntegrationTest
-      IGNORED_HEADERS = %w(Host Accept)
+      IGNORED_HEADERS = %w(Host Accept X-Workarea-Segments)
 
       class Example
         attr_accessor :resource, :http_method, :route, :description,

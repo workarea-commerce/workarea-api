@@ -10,7 +10,9 @@ module Workarea
         end
 
         def show
-          model = Navigation::Menu.active.find(params[:id])
+          model = Navigation::Menu.find(params[:id])
+          raise InvalidDisplay unless model.active?
+
           @menu = Workarea::Storefront::MenuViewModel.wrap(model, params)
         end
       end

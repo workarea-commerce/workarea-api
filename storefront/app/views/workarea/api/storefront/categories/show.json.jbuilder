@@ -14,7 +14,7 @@ json.cache! @category.cache_key, expires_in: 1.hour do
     json.partial! 'workarea/api/storefront/taxons/taxon', taxon: taxon
   end
 
-  json.content_blocks @category.content.blocks do |block|
+  json.content_blocks @category.content.blocks.select(&:active?) do |block|
     json.partial! 'workarea/api/storefront/content_blocks/block', block: block
   end
 

@@ -23,7 +23,7 @@ module Workarea
         end
 
         def set_user_activity
-          @activity = create_user_activity
+          @activity = Metrics::User.create!
         end
 
         def test_showing_recommendations_with_authentication

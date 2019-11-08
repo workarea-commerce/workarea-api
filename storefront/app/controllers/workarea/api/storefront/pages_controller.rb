@@ -5,7 +5,9 @@ module Workarea
         before_action :cache_page
 
         def show
-          model = Content::Page.active.find_by(slug: params[:id])
+          model = Content::Page.find_by(slug: params[:id])
+          raise InvalidDisplay unless model.active?
+
           @page = Workarea::Storefront::PageViewModel.new(model, view_model_options)
         end
       end

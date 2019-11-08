@@ -5,7 +5,9 @@ module Workarea
         before_action :cache_page
 
         def show
-          model = Workarea::Catalog::Product.active.find_by(slug: params[:id])
+          model = Workarea::Catalog::Product.find_by(slug: params[:id])
+          raise InvalidDisplay unless model.active?
+
           @product = Workarea::Storefront::ProductViewModel.wrap(
             model,
             view_model_options

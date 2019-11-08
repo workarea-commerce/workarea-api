@@ -1,0 +1,52 @@
+module Workarea
+  decorate Visit, with: 'storefront_api' do
+    def api?
+      return @api if defined?(@api)
+      @api = Workarea.config.is_api_visit.call(request)
+    end
+
+    def cookies
+      api? ? {} : super
+    end
+
+    def session
+      api? ? {} : super
+    end
+
+    def logged_in?
+      return super unless api?
+
+      regex = ActionController::HttpAuthentication::Token::TOKEN_REGEX
+      request.authorization.to_s[regex].present?
+    end
+
+    def current_email
+      return super unless api?
+      return request.params['email'] unless logged_in?
+      return @current_email if defined? @current_email
+
+      @current_email = current_user&.email
+    end
+
+    def current_user
+      token, options = ActionController::HttpAuthentication::Token.token_and_options(request)
+      @current_user ||= Api::Storefront::Authentication.find_user(token, options)
+    end
+
+    def sessions
+      api? ? request.params['sessions'].to_i : super
+    end
+
+    def current_metrics_id
+      return super unless api?
+
+      return @current_metrics_id if defined?(@current_metrics_id)
+      @current_metrics_id = current_email.presence || request.params['session_id']
+    end
+
+    def current_metrics_id=(value)
+      return super unless api?
+      # Unsupported in the API
+    end
+  end
+end

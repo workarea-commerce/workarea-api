@@ -5,7 +5,7 @@ module Workarea
         before_action :cache_page
 
         def index
-          models = Catalog::Category.active.page(params[:page])
+          models = Catalog::Category.page(params[:page]).select(&:active?)
           @categories = Workarea::Storefront::CategoryViewModel.wrap(
             models,
             view_model_options
@@ -14,6 +14,8 @@ module Workarea
 
         def show
           model = Catalog::Category.find_by(slug: params[:id])
+          raise InvalidDisplay unless model.active?
+
           @category = Workarea::Storefront::CategoryViewModel.wrap(
             model,
             view_model_options
