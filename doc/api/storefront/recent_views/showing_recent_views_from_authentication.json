@@ -8,7 +8,7 @@
   "requests": [
     {
       "request_headers": {
-        "Authorization": "Token token=\"Lv3V4b72BnrFk7nGj9XwQVN2\""
+        "Authorization": "Token token=\"trN9VNqJreEipLR2sKM1pY1J\""
       },
       "request_query_parameters": {
       },
@@ -16,18 +16,22 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "ETag": "W/\"e790ee32d81dde12d6b3fb837e12431c\"",
+        "X-Download-Options": "noopen",
+        "X-Permitted-Cross-Domain-Policies": "none",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
         "Content-Type": "application/json; charset=utf-8",
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Headers": "*",
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
-        "X-Flash-Messages": "{}",
-        "Vary": "X-Requested-With, X-Flash-Messages",
-        "Cache-Control": "public",
-        "X-Request-Id": "500db0fb-4afd-42e2-81c7-bbf7d2185f11",
-        "X-Runtime": "0.015216",
-        "Content-Length": "77"
+        "Vary": "X-Requested-With, X-Workarea-Segments",
+        "Last-Modified": "Wed, 13 Nov 2019 15:08:12 GMT",
+        "Cache-Control": "no-cache, no-store, must-revalidate",
+        "X-Request-Id": "19600cc0-590e-4a99-ab70-7f8fb34ce85d",
+        "X-Runtime": "0.003269",
+        "X-Workarea-Segments": "",
+        "Expires": "0",
+        "Content-Length": "58"
       },
       "request_method": "GET",
       "request_path": "/api/storefront/recent_views",
@@ -35,14 +39,14 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": \"59b038f97ceffe612c1191fa\",\n  \"categories\": [\n\n  ],\n  \"products\": [\n\n  ],\n  \"searches\": [\n\n  ]\n}",
+      "response_body": "{\n  \"id\": \"user47@workarea.com\",\n  \"categories\": [\n\n  ],\n  \"products\": [\n\n  ]\n}",
       "response_content_type": "application/json",
-      "curl": "curl -g \"https://www.example.com/api/storefront/recent_views\" -X GET \\\n\t-H \"Authorization: Token token=\\\"Lv3V4b72BnrFk7nGj9XwQVN2\\\"\""
+      "curl": "curl -g \"https://www.example.com/api/storefront/recent_views\" -X GET \\\n\t-H \"Authorization: Token token=\\\"trN9VNqJreEipLR2sKM1pY1J\\\"\""
     }
   ],
   "resource": "Recent views",
   "description": "Showing recent views from authentication",
   "route": "/api/storefront/recent_views",
-  "http_method": "GET",
-  "explanation": "            Display recent views based on the currently authenticated customer.\n"
+  "explanation": "<p>Display recent views based on the currently authenticated customer.</p>\n",
+  "http_method": "GET"
 }

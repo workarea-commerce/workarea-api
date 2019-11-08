@@ -1,228 +1,395 @@
 {
   "resources": [
     {
-      "name": "Saved Credit Cards",
+      "name": "Categories",
       "examples": [
         {
-          "description": "Creating a saved credit card",
-          "link": "admin/saved_credit_cards/creating_a_saved_credit_card.json",
+          "description": "Bulk upserting categories",
+          "link": "admin/categories/bulk_upserting_categories.json",
           "groups": "all",
-          "route": "/api/admin/payment_profiles/:payment_profile_id/saved_credit_cards",
-          "method": "POST"
-        },
-        {
-          "description": "Updating a saved credit card",
-          "link": "admin/saved_credit_cards/updating_a_saved_credit_card.json",
-          "groups": "all",
-          "route": "/api/admin/payment_profiles/:payment_profile_id/saved_credit_cards/:id",
+          "route": "/api/admin/categories/bulk",
           "method": "PATCH"
         },
         {
-          "description": "Listing saved credit cards",
-          "link": "admin/saved_credit_cards/listing_saved_credit_cards.json",
+          "description": "Creating a category",
+          "link": "admin/categories/creating_a_category.json",
           "groups": "all",
-          "route": "/api/admin/payment_profiles/:payment_profile_id/saved_credit_cards",
+          "route": "/api/admin/categories",
+          "method": "POST"
+        },
+        {
+          "description": "Listing categories",
+          "link": "admin/categories/listing_categories.json",
+          "groups": "all",
+          "route": "/api/admin/categories",
           "method": "GET"
         },
         {
-          "description": "Removing a saved credit card",
-          "link": "admin/saved_credit_cards/removing_a_saved_credit_card.json",
+          "description": "Removing a category",
+          "link": "admin/categories/removing_a_category.json",
           "groups": "all",
-          "route": "/api/admin/payment_profiles/:payment_profile_id/saved_credit_cards/:id",
+          "route": "/api/admin/categories/:id",
           "method": "DELETE"
+        },
+        {
+          "description": "Showing a category",
+          "link": "admin/categories/showing_a_category.json",
+          "groups": "all",
+          "route": "/api/admin/categories/:id",
+          "method": "GET"
+        },
+        {
+          "description": "Updating a category",
+          "link": "admin/categories/updating_a_category.json",
+          "groups": "all",
+          "route": "/api/admin/categories/:id",
+          "method": "PATCH"
         }
       ]
     },
     {
-      "name": "Variants",
+      "name": "Category Product Rules",
       "examples": [
         {
-          "description": "Listing product variants",
-          "link": "admin/variants/listing_product_variants.json",
+          "description": "Creating a category product rule",
+          "link": "admin/category_product_rules/creating_a_category_product_rule.json",
           "groups": "all",
-          "route": "/api/admin/products/:product_id/variants",
-          "method": "GET"
-        },
-        {
-          "description": "Updating a product variant",
-          "link": "admin/variants/updating_a_product_variant.json",
-          "groups": "all",
-          "route": "/api/admin/products/:product_id/variants/:id",
-          "method": "PATCH"
-        },
-        {
-          "description": "Creating a product variant",
-          "link": "admin/variants/creating_a_product_variant.json",
-          "groups": "all",
-          "route": "/api/admin/products/:product_id/variants",
+          "route": "/api/admin/categories/:category_id/product_rules",
           "method": "POST"
         },
         {
-          "description": "Removing a product variant",
-          "link": "admin/variants/removing_a_product_variant.json",
+          "description": "Listing category product rules",
+          "link": "admin/category_product_rules/listing_category_product_rules.json",
           "groups": "all",
-          "route": "/api/admin/products/:product_id/variants/:id",
+          "route": "/api/admin/categories/:category_id/product_rules",
+          "method": "GET"
+        },
+        {
+          "description": "Removing a category product rule",
+          "link": "admin/category_product_rules/removing_a_category_product_rule.json",
+          "groups": "all",
+          "route": "/api/admin/categories/:category_id/product_rules/:id",
           "method": "DELETE"
+        },
+        {
+          "description": "Updating a category product rule",
+          "link": "admin/category_product_rules/updating_a_category_product_rule.json",
+          "groups": "all",
+          "route": "/api/admin/categories/:category_id/product_rules/:id",
+          "method": "PATCH"
         }
       ]
     },
     {
-      "name": "Payment transactions",
+      "name": "Content",
       "examples": [
         {
-          "description": "Listing payment transactions",
-          "link": "admin/payment_transactions/listing_payment_transactions.json",
+          "description": "Bulk upserting content",
+          "link": "admin/content/bulk_upserting_content.json",
           "groups": "all",
-          "route": "/api/admin/payment_transactions",
+          "route": "/api/admin/content/bulk",
+          "method": "PATCH"
+        },
+        {
+          "description": "Creating content",
+          "link": "admin/content/creating_content.json",
+          "groups": "all",
+          "route": "/api/admin/content",
+          "method": "POST"
+        },
+        {
+          "description": "Listing content",
+          "link": "admin/content/listing_content.json",
+          "groups": "all",
+          "route": "/api/admin/content",
+          "method": "POST"
+        },
+        {
+          "description": "Showing content",
+          "link": "admin/content/showing_content.json",
+          "groups": "all",
+          "route": "/api/admin/content/:id",
           "method": "GET"
         },
         {
-          "description": "Showing a payment transaction",
-          "link": "admin/payment_transactions/showing_a_payment_transaction.json",
+          "description": "Updating content",
+          "link": "admin/content/updating_content.json",
           "groups": "all",
-          "route": "/api/admin/payment_transactions/:id",
+          "route": "/api/admin/content/:id",
+          "method": "PATCH"
+        }
+      ]
+    },
+    {
+      "name": "Content Assets",
+      "examples": [
+        {
+          "description": "Bulk upserting content assets",
+          "link": "admin/content_assets/bulk_upserting_content_assets.json",
+          "groups": "all",
+          "route": "/api/admin/content_assets/bulk",
+          "method": "PATCH"
+        },
+        {
+          "description": "Creating a content asset",
+          "link": "admin/content_assets/creating_a_content_asset.json",
+          "groups": "all",
+          "route": "/api/admin/content_assets",
+          "method": "POST"
+        },
+        {
+          "description": "Listing content assets",
+          "link": "admin/content_assets/listing_content_assets.json",
+          "groups": "all",
+          "route": "/api/admin/content_assets",
+          "method": "GET"
+        },
+        {
+          "description": "Removing a content asset",
+          "link": "admin/content_assets/removing_a_content_asset.json",
+          "groups": "all",
+          "route": "/api/admin/content_assets/:id",
+          "method": "DELETE"
+        },
+        {
+          "description": "Showing a content asset",
+          "link": "admin/content_assets/showing_a_content_asset.json",
+          "groups": "all",
+          "route": "/api/admin/content_assets/:id",
+          "method": "GET"
+        },
+        {
+          "description": "Updating a content asset",
+          "link": "admin/content_assets/updating_a_content_asset.json",
+          "groups": "all",
+          "route": "/api/admin/content_assets/:id",
+          "method": "PATCH"
+        }
+      ]
+    },
+    {
+      "name": "Discounts",
+      "examples": [
+        {
+          "description": "Creating a discount",
+          "link": "admin/discounts/creating_a_discount.json",
+          "groups": "all",
+          "route": "/api/admin/discounts",
+          "method": "POST"
+        },
+        {
+          "description": "Listing discounts",
+          "link": "admin/discounts/listing_discounts.json",
+          "groups": "all",
+          "route": "/api/admin/discounts",
+          "method": "GET"
+        },
+        {
+          "description": "Removing a discount",
+          "link": "admin/discounts/removing_a_discount.json",
+          "groups": "all",
+          "route": "/api/admin/discounts/:id",
+          "method": "DELETE"
+        },
+        {
+          "description": "Showing a discount",
+          "link": "admin/discounts/showing_a_discount.json",
+          "groups": "all",
+          "route": "/api/admin/discounts/:id",
+          "method": "GET"
+        },
+        {
+          "description": "Updating discounts",
+          "link": "admin/discounts/updating_discounts.json",
+          "groups": "all",
+          "route": "/api/admin/discounts/:id",
+          "method": "PATCH"
+        }
+      ]
+    },
+    {
+      "name": "Email Signups",
+      "examples": [
+        {
+          "description": "Listing email signups",
+          "link": "admin/email_signups/listing_email_signups.json",
+          "groups": "all",
+          "route": "/api/admin/email_signups",
+          "method": "GET"
+        },
+        {
+          "description": "Showing an email signup",
+          "link": "admin/email_signups/showing_an_email_signup.json",
+          "groups": "all",
+          "route": "/api/admin/email_signups/:id",
           "method": "GET"
         }
       ]
     },
     {
-      "name": "Payment Profiles",
+      "name": "Fulfillment",
       "examples": [
         {
-          "description": "Removing a payment profile",
-          "link": "admin/payment_profiles/removing_a_payment_profile.json",
+          "description": "Listing fulfillments",
+          "link": "admin/fulfillment/listing_fulfillments.json",
           "groups": "all",
-          "route": "/api/admin/payment_profiles/:id",
-          "method": "DELETE"
-        },
-        {
-          "description": "Listing payment profiles",
-          "link": "admin/payment_profiles/listing_payment_profiles.json",
-          "groups": "all",
-          "route": "/api/admin/payment_profiles",
+          "route": "/api/admin/fulfillments",
           "method": "GET"
         },
         {
-          "description": "Updating a payment profiles",
-          "link": "admin/payment_profiles/updating_a_payment_profiles.json",
+          "description": "Marking items as canceled",
+          "link": "admin/fulfillment/marking_items_as_canceled.json",
           "groups": "all",
-          "route": "/api/admin/payment_profiles/:id",
-          "method": "PATCH"
-        },
-        {
-          "description": "Bulk upserting payment profiles",
-          "link": "admin/payment_profiles/bulk_upserting_payment_profiles.json",
-          "groups": "all",
-          "route": "/api/admin/payment_profiles/bulk",
-          "method": "PATCH"
-        },
-        {
-          "description": "Creating a payment profile",
-          "link": "admin/payment_profiles/creating_a_payment_profile.json",
-          "groups": "all",
-          "route": "/api/admin/payment_profiles",
+          "route": "/api/admin/fulfillments/:order_id/cancel_items",
           "method": "POST"
         },
         {
-          "description": "Showing a payment profile",
-          "link": "admin/payment_profiles/showing_a_payment_profile.json",
+          "description": "Marking items as shipped",
+          "link": "admin/fulfillment/marking_items_as_shipped.json",
           "groups": "all",
-          "route": "/api/admin/payment_profiles/:id",
+          "route": "/api/admin/fulfillments/:order_id/ship_items",
+          "method": "POST"
+        },
+        {
+          "description": "Showing fulfillment",
+          "link": "admin/fulfillment/showing_fulfillment.json",
+          "groups": "all",
+          "route": "/api/admin/fulfillments/:order_id",
           "method": "GET"
         }
       ]
     },
     {
-      "name": "Tax Categories",
+      "name": "Inventory SKUs",
       "examples": [
         {
-          "description": "Updating a tax categories",
-          "link": "admin/tax_categories/updating_a_tax_categories.json",
+          "description": "Bulk upserting inventory SKUs",
+          "link": "admin/inventory_skus/bulk_upserting_inventory_skus.json",
           "groups": "all",
-          "route": "/api/admin/tax_categories/:id",
+          "route": "/api/admin/inventory_skus/bulk",
           "method": "PATCH"
         },
         {
-          "description": "Bulk upserting tax categories",
-          "link": "admin/tax_categories/bulk_upserting_tax_categories.json",
+          "description": "Creating an inventory SKU",
+          "link": "admin/inventory_skus/creating_an_inventory_sku.json",
           "groups": "all",
-          "route": "/api/admin/tax_categories/bulk",
-          "method": "PATCH"
+          "route": "/api/admin/inventory_skus",
+          "method": "POST"
         },
         {
-          "description": "Removing a tax category",
-          "link": "admin/tax_categories/removing_a_tax_category.json",
+          "description": "Listing inventory SKUs",
+          "link": "admin/inventory_skus/listing_inventory_skus.json",
           "groups": "all",
-          "route": "/api/admin/tax_categories/:id",
+          "route": "/api/admin/inventory_skus",
+          "method": "GET"
+        },
+        {
+          "description": "Removing an inventory SKU",
+          "link": "admin/inventory_skus/removing_an_inventory_sku.json",
+          "groups": "all",
+          "route": "/api/admin/inventory_skus/:id",
           "method": "DELETE"
         },
         {
-          "description": "Showing a tax category",
-          "link": "admin/tax_categories/showing_a_tax_category.json",
+          "description": "Showing an inventory SKU",
+          "link": "admin/inventory_skus/showing_an_inventory_sku.json",
           "groups": "all",
-          "route": "/api/admin/tax_categories/:id",
+          "route": "/api/admin/inventory_skus/:id",
           "method": "GET"
         },
         {
-          "description": "Listing tax categories",
-          "link": "admin/tax_categories/listing_tax_categories.json",
+          "description": "Updating an inventory SKU",
+          "link": "admin/inventory_skus/updating_an_inventory_sku.json",
           "groups": "all",
-          "route": "/api/admin/tax_categories",
-          "method": "GET"
-        },
-        {
-          "description": "Creating a tax category",
-          "link": "admin/tax_categories/creating_a_tax_category.json",
-          "groups": "all",
-          "route": "/api/admin/tax_categories",
-          "method": "POST"
+          "route": "/api/admin/inventory_skus/:id",
+          "method": "PATCH"
         }
       ]
     },
     {
-      "name": "Pages",
+      "name": "Navigation menus",
       "examples": [
         {
-          "description": "Creating a page",
-          "link": "admin/pages/creating_a_page.json",
+          "description": "Creating a menu",
+          "link": "admin/navigation_menus/creating_a_menu.json",
           "groups": "all",
-          "route": "/api/admin/pages",
+          "route": "/api/admin/navigation_menus",
           "method": "POST"
         },
         {
-          "description": "Removing a page",
-          "link": "admin/pages/removing_a_page.json",
+          "description": "Listing menus",
+          "link": "admin/navigation_menus/listing_menus.json",
           "groups": "all",
-          "route": "/api/admin/pages/:id",
+          "route": "/api/admin/navigation_menus",
+          "method": "GET"
+        },
+        {
+          "description": "Removing a navigation menu",
+          "link": "admin/navigation_menus/removing_a_navigation_menu.json",
+          "groups": "all",
+          "route": "/api/admin/navigation_menus/:id",
           "method": "DELETE"
         },
         {
-          "description": "Listing pages",
-          "link": "admin/pages/listing_pages.json",
+          "description": "Showing a navigation menu",
+          "link": "admin/navigation_menus/showing_a_navigation_menu.json",
           "groups": "all",
-          "route": "/api/admin/pages",
+          "route": "/api/admin/navigation_menus/:id",
           "method": "GET"
         },
         {
-          "description": "Bulk upserting pages",
-          "link": "admin/pages/bulk_upserting_pages.json",
+          "description": "Updating a navigation menus",
+          "link": "admin/navigation_menus/updating_a_navigation_menus.json",
           "groups": "all",
-          "route": "/api/admin/pages/bulk",
+          "route": "/api/admin/navigation_menus/:id",
+          "method": "PATCH"
+        }
+      ]
+    },
+    {
+      "name": "Navigation taxonomy",
+      "examples": [
+        {
+          "description": "Bulk upserting navigation taxons",
+          "link": "admin/navigation_taxonomy/bulk_upserting_navigation_taxons.json",
+          "groups": "all",
+          "route": "/api/admin/navigation_taxons/bulk",
           "method": "PATCH"
         },
         {
-          "description": "Updating a page",
-          "link": "admin/pages/updating_a_page.json",
+          "description": "Creating a taxon",
+          "link": "admin/navigation_taxonomy/creating_a_taxon.json",
           "groups": "all",
-          "route": "/api/admin/pages/:id",
-          "method": "PATCH"
+          "route": "/api/admin/navigation_taxons",
+          "method": "POST"
         },
         {
-          "description": "Showing a page",
-          "link": "admin/pages/showing_a_page.json",
+          "description": "Listing taxons",
+          "link": "admin/navigation_taxonomy/listing_taxons.json",
           "groups": "all",
-          "route": "/api/admin/pages/:id",
+          "route": "/api/admin/navigation_taxons",
           "method": "GET"
+        },
+        {
+          "description": "Removing a navigation taxon",
+          "link": "admin/navigation_taxonomy/removing_a_navigation_taxon.json",
+          "groups": "all",
+          "route": "/api/admin/navigation_taxons/:id",
+          "method": "DELETE"
+        },
+        {
+          "description": "Showing a navigation taxon",
+          "link": "admin/navigation_taxonomy/showing_a_navigation_taxon.json",
+          "groups": "all",
+          "route": "/api/admin/navigation_taxons/:id",
+          "method": "GET"
+        },
+        {
+          "description": "Updating a navigation taxons",
+          "link": "admin/navigation_taxonomy/updating_a_navigation_taxons.json",
+          "groups": "all",
+          "route": "/api/admin/navigation_taxons/:id",
+          "method": "PATCH"
         }
       ]
     },
@@ -246,13 +413,312 @@
       ]
     },
     {
+      "name": "Pages",
+      "examples": [
+        {
+          "description": "Bulk upserting pages",
+          "link": "admin/pages/bulk_upserting_pages.json",
+          "groups": "all",
+          "route": "/api/admin/pages/bulk",
+          "method": "PATCH"
+        },
+        {
+          "description": "Creating a page",
+          "link": "admin/pages/creating_a_page.json",
+          "groups": "all",
+          "route": "/api/admin/pages",
+          "method": "POST"
+        },
+        {
+          "description": "Listing pages",
+          "link": "admin/pages/listing_pages.json",
+          "groups": "all",
+          "route": "/api/admin/pages",
+          "method": "GET"
+        },
+        {
+          "description": "Removing a page",
+          "link": "admin/pages/removing_a_page.json",
+          "groups": "all",
+          "route": "/api/admin/pages/:id",
+          "method": "DELETE"
+        },
+        {
+          "description": "Showing a page",
+          "link": "admin/pages/showing_a_page.json",
+          "groups": "all",
+          "route": "/api/admin/pages/:id",
+          "method": "GET"
+        },
+        {
+          "description": "Updating a page",
+          "link": "admin/pages/updating_a_page.json",
+          "groups": "all",
+          "route": "/api/admin/pages/:id",
+          "method": "PATCH"
+        }
+      ]
+    },
+    {
+      "name": "Payment Profiles",
+      "examples": [
+        {
+          "description": "Bulk upserting payment profiles",
+          "link": "admin/payment_profiles/bulk_upserting_payment_profiles.json",
+          "groups": "all",
+          "route": "/api/admin/payment_profiles/bulk",
+          "method": "PATCH"
+        },
+        {
+          "description": "Creating a payment profile",
+          "link": "admin/payment_profiles/creating_a_payment_profile.json",
+          "groups": "all",
+          "route": "/api/admin/payment_profiles",
+          "method": "POST"
+        },
+        {
+          "description": "Listing payment profiles",
+          "link": "admin/payment_profiles/listing_payment_profiles.json",
+          "groups": "all",
+          "route": "/api/admin/payment_profiles",
+          "method": "GET"
+        },
+        {
+          "description": "Removing a payment profile",
+          "link": "admin/payment_profiles/removing_a_payment_profile.json",
+          "groups": "all",
+          "route": "/api/admin/payment_profiles/:id",
+          "method": "DELETE"
+        },
+        {
+          "description": "Showing a payment profile",
+          "link": "admin/payment_profiles/showing_a_payment_profile.json",
+          "groups": "all",
+          "route": "/api/admin/payment_profiles/:id",
+          "method": "GET"
+        },
+        {
+          "description": "Updating a payment profiles",
+          "link": "admin/payment_profiles/updating_a_payment_profiles.json",
+          "groups": "all",
+          "route": "/api/admin/payment_profiles/:id",
+          "method": "PATCH"
+        }
+      ]
+    },
+    {
+      "name": "Payment transactions",
+      "examples": [
+        {
+          "description": "Listing payment transactions",
+          "link": "admin/payment_transactions/listing_payment_transactions.json",
+          "groups": "all",
+          "route": "/api/admin/payment_transactions",
+          "method": "GET"
+        },
+        {
+          "description": "Showing a payment transaction",
+          "link": "admin/payment_transactions/showing_a_payment_transaction.json",
+          "groups": "all",
+          "route": "/api/admin/payment_transactions/:id",
+          "method": "GET"
+        }
+      ]
+    },
+    {
+      "name": "Payments",
+      "examples": [
+        {
+          "description": "Listing payments",
+          "link": "admin/payments/listing_payments.json",
+          "groups": "all",
+          "route": "/api/admin/payments",
+          "method": "GET"
+        },
+        {
+          "description": "Showing an payment",
+          "link": "admin/payments/showing_an_payment.json",
+          "groups": "all",
+          "route": "/api/admin/payments/:id",
+          "method": "GET"
+        }
+      ]
+    },
+    {
+      "name": "Prices",
+      "examples": [
+        {
+          "description": "Creating a pricing sku price",
+          "link": "admin/prices/creating_a_pricing_sku_price.json",
+          "groups": "all",
+          "route": "/api/admin/pricing_skus/:pricing_sku_id/prices",
+          "method": "POST"
+        },
+        {
+          "description": "Listing pricing sku prices",
+          "link": "admin/prices/listing_pricing_sku_prices.json",
+          "groups": "all",
+          "route": "/api/admin/pricing_skus/:pricing_sku_id/prices",
+          "method": "GET"
+        },
+        {
+          "description": "Removing a pricing sku price",
+          "link": "admin/prices/removing_a_pricing_sku_price.json",
+          "groups": "all",
+          "route": "/api/admin/pricing_skus/:pricing_sku_id/prices/:id",
+          "method": "DELETE"
+        },
+        {
+          "description": "Updating a pricing sku price",
+          "link": "admin/prices/updating_a_pricing_sku_price.json",
+          "groups": "all",
+          "route": "/api/admin/pricing_skus/:pricing_sku_id/prices/:id",
+          "method": "PATCH"
+        }
+      ]
+    },
+    {
+      "name": "Pricing SKUs",
+      "examples": [
+        {
+          "description": "Bulk upserting pricing SKUs",
+          "link": "admin/pricing_skus/bulk_upserting_pricing_skus.json",
+          "groups": "all",
+          "route": "/api/admin/pricing_skus/bulk",
+          "method": "PATCH"
+        },
+        {
+          "description": "Creating an pricing SKU",
+          "link": "admin/pricing_skus/creating_an_pricing_sku.json",
+          "groups": "all",
+          "route": "/api/admin/pricing_skus",
+          "method": "POST"
+        },
+        {
+          "description": "Listing pricing SKUs",
+          "link": "admin/pricing_skus/listing_pricing_skus.json",
+          "groups": "all",
+          "route": "/api/admin/pricing_skus",
+          "method": "GET"
+        },
+        {
+          "description": "Removing an pricing SKU",
+          "link": "admin/pricing_skus/removing_an_pricing_sku.json",
+          "groups": "all",
+          "route": "/api/admin/pricing_skus/:id",
+          "method": "DELETE"
+        },
+        {
+          "description": "Showing an pricing SKU",
+          "link": "admin/pricing_skus/showing_an_pricing_sku.json",
+          "groups": "all",
+          "route": "/api/admin/pricing_skus/:id",
+          "method": "GET"
+        },
+        {
+          "description": "Updating an pricing SKU",
+          "link": "admin/pricing_skus/updating_an_pricing_sku.json",
+          "groups": "all",
+          "route": "/api/admin/pricing_skus/:id",
+          "method": "PATCH"
+        }
+      ]
+    },
+    {
+      "name": "Product Images",
+      "examples": [
+        {
+          "description": "Creating a product image from Base64",
+          "link": "admin/product_images/creating_a_product_image_from_base64.json",
+          "groups": "all",
+          "route": "/api/admin/products/:product_id/images",
+          "method": "POST"
+        },
+        {
+          "description": "Creating a product image from URL",
+          "link": "admin/product_images/creating_a_product_image_from_url.json",
+          "groups": "all",
+          "route": "/api/admin/products/:product_id/images",
+          "method": "POST"
+        },
+        {
+          "description": "Listing product images",
+          "link": "admin/product_images/listing_product_images.json",
+          "groups": "all",
+          "route": "/api/admin/products/:product_id/images",
+          "method": "GET"
+        },
+        {
+          "description": "Removing a product image",
+          "link": "admin/product_images/removing_a_product_image.json",
+          "groups": "all",
+          "route": "/api/admin/products/:product_id/images/:id",
+          "method": "DELETE"
+        },
+        {
+          "description": "Updating a product image",
+          "link": "admin/product_images/updating_a_product_image.json",
+          "groups": "all",
+          "route": "/api/admin/products/:product_id/images/:id",
+          "method": "PATCH"
+        }
+      ]
+    },
+    {
+      "name": "Products",
+      "examples": [
+        {
+          "description": "Bulk upserting products",
+          "link": "admin/products/bulk_upserting_products.json",
+          "groups": "all",
+          "route": "/api/admin/products/bulk",
+          "method": "PATCH"
+        },
+        {
+          "description": "Creating a product",
+          "link": "admin/products/creating_a_product.json",
+          "groups": "all",
+          "route": "/api/admin/products",
+          "method": "POST"
+        },
+        {
+          "description": "Listing products",
+          "link": "admin/products/listing_products.json",
+          "groups": "all",
+          "route": "/api/admin/products",
+          "method": "GET"
+        },
+        {
+          "description": "Removing a product",
+          "link": "admin/products/removing_a_product.json",
+          "groups": "all",
+          "route": "/api/admin/products/:id",
+          "method": "DELETE"
+        },
+        {
+          "description": "Showing a product",
+          "link": "admin/products/showing_a_product.json",
+          "groups": "all",
+          "route": "/api/admin/products/:id",
+          "method": "GET"
+        },
+        {
+          "description": "Updating a product",
+          "link": "admin/products/updating_a_product.json",
+          "groups": "all",
+          "route": "/api/admin/products/:id",
+          "method": "PATCH"
+        }
+      ]
+    },
+    {
       "name": "Promo Code Lists",
       "examples": [
         {
-          "description": "Updating a promo code list",
-          "link": "admin/promo_code_lists/updating_a_promo_code_list.json",
+          "description": "Bulk upserting promo code lists",
+          "link": "admin/promo_code_lists/bulk_upserting_promo_code_lists.json",
           "groups": "all",
-          "route": "/api/admin/promo_code_lists/:id",
+          "route": "/api/admin/promo_code_lists/bulk",
           "method": "PATCH"
         },
         {
@@ -270,13 +736,6 @@
           "method": "GET"
         },
         {
-          "description": "Showing a promo code list",
-          "link": "admin/promo_code_lists/showing_a_promo_code_list.json",
-          "groups": "all",
-          "route": "/api/admin/promo_code_lists/:id",
-          "method": "GET"
-        },
-        {
           "description": "Removing a promo code list",
           "link": "admin/promo_code_lists/removing_a_promo_code_list.json",
           "groups": "all",
@@ -284,868 +743,18 @@
           "method": "DELETE"
         },
         {
-          "description": "Bulk upserting promo code lists",
-          "link": "admin/promo_code_lists/bulk_upserting_promo_code_lists.json",
+          "description": "Showing a promo code list",
+          "link": "admin/promo_code_lists/showing_a_promo_code_list.json",
           "groups": "all",
-          "route": "/api/admin/promo_code_lists/bulk",
+          "route": "/api/admin/promo_code_lists/:id",
+          "method": "GET"
+        },
+        {
+          "description": "Updating a promo code list",
+          "link": "admin/promo_code_lists/updating_a_promo_code_list.json",
+          "groups": "all",
+          "route": "/api/admin/promo_code_lists/:id",
           "method": "PATCH"
-        }
-      ]
-    },
-    {
-      "name": "Inventory SKUs",
-      "examples": [
-        {
-          "description": "Creating an inventory SKU",
-          "link": "admin/inventory_skus/creating_an_inventory_sku.json",
-          "groups": "all",
-          "route": "/api/admin/inventory_skus",
-          "method": "POST"
-        },
-        {
-          "description": "Bulk upserting inventory SKUs",
-          "link": "admin/inventory_skus/bulk_upserting_inventory_skus.json",
-          "groups": "all",
-          "route": "/api/admin/inventory_skus/bulk",
-          "method": "PATCH"
-        },
-        {
-          "description": "Showing an inventory SKU",
-          "link": "admin/inventory_skus/showing_an_inventory_sku.json",
-          "groups": "all",
-          "route": "/api/admin/inventory_skus/:id",
-          "method": "GET"
-        },
-        {
-          "description": "Listing inventory SKUs",
-          "link": "admin/inventory_skus/listing_inventory_skus.json",
-          "groups": "all",
-          "route": "/api/admin/inventory_skus",
-          "method": "GET"
-        },
-        {
-          "description": "Updating an inventory SKU",
-          "link": "admin/inventory_skus/updating_an_inventory_sku.json",
-          "groups": "all",
-          "route": "/api/admin/inventory_skus/:id",
-          "method": "PATCH"
-        },
-        {
-          "description": "Removing an inventory SKU",
-          "link": "admin/inventory_skus/removing_an_inventory_sku.json",
-          "groups": "all",
-          "route": "/api/admin/inventory_skus/:id",
-          "method": "DELETE"
-        }
-      ]
-    },
-    {
-      "name": "Saved Addresses",
-      "examples": [
-        {
-          "description": "Creating a saved address",
-          "link": "admin/saved_addresses/creating_a_saved_address.json",
-          "groups": "all",
-          "route": "/api/admin/users/:user_id/saved_addresses",
-          "method": "POST"
-        },
-        {
-          "description": "Removing a saved address",
-          "link": "admin/saved_addresses/removing_a_saved_address.json",
-          "groups": "all",
-          "route": "/api/admin/users/:user_id/saved_addresses/:id",
-          "method": "DELETE"
-        },
-        {
-          "description": "Updating a saved address",
-          "link": "admin/saved_addresses/updating_a_saved_address.json",
-          "groups": "all",
-          "route": "/api/admin/users/:user_id/saved_addresses/:id",
-          "method": "PATCH"
-        },
-        {
-          "description": "Listing saved address",
-          "link": "admin/saved_addresses/listing_saved_address.json",
-          "groups": "all",
-          "route": "/api/admin/users/:user_id/saved_addresses",
-          "method": "GET"
-        }
-      ]
-    },
-    {
-      "name": "Shipping Services",
-      "examples": [
-        {
-          "description": "Showing a shipping_service",
-          "link": "admin/shipping_services/showing_a_shipping_service.json",
-          "groups": "all",
-          "route": "/api/admin/shipping_services/:id",
-          "method": "GET"
-        },
-        {
-          "description": "Removing a shipping_service",
-          "link": "admin/shipping_services/removing_a_shipping_service.json",
-          "groups": "all",
-          "route": "/api/admin/shipping_services/:id",
-          "method": "DELETE"
-        },
-        {
-          "description": "Listing shipping_services",
-          "link": "admin/shipping_services/listing_shipping_services.json",
-          "groups": "all",
-          "route": "/api/admin/shipping_services",
-          "method": "GET"
-        },
-        {
-          "description": "Creating a shipping_service",
-          "link": "admin/shipping_services/creating_a_shipping_service.json",
-          "groups": "all",
-          "route": "/api/admin/shipping_services",
-          "method": "POST"
-        },
-        {
-          "description": "Updating a shipping_service",
-          "link": "admin/shipping_services/updating_a_shipping_service.json",
-          "groups": "all",
-          "route": "/api/admin/shipping_services/:id",
-          "method": "PATCH"
-        },
-        {
-          "description": "Bulk upserting shipping_services",
-          "link": "admin/shipping_services/bulk_upserting_shipping_services.json",
-          "groups": "all",
-          "route": "/api/admin/shipping_services/bulk",
-          "method": "PATCH"
-        }
-      ]
-    },
-    {
-      "name": "Shipping",
-      "examples": [
-        {
-          "description": "Showing a shipment",
-          "link": "admin/shipping/showing_a_shipment.json",
-          "groups": "all",
-          "route": "/api/admin/shippings/:id",
-          "method": "GET"
-        },
-        {
-          "description": "Listing shipments",
-          "link": "admin/shipping/listing_shipments.json",
-          "groups": "all",
-          "route": "/api/admin/shippings",
-          "method": "GET"
-        }
-      ]
-    },
-    {
-      "name": "Releases",
-      "examples": [
-        {
-          "description": "Removing a release",
-          "link": "admin/releases/removing_a_release.json",
-          "groups": "all",
-          "route": "/api/admin/releases/:id",
-          "method": "DELETE"
-        },
-        {
-          "description": "Bulk upserting releases",
-          "link": "admin/releases/bulk_upserting_releases.json",
-          "groups": "all",
-          "route": "/api/admin/releases/bulk",
-          "method": "PATCH"
-        },
-        {
-          "description": "Listing releases",
-          "link": "admin/releases/listing_releases.json",
-          "groups": "all",
-          "route": "/api/admin/releases",
-          "method": "GET"
-        },
-        {
-          "description": "Creating a release",
-          "link": "admin/releases/creating_a_release.json",
-          "groups": "all",
-          "route": "/api/admin/releases",
-          "method": "POST"
-        },
-        {
-          "description": "Showing a release",
-          "link": "admin/releases/showing_a_release.json",
-          "groups": "all",
-          "route": "/api/admin/releases/:id",
-          "method": "GET"
-        },
-        {
-          "description": "Updating a release",
-          "link": "admin/releases/updating_a_release.json",
-          "groups": "all",
-          "route": "/api/admin/releases/:id",
-          "method": "PATCH"
-        }
-      ]
-    },
-    {
-      "name": "Payments",
-      "examples": [
-        {
-          "description": "Showing an payment",
-          "link": "admin/payments/showing_an_payment.json",
-          "groups": "all",
-          "route": "/api/admin/payments/:id",
-          "method": "GET"
-        },
-        {
-          "description": "Listing payments",
-          "link": "admin/payments/listing_payments.json",
-          "groups": "all",
-          "route": "/api/admin/payments",
-          "method": "GET"
-        }
-      ]
-    },
-    {
-      "name": "Prices",
-      "examples": [
-        {
-          "description": "Creating a pricing sku price",
-          "link": "admin/prices/creating_a_pricing_sku_price.json",
-          "groups": "all",
-          "route": "/api/admin/pricing_skus/:pricing_sku_id/prices",
-          "method": "POST"
-        },
-        {
-          "description": "Updating a pricing sku price",
-          "link": "admin/prices/updating_a_pricing_sku_price.json",
-          "groups": "all",
-          "route": "/api/admin/pricing_skus/:pricing_sku_id/prices/:id",
-          "method": "PATCH"
-        },
-        {
-          "description": "Listing pricing sku prices",
-          "link": "admin/prices/listing_pricing_sku_prices.json",
-          "groups": "all",
-          "route": "/api/admin/pricing_skus/:pricing_sku_id/prices",
-          "method": "GET"
-        },
-        {
-          "description": "Removing a pricing sku price",
-          "link": "admin/prices/removing_a_pricing_sku_price.json",
-          "groups": "all",
-          "route": "/api/admin/pricing_skus/:pricing_sku_id/prices/:id",
-          "method": "DELETE"
-        }
-      ]
-    },
-    {
-      "name": "Content",
-      "examples": [
-        {
-          "description": "Listing content",
-          "link": "admin/content/listing_content.json",
-          "groups": "all",
-          "route": "/api/admin/content",
-          "method": "POST"
-        },
-        {
-          "description": "Creating content",
-          "link": "admin/content/creating_content.json",
-          "groups": "all",
-          "route": "/api/admin/content",
-          "method": "POST"
-        },
-        {
-          "description": "Bulk upserting content",
-          "link": "admin/content/bulk_upserting_content.json",
-          "groups": "all",
-          "route": "/api/admin/content/bulk",
-          "method": "PATCH"
-        },
-        {
-          "description": "Updating content",
-          "link": "admin/content/updating_content.json",
-          "groups": "all",
-          "route": "/api/admin/content/:id",
-          "method": "PATCH"
-        },
-        {
-          "description": "Showing content",
-          "link": "admin/content/showing_content.json",
-          "groups": "all",
-          "route": "/api/admin/content/:id",
-          "method": "GET"
-        }
-      ]
-    },
-    {
-      "name": "Users",
-      "examples": [
-        {
-          "description": "Updating a user",
-          "link": "admin/users/updating_a_user.json",
-          "groups": "all",
-          "route": "/api/admin/users/:id",
-          "method": "PATCH"
-        },
-        {
-          "description": "Bulk upserting users",
-          "link": "admin/users/bulk_upserting_users.json",
-          "groups": "all",
-          "route": "/api/admin/users/bulk",
-          "method": "PATCH"
-        },
-        {
-          "description": "Removing a user",
-          "link": "admin/users/removing_a_user.json",
-          "groups": "all",
-          "route": "/api/admin/users/:id",
-          "method": "DELETE"
-        },
-        {
-          "description": "Showing a user",
-          "link": "admin/users/showing_a_user.json",
-          "groups": "all",
-          "route": "/api/admin/users/:id",
-          "method": "GET"
-        },
-        {
-          "description": "Listing users",
-          "link": "admin/users/listing_users.json",
-          "groups": "all",
-          "route": "/api/admin/users",
-          "method": "GET"
-        },
-        {
-          "description": "Creating a user",
-          "link": "admin/users/creating_a_user.json",
-          "groups": "all",
-          "route": "/api/admin/users",
-          "method": "POST"
-        }
-      ]
-    },
-    {
-      "name": "Redirects",
-      "examples": [
-        {
-          "description": "Bulk upserting redirects",
-          "link": "admin/redirects/bulk_upserting_redirects.json",
-          "groups": "all",
-          "route": "/api/admin/redirects/bulk",
-          "method": "PATCH"
-        },
-        {
-          "description": "Removing a redirect",
-          "link": "admin/redirects/removing_a_redirect.json",
-          "groups": "all",
-          "route": "/api/admin/redirects/:id",
-          "method": "DELETE"
-        },
-        {
-          "description": "Listing redirects",
-          "link": "admin/redirects/listing_redirects.json",
-          "groups": "all",
-          "route": "/api/admin/redirects",
-          "method": "GET"
-        },
-        {
-          "description": "Showing a redirect",
-          "link": "admin/redirects/showing_a_redirect.json",
-          "groups": "all",
-          "route": "/api/admin/redirects/:id",
-          "method": "GET"
-        },
-        {
-          "description": "Updating a redirects",
-          "link": "admin/redirects/updating_a_redirects.json",
-          "groups": "all",
-          "route": "/api/admin/redirects/:id",
-          "method": "PATCH"
-        },
-        {
-          "description": "Creating a redirect",
-          "link": "admin/redirects/creating_a_redirect.json",
-          "groups": "all",
-          "route": "/api/admin/redirects",
-          "method": "POST"
-        }
-      ]
-    },
-    {
-      "name": "Email Signups",
-      "examples": [
-        {
-          "description": "Showing an email signup",
-          "link": "admin/email_signups/showing_an_email_signup.json",
-          "groups": "all",
-          "route": "/api/admin/email_signups/:id",
-          "method": "GET"
-        },
-        {
-          "description": "Listing email signups",
-          "link": "admin/email_signups/listing_email_signups.json",
-          "groups": "all",
-          "route": "/api/admin/email_signups",
-          "method": "GET"
-        }
-      ]
-    },
-    {
-      "name": "Release Changes",
-      "examples": [
-        {
-          "description": "Adding changes to a release",
-          "link": "admin/release_changes/adding_changes_to_a_release.json",
-          "groups": "all",
-          "route": "/api/admin/products/:id",
-          "method": "PATCH"
-        }
-      ]
-    },
-    {
-      "name": "Navigation taxonomy",
-      "examples": [
-        {
-          "description": "Updating a navigation taxons",
-          "link": "admin/navigation_taxonomy/updating_a_navigation_taxons.json",
-          "groups": "all",
-          "route": "/api/admin/navigation_taxons/:id",
-          "method": "PATCH"
-        },
-        {
-          "description": "Bulk upserting navigation taxons",
-          "link": "admin/navigation_taxonomy/bulk_upserting_navigation_taxons.json",
-          "groups": "all",
-          "route": "/api/admin/navigation_taxons/bulk",
-          "method": "PATCH"
-        },
-        {
-          "description": "Showing a navigation taxon",
-          "link": "admin/navigation_taxonomy/showing_a_navigation_taxon.json",
-          "groups": "all",
-          "route": "/api/admin/navigation_taxons/:id",
-          "method": "GET"
-        },
-        {
-          "description": "Creating a taxon",
-          "link": "admin/navigation_taxonomy/creating_a_taxon.json",
-          "groups": "all",
-          "route": "/api/admin/navigation_taxons",
-          "method": "POST"
-        },
-        {
-          "description": "Listing taxons",
-          "link": "admin/navigation_taxonomy/listing_taxons.json",
-          "groups": "all",
-          "route": "/api/admin/navigation_taxons",
-          "method": "GET"
-        },
-        {
-          "description": "Removing a navigation taxon",
-          "link": "admin/navigation_taxonomy/removing_a_navigation_taxon.json",
-          "groups": "all",
-          "route": "/api/admin/navigation_taxons/:id",
-          "method": "DELETE"
-        }
-      ]
-    },
-    {
-      "name": "Tax Rates",
-      "examples": [
-        {
-          "description": "Creating a tax rate",
-          "link": "admin/tax_rates/creating_a_tax_rate.json",
-          "groups": "all",
-          "route": "/api/admin/tax_categories/:tax_category_id/rates",
-          "method": "POST"
-        },
-        {
-          "description": "Listing tax rates",
-          "link": "admin/tax_rates/listing_tax_rates.json",
-          "groups": "all",
-          "route": "/api/admin/tax_categories/:tax_category_id/rates",
-          "method": "GET"
-        },
-        {
-          "description": "Updating a tax rate",
-          "link": "admin/tax_rates/updating_a_tax_rate.json",
-          "groups": "all",
-          "route": "/api/admin/tax_categories/:tax_category_id/rates/:id",
-          "method": "PATCH"
-        },
-        {
-          "description": "Removing a tax rate",
-          "link": "admin/tax_rates/removing_a_tax_rate.json",
-          "groups": "all",
-          "route": "/api/admin/tax_categories/:tax_category_id/rates/:id",
-          "method": "PATCH"
-        }
-      ]
-    },
-    {
-      "name": "Categories",
-      "examples": [
-        {
-          "description": "Showing a category",
-          "link": "admin/categories/showing_a_category.json",
-          "groups": "all",
-          "route": "/api/admin/categories/:id",
-          "method": "GET"
-        },
-        {
-          "description": "Updating a category",
-          "link": "admin/categories/updating_a_category.json",
-          "groups": "all",
-          "route": "/api/admin/categories/:id",
-          "method": "PATCH"
-        },
-        {
-          "description": "Listing categories",
-          "link": "admin/categories/listing_categories.json",
-          "groups": "all",
-          "route": "/api/admin/categories",
-          "method": "GET"
-        },
-        {
-          "description": "Removing a category",
-          "link": "admin/categories/removing_a_category.json",
-          "groups": "all",
-          "route": "/api/admin/categories/:id",
-          "method": "DELETE"
-        },
-        {
-          "description": "Bulk upserting categories",
-          "link": "admin/categories/bulk_upserting_categories.json",
-          "groups": "all",
-          "route": "/api/admin/categories/bulk",
-          "method": "PATCH"
-        },
-        {
-          "description": "Creating a category",
-          "link": "admin/categories/creating_a_category.json",
-          "groups": "all",
-          "route": "/api/admin/categories",
-          "method": "POST"
-        }
-      ]
-    },
-    {
-      "name": "Fulfillment",
-      "examples": [
-        {
-          "description": "Listing fulfillments",
-          "link": "admin/fulfillment/listing_fulfillments.json",
-          "groups": "all",
-          "route": "/api/admin/fulfillments",
-          "method": "GET"
-        },
-        {
-          "description": "Showing fulfillment",
-          "link": "admin/fulfillment/showing_fulfillment.json",
-          "groups": "all",
-          "route": "/api/admin/fulfillments/:order_id",
-          "method": "GET"
-        },
-        {
-          "description": "Marking items as shipped",
-          "link": "admin/fulfillment/marking_items_as_shipped.json",
-          "groups": "all",
-          "route": "/api/admin/fulfillments/:order_id/ship_items",
-          "method": "POST"
-        },
-        {
-          "description": "Marking items as canceled",
-          "link": "admin/fulfillment/marking_items_as_canceled.json",
-          "groups": "all",
-          "route": "/api/admin/fulfillments/:order_id/cancel_items",
-          "method": "POST"
-        }
-      ]
-    },
-    {
-      "name": "Navigation menus",
-      "examples": [
-        {
-          "description": "Showing a navigation menu",
-          "link": "admin/navigation_menus/showing_a_navigation_menu.json",
-          "groups": "all",
-          "route": "/api/admin/navigation_menus/:id",
-          "method": "GET"
-        },
-        {
-          "description": "Updating a navigation menus",
-          "link": "admin/navigation_menus/updating_a_navigation_menus.json",
-          "groups": "all",
-          "route": "/api/admin/navigation_menus/:id",
-          "method": "PATCH"
-        },
-        {
-          "description": "Creating a menu",
-          "link": "admin/navigation_menus/creating_a_menu.json",
-          "groups": "all",
-          "route": "/api/admin/navigation_menus",
-          "method": "POST"
-        },
-        {
-          "description": "Removing a navigation menu",
-          "link": "admin/navigation_menus/removing_a_navigation_menu.json",
-          "groups": "all",
-          "route": "/api/admin/navigation_menus/:id",
-          "method": "DELETE"
-        },
-        {
-          "description": "Listing menus",
-          "link": "admin/navigation_menus/listing_menus.json",
-          "groups": "all",
-          "route": "/api/admin/navigation_menus",
-          "method": "GET"
-        }
-      ]
-    },
-    {
-      "name": "Products",
-      "examples": [
-        {
-          "description": "Removing a product",
-          "link": "admin/products/removing_a_product.json",
-          "groups": "all",
-          "route": "/api/admin/products/:id",
-          "method": "DELETE"
-        },
-        {
-          "description": "Showing a product",
-          "link": "admin/products/showing_a_product.json",
-          "groups": "all",
-          "route": "/api/admin/products/:id",
-          "method": "GET"
-        },
-        {
-          "description": "Creating a product",
-          "link": "admin/products/creating_a_product.json",
-          "groups": "all",
-          "route": "/api/admin/products",
-          "method": "POST"
-        },
-        {
-          "description": "Listing products",
-          "link": "admin/products/listing_products.json",
-          "groups": "all",
-          "route": "/api/admin/products",
-          "method": "GET"
-        },
-        {
-          "description": "Bulk upserting products",
-          "link": "admin/products/bulk_upserting_products.json",
-          "groups": "all",
-          "route": "/api/admin/products/bulk",
-          "method": "PATCH"
-        },
-        {
-          "description": "Updating a product",
-          "link": "admin/products/updating_a_product.json",
-          "groups": "all",
-          "route": "/api/admin/products/:id",
-          "method": "PATCH"
-        }
-      ]
-    },
-    {
-      "name": "Content Assets",
-      "examples": [
-        {
-          "description": "Showing a content asset",
-          "link": "admin/content_assets/showing_a_content_asset.json",
-          "groups": "all",
-          "route": "/api/admin/content_assets/:id",
-          "method": "GET"
-        },
-        {
-          "description": "Updating a content asset",
-          "link": "admin/content_assets/updating_a_content_asset.json",
-          "groups": "all",
-          "route": "/api/admin/content_assets/:id",
-          "method": "PATCH"
-        },
-        {
-          "description": "Creating a content asset",
-          "link": "admin/content_assets/creating_a_content_asset.json",
-          "groups": "all",
-          "route": "/api/admin/content_assets",
-          "method": "POST"
-        },
-        {
-          "description": "Listing content assets",
-          "link": "admin/content_assets/listing_content_assets.json",
-          "groups": "all",
-          "route": "/api/admin/content_assets",
-          "method": "GET"
-        },
-        {
-          "description": "Bulk upserting content assets",
-          "link": "admin/content_assets/bulk_upserting_content_assets.json",
-          "groups": "all",
-          "route": "/api/admin/content_assets/bulk",
-          "method": "PATCH"
-        },
-        {
-          "description": "Removing a content asset",
-          "link": "admin/content_assets/removing_a_content_asset.json",
-          "groups": "all",
-          "route": "/api/admin/content_assets/:id",
-          "method": "DELETE"
-        }
-      ]
-    },
-    {
-      "name": "Shipping Rates",
-      "examples": [
-        {
-          "description": "Removing a shipping rate",
-          "link": "admin/shipping_rates/removing_a_shipping_rate.json",
-          "groups": "all",
-          "route": "/api/admin/shipping_services/:shipping_service_id/rates/:id",
-          "method": "DELETE"
-        },
-        {
-          "description": "Creating a shipping rate",
-          "link": "admin/shipping_rates/creating_a_shipping_rate.json",
-          "groups": "all",
-          "route": "/api/admin/shipping_services/:shipping_service_id/rates",
-          "method": "POST"
-        },
-        {
-          "description": "Listing shipping rates",
-          "link": "admin/shipping_rates/listing_shipping_rates.json",
-          "groups": "all",
-          "route": "/api/admin/shipping_services/:shipping_service_id/rates",
-          "method": "GET"
-        },
-        {
-          "description": "Updating a shipping rate",
-          "link": "admin/shipping_rates/updating_a_shipping_rate.json",
-          "groups": "all",
-          "route": "/api/admin/shipping_services/:shipping_service_id/rates/:id",
-          "method": "PATCH"
-        }
-      ]
-    },
-    {
-      "name": "Discounts",
-      "examples": [
-        {
-          "description": "Showing a discount",
-          "link": "admin/discounts/showing_a_discount.json",
-          "groups": "all",
-          "route": "/api/admin/discounts/:id",
-          "method": "GET"
-        },
-        {
-          "description": "Updating discounts",
-          "link": "admin/discounts/updating_discounts.json",
-          "groups": "all",
-          "route": "/api/admin/discounts/:id",
-          "method": "PATCH"
-        },
-        {
-          "description": "Creating a discount",
-          "link": "admin/discounts/creating_a_discount.json",
-          "groups": "all",
-          "route": "/api/admin/discounts",
-          "method": "POST"
-        },
-        {
-          "description": "Removing a discount",
-          "link": "admin/discounts/removing_a_discount.json",
-          "groups": "all",
-          "route": "/api/admin/discounts/:id",
-          "method": "DELETE"
-        },
-        {
-          "description": "Listing discounts",
-          "link": "admin/discounts/listing_discounts.json",
-          "groups": "all",
-          "route": "/api/admin/discounts",
-          "method": "GET"
-        }
-      ]
-    },
-    {
-      "name": "Category Product Rules",
-      "examples": [
-        {
-          "description": "Updating a category product rule",
-          "link": "admin/category_product_rules/updating_a_category_product_rule.json",
-          "groups": "all",
-          "route": "/api/admin/categories/:category_id/product_rules/:id",
-          "method": "PATCH"
-        },
-        {
-          "description": "Creating a category product rule",
-          "link": "admin/category_product_rules/creating_a_category_product_rule.json",
-          "groups": "all",
-          "route": "/api/admin/categories/:category_id/product_rules",
-          "method": "POST"
-        },
-        {
-          "description": "Removing a category product rule",
-          "link": "admin/category_product_rules/removing_a_category_product_rule.json",
-          "groups": "all",
-          "route": "/api/admin/categories/:category_id/product_rules/:id",
-          "method": "DELETE"
-        },
-        {
-          "description": "Listing category product rules",
-          "link": "admin/category_product_rules/listing_category_product_rules.json",
-          "groups": "all",
-          "route": "/api/admin/categories/:category_id/product_rules",
-          "method": "GET"
-        }
-      ]
-    },
-    {
-      "name": "Pricing SKUs",
-      "examples": [
-        {
-          "description": "Creating an pricing SKU",
-          "link": "admin/pricing_skus/creating_an_pricing_sku.json",
-          "groups": "all",
-          "route": "/api/admin/pricing_skus",
-          "method": "POST"
-        },
-        {
-          "description": "Bulk upserting pricing SKUs",
-          "link": "admin/pricing_skus/bulk_upserting_pricing_skus.json",
-          "groups": "all",
-          "route": "/api/admin/pricing_skus/bulk",
-          "method": "PATCH"
-        },
-        {
-          "description": "Listing pricing SKUs",
-          "link": "admin/pricing_skus/listing_pricing_skus.json",
-          "groups": "all",
-          "route": "/api/admin/pricing_skus",
-          "method": "GET"
-        },
-        {
-          "description": "Removing an pricing SKU",
-          "link": "admin/pricing_skus/removing_an_pricing_sku.json",
-          "groups": "all",
-          "route": "/api/admin/pricing_skus/:id",
-          "method": "DELETE"
-        },
-        {
-          "description": "Updating an pricing SKU",
-          "link": "admin/pricing_skus/updating_an_pricing_sku.json",
-          "groups": "all",
-          "route": "/api/admin/pricing_skus/:id",
-          "method": "PATCH"
-        },
-        {
-          "description": "Showing an pricing SKU",
-          "link": "admin/pricing_skus/showing_an_pricing_sku.json",
-          "groups": "all",
-          "route": "/api/admin/pricing_skus/:id",
-          "method": "GET"
         }
       ]
     },
@@ -1169,42 +778,433 @@
       ]
     },
     {
-      "name": "Product Images",
+      "name": "Redirects",
       "examples": [
         {
-          "description": "Updating a product image",
-          "link": "admin/product_images/updating_a_product_image.json",
+          "description": "Bulk upserting redirects",
+          "link": "admin/redirects/bulk_upserting_redirects.json",
           "groups": "all",
-          "route": "/api/admin/products/:product_id/images/:id",
+          "route": "/api/admin/redirects/bulk",
           "method": "PATCH"
         },
         {
-          "description": "Listing product images",
-          "link": "admin/product_images/listing_product_images.json",
+          "description": "Creating a redirect",
+          "link": "admin/redirects/creating_a_redirect.json",
           "groups": "all",
-          "route": "/api/admin/products/:product_id/images",
+          "route": "/api/admin/redirects",
+          "method": "POST"
+        },
+        {
+          "description": "Listing redirects",
+          "link": "admin/redirects/listing_redirects.json",
+          "groups": "all",
+          "route": "/api/admin/redirects",
           "method": "GET"
         },
         {
-          "description": "Removing a product image",
-          "link": "admin/product_images/removing_a_product_image.json",
+          "description": "Removing a redirect",
+          "link": "admin/redirects/removing_a_redirect.json",
           "groups": "all",
-          "route": "/api/admin/products/:product_id/images/:id",
+          "route": "/api/admin/redirects/:id",
           "method": "DELETE"
         },
         {
-          "description": "Creating a product image from Base64",
-          "link": "admin/product_images/creating_a_product_image_from_base64.json",
+          "description": "Showing a redirect",
+          "link": "admin/redirects/showing_a_redirect.json",
           "groups": "all",
-          "route": "/api/admin/products/:product_id/images",
+          "route": "/api/admin/redirects/:id",
+          "method": "GET"
+        },
+        {
+          "description": "Updating a redirects",
+          "link": "admin/redirects/updating_a_redirects.json",
+          "groups": "all",
+          "route": "/api/admin/redirects/:id",
+          "method": "PATCH"
+        }
+      ]
+    },
+    {
+      "name": "Release Changes",
+      "examples": [
+        {
+          "description": "Adding changes to a release",
+          "link": "admin/release_changes/adding_changes_to_a_release.json",
+          "groups": "all",
+          "route": "/api/admin/products/:id",
+          "method": "PATCH"
+        }
+      ]
+    },
+    {
+      "name": "Releases",
+      "examples": [
+        {
+          "description": "Bulk upserting releases",
+          "link": "admin/releases/bulk_upserting_releases.json",
+          "groups": "all",
+          "route": "/api/admin/releases/bulk",
+          "method": "PATCH"
+        },
+        {
+          "description": "Creating a release",
+          "link": "admin/releases/creating_a_release.json",
+          "groups": "all",
+          "route": "/api/admin/releases",
           "method": "POST"
         },
         {
-          "description": "Creating a product image from URL",
-          "link": "admin/product_images/creating_a_product_image_from_url.json",
+          "description": "Listing releases",
+          "link": "admin/releases/listing_releases.json",
           "groups": "all",
-          "route": "/api/admin/products/:product_id/images",
+          "route": "/api/admin/releases",
+          "method": "GET"
+        },
+        {
+          "description": "Removing a release",
+          "link": "admin/releases/removing_a_release.json",
+          "groups": "all",
+          "route": "/api/admin/releases/:id",
+          "method": "DELETE"
+        },
+        {
+          "description": "Showing a release",
+          "link": "admin/releases/showing_a_release.json",
+          "groups": "all",
+          "route": "/api/admin/releases/:id",
+          "method": "GET"
+        },
+        {
+          "description": "Updating a release",
+          "link": "admin/releases/updating_a_release.json",
+          "groups": "all",
+          "route": "/api/admin/releases/:id",
+          "method": "PATCH"
+        }
+      ]
+    },
+    {
+      "name": "Saved Addresses",
+      "examples": [
+        {
+          "description": "Creating a saved address",
+          "link": "admin/saved_addresses/creating_a_saved_address.json",
+          "groups": "all",
+          "route": "/api/admin/users/:user_id/saved_addresses",
           "method": "POST"
+        },
+        {
+          "description": "Listing saved address",
+          "link": "admin/saved_addresses/listing_saved_address.json",
+          "groups": "all",
+          "route": "/api/admin/users/:user_id/saved_addresses",
+          "method": "GET"
+        },
+        {
+          "description": "Removing a saved address",
+          "link": "admin/saved_addresses/removing_a_saved_address.json",
+          "groups": "all",
+          "route": "/api/admin/users/:user_id/saved_addresses/:id",
+          "method": "DELETE"
+        },
+        {
+          "description": "Updating a saved address",
+          "link": "admin/saved_addresses/updating_a_saved_address.json",
+          "groups": "all",
+          "route": "/api/admin/users/:user_id/saved_addresses/:id",
+          "method": "PATCH"
+        }
+      ]
+    },
+    {
+      "name": "Saved Credit Cards",
+      "examples": [
+        {
+          "description": "Creating a saved credit card",
+          "link": "admin/saved_credit_cards/creating_a_saved_credit_card.json",
+          "groups": "all",
+          "route": "/api/admin/payment_profiles/:payment_profile_id/saved_credit_cards",
+          "method": "POST"
+        },
+        {
+          "description": "Listing saved credit cards",
+          "link": "admin/saved_credit_cards/listing_saved_credit_cards.json",
+          "groups": "all",
+          "route": "/api/admin/payment_profiles/:payment_profile_id/saved_credit_cards",
+          "method": "GET"
+        },
+        {
+          "description": "Removing a saved credit card",
+          "link": "admin/saved_credit_cards/removing_a_saved_credit_card.json",
+          "groups": "all",
+          "route": "/api/admin/payment_profiles/:payment_profile_id/saved_credit_cards/:id",
+          "method": "DELETE"
+        },
+        {
+          "description": "Updating a saved credit card",
+          "link": "admin/saved_credit_cards/updating_a_saved_credit_card.json",
+          "groups": "all",
+          "route": "/api/admin/payment_profiles/:payment_profile_id/saved_credit_cards/:id",
+          "method": "PATCH"
+        }
+      ]
+    },
+    {
+      "name": "Shipping",
+      "examples": [
+        {
+          "description": "Listing shipments",
+          "link": "admin/shipping/listing_shipments.json",
+          "groups": "all",
+          "route": "/api/admin/shippings",
+          "method": "GET"
+        },
+        {
+          "description": "Showing a shipment",
+          "link": "admin/shipping/showing_a_shipment.json",
+          "groups": "all",
+          "route": "/api/admin/shippings/:id",
+          "method": "GET"
+        }
+      ]
+    },
+    {
+      "name": "Shipping Rates",
+      "examples": [
+        {
+          "description": "Creating a shipping rate",
+          "link": "admin/shipping_rates/creating_a_shipping_rate.json",
+          "groups": "all",
+          "route": "/api/admin/shipping_services/:shipping_service_id/rates",
+          "method": "POST"
+        },
+        {
+          "description": "Listing shipping rates",
+          "link": "admin/shipping_rates/listing_shipping_rates.json",
+          "groups": "all",
+          "route": "/api/admin/shipping_services/:shipping_service_id/rates",
+          "method": "GET"
+        },
+        {
+          "description": "Removing a shipping rate",
+          "link": "admin/shipping_rates/removing_a_shipping_rate.json",
+          "groups": "all",
+          "route": "/api/admin/shipping_services/:shipping_service_id/rates/:id",
+          "method": "DELETE"
+        },
+        {
+          "description": "Updating a shipping rate",
+          "link": "admin/shipping_rates/updating_a_shipping_rate.json",
+          "groups": "all",
+          "route": "/api/admin/shipping_services/:shipping_service_id/rates/:id",
+          "method": "PATCH"
+        }
+      ]
+    },
+    {
+      "name": "Shipping Services",
+      "examples": [
+        {
+          "description": "Bulk upserting shipping_services",
+          "link": "admin/shipping_services/bulk_upserting_shipping_services.json",
+          "groups": "all",
+          "route": "/api/admin/shipping_services/bulk",
+          "method": "PATCH"
+        },
+        {
+          "description": "Creating a shipping_service",
+          "link": "admin/shipping_services/creating_a_shipping_service.json",
+          "groups": "all",
+          "route": "/api/admin/shipping_services",
+          "method": "POST"
+        },
+        {
+          "description": "Listing shipping_services",
+          "link": "admin/shipping_services/listing_shipping_services.json",
+          "groups": "all",
+          "route": "/api/admin/shipping_services",
+          "method": "GET"
+        },
+        {
+          "description": "Removing a shipping_service",
+          "link": "admin/shipping_services/removing_a_shipping_service.json",
+          "groups": "all",
+          "route": "/api/admin/shipping_services/:id",
+          "method": "DELETE"
+        },
+        {
+          "description": "Showing a shipping_service",
+          "link": "admin/shipping_services/showing_a_shipping_service.json",
+          "groups": "all",
+          "route": "/api/admin/shipping_services/:id",
+          "method": "GET"
+        },
+        {
+          "description": "Updating a shipping_service",
+          "link": "admin/shipping_services/updating_a_shipping_service.json",
+          "groups": "all",
+          "route": "/api/admin/shipping_services/:id",
+          "method": "PATCH"
+        }
+      ]
+    },
+    {
+      "name": "Tax Categories",
+      "examples": [
+        {
+          "description": "Bulk upserting tax categories",
+          "link": "admin/tax_categories/bulk_upserting_tax_categories.json",
+          "groups": "all",
+          "route": "/api/admin/tax_categories/bulk",
+          "method": "PATCH"
+        },
+        {
+          "description": "Creating a tax category",
+          "link": "admin/tax_categories/creating_a_tax_category.json",
+          "groups": "all",
+          "route": "/api/admin/tax_categories",
+          "method": "POST"
+        },
+        {
+          "description": "Listing tax categories",
+          "link": "admin/tax_categories/listing_tax_categories.json",
+          "groups": "all",
+          "route": "/api/admin/tax_categories",
+          "method": "GET"
+        },
+        {
+          "description": "Removing a tax category",
+          "link": "admin/tax_categories/removing_a_tax_category.json",
+          "groups": "all",
+          "route": "/api/admin/tax_categories/:id",
+          "method": "DELETE"
+        },
+        {
+          "description": "Showing a tax category",
+          "link": "admin/tax_categories/showing_a_tax_category.json",
+          "groups": "all",
+          "route": "/api/admin/tax_categories/:id",
+          "method": "GET"
+        },
+        {
+          "description": "Updating a tax categories",
+          "link": "admin/tax_categories/updating_a_tax_categories.json",
+          "groups": "all",
+          "route": "/api/admin/tax_categories/:id",
+          "method": "PATCH"
+        }
+      ]
+    },
+    {
+      "name": "Tax Rates",
+      "examples": [
+        {
+          "description": "Creating a tax rate",
+          "link": "admin/tax_rates/creating_a_tax_rate.json",
+          "groups": "all",
+          "route": "/api/admin/tax_categories/:tax_category_id/rates",
+          "method": "POST"
+        },
+        {
+          "description": "Listing tax rates",
+          "link": "admin/tax_rates/listing_tax_rates.json",
+          "groups": "all",
+          "route": "/api/admin/tax_categories/:tax_category_id/rates",
+          "method": "GET"
+        },
+        {
+          "description": "Removing a tax rate",
+          "link": "admin/tax_rates/removing_a_tax_rate.json",
+          "groups": "all",
+          "route": "/api/admin/tax_categories/:tax_category_id/rates/:id",
+          "method": "PATCH"
+        },
+        {
+          "description": "Updating a tax rate",
+          "link": "admin/tax_rates/updating_a_tax_rate.json",
+          "groups": "all",
+          "route": "/api/admin/tax_categories/:tax_category_id/rates/:id",
+          "method": "PATCH"
+        }
+      ]
+    },
+    {
+      "name": "Users",
+      "examples": [
+        {
+          "description": "Bulk upserting users",
+          "link": "admin/users/bulk_upserting_users.json",
+          "groups": "all",
+          "route": "/api/admin/users/bulk",
+          "method": "PATCH"
+        },
+        {
+          "description": "Creating a user",
+          "link": "admin/users/creating_a_user.json",
+          "groups": "all",
+          "route": "/api/admin/users",
+          "method": "POST"
+        },
+        {
+          "description": "Listing users",
+          "link": "admin/users/listing_users.json",
+          "groups": "all",
+          "route": "/api/admin/users",
+          "method": "GET"
+        },
+        {
+          "description": "Removing a user",
+          "link": "admin/users/removing_a_user.json",
+          "groups": "all",
+          "route": "/api/admin/users/:id",
+          "method": "DELETE"
+        },
+        {
+          "description": "Showing a user",
+          "link": "admin/users/showing_a_user.json",
+          "groups": "all",
+          "route": "/api/admin/users/:id",
+          "method": "GET"
+        },
+        {
+          "description": "Updating a user",
+          "link": "admin/users/updating_a_user.json",
+          "groups": "all",
+          "route": "/api/admin/users/:id",
+          "method": "PATCH"
+        }
+      ]
+    },
+    {
+      "name": "Variants",
+      "examples": [
+        {
+          "description": "Creating a product variant",
+          "link": "admin/variants/creating_a_product_variant.json",
+          "groups": "all",
+          "route": "/api/admin/products/:product_id/variants",
+          "method": "POST"
+        },
+        {
+          "description": "Listing product variants",
+          "link": "admin/variants/listing_product_variants.json",
+          "groups": "all",
+          "route": "/api/admin/products/:product_id/variants",
+          "method": "GET"
+        },
+        {
+          "description": "Removing a product variant",
+          "link": "admin/variants/removing_a_product_variant.json",
+          "groups": "all",
+          "route": "/api/admin/products/:product_id/variants/:id",
+          "method": "DELETE"
+        },
+        {
+          "description": "Updating a product variant",
+          "link": "admin/variants/updating_a_product_variant.json",
+          "groups": "all",
+          "route": "/api/admin/products/:product_id/variants/:id",
+          "method": "PATCH"
         }
       ]
     }

@@ -25,7 +25,7 @@ module Workarea
         def explanation=(value)
           @explanation = Redcarpet::Markdown
             .new(Redcarpet::Render::HTML.new(hard_wrap: true))
-            .render(value.strip)
+            .render(value.strip_heredoc)
         end
 
         def file_name

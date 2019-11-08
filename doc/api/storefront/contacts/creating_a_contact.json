@@ -16,17 +16,21 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
+        "X-Download-Options": "noopen",
+        "X-Permitted-Cross-Domain-Policies": "none",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
         "Content-Type": "application/json; charset=utf-8",
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Headers": "*",
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
-        "X-Flash-Messages": "{}",
-        "Vary": "X-Requested-With, X-Flash-Messages",
-        "ETag": "W/\"e64ee8c90047e3da40d87b2a329c4d73\"",
-        "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "6472558f-c030-4cf1-a9f8-c1eb6882dbec",
-        "X-Runtime": "0.038769",
+        "Vary": "X-Requested-With, X-Workarea-Segments",
+        "Last-Modified": "Wed, 13 Nov 2019 15:07:04 GMT",
+        "Cache-Control": "no-cache, no-store, must-revalidate",
+        "X-Request-Id": "9f2566b9-3f3d-4c5f-891b-fe3a953bdfc9",
+        "X-Runtime": "0.050977",
+        "X-Workarea-Segments": "",
+        "Expires": "0",
         "Content-Length": "228"
       },
       "request_method": "POST",
@@ -35,7 +39,7 @@
       "request_content_type": "application/json",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"inquiry\": {\n    \"_id\": \"59b039177ceffe612c119465\",\n    \"created_at\": \"2017-09-06T18:06:15.400Z\",\n    \"email\": \"email@example.com\",\n    \"message\": \"Message\",\n    \"name\": \"Name\",\n    \"order_id\": \"OrderID\",\n    \"subject\": \"orders\",\n    \"updated_at\": \"2017-09-06T18:06:15.400Z\"\n  }\n}",
+      "response_body": "{\n  \"inquiry\": {\n    \"_id\": \"5dcc1c1802182397a5ece21d\",\n    \"created_at\": \"2019-11-13T15:07:04.867Z\",\n    \"email\": \"email@example.com\",\n    \"message\": \"Message\",\n    \"name\": \"Name\",\n    \"order_id\": \"OrderID\",\n    \"subject\": \"orders\",\n    \"updated_at\": \"2019-11-13T15:07:04.867Z\"\n  }\n}",
       "response_content_type": "application/json",
       "curl": "curl \"https://www.example.com/api/storefront/contacts\" -d '{\"name\":\"Name\",\"email\":\"email@example.com\",\"order_id\":\"OrderID\",\"subject\":\"orders\",\"message\":\"Message\"}' -X POST \\\n\t-H \"Content-Type: application/json\""
     }
@@ -43,6 +47,6 @@
   "resource": "Contacts",
   "description": "Creating a contact",
   "route": "/api/storefront/contacts",
-  "http_method": "POST",
-  "explanation": "            This endpoints creates a customer service inquiry on behalf of the\n            customer, and will send an email to the address in\n            Workarea.config.email_to\n"
+  "explanation": "<p>This endpoints creates a customer service inquiry on behalf of the<br>\ncustomer, and will send an email to the address in<br>\nWorkarea.config.email_to</p>\n",
+  "http_method": "POST"
 }

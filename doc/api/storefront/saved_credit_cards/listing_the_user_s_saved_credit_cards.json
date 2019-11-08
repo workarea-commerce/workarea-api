@@ -8,7 +8,7 @@
   "requests": [
     {
       "request_headers": {
-        "Authorization": "Token token=\"9NG8Kce43YS9JzY4ZGvV13S6\""
+        "Authorization": "Token token=\"C9dMEjina6vnuWAJCu9FV6i7\""
       },
       "request_query_parameters": {
       },
@@ -16,17 +16,21 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
+        "X-Download-Options": "noopen",
+        "X-Permitted-Cross-Domain-Policies": "none",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
         "Content-Type": "application/json; charset=utf-8",
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Headers": "*",
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
-        "X-Flash-Messages": "{}",
-        "Vary": "X-Requested-With, X-Flash-Messages",
-        "ETag": "W/\"aebaec028182c51e30527e840fb7fda8\"",
-        "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "6d314ae5-c863-4614-8b39-7f8949df1afc",
-        "X-Runtime": "0.014151",
+        "Vary": "X-Requested-With, X-Workarea-Segments",
+        "Last-Modified": "Wed, 13 Nov 2019 15:08:54 GMT",
+        "Cache-Control": "no-cache, no-store, must-revalidate",
+        "X-Request-Id": "6c83831f-6d40-40ec-b078-9e7885e00566",
+        "X-Runtime": "0.007182",
+        "X-Workarea-Segments": "",
+        "Expires": "0",
         "Content-Length": "571"
       },
       "request_method": "GET",
@@ -35,14 +39,14 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"user_id\": \"59b0384f7ceffe612c118140\",\n  \"credit_cards\": [\n    {\n      \"id\": \"59b0384f7ceffe612c118144\",\n      \"url\": \"http://www.example.com/api/storefront/saved_credit_cards/59b0384f7ceffe612c118144\",\n      \"default\": false,\n      \"issuer\": \"Visa\",\n      \"display_number\": \"XXXX-XXXX-XXXX-1881\",\n      \"month\": 3,\n      \"year\": 2021,\n      \"first_name\": \"Susan\",\n      \"last_name\": \"Baker\"\n    },\n    {\n      \"id\": \"59b0384f7ceffe612c118145\",\n      \"url\": \"http://www.example.com/api/storefront/saved_credit_cards/59b0384f7ceffe612c118145\",\n      \"default\": false,\n      \"issuer\": \"Visa\",\n      \"display_number\": \"XXXX-XXXX-XXXX-1111\",\n      \"month\": 7,\n      \"year\": 2022,\n      \"first_name\": \"Susan\",\n      \"last_name\": \"Baker\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"user_id\": \"5dcc1c8602182397a5ecea7c\",\n  \"credit_cards\": [\n    {\n      \"id\": \"5dcc1c8602182397a5ecea81\",\n      \"url\": \"http://www.example.com/api/storefront/saved_credit_cards/5dcc1c8602182397a5ecea81\",\n      \"default\": false,\n      \"issuer\": \"Visa\",\n      \"display_number\": \"XXXX-XXXX-XXXX-1881\",\n      \"month\": 3,\n      \"year\": 2023,\n      \"first_name\": \"Susan\",\n      \"last_name\": \"Baker\"\n    },\n    {\n      \"id\": \"5dcc1c8602182397a5ecea82\",\n      \"url\": \"http://www.example.com/api/storefront/saved_credit_cards/5dcc1c8602182397a5ecea82\",\n      \"default\": false,\n      \"issuer\": \"Visa\",\n      \"display_number\": \"XXXX-XXXX-XXXX-1111\",\n      \"month\": 7,\n      \"year\": 2024,\n      \"first_name\": \"Susan\",\n      \"last_name\": \"Baker\"\n    }\n  ]\n}",
       "response_content_type": "application/json",
-      "curl": "curl -g \"https://www.example.com/api/storefront/saved_credit_cards\" -X GET \\\n\t-H \"Authorization: Token token=\\\"9NG8Kce43YS9JzY4ZGvV13S6\\\"\""
+      "curl": "curl -g \"https://www.example.com/api/storefront/saved_credit_cards\" -X GET \\\n\t-H \"Authorization: Token token=\\\"C9dMEjina6vnuWAJCu9FV6i7\\\"\""
     }
   ],
   "resource": "Saved Credit Cards",
   "description": "Listing the user's saved credit cards",
   "route": "/api/storefront/saved_credit_cards",
-  "http_method": "GET",
-  "explanation": "            List a customer's saved addresses. Useful for account management.\n            These addresses will be available to the customer in an\n            authenticated checkout.\n"
+  "explanation": "<p>List a customer&#39;s saved addresses. Useful for account management.<br>\nThese addresses will be available to the customer in an<br>\nauthenticated checkout.</p>\n",
+  "http_method": "GET"
 }

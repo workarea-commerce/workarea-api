@@ -15,18 +15,22 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
+        "X-Download-Options": "noopen",
+        "X-Permitted-Cross-Domain-Policies": "none",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
         "Content-Type": "application/json; charset=utf-8",
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Headers": "*",
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
-        "X-Flash-Messages": "{}",
-        "Vary": "X-Requested-With, X-Flash-Messages",
-        "ETag": "W/\"6ff587d1c9ae8ab7e5ed34914e194927\"",
-        "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "e23e5d3e-3c83-4c39-93bd-7cabf81c10bb",
-        "X-Runtime": "0.036243",
-        "Content-Length": "880"
+        "Vary": "X-Requested-With, X-Workarea-Segments",
+        "Last-Modified": "Wed, 13 Nov 2019 15:07:30 GMT",
+        "Cache-Control": "no-cache, no-store, must-revalidate",
+        "X-Request-Id": "a85909b6-7bf5-4635-8a82-38077887faba",
+        "X-Runtime": "0.006442",
+        "X-Workarea-Segments": "",
+        "Expires": "0",
+        "Content-Length": "900"
       },
       "request_method": "GET",
       "request_path": "/api/storefront/email_signups",
@@ -34,7 +38,7 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"title\": \"Sign up for our email list\",\n  \"content_blocks\": [\n    {\n      \"id\": \"59b0382b7ceffe612c117e70\",\n      \"type\": \"text\",\n      \"area\": \"default\",\n      \"data\": {\n        \"text\": \"Here is some administrated content\"\n      },\n      \"hidden_breakpoints\": [\n\n      ],\n      \"position\": 0,\n      \"html\": \"<div class=\\\"content-block\\\" id=\\\"content_block_59b0382b7ceffe612c117e70\\\" data-analytics=\\\"{&quot;event&quot;:&quot;contentBlockDisplay&quot;,&quot;payload&quot;:{&quot;id&quot;:&quot;59b0382b7ceffe612c117e70&quot;,&quot;type&quot;:&quot;text&quot;,&quot;position&quot;:0,&quot;data&quot;:{&quot;text&quot;:&quot;Here is some administrated content&quot;}}}\\\" data-hidden-block-css-content=\\\"Block hidden at this breakpoint\\\"><div class='text-content-block'>Here is some administrated content</div>\\n</div>\\n\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"title\": \"Sign up for our email list\",\n  \"content_blocks\": [\n    {\n      \"id\": \"5dcc1c3202182397a5ece580\",\n      \"type\": \"text\",\n      \"area\": \"default\",\n      \"data\": {\n        \"text\": \"Here is some administrated content\"\n      },\n      \"hidden_breakpoints\": [\n\n      ],\n      \"position\": 0,\n      \"html\": \"<div class=\\\"content-block content-block--text\\\" id=\\\"content_block_5dcc1c3202182397a5ece580\\\" data-analytics=\\\"{&quot;event&quot;:&quot;contentBlockDisplay&quot;,&quot;payload&quot;:{&quot;id&quot;:&quot;5dcc1c3202182397a5ece580&quot;,&quot;type&quot;:&quot;text&quot;,&quot;position&quot;:0,&quot;data&quot;:{&quot;text&quot;:&quot;Here is some administrated content&quot;}}}\\\" data-hidden-block-css-content=\\\"Block hidden at this breakpoint\\\"><div class='text-content-block'>Here is some administrated content</div>\\n</div>\\n\"\n    }\n  ]\n}",
       "response_content_type": "application/json",
       "curl": "curl -g \"https://www.example.com/api/storefront/email_signups\" -X GET "
     }
@@ -42,6 +46,6 @@
   "resource": "Email Signups",
   "description": "Showing an email signup content",
   "route": "/api/storefront/email_signups",
-  "http_method": "GET",
-  "explanation": "            This endpoint will return all relevant data for showing an email\n            sign up form.\n"
+  "explanation": "<p>This endpoint will return all relevant data for showing an email<br>\nsign up form.</p>\n",
+  "http_method": "GET"
 }

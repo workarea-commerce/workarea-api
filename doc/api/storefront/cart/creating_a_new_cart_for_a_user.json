@@ -9,7 +9,7 @@
     {
       "request_headers": {
         "Content-Type": "application/x-www-form-urlencoded",
-        "Authorization": "Token token=\"KwAsGSdy2rnXWfHoUfVba1DC\""
+        "Authorization": "Token token=\"NDfkJUr1ToWUbHkW3z5A6M2U\""
       },
       "request_query_parameters": {
       },
@@ -17,17 +17,21 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
+        "X-Download-Options": "noopen",
+        "X-Permitted-Cross-Domain-Policies": "none",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
         "Content-Type": "application/json; charset=utf-8",
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Headers": "*",
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
-        "X-Flash-Messages": "{}",
-        "Vary": "X-Requested-With, X-Flash-Messages",
-        "ETag": "W/\"cea9f6b3e2857dc55b92f5b0a06415b0\"",
-        "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "475a3f17-7bbc-4be8-ac42-83d81ddc9ed8",
-        "X-Runtime": "0.016268",
+        "Vary": "X-Requested-With, X-Workarea-Segments",
+        "Last-Modified": "Wed, 13 Nov 2019 15:07:01 GMT",
+        "Cache-Control": "no-cache, no-store, must-revalidate",
+        "X-Request-Id": "0298f93b-a84a-4370-b287-eab3ef8c7c3e",
+        "X-Runtime": "0.014102",
+        "X-Workarea-Segments": "",
+        "Expires": "0",
         "Content-Length": "544"
       },
       "request_method": "POST",
@@ -36,14 +40,14 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": \"E350A5038E\",\n  \"url\": \"http://www.example.com/api/storefront/orders/E350A5038E\",\n  \"user_id\": \"59b038c57ceffe612c118d56\",\n  \"email\": null,\n  \"placed_at\": null,\n  \"canceled_at\": null,\n  \"promo_codes\": [\n\n  ],\n  \"requires_shipping\": false,\n  \"items\": [\n\n  ],\n  \"pricing\": {\n    \"price_adjustments\": [\n\n    ],\n    \"shipping_total\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"tax_total\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"subtotal_price\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"total_price\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"paid_amount\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    }\n  },\n  \"shipping_service\": null,\n  \"tenders\": [\n\n  ]\n}",
+      "response_body": "{\n  \"id\": \"F113094F4F\",\n  \"url\": \"http://www.example.com/api/storefront/orders/F113094F4F\",\n  \"user_id\": \"5dcc1c1402182397a5ece1b2\",\n  \"email\": null,\n  \"placed_at\": null,\n  \"canceled_at\": null,\n  \"promo_codes\": [\n\n  ],\n  \"requires_shipping\": false,\n  \"items\": [\n\n  ],\n  \"pricing\": {\n    \"price_adjustments\": [\n\n    ],\n    \"shipping_total\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"tax_total\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"subtotal_price\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"total_price\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"paid_amount\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    }\n  },\n  \"shipping_service\": null,\n  \"tenders\": [\n\n  ]\n}",
       "response_content_type": "application/json",
-      "curl": "curl \"https://www.example.com/api/storefront/carts\" -d '' -X POST \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Authorization: Token token=\\\"KwAsGSdy2rnXWfHoUfVba1DC\\\"\""
+      "curl": "curl \"https://www.example.com/api/storefront/carts\" -d '' -X POST \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Authorization: Token token=\\\"NDfkJUr1ToWUbHkW3z5A6M2U\\\"\""
     }
   ],
   "resource": "Cart",
   "description": "Creating a new cart for a user",
   "route": "/api/storefront/carts",
-  "http_method": "POST",
-  "explanation": "            Here's how to create a cart for a user. This endpoint allows the\n            possibility of multiple carts for a user.\n"
+  "explanation": "<p>Here&#39;s how to create a cart for a user. This endpoint allows the<br>\npossibility of multiple carts for a user.</p>\n",
+  "http_method": "POST"
 }

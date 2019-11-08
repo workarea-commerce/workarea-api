@@ -15,19 +15,23 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "Date": "Wed, 06 Sep 2017 18:05:48 GMT",
+        "X-Download-Options": "noopen",
+        "X-Permitted-Cross-Domain-Policies": "none",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
+        "Date": "Wed, 13 Nov 2019 15:05:26 GMT",
         "Content-Type": "application/json; charset=utf-8",
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Headers": "*",
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
-        "X-Flash-Messages": "{}",
-        "Vary": "X-Requested-With, X-Flash-Messages",
-        "Cache-Control": "max-age=900, public",
-        "ETag": "W/\"4eefda4602efa9ace0a3724b9f2deaac\"",
-        "X-Request-Id": "a68c61f7-a54b-4c1d-bd18-2ff1c1593908",
-        "X-Runtime": "0.041950",
-        "Content-Length": "1906"
+        "Vary": "X-Requested-With, X-Workarea-Segments",
+        "Last-Modified": "Wed, 13 Nov 2019 15:05:26 GMT",
+        "Cache-Control": "no-cache, no-store, must-revalidate",
+        "X-Request-Id": "0feb196d-f858-4b09-a83d-1287c44b533e",
+        "X-Runtime": "0.031961",
+        "X-Workarea-Segments": "",
+        "Expires": "0",
+        "Content-Length": "1981"
       },
       "request_method": "GET",
       "request_path": "/api/storefront/system_content/layout",
@@ -35,7 +39,7 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": \"59b038fc7ceffe612c119259\",\n  \"name\": \"Layout\",\n  \"url\": \"http://www.example.com/api/storefront/system_content/Layout\",\n  \"browser_title\": \"Layout\",\n  \"meta_description\": null,\n  \"content_blocks\": [\n    {\n      \"id\": \"59b038fc7ceffe612c11925a\",\n      \"type\": \"text\",\n      \"area\": \"header_promo\",\n      \"data\": {\n        \"text\": \"Don't miss our sizzling summer deals!\"\n      },\n      \"hidden_breakpoints\": [\n\n      ],\n      \"position\": 0,\n      \"html\": \"<div class=\\\"content-block\\\" id=\\\"content_block_59b038fc7ceffe612c11925a\\\" data-analytics=\\\"{&quot;event&quot;:&quot;contentBlockDisplay&quot;,&quot;payload&quot;:{&quot;id&quot;:&quot;59b038fc7ceffe612c11925a&quot;,&quot;type&quot;:&quot;text&quot;,&quot;position&quot;:0,&quot;data&quot;:{&quot;text&quot;:&quot;Don&#39;t miss our sizzling summer deals!&quot;}}}\\\" data-hidden-block-css-content=\\\"Block hidden at this breakpoint\\\"><div class='text-content-block'>Don't miss our sizzling summer deals!</div>\\n</div>\\n\"\n    },\n    {\n      \"id\": \"59b038fc7ceffe612c11925b\",\n      \"type\": \"text\",\n      \"area\": \"footer_navigation\",\n      \"data\": {\n        \"text\": \"Be the first to received our exclusive discounts\"\n      },\n      \"hidden_breakpoints\": [\n\n      ],\n      \"position\": 0,\n      \"html\": \"<div class=\\\"content-block\\\" id=\\\"content_block_59b038fc7ceffe612c11925b\\\" data-analytics=\\\"{&quot;event&quot;:&quot;contentBlockDisplay&quot;,&quot;payload&quot;:{&quot;id&quot;:&quot;59b038fc7ceffe612c11925b&quot;,&quot;type&quot;:&quot;text&quot;,&quot;position&quot;:0,&quot;data&quot;:{&quot;text&quot;:&quot;Be the first to received our exclusive discounts&quot;}}}\\\" data-hidden-block-css-content=\\\"Block hidden at this breakpoint\\\"><div class='text-content-block'>Be the first to received our exclusive discounts</div>\\n</div>\\n\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"id\": \"5dcc1bb602182397a5ecda71\",\n  \"name\": \"Layout\",\n  \"url\": \"http://www.example.com/api/storefront/system_content/Layout\",\n  \"browser_title\": \"Layout\",\n  \"meta_description\": \"Shop online for Workarea API products\",\n  \"content_blocks\": [\n    {\n      \"id\": \"5dcc1bb602182397a5ecda72\",\n      \"type\": \"text\",\n      \"area\": \"header_promo\",\n      \"data\": {\n        \"text\": \"Don't miss our sizzling summer deals!\"\n      },\n      \"hidden_breakpoints\": [\n\n      ],\n      \"position\": 0,\n      \"html\": \"<div class=\\\"content-block content-block--text\\\" id=\\\"content_block_5dcc1bb602182397a5ecda72\\\" data-analytics=\\\"{&quot;event&quot;:&quot;contentBlockDisplay&quot;,&quot;payload&quot;:{&quot;id&quot;:&quot;5dcc1bb602182397a5ecda72&quot;,&quot;type&quot;:&quot;text&quot;,&quot;position&quot;:0,&quot;data&quot;:{&quot;text&quot;:&quot;Don&#39;t miss our sizzling summer deals!&quot;}}}\\\" data-hidden-block-css-content=\\\"Block hidden at this breakpoint\\\"><div class='text-content-block'>Don't miss our sizzling summer deals!</div>\\n</div>\\n\"\n    },\n    {\n      \"id\": \"5dcc1bb602182397a5ecda73\",\n      \"type\": \"text\",\n      \"area\": \"footer_navigation\",\n      \"data\": {\n        \"text\": \"Be the first to received our exclusive discounts\"\n      },\n      \"hidden_breakpoints\": [\n\n      ],\n      \"position\": 0,\n      \"html\": \"<div class=\\\"content-block content-block--text\\\" id=\\\"content_block_5dcc1bb602182397a5ecda73\\\" data-analytics=\\\"{&quot;event&quot;:&quot;contentBlockDisplay&quot;,&quot;payload&quot;:{&quot;id&quot;:&quot;5dcc1bb602182397a5ecda73&quot;,&quot;type&quot;:&quot;text&quot;,&quot;position&quot;:0,&quot;data&quot;:{&quot;text&quot;:&quot;Be the first to received our exclusive discounts&quot;}}}\\\" data-hidden-block-css-content=\\\"Block hidden at this breakpoint\\\"><div class='text-content-block'>Be the first to received our exclusive discounts</div>\\n</div>\\n\"\n    }\n  ]\n}",
       "response_content_type": "application/json",
       "curl": "curl -g \"https://www.example.com/api/storefront/system_content/layout\" -X GET "
     }
@@ -43,6 +47,6 @@
   "resource": "System Content",
   "description": "Showing system content",
   "route": "/api/storefront/system_content/:name",
-  "http_method": "GET",
-  "explanation": "            System content is content for an area of site not configured by the\n            CMS. Examples would be content for the cart page, content for\n            checkout, site layout content, etc. The home page is also an example\n            of system content and shown in a separate example.\n"
+  "explanation": "<p>System content is content for an area of site not configured by the<br>\nCMS. Examples would be content for the cart page, content for<br>\ncheckout, site layout content, etc. The home page is also an example<br>\nof system content and shown in a separate example.</p>\n",
+  "http_method": "GET"
 }

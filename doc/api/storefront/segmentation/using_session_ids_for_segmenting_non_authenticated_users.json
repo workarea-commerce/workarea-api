@@ -1,0 +1,93 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+      },
+      "request_query_parameters": {
+        "session_id": "session_1"
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "X-Download-Options": "noopen",
+        "X-Permitted-Cross-Domain-Policies": "none",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
+        "Date": "Wed, 13 Nov 2019 15:08:11 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers": "*",
+        "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
+        "X-Workarea-Segmented-Content": "true",
+        "X-Requested-With": "",
+        "Vary": "X-Requested-With, X-Workarea-Segments",
+        "Last-Modified": "Wed, 13 Nov 2019 15:08:11 GMT",
+        "Cache-Control": "no-cache, no-store, must-revalidate",
+        "X-Request-Id": "6d7445c5-2a34-45ff-bf2e-70364d43e627",
+        "X-Runtime": "0.047169",
+        "X-Workarea-Segments": "first_time_customer",
+        "Expires": "0",
+        "Content-Length": "1038"
+      },
+      "request_method": "GET",
+      "request_path": "/api/storefront/system_content/home_page?session_id=session_1",
+      "request_body": null,
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"id\": \"5dcc1c5b02182397a5ece7a5\",\n  \"name\": \"Home Page\",\n  \"url\": \"http://www.example.com/api/storefront/system_content/Home%20Page\",\n  \"browser_title\": \"Home Page\",\n  \"meta_description\": \"Shop online for Workarea API products\",\n  \"content_blocks\": [\n    {\n      \"id\": \"5dcc1c5b02182397a5ece7a6\",\n      \"type\": \"text\",\n      \"area\": \"default\",\n      \"data\": {\n        \"text\": \"Thanks for your order!\"\n      },\n      \"hidden_breakpoints\": [\n\n      ],\n      \"position\": 0,\n      \"html\": \"<div class=\\\"content-block content-block--text\\\" id=\\\"content_block_5dcc1c5b02182397a5ece7a6\\\" data-analytics=\\\"{&quot;event&quot;:&quot;contentBlockDisplay&quot;,&quot;payload&quot;:{&quot;id&quot;:&quot;5dcc1c5b02182397a5ece7a6&quot;,&quot;type&quot;:&quot;text&quot;,&quot;position&quot;:0,&quot;data&quot;:{&quot;text&quot;:&quot;Thanks for your order!&quot;}}}\\\" data-hidden-block-css-content=\\\"Block hidden at this breakpoint\\\"><div class='text-content-block'>Thanks for your order!</div>\\n</div>\\n\"\n    }\n  ]\n}",
+      "response_content_type": "application/json",
+      "curl": "curl -g \"https://www.example.com/api/storefront/system_content/home_page?session_id=session_1\" -X GET "
+    },
+    {
+      "request_headers": {
+      },
+      "request_query_parameters": {
+        "session_id": "session_2"
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "X-Download-Options": "noopen",
+        "X-Permitted-Cross-Domain-Policies": "none",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
+        "Date": "Wed, 13 Nov 2019 15:08:11 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers": "*",
+        "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
+        "X-Workarea-Segmented-Content": "true",
+        "X-Requested-With": "",
+        "Vary": "X-Requested-With, X-Workarea-Segments",
+        "Last-Modified": "Wed, 13 Nov 2019 15:08:11 GMT",
+        "Cache-Control": "no-cache, no-store, must-revalidate",
+        "X-Request-Id": "bb2e3d26-1fa8-4dd0-b3fc-71e3fb3909a0",
+        "X-Runtime": "0.007988",
+        "X-Workarea-Segments": "returning_customer",
+        "Expires": "0",
+        "Content-Length": "1059"
+      },
+      "request_method": "GET",
+      "request_path": "/api/storefront/system_content/home_page?session_id=session_2",
+      "request_body": null,
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"id\": \"5dcc1c5b02182397a5ece7a5\",\n  \"name\": \"Home Page\",\n  \"url\": \"http://www.example.com/api/storefront/system_content/Home%20Page\",\n  \"browser_title\": \"Home Page\",\n  \"meta_description\": \"Shop online for Workarea API products\",\n  \"content_blocks\": [\n    {\n      \"id\": \"5dcc1c5b02182397a5ece7a7\",\n      \"type\": \"text\",\n      \"area\": \"default\",\n      \"data\": {\n        \"text\": \"Welcome back repeat customer!\"\n      },\n      \"hidden_breakpoints\": [\n\n      ],\n      \"position\": 1,\n      \"html\": \"<div class=\\\"content-block content-block--text\\\" id=\\\"content_block_5dcc1c5b02182397a5ece7a7\\\" data-analytics=\\\"{&quot;event&quot;:&quot;contentBlockDisplay&quot;,&quot;payload&quot;:{&quot;id&quot;:&quot;5dcc1c5b02182397a5ece7a7&quot;,&quot;type&quot;:&quot;text&quot;,&quot;position&quot;:1,&quot;data&quot;:{&quot;text&quot;:&quot;Welcome back repeat customer!&quot;}}}\\\" data-hidden-block-css-content=\\\"Block hidden at this breakpoint\\\"><div class='text-content-block'>Welcome back repeat customer!</div>\\n</div>\\n\"\n    }\n  ]\n}",
+      "response_content_type": "application/json",
+      "curl": "curl -g \"https://www.example.com/api/storefront/system_content/home_page?session_id=session_2\" -X GET "
+    }
+  ],
+  "resource": "Segmentation",
+  "description": "Using session IDs for segmenting non-authenticated users",
+  "route": "/api/storefront/system_content/home_page",
+  "explanation": "<p>Workarea supports segmenting users by number of orders, revenue, etc.<br>\nFor this functionality to work for users without accounts, you&#39;ll<br>\nneed to maintain and pass a <code>session_id</code> consistently throughout calls<br>\nto the API.</p>\n\n<p>An instance of <code>Metrics::User</code> will be found or created for that<br>\n<code>session_id</code>, and data about the user will be tracked there.</p>\n\n<p>Assuming use of the <code>session_id</code> consistently through checkout, this<br>\nexample shows getting home page content for two different anonymous<br>\nusers and getting segmented content back.</p>\n",
+  "http_method": "GET"
+}
