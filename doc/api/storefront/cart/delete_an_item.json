@@ -9,7 +9,7 @@
     {
       "request_headers": {
         "Content-Type": "application/x-www-form-urlencoded",
-        "Authorization": "Token token=\"o8uGfPigDvpdpaAHwdm1xn8K\""
+        "Authorization": "Token token=\"PJ5bKBkH8nX94up2DTV2DGLX\""
       },
       "request_query_parameters": {
       },
@@ -17,33 +17,37 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
+        "X-Download-Options": "noopen",
+        "X-Permitted-Cross-Domain-Policies": "none",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
         "Content-Type": "application/json; charset=utf-8",
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Headers": "*",
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
-        "X-Flash-Messages": "{}",
-        "Vary": "X-Requested-With, X-Flash-Messages",
-        "ETag": "W/\"068b4935130d0774bab7fba6e330c314\"",
-        "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "be675064-a7d7-4fa0-ab8d-77b3f372f32e",
-        "X-Runtime": "0.026465",
+        "Vary": "X-Requested-With, X-Workarea-Segments",
+        "Last-Modified": "Wed, 13 Nov 2019 15:08:08 GMT",
+        "Cache-Control": "no-cache, no-store, must-revalidate",
+        "X-Request-Id": "a82b7c43-5d45-4c24-b27e-141d8f851cbc",
+        "X-Runtime": "0.036596",
+        "X-Workarea-Segments": "",
+        "Expires": "0",
         "Content-Length": "572"
       },
       "request_method": "DELETE",
-      "request_path": "/api/storefront/carts/BB7A8E2012/items/59b039197ceffe612c11948a",
+      "request_path": "/api/storefront/carts/26E8A04761/items/5dcc1c5802182397a5ece771",
       "request_body": null,
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"order\": {\n    \"id\": \"BB7A8E2012\",\n    \"url\": \"http://www.example.com/api/storefront/orders/BB7A8E2012\",\n    \"user_id\": \"59b039197ceffe612c119483\",\n    \"email\": \"bcrouse@workarea.com\",\n    \"placed_at\": null,\n    \"canceled_at\": null,\n    \"promo_codes\": [\n\n    ],\n    \"requires_shipping\": false,\n    \"items\": [\n\n    ],\n    \"pricing\": {\n      \"price_adjustments\": [\n\n      ],\n      \"shipping_total\": {\n        \"cents\": 0.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"tax_total\": {\n        \"cents\": 0.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"subtotal_price\": {\n        \"cents\": 0.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"total_price\": {\n        \"cents\": 0.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"paid_amount\": {\n        \"cents\": 0.0,\n        \"currency_iso\": \"USD\"\n      }\n    },\n    \"shipping_service\": null,\n    \"tenders\": [\n\n    ]\n  }\n}",
+      "response_body": "{\n  \"order\": {\n    \"id\": \"26E8A04761\",\n    \"url\": \"http://www.example.com/api/storefront/orders/26E8A04761\",\n    \"user_id\": \"5dcc1c5702182397a5ece75b\",\n    \"email\": \"bcrouse@workarea.com\",\n    \"placed_at\": null,\n    \"canceled_at\": null,\n    \"promo_codes\": [\n\n    ],\n    \"requires_shipping\": false,\n    \"items\": [\n\n    ],\n    \"pricing\": {\n      \"price_adjustments\": [\n\n      ],\n      \"shipping_total\": {\n        \"cents\": 0.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"tax_total\": {\n        \"cents\": 0.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"subtotal_price\": {\n        \"cents\": 0.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"total_price\": {\n        \"cents\": 0.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"paid_amount\": {\n        \"cents\": 0.0,\n        \"currency_iso\": \"USD\"\n      }\n    },\n    \"shipping_service\": null,\n    \"tenders\": [\n\n    ]\n  }\n}",
       "response_content_type": "application/json",
-      "curl": "curl \"https://www.example.com/api/storefront/carts/BB7A8E2012/items/59b039197ceffe612c11948a\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Authorization: Token token=\\\"o8uGfPigDvpdpaAHwdm1xn8K\\\"\""
+      "curl": "curl \"https://www.example.com/api/storefront/carts/26E8A04761/items/5dcc1c5802182397a5ece771\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Authorization: Token token=\\\"PJ5bKBkH8nX94up2DTV2DGLX\\\"\""
     }
   ],
   "resource": "Cart",
   "description": "Delete an item",
   "route": "/api/storefront/carts/:cart_id/items/:id",
-  "http_method": "DELETE",
-  "explanation": "            Removes an item in the cart. Use the create a cart endpoint to get a\n            cart ID to use with this endpoint, and use the adding an item\n            endpoint to get an ID for an item.\n"
+  "explanation": "<p>Removes an item in the cart. Use the create a cart endpoint to get a<br>\ncart ID to use with this endpoint, and use the adding an item<br>\nendpoint to get an ID for an item.</p>\n",
+  "http_method": "DELETE"
 }

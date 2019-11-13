@@ -9,7 +9,7 @@
     {
       "request_headers": {
         "Content-Type": "application/x-www-form-urlencoded",
-        "Authorization": "Token token=\"vKRhUo5E2k5uBV34PVFrTkVU\""
+        "Authorization": "Token token=\"Rhuw7U5Zb86rAwqzZB51W4rb\""
       },
       "request_query_parameters": {
       },
@@ -17,25 +17,30 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
+        "X-Download-Options": "noopen",
+        "X-Permitted-Cross-Domain-Policies": "none",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Headers": "*",
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
-        "X-Flash-Messages": "{}",
-        "Vary": "X-Requested-With, X-Flash-Messages",
-        "Cache-Control": "no-cache",
-        "X-Request-Id": "17ce9626-ea4a-4dd3-87e5-454aa74f7ed5",
-        "X-Runtime": "0.006128"
+        "Vary": "X-Requested-With, X-Workarea-Segments",
+        "Last-Modified": "Wed, 13 Nov 2019 15:08:54 GMT",
+        "Cache-Control": "no-cache, no-store, must-revalidate",
+        "X-Request-Id": "fa671362-f193-4d69-96b5-6df2e2889057",
+        "X-Runtime": "0.007963",
+        "X-Workarea-Segments": "",
+        "Expires": "0"
       },
       "request_method": "DELETE",
-      "request_path": "/api/storefront/saved_credit_cards/59b038507ceffe612c118152",
+      "request_path": "/api/storefront/saved_credit_cards/5dcc1c8602182397a5ecea89",
       "request_body": null,
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/storefront/saved_credit_cards/59b038507ceffe612c118152\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Authorization: Token token=\\\"vKRhUo5E2k5uBV34PVFrTkVU\\\"\""
+      "curl": "curl \"https://www.example.com/api/storefront/saved_credit_cards/5dcc1c8602182397a5ecea89\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Authorization: Token token=\\\"Rhuw7U5Zb86rAwqzZB51W4rb\\\"\""
     }
   ],
   "resource": "Saved Credit Cards",

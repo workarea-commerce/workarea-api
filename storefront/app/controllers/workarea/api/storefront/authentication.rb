@@ -10,19 +10,16 @@ module Workarea
           helper_method :current_user
         end
 
+        def self.find_user(token, options)
+          User::AuthenticationToken.authenticate(token, options).try(:user)
+        end
+
         def current_user
-          return @current_user if defined?(@current_user)
-
-          user = authenticate_with_http_token do |token, options|
-            User::AuthenticationToken.authenticate(token, options).try(:user)
-          end
-
-          @current_user = user || raise(InvalidError)
+          current_visit.current_user || raise(InvalidError)
         end
 
         def authentication?
-          regex = ActionController::HttpAuthentication::Token::TOKEN_REGEX
-          request.authorization.to_s[regex].present?
+          current_visit.logged_in?
         end
       end
     end

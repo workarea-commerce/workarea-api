@@ -9,7 +9,7 @@
     {
       "request_headers": {
         "Content-Type": "application/x-www-form-urlencoded",
-        "Authorization": "Token token=\"Lb4Z1FZRoqCh67PQ4s6uXLT1\""
+        "Authorization": "Token token=\"WTS2cWDTwBjEYG8gUVYR3chV\""
       },
       "request_query_parameters": {
       },
@@ -17,17 +17,21 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
+        "X-Download-Options": "noopen",
+        "X-Permitted-Cross-Domain-Policies": "none",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
         "Content-Type": "application/json; charset=utf-8",
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Headers": "*",
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
-        "X-Flash-Messages": "{}",
-        "Vary": "X-Requested-With, X-Flash-Messages",
-        "ETag": "W/\"a851ebc92f8178036073982772a5f28b\"",
-        "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "d2dcaa5d-9138-4ea2-8f60-37b9fdf223ee",
-        "X-Runtime": "0.013538",
+        "Vary": "X-Requested-With, X-Workarea-Segments",
+        "Last-Modified": "Wed, 13 Nov 2019 15:08:56 GMT",
+        "Cache-Control": "no-cache, no-store, must-revalidate",
+        "X-Request-Id": "8afd2b05-2bd4-4520-8a15-62702864f7fb",
+        "X-Runtime": "0.007786",
+        "X-Workarea-Segments": "",
+        "Expires": "0",
         "Content-Length": "76"
       },
       "request_method": "PATCH",
@@ -36,14 +40,14 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"token\": \"Lb4Z1FZRoqCh67PQ4s6uXLT1\",\n  \"expires_at\": \"2017-09-13T18:05:39.795Z\"\n}",
+      "response_body": "{\n  \"token\": \"WTS2cWDTwBjEYG8gUVYR3chV\",\n  \"expires_at\": \"2019-11-20T15:08:56.443Z\"\n}",
       "response_content_type": "application/json",
-      "curl": "curl \"https://www.example.com/api/storefront/authentication_tokens\" -d '' -X PATCH \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Authorization: Token token=\\\"Lb4Z1FZRoqCh67PQ4s6uXLT1\\\"\""
+      "curl": "curl \"https://www.example.com/api/storefront/authentication_tokens\" -d '' -X PATCH \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Authorization: Token token=\\\"WTS2cWDTwBjEYG8gUVYR3chV\\\"\""
     }
   ],
   "resource": "Authentication",
   "description": "Refreshing an authentication token",
   "route": "/api/storefront/authentication_tokens",
-  "http_method": "PATCH",
-  "explanation": "            Refreshing an authentication token extends its expiration so that it\n            can continue to be used.\n"
+  "explanation": "<p>Refreshing an authentication token extends its expiration so that it<br>\ncan continue to be used.</p>\n",
+  "http_method": "PATCH"
 }

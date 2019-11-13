@@ -19,7 +19,9 @@ module Workarea
 
         def test_showing_recent_views_with_authentication
           user = create_user(first_name: 'Ben', last_name: 'Crouse')
-          set_current_user(user)
+          post storefront_api.authentication_tokens_path,
+            params: { email: user.email, password: user.password }
+          token = JSON.parse(response.body)['token']
 
           Metrics::User.save_affinity(
             id: user.email,
@@ -30,7 +32,8 @@ module Workarea
             search_ids: %w(foo)
           )
 
-          get storefront_api.recent_views_path
+          get storefront_api.recent_views_path,
+            headers: { 'HTTP_AUTHORIZATION' => encode_credentials(token) }
 
           assert(response.ok?)
           result = JSON.parse(response.body)
@@ -42,9 +45,12 @@ module Workarea
 
         def test_adding_recent_views_for_authentication
           user = create_user(first_name: 'Ben', last_name: 'Crouse')
-          set_current_user(user)
+          post storefront_api.authentication_tokens_path,
+            params: { email: user.email, password: user.password }
+          token = JSON.parse(response.body)['token']
 
           patch storefront_api.recent_views_path,
+            headers: { 'HTTP_AUTHORIZATION' => encode_credentials(token) },
             params: {
               product_id: @product.id,
               category_id: @category.id,

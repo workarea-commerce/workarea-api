@@ -96,7 +96,6 @@ module Workarea
           if authentication?
             current_order.touch_checkout!(
               ip_address: request.remote_ip,
-              user_activity_id: current_user.id,
               checkout_by_id: current_user.id,
               source: 'storefront_api'
             )

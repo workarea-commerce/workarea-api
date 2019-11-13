@@ -16,10 +16,15 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
+        "X-Download-Options": "noopen",
+        "X-Permitted-Cross-Domain-Policies": "none",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
         "Content-Type": "application/json; charset=utf-8",
-        "Cache-Control": "no-cache",
-        "X-Request-Id": "4984596a-ddec-4f08-b2ec-d4a67b32d81e",
-        "X-Runtime": "0.006053",
+        "Cache-Control": "no-cache, no-store, must-revalidate",
+        "X-Request-Id": "606f3e3e-c3cd-4e42-b485-0d1c18bc2b57",
+        "X-Runtime": "0.007941",
+        "X-Workarea-Segments": "",
+        "Expires": "0",
         "Content-Length": "59"
       },
       "request_method": "POST",
@@ -36,6 +41,6 @@
   "resource": "Validation Errors",
   "description": "General validation errors",
   "route": "/api/storefront/account",
-  "http_method": "POST",
-  "explanation": "            This demonstrates API responses when invalid data is submitted.\n"
+  "explanation": "<p>This demonstrates API responses when invalid data is submitted.</p>\n",
+  "http_method": "POST"
 }

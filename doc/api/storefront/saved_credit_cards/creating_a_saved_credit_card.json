@@ -9,7 +9,7 @@
     {
       "request_headers": {
         "Content-Type": "application/json",
-        "Authorization": "Token token=\"9qZFSyofNezANBwUF5Vi35z9\""
+        "Authorization": "Token token=\"oy5VvnHYDwRANBfaZv2ELR4d\""
       },
       "request_query_parameters": {
       },
@@ -17,28 +17,32 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
+        "X-Download-Options": "noopen",
+        "X-Permitted-Cross-Domain-Policies": "none",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
         "Content-Type": "application/json; charset=utf-8",
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Headers": "*",
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
-        "X-Flash-Messages": "{}",
-        "Vary": "X-Requested-With, X-Flash-Messages",
-        "ETag": "W/\"867315b61b7d99405035925d15a696f6\"",
-        "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "07e1f1d8-f772-4f83-9829-b3353362d4fe",
-        "X-Runtime": "0.015118",
+        "Vary": "X-Requested-With, X-Workarea-Segments",
+        "Last-Modified": "Wed, 13 Nov 2019 15:08:52 GMT",
+        "Cache-Control": "no-cache, no-store, must-revalidate",
+        "X-Request-Id": "0227c95f-0f53-4b17-bc52-cb73a7e5f746",
+        "X-Runtime": "0.010623",
+        "X-Workarea-Segments": "",
+        "Expires": "0",
         "Content-Length": "294"
       },
       "request_method": "POST",
       "request_path": "/api/storefront/saved_credit_cards",
-      "request_body": "{\"number\":\"4111111111111111\",\"first_name\":\"Susan\",\"last_name\":\"Baker\",\"month\":\"7\",\"year\":\"2022\",\"cvv\":\"123\"}",
+      "request_body": "{\"number\":\"4111111111111111\",\"first_name\":\"Susan\",\"last_name\":\"Baker\",\"month\":\"7\",\"year\":\"2024\",\"cvv\":\"123\"}",
       "request_content_type": "application/json",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"user_id\": \"59b038507ceffe612c118147\",\n  \"id\": \"59b038507ceffe612c11814c\",\n  \"url\": \"http://www.example.com/api/storefront/saved_credit_cards/59b038507ceffe612c11814c\",\n  \"default\": false,\n  \"issuer\": \"Visa\",\n  \"display_number\": \"XXXX-XXXX-XXXX-1111\",\n  \"month\": 7,\n  \"year\": 2022,\n  \"first_name\": \"Susan\",\n  \"last_name\": \"Baker\"\n}",
+      "response_body": "{\n  \"user_id\": \"5dcc1c8402182397a5ecea6d\",\n  \"id\": \"5dcc1c8402182397a5ecea73\",\n  \"url\": \"http://www.example.com/api/storefront/saved_credit_cards/5dcc1c8402182397a5ecea73\",\n  \"default\": false,\n  \"issuer\": \"Visa\",\n  \"display_number\": \"XXXX-XXXX-XXXX-1111\",\n  \"month\": 7,\n  \"year\": 2024,\n  \"first_name\": \"Susan\",\n  \"last_name\": \"Baker\"\n}",
       "response_content_type": "application/json",
-      "curl": "curl \"https://www.example.com/api/storefront/saved_credit_cards\" -d '{\"number\":\"4111111111111111\",\"first_name\":\"Susan\",\"last_name\":\"Baker\",\"month\":\"7\",\"year\":\"2022\",\"cvv\":\"123\"}' -X POST \\\n\t-H \"Content-Type: application/json\" \\\n\t-H \"Authorization: Token token=\\\"9qZFSyofNezANBwUF5Vi35z9\\\"\""
+      "curl": "curl \"https://www.example.com/api/storefront/saved_credit_cards\" -d '{\"number\":\"4111111111111111\",\"first_name\":\"Susan\",\"last_name\":\"Baker\",\"month\":\"7\",\"year\":\"2024\",\"cvv\":\"123\"}' -X POST \\\n\t-H \"Content-Type: application/json\" \\\n\t-H \"Authorization: Token token=\\\"oy5VvnHYDwRANBfaZv2ELR4d\\\"\""
     }
   ],
   "resource": "Saved Credit Cards",

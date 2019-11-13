@@ -13,26 +13,40 @@
       "request_query_parameters": {
       },
       "response_headers": {
-        "Content-Type": "text/html; charset=utf-8",
-        "Cache-Control": "no-cache",
-        "X-Request-Id": "552632da-7f4c-48fe-8d70-13a12aa808ae",
-        "X-Runtime": "0.007696",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "X-Download-Options": "noopen",
+        "X-Permitted-Cross-Domain-Policies": "none",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
+        "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers": "*",
+        "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
+        "X-Requested-With": "",
+        "Vary": "X-Requested-With, X-Workarea-Segments",
+        "Last-Modified": "Wed, 13 Nov 2019 15:05:55 GMT",
+        "Cache-Control": "no-cache, no-store, must-revalidate",
+        "X-Request-Id": "eeee7198-b803-4dea-aa68-38c9eaaaa371",
+        "X-Runtime": "0.007302",
+        "X-Workarea-Segments": "",
+        "Expires": "0",
         "Content-Length": "0"
       },
       "request_method": "POST",
       "request_path": "/api/storefront/analytics/search",
-      "request_body": "{\"q\":\"foo\",\"total_results\":5,\"filters\":{\"color\":\"Red\"}}",
+      "request_body": "{\"q\":\"foo\",\"total_results\":5}",
       "request_content_type": "application/json",
       "response_status": 200,
       "response_status_text": "OK",
       "response_body": null,
-      "response_content_type": "text/html",
-      "curl": "curl \"https://www.example.com/api/storefront/analytics/search\" -d '{\"q\":\"foo\",\"total_results\":5,\"filters\":{\"color\":\"Red\"}}' -X POST \\\n\t-H \"Content-Type: application/json\""
+      "response_content_type": "application/json",
+      "curl": "curl \"https://www.example.com/api/storefront/analytics/search\" -d '{\"q\":\"foo\",\"total_results\":5}' -X POST \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Analytics",
   "description": "Saving a search",
   "route": "/api/storefront/analytics/search",
-  "http_method": "POST",
-  "explanation": "            Saving a search will be reflected in admin reports. This is intended\n            to be called once per search performed by a customer.\n"
+  "explanation": "<p>Saving a search will be reflected in admin reports. This is intended<br>\nto be called once per search performed by a customer.</p>\n",
+  "http_method": "POST"
 }

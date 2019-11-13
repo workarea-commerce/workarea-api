@@ -8,7 +8,7 @@
   "requests": [
     {
       "request_headers": {
-        "Authorization": "Token token=\"EAB7zQ8WcgqfWtLQuPJZzC5o\""
+        "Authorization": "Token token=\"3UsxaazcSXD4KUBTBiejG1wM\""
       },
       "request_query_parameters": {
       },
@@ -16,33 +16,37 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
+        "X-Download-Options": "noopen",
+        "X-Permitted-Cross-Domain-Policies": "none",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
         "Content-Type": "application/json; charset=utf-8",
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Headers": "*",
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
-        "X-Flash-Messages": "{}",
-        "Vary": "X-Requested-With, X-Flash-Messages",
-        "ETag": "W/\"0f633a8a5e404d4da16b316fc7a9f1ab\"",
-        "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "5b66a551-3869-4cf4-b060-9157f93b87be",
-        "X-Runtime": "0.045406",
-        "Content-Length": "2024"
+        "Vary": "X-Requested-With, X-Workarea-Segments",
+        "Last-Modified": "Wed, 13 Nov 2019 15:07:02 GMT",
+        "Cache-Control": "no-cache, no-store, must-revalidate",
+        "X-Request-Id": "78c8e2c4-85b4-4cd6-807a-6af9990dea3f",
+        "X-Runtime": "0.061995",
+        "X-Workarea-Segments": "",
+        "Expires": "0",
+        "Content-Length": "2236"
       },
       "request_method": "GET",
-      "request_path": "/api/storefront/carts/B7469009C8",
+      "request_path": "/api/storefront/carts/E89869B8D4",
       "request_body": null,
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": \"B7469009C8\",\n  \"url\": \"http://www.example.com/api/storefront/orders/B7469009C8\",\n  \"user_id\": \"59b038c47ceffe612c118d27\",\n  \"email\": \"bcrouse@workarea.com\",\n  \"placed_at\": null,\n  \"canceled_at\": null,\n  \"promo_codes\": [\n\n  ],\n  \"requires_shipping\": true,\n  \"items\": [\n    {\n      \"id\": \"59b038c47ceffe612c118d2e\",\n      \"product_id\": \"VINTEE\",\n      \"sku\": \"VT001\",\n      \"quantity\": 2,\n      \"product_url\": \"http://www.example.com/api/storefront/products/vintage-tee?sku=VT001\",\n      \"options\": {\n      },\n      \"customizations\": {\n      },\n      \"product_image\": {\n        \"urls\": [\n          {\n            \"type\": \"small\",\n            \"url\": \"http://www.example.com/product_images/placeholder/small.jpg?c=1504720924\"\n          },\n          {\n            \"type\": \"medium\",\n            \"url\": \"http://www.example.com/product_images/placeholder/medium.jpg?c=1504720924\"\n          },\n          {\n            \"type\": \"small_thumb\",\n            \"url\": \"http://www.example.com/product_images/placeholder/small_thumb.jpg?c=1504720924\"\n          },\n          {\n            \"type\": \"medium_thumb\",\n            \"url\": \"http://www.example.com/product_images/placeholder/medium_thumb.jpg?c=1504720924\"\n          },\n          {\n            \"type\": \"large_thumb\",\n            \"url\": \"http://www.example.com/product_images/placeholder/large_thumb.jpg?c=1504720924\"\n          },\n          {\n            \"type\": \"detail\",\n            \"url\": \"http://www.example.com/product_images/placeholder/detail.jpg?c=1504720924\"\n          },\n          {\n            \"type\": \"zoom\",\n            \"url\": \"http://www.example.com/product_images/placeholder/zoom.jpg?c=1504720924\"\n          },\n          {\n            \"type\": \"super_zoom\",\n            \"url\": \"http://www.example.com/product_images/placeholder/super_zoom.jpg?c=1504720924\"\n          }\n        ]\n      },\n      \"pricing\": {\n        \"price_adjustments\": [\n          {\n            \"description\": \"Item Subtotal\",\n            \"discount\": false,\n            \"amount\": {\n              \"cents\": 1000.0,\n              \"currency_iso\": \"USD\"\n            }\n          }\n        ],\n        \"total_price\": {\n          \"cents\": 1000.0,\n          \"currency_iso\": \"USD\"\n        },\n        \"on_sale\": false,\n        \"original_unit_price\": {\n          \"cents\": 500.0,\n          \"currency_iso\": \"USD\"\n        },\n        \"original_price\": {\n          \"cents\": 500.0,\n          \"currency_iso\": \"USD\"\n        },\n        \"customized\": false,\n        \"customizations_unit_price\": {\n          \"cents\": 0.0,\n          \"currency_iso\": \"USD\"\n        }\n      }\n    }\n  ],\n  \"pricing\": {\n    \"price_adjustments\": [\n\n    ],\n    \"shipping_total\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"tax_total\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"subtotal_price\": {\n      \"cents\": 1000.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"total_price\": {\n      \"cents\": 1000.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"paid_amount\": {\n      \"cents\": 1000.0,\n      \"currency_iso\": \"USD\"\n    }\n  },\n  \"shipping_service\": null,\n  \"tenders\": [\n\n  ]\n}",
+      "response_body": "{\n  \"id\": \"E89869B8D4\",\n  \"url\": \"http://www.example.com/api/storefront/orders/E89869B8D4\",\n  \"user_id\": \"5dcc1c1602182397a5ece1cf\",\n  \"email\": \"bcrouse@workarea.com\",\n  \"placed_at\": null,\n  \"canceled_at\": null,\n  \"promo_codes\": [\n\n  ],\n  \"requires_shipping\": true,\n  \"items\": [\n    {\n      \"id\": \"5dcc1c1602182397a5ece1e5\",\n      \"product_id\": \"VINTEE\",\n      \"sku\": \"VT001\",\n      \"quantity\": 2,\n      \"product_url\": \"http://www.example.com/api/storefront/products/vintage-tee?sku=VT001\",\n      \"options\": {\n      },\n      \"customizations\": {\n      },\n      \"product_image\": {\n        \"urls\": [\n          {\n            \"type\": \"small\",\n            \"url\": \"http://www.example.com/product_images/placeholder/small.jpg?c=1573657523\"\n          },\n          {\n            \"type\": \"medium\",\n            \"url\": \"http://www.example.com/product_images/placeholder/medium.jpg?c=1573657523\"\n          },\n          {\n            \"type\": \"small_thumb\",\n            \"url\": \"http://www.example.com/product_images/placeholder/small_thumb.jpg?c=1573657523\"\n          },\n          {\n            \"type\": \"medium_thumb\",\n            \"url\": \"http://www.example.com/product_images/placeholder/medium_thumb.jpg?c=1573657523\"\n          },\n          {\n            \"type\": \"large_thumb\",\n            \"url\": \"http://www.example.com/product_images/placeholder/large_thumb.jpg?c=1573657523\"\n          },\n          {\n            \"type\": \"detail\",\n            \"url\": \"http://www.example.com/product_images/placeholder/detail.jpg?c=1573657523\"\n          },\n          {\n            \"type\": \"zoom\",\n            \"url\": \"http://www.example.com/product_images/placeholder/zoom.jpg?c=1573657523\"\n          },\n          {\n            \"type\": \"super_zoom\",\n            \"url\": \"http://www.example.com/product_images/placeholder/super_zoom.jpg?c=1573657523\"\n          },\n          {\n            \"type\": \"favicon\",\n            \"url\": \"http://www.example.com/product_images/placeholder/favicon.jpg?c=1573657523\"\n          },\n          {\n            \"type\": \"favicon_ico\",\n            \"url\": \"http://www.example.com/product_images/placeholder/favicon_ico.jpg?c=1573657523\"\n          }\n        ]\n      },\n      \"pricing\": {\n        \"price_adjustments\": [\n          {\n            \"description\": \"Item Subtotal\",\n            \"discount\": false,\n            \"amount\": {\n              \"cents\": 1000.0,\n              \"currency_iso\": \"USD\"\n            }\n          }\n        ],\n        \"total_price\": {\n          \"cents\": 1000.0,\n          \"currency_iso\": \"USD\"\n        },\n        \"on_sale\": false,\n        \"original_unit_price\": {\n          \"cents\": 500.0,\n          \"currency_iso\": \"USD\"\n        },\n        \"original_price\": {\n          \"cents\": 500.0,\n          \"currency_iso\": \"USD\"\n        },\n        \"customized\": false,\n        \"customizations_unit_price\": {\n          \"cents\": 0.0,\n          \"currency_iso\": \"USD\"\n        }\n      }\n    }\n  ],\n  \"pricing\": {\n    \"price_adjustments\": [\n\n    ],\n    \"shipping_total\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"tax_total\": {\n      \"cents\": 0.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"subtotal_price\": {\n      \"cents\": 1000.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"total_price\": {\n      \"cents\": 1000.0,\n      \"currency_iso\": \"USD\"\n    },\n    \"paid_amount\": {\n      \"cents\": 1000.0,\n      \"currency_iso\": \"USD\"\n    }\n  },\n  \"shipping_service\": null,\n  \"tenders\": [\n\n  ]\n}",
       "response_content_type": "application/json",
-      "curl": "curl -g \"https://www.example.com/api/storefront/carts/B7469009C8\" -X GET \\\n\t-H \"Authorization: Token token=\\\"EAB7zQ8WcgqfWtLQuPJZzC5o\\\"\""
+      "curl": "curl -g \"https://www.example.com/api/storefront/carts/E89869B8D4\" -X GET \\\n\t-H \"Authorization: Token token=\\\"3UsxaazcSXD4KUBTBiejG1wM\\\"\""
     }
   ],
   "resource": "Cart",
   "description": "Showing cart",
   "route": "/api/storefront/carts/:id",
-  "http_method": "GET",
-  "explanation": "            This will get details on a cart you've created with the cart\n            creation endpoint.\n"
+  "explanation": "<p>This will get details on a cart you&#39;ve created with the cart<br>\ncreation endpoint.</p>\n",
+  "http_method": "GET"
 }

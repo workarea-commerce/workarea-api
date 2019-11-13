@@ -10,7 +10,7 @@ end
 module Workarea
   module Api
     class DocumentationTest < Workarea::IntegrationTest
-      IGNORED_HEADERS = %w(Host Accept)
+      IGNORED_HEADERS = %w(Host Accept X-Workarea-Segments)
 
       class Example
         attr_accessor :resource, :http_method, :route, :description,
@@ -20,6 +20,12 @@ module Workarea
           @parameters = []
           @response_fields = []
           @requests = []
+        end
+
+        def explanation=(value)
+          @explanation = Redcarpet::Markdown
+            .new(Redcarpet::Render::HTML.new(hard_wrap: true))
+            .render(value.strip_heredoc)
         end
 
         def file_name
@@ -102,6 +108,9 @@ module Workarea
               }
             end
           end
+
+          results['resources'].sort_by! { |r| r['name'] }
+          results['resources'].each { |r| r['examples'].sort_by! { |e| e['description'] } }
 
           File.open(root.join('index.json'), 'w') do |file|
             file.write(JSON.pretty_generate(results))

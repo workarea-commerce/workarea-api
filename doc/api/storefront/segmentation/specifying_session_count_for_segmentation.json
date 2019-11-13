@@ -1,0 +1,93 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+      },
+      "request_query_parameters": {
+        "sessions": "1"
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "X-Download-Options": "noopen",
+        "X-Permitted-Cross-Domain-Policies": "none",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
+        "Date": "Wed, 13 Nov 2019 15:08:10 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers": "*",
+        "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
+        "X-Workarea-Segmented-Content": "true",
+        "X-Requested-With": "",
+        "Vary": "X-Requested-With, X-Workarea-Segments",
+        "Last-Modified": "Wed, 13 Nov 2019 15:08:10 GMT",
+        "Cache-Control": "no-cache, no-store, must-revalidate",
+        "X-Request-Id": "8821ae80-ece2-47b4-a1e1-4b4f28d7c58b",
+        "X-Runtime": "0.007649",
+        "X-Workarea-Segments": "first_time_visitor",
+        "Expires": "0",
+        "Content-Length": "1014"
+      },
+      "request_method": "GET",
+      "request_path": "/api/storefront/system_content/home_page?sessions=1",
+      "request_body": null,
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"id\": \"5dcc1c5a02182397a5ece79f\",\n  \"name\": \"Home Page\",\n  \"url\": \"http://www.example.com/api/storefront/system_content/Home%20Page\",\n  \"browser_title\": \"Home Page\",\n  \"meta_description\": \"Shop online for Workarea API products\",\n  \"content_blocks\": [\n    {\n      \"id\": \"5dcc1c5a02182397a5ece7a0\",\n      \"type\": \"text\",\n      \"area\": \"default\",\n      \"data\": {\n        \"text\": \"Hello visitor!\"\n      },\n      \"hidden_breakpoints\": [\n\n      ],\n      \"position\": 0,\n      \"html\": \"<div class=\\\"content-block content-block--text\\\" id=\\\"content_block_5dcc1c5a02182397a5ece7a0\\\" data-analytics=\\\"{&quot;event&quot;:&quot;contentBlockDisplay&quot;,&quot;payload&quot;:{&quot;id&quot;:&quot;5dcc1c5a02182397a5ece7a0&quot;,&quot;type&quot;:&quot;text&quot;,&quot;position&quot;:0,&quot;data&quot;:{&quot;text&quot;:&quot;Hello visitor!&quot;}}}\\\" data-hidden-block-css-content=\\\"Block hidden at this breakpoint\\\"><div class='text-content-block'>Hello visitor!</div>\\n</div>\\n\"\n    }\n  ]\n}",
+      "response_content_type": "application/json",
+      "curl": "curl -g \"https://www.example.com/api/storefront/system_content/home_page?sessions=1\" -X GET "
+    },
+    {
+      "request_headers": {
+      },
+      "request_query_parameters": {
+        "sessions": "2"
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "X-Download-Options": "noopen",
+        "X-Permitted-Cross-Domain-Policies": "none",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
+        "Date": "Wed, 13 Nov 2019 15:08:10 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers": "*",
+        "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
+        "X-Workarea-Segmented-Content": "true",
+        "X-Requested-With": "",
+        "Vary": "X-Requested-With, X-Workarea-Segments",
+        "Last-Modified": "Wed, 13 Nov 2019 15:08:10 GMT",
+        "Cache-Control": "no-cache, no-store, must-revalidate",
+        "X-Request-Id": "89ff2190-58c3-468f-82bf-d235be11368b",
+        "X-Runtime": "0.007280",
+        "X-Workarea-Segments": "returning_visitor",
+        "Expires": "0",
+        "Content-Length": "1011"
+      },
+      "request_method": "GET",
+      "request_path": "/api/storefront/system_content/home_page?sessions=2",
+      "request_body": null,
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"id\": \"5dcc1c5a02182397a5ece79f\",\n  \"name\": \"Home Page\",\n  \"url\": \"http://www.example.com/api/storefront/system_content/Home%20Page\",\n  \"browser_title\": \"Home Page\",\n  \"meta_description\": \"Shop online for Workarea API products\",\n  \"content_blocks\": [\n    {\n      \"id\": \"5dcc1c5a02182397a5ece7a1\",\n      \"type\": \"text\",\n      \"area\": \"default\",\n      \"data\": {\n        \"text\": \"Welcome back!\"\n      },\n      \"hidden_breakpoints\": [\n\n      ],\n      \"position\": 1,\n      \"html\": \"<div class=\\\"content-block content-block--text\\\" id=\\\"content_block_5dcc1c5a02182397a5ece7a1\\\" data-analytics=\\\"{&quot;event&quot;:&quot;contentBlockDisplay&quot;,&quot;payload&quot;:{&quot;id&quot;:&quot;5dcc1c5a02182397a5ece7a1&quot;,&quot;type&quot;:&quot;text&quot;,&quot;position&quot;:1,&quot;data&quot;:{&quot;text&quot;:&quot;Welcome back!&quot;}}}\\\" data-hidden-block-css-content=\\\"Block hidden at this breakpoint\\\"><div class='text-content-block'>Welcome back!</div>\\n</div>\\n\"\n    }\n  ]\n}",
+      "response_content_type": "application/json",
+      "curl": "curl -g \"https://www.example.com/api/storefront/system_content/home_page?sessions=2\" -X GET "
+    }
+  ],
+  "resource": "Segmentation",
+  "description": "Specifying session count for segmentation",
+  "route": "/api/storefront/system_content/home_page",
+  "explanation": "<p>Workarea supports segmenting users by number of sessions, e.g.<br>\nfirst-time vs returning visitors. To support this in the storefront<br>\nAPI, the client will be responsible for managing this since the API<br>\nis stateless (doesn&#39;t have cookies/session).</p>\n\n<p>To get session-based segments functioning, you need to pass a<br>\n<code>sessions</code> parameter in each request. Workarea will use that as<br>\nthe number of sessions for determing the segments for the response.<br>\nThis works for all requests across the storefront API.</p>\n\n<p>This example shows getting a home page with segmented content based<br>\non the number of sessions.</p>\n",
+  "http_method": "GET"
+}
