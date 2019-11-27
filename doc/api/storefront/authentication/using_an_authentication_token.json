@@ -8,7 +8,7 @@
   "requests": [
     {
       "request_headers": {
-        "Authorization": "Token token=\"cFRmPi2ExKYkZ33TVggAS5v3\""
+        "Authorization": "Token token=\"DtDpR3pyciE7RCv1kUi9Zk2e\""
       },
       "request_query_parameters": {
       },
@@ -25,10 +25,10 @@
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 13 Nov 2019 15:08:58 GMT",
+        "Last-Modified": "Wed, 27 Nov 2019 00:25:07 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "49f19536-f01c-4d5f-b3a3-2d1babeab9af",
-        "X-Runtime": "0.002723",
+        "X-Request-Id": "3cd64d41-9b77-4726-b15e-6e4f0f946d55",
+        "X-Runtime": "0.002956",
         "X-Workarea-Segments": "",
         "Expires": "0",
         "Content-Length": "202"
@@ -39,9 +39,9 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": \"5dcc1c8a02182397a5ecea9c\",\n  \"email\": \"user63@workarea.com\",\n  \"public_info\": \"BC\",\n  \"first_name\": \"Ben\",\n  \"last_name\": \"Crouse\",\n  \"updated_at\": \"2019-11-13T15:08:58.035Z\",\n  \"created_at\": \"2019-11-13T15:08:58.035Z\"\n}",
+      "response_body": "{\n  \"id\": \"5dddc263124159266e3c29bd\",\n  \"email\": \"user48@workarea.com\",\n  \"public_info\": \"BC\",\n  \"first_name\": \"Ben\",\n  \"last_name\": \"Crouse\",\n  \"updated_at\": \"2019-11-27T00:25:07.653Z\",\n  \"created_at\": \"2019-11-27T00:25:07.653Z\"\n}",
       "response_content_type": "application/json",
-      "curl": "curl -g \"https://www.example.com/api/storefront/account\" -X GET \\\n\t-H \"Authorization: Token token=\\\"cFRmPi2ExKYkZ33TVggAS5v3\\\"\""
+      "curl": "curl -g \"https://www.example.com/api/storefront/account\" -X GET \\\n\t-H \"Authorization: Token token=\\\"DtDpR3pyciE7RCv1kUi9Zk2e\\\"\""
     }
   ],
   "resource": "Authentication",

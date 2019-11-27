@@ -13,7 +13,7 @@
       "request_headers": {
       },
       "request_query_parameters": {
-        "session_id": "5dcc1c5d02182397a5ece7c0"
+        "session_id": "5dddc211124159266e3c25f1"
       },
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
@@ -28,23 +28,23 @@
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 13 Nov 2019 15:08:13 GMT",
+        "Last-Modified": "Wed, 27 Nov 2019 00:23:45 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "77dff5fc-7ff5-429e-8a4d-48b501282375",
-        "X-Runtime": "0.002914",
+        "X-Request-Id": "e056028e-d7a9-4b16-afa0-8c0a13557371",
+        "X-Runtime": "0.004764",
         "X-Workarea-Segments": "",
         "Expires": "0",
         "Content-Length": "63"
       },
       "request_method": "GET",
-      "request_path": "/api/storefront/recent_views?session_id=5dcc1c5d02182397a5ece7c0",
+      "request_path": "/api/storefront/recent_views?session_id=5dddc211124159266e3c25f1",
       "request_body": null,
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": \"5dcc1c5d02182397a5ece7c0\",\n  \"categories\": [\n\n  ],\n  \"products\": [\n\n  ]\n}",
+      "response_body": "{\n  \"id\": \"5dddc211124159266e3c25f1\",\n  \"categories\": [\n\n  ],\n  \"products\": [\n\n  ]\n}",
       "response_content_type": "application/json",
-      "curl": "curl -g \"https://www.example.com/api/storefront/recent_views?session_id=5dcc1c5d02182397a5ece7c0\" -X GET "
+      "curl": "curl -g \"https://www.example.com/api/storefront/recent_views?session_id=5dddc211124159266e3c25f1\" -X GET "
     }
   ],
   "resource": "Recent views",

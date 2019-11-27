@@ -8,7 +8,7 @@
   "requests": [
     {
       "request_headers": {
-        "Authorization": "Token token=\"tEDu1zMZNQvSNbMc9xqQEEEy\""
+        "Authorization": "Token token=\"p3Rjc7g6AsLgrVrnh6p5s69i\""
       },
       "request_query_parameters": {
       },
@@ -25,23 +25,23 @@
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 13 Nov 2019 15:06:24 GMT",
+        "Last-Modified": "Wed, 27 Nov 2019 00:23:09 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "ce025077-a809-41f0-b44d-2c9cf7447040",
-        "X-Runtime": "0.003336",
+        "X-Request-Id": "c343ee60-ad1c-4107-a7fc-41a9c174c91a",
+        "X-Runtime": "0.003604",
         "X-Workarea-Segments": "",
         "Expires": "0",
         "Content-Length": "377"
       },
       "request_method": "GET",
-      "request_path": "/api/storefront/saved_addresses/5dcc1bf002182397a5ecddd3",
+      "request_path": "/api/storefront/saved_addresses/5dddc1ed124159266e3c24af",
       "request_body": null,
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"user_id\": \"5dcc1bf002182397a5ecddcf\",\n  \"url\": \"http://www.example.com/api/storefront/saved_addresses/5dcc1bf002182397a5ecddd3\",\n  \"id\": \"5dcc1bf002182397a5ecddd3\",\n  \"first_name\": \"Susan\",\n  \"last_name\": \"Baker\",\n  \"company\": null,\n  \"street\": \"350 Fifth Avenue\",\n  \"street_2\": null,\n  \"city\": \"New York\",\n  \"country\": \"US\",\n  \"region\": \"NY\",\n  \"postal_code\": \"10118\",\n  \"phone_number\": \"6465552390\",\n  \"phone_extension\": null\n}",
+      "response_body": "{\n  \"user_id\": \"5dddc1ed124159266e3c24ab\",\n  \"url\": \"http://www.example.com/api/storefront/saved_addresses/5dddc1ed124159266e3c24af\",\n  \"id\": \"5dddc1ed124159266e3c24af\",\n  \"first_name\": \"Susan\",\n  \"last_name\": \"Baker\",\n  \"company\": null,\n  \"street\": \"350 Fifth Avenue\",\n  \"street_2\": null,\n  \"city\": \"New York\",\n  \"country\": \"US\",\n  \"region\": \"NY\",\n  \"postal_code\": \"10118\",\n  \"phone_number\": \"6465552390\",\n  \"phone_extension\": null\n}",
       "response_content_type": "application/json",
-      "curl": "curl -g \"https://www.example.com/api/storefront/saved_addresses/5dcc1bf002182397a5ecddd3\" -X GET \\\n\t-H \"Authorization: Token token=\\\"tEDu1zMZNQvSNbMc9xqQEEEy\\\"\""
+      "curl": "curl -g \"https://www.example.com/api/storefront/saved_addresses/5dddc1ed124159266e3c24af\" -X GET \\\n\t-H \"Authorization: Token token=\\\"p3Rjc7g6AsLgrVrnh6p5s69i\\\"\""
     }
   ],
   "resource": "Saved Addresses",

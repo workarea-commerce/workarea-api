@@ -25,10 +25,10 @@
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 13 Nov 2019 15:07:04 GMT",
+        "Last-Modified": "Wed, 27 Nov 2019 00:20:34 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "9f2566b9-3f3d-4c5f-891b-fe3a953bdfc9",
-        "X-Runtime": "0.050977",
+        "X-Request-Id": "17b69140-541e-4658-b7b0-c59a260a8ffe",
+        "X-Runtime": "0.040218",
         "X-Workarea-Segments": "",
         "Expires": "0",
         "Content-Length": "228"
@@ -39,7 +39,7 @@
       "request_content_type": "application/json",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"inquiry\": {\n    \"_id\": \"5dcc1c1802182397a5ece21d\",\n    \"created_at\": \"2019-11-13T15:07:04.867Z\",\n    \"email\": \"email@example.com\",\n    \"message\": \"Message\",\n    \"name\": \"Name\",\n    \"order_id\": \"OrderID\",\n    \"subject\": \"orders\",\n    \"updated_at\": \"2019-11-13T15:07:04.867Z\"\n  }\n}",
+      "response_body": "{\n  \"inquiry\": {\n    \"_id\": \"5dddc152124159266e3c2030\",\n    \"created_at\": \"2019-11-27T00:20:34.201Z\",\n    \"email\": \"email@example.com\",\n    \"message\": \"Message\",\n    \"name\": \"Name\",\n    \"order_id\": \"OrderID\",\n    \"subject\": \"orders\",\n    \"updated_at\": \"2019-11-27T00:20:34.201Z\"\n  }\n}",
       "response_content_type": "application/json",
       "curl": "curl \"https://www.example.com/api/storefront/contacts\" -d '{\"name\":\"Name\",\"email\":\"email@example.com\",\"order_id\":\"OrderID\",\"subject\":\"orders\",\"message\":\"Message\"}' -X POST \\\n\t-H \"Content-Type: application/json\""
     }

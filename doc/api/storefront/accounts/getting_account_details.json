@@ -8,7 +8,7 @@
   "requests": [
     {
       "request_headers": {
-        "Authorization": "Token token=\"RqBkNzp5bDfF8GKUf8MkeFb2\""
+        "Authorization": "Token token=\"nKbHERqpN7K8dg5Uqwbz2dL5\""
       },
       "request_query_parameters": {
       },
@@ -25,10 +25,10 @@
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 13 Nov 2019 15:05:50 GMT",
+        "Last-Modified": "Wed, 27 Nov 2019 00:21:17 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "61c929a3-91b1-4d04-8e7c-09c9dc047514",
-        "X-Runtime": "0.002794",
+        "X-Request-Id": "f2f1dabb-7eee-40de-b726-033f39462139",
+        "X-Runtime": "0.002986",
         "X-Workarea-Segments": "",
         "Expires": "0",
         "Content-Length": "201"
@@ -39,9 +39,9 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": \"5dcc1bce02182397a5ecdb23\",\n  \"email\": \"user6@workarea.com\",\n  \"public_info\": \"BC\",\n  \"first_name\": \"Ben\",\n  \"last_name\": \"Crouse\",\n  \"updated_at\": \"2019-11-13T15:05:50.230Z\",\n  \"created_at\": \"2019-11-13T15:05:50.230Z\"\n}",
+      "response_body": "{\n  \"id\": \"5dddc17d124159266e3c2138\",\n  \"email\": \"user8@workarea.com\",\n  \"public_info\": \"BC\",\n  \"first_name\": \"Ben\",\n  \"last_name\": \"Crouse\",\n  \"updated_at\": \"2019-11-27T00:21:17.413Z\",\n  \"created_at\": \"2019-11-27T00:21:17.413Z\"\n}",
       "response_content_type": "application/json",
-      "curl": "curl -g \"https://www.example.com/api/storefront/account\" -X GET \\\n\t-H \"Authorization: Token token=\\\"RqBkNzp5bDfF8GKUf8MkeFb2\\\"\""
+      "curl": "curl -g \"https://www.example.com/api/storefront/account\" -X GET \\\n\t-H \"Authorization: Token token=\\\"nKbHERqpN7K8dg5Uqwbz2dL5\\\"\""
     }
   ],
   "resource": "Accounts",

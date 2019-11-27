@@ -16,25 +16,32 @@
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
-        "X-Flash-Messages": "{}",
-        "Cache-Control": "no-cache",
-        "X-Request-Id": "b56c8f6e-6578-467c-bca6-292406bb76b1",
-        "X-Runtime": "0.084970"
+        "X-Download-Options": "noopen",
+        "X-Permitted-Cross-Domain-Policies": "none",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
+        "X-Requested-With": "",
+        "Vary": "X-Requested-With, X-Workarea-Segments",
+        "Last-Modified": "Wed, 27 Nov 2019 00:14:34 GMT",
+        "Cache-Control": "no-cache, no-store, must-revalidate",
+        "X-Request-Id": "7ee31664-7048-41a9-a6e3-6c6d0c4d3bd8",
+        "X-Runtime": "0.274144",
+        "X-Workarea-Segments": "",
+        "Expires": "0"
       },
       "request_method": "PATCH",
-      "request_path": "/api/admin/products/199A505996",
-      "request_body": "{\"product\":{\"name\":\"foo\"},\"release_id\":\"59b038a47ceffe612c118b2e\"}",
+      "request_path": "/api/admin/products/2D538560E8",
+      "request_body": "{\"product\":{\"name\":\"foo\"},\"release_id\":\"5dddbfea1241597861fd7609\"}",
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/products/199A505996\" -d '{\"product\":{\"name\":\"foo\"},\"release_id\":\"59b038a47ceffe612c118b2e\"}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/products/2D538560E8\" -d '{\"product\":{\"name\":\"foo\"},\"release_id\":\"5dddbfea1241597861fd7609\"}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Release Changes",
   "description": "Adding changes to a release",
   "route": "/api/admin/products/:id",
   "http_method": "PATCH",
-  "explanation": "release_id can be sent with any patch request             to resources that can be changed through releases"
+  "explanation": "<p>release_id can be sent with any patch request             to resources that can be changed through releases</p>\n"
 }

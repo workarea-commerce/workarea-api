@@ -223,6 +223,20 @@
           "groups": "all",
           "route": "/api/admin/email_signups/:id",
           "method": "GET"
+        },
+        {
+          "description": "Showing an email signup by ID",
+          "link": "admin/email_signups/showing_an_email_signup_by_id.json",
+          "groups": "all",
+          "route": "/api/admin/email_signups/:id",
+          "method": "GET"
+        },
+        {
+          "description": "Showing an email signup by email",
+          "link": "admin/email_signups/showing_an_email_signup_by_email.json",
+          "groups": "all",
+          "route": "/api/admin/email_signups/:email",
+          "method": "GET"
         }
       ]
     },
@@ -255,6 +269,53 @@
           "link": "admin/fulfillment/showing_fulfillment.json",
           "groups": "all",
           "route": "/api/admin/fulfillments/:order_id",
+          "method": "GET"
+        }
+      ]
+    },
+    {
+      "name": "Global Functionality",
+      "examples": [
+        {
+          "description": "Dealing with locales",
+          "link": "admin/global_functionality/dealing_with_locales.json",
+          "groups": "all",
+          "route": "/api/admin/products",
+          "method": "GET"
+        },
+        {
+          "description": "Filtering by created at time stamp",
+          "link": "admin/global_functionality/filtering_by_created_at_time_stamp.json",
+          "groups": "all",
+          "route": "/api/admin/products",
+          "method": "GET"
+        },
+        {
+          "description": "Filtering by updated time stamp",
+          "link": "admin/global_functionality/filtering_by_updated_time_stamp.json",
+          "groups": "all",
+          "route": "/api/admin/products",
+          "method": "GET"
+        },
+        {
+          "description": "Paging results",
+          "link": "admin/global_functionality/paging_results.json",
+          "groups": "all",
+          "route": "/api/admin/products",
+          "method": "GET"
+        },
+        {
+          "description": "Retrieving addtional pages of results",
+          "link": "admin/global_functionality/retrieving_addtional_pages_of_results.json",
+          "groups": "all",
+          "route": "/api/admin/products",
+          "method": "GET"
+        },
+        {
+          "description": "Sorting results",
+          "link": "admin/global_functionality/sorting_results.json",
+          "groups": "all",
+          "route": "/api/admin/products",
           "method": "GET"
         }
       ]
@@ -408,6 +469,13 @@
           "link": "admin/orders/showing_an_order.json",
           "groups": "all",
           "route": "/api/admin/orders/:id",
+          "method": "GET"
+        },
+        {
+          "description": "Viewing orders by date range",
+          "link": "admin/orders/viewing_orders_by_date_range.json",
+          "groups": "all",
+          "route": "/api/admin/orders",
           "method": "GET"
         }
       ]
@@ -1164,6 +1232,20 @@
           "link": "admin/users/showing_a_user.json",
           "groups": "all",
           "route": "/api/admin/users/:id",
+          "method": "GET"
+        },
+        {
+          "description": "Showing a user by ID",
+          "link": "admin/users/showing_a_user_by_id.json",
+          "groups": "all",
+          "route": "/api/admin/users/:id",
+          "method": "GET"
+        },
+        {
+          "description": "Showing a user by email",
+          "link": "admin/users/showing_a_user_by_email.json",
+          "groups": "all",
+          "route": "/api/admin/users/:email",
           "method": "GET"
         },
         {

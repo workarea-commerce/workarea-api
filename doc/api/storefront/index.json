@@ -184,7 +184,7 @@
           "description": "Showing a checkout",
           "link": "storefront/checkout/showing_a_checkout.json",
           "groups": "all",
-          "route": "/api/storefront/checkouts/:id/reset",
+          "route": "/api/storefront/checkouts/:id",
           "method": "GET"
         },
         {

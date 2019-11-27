@@ -8,7 +8,7 @@
   "requests": [
     {
       "request_headers": {
-        "Authorization": "Token token=\"trN9VNqJreEipLR2sKM1pY1J\""
+        "Authorization": "Token token=\"F66Cbb2EdJbsxFkvRYpTxJaw\""
       },
       "request_query_parameters": {
       },
@@ -25,10 +25,10 @@
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 13 Nov 2019 15:08:12 GMT",
+        "Last-Modified": "Wed, 27 Nov 2019 00:23:43 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "19600cc0-590e-4a99-ab70-7f8fb34ce85d",
-        "X-Runtime": "0.003269",
+        "X-Request-Id": "d49a1243-a8fa-428f-bf6f-c9568a6d29f7",
+        "X-Runtime": "0.003760",
         "X-Workarea-Segments": "",
         "Expires": "0",
         "Content-Length": "58"
@@ -39,9 +39,9 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": \"user47@workarea.com\",\n  \"categories\": [\n\n  ],\n  \"products\": [\n\n  ]\n}",
+      "response_body": "{\n  \"id\": \"user43@workarea.com\",\n  \"categories\": [\n\n  ],\n  \"products\": [\n\n  ]\n}",
       "response_content_type": "application/json",
-      "curl": "curl -g \"https://www.example.com/api/storefront/recent_views\" -X GET \\\n\t-H \"Authorization: Token token=\\\"trN9VNqJreEipLR2sKM1pY1J\\\"\""
+      "curl": "curl -g \"https://www.example.com/api/storefront/recent_views\" -X GET \\\n\t-H \"Authorization: Token token=\\\"F66Cbb2EdJbsxFkvRYpTxJaw\\\"\""
     }
   ],
   "resource": "Recent views",

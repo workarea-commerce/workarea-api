@@ -74,16 +74,22 @@ task :release do
   # Updating changelog
   #
   #
-  #Rake::Task['workarea:changelog'].execute
-  #system 'git add CHANGELOG.md'
-  #system 'git commit -m "Update CHANGELOG"'
-  #system 'git push origin HEAD'
+  Rake::Task['workarea:changelog'].execute
+  system 'git add CHANGELOG.md'
+  system 'git commit -m "Update CHANGELOG"'
+  system 'git push origin HEAD'
 
   #
   # Build documentation
   #
   #
-  system 'GENERATE_API_DOCS=true bundle exec rake test && git add docs && git commit -am "Update documentation" && git push origin HEAD'
+  system <<~COMMAND
+    (cd admin && GENERATE_API_DOCS=true bin/rails test) &&
+    (cd storefront && GENERATE_API_DOCS=true bin/rails test) &&
+    git add docs/ &&
+    git commit -am "Update documentation" &&
+    git push origin HEAD
+  COMMAND
 
   #
   # Build gem files
