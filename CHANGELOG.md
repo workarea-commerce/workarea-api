@@ -1,3 +1,33 @@
+Workarea Api 4.5.0 (2019-11-26)
+--------------------------------------------------------------------------------
+
+*   Integrate segmentation into the storefront API
+
+    API-3
+    Ben Crouse
+
+*   Documentation presentation improvements
+
+    * Alphabetize the navigation
+    * Allow markdown for explanations
+    Ben Crouse
+
+*   Remove search suggestions from storefront API
+
+    This has moved to a plugin, and will need to be implemented there.
+    Ben Crouse
+
+*   Replace Recommendation::UserActivity with Metrics::User
+
+    Fixes Insight-Related Issues from v3.5.x
+    Curt Howard
+
+*   Initial commit on master
+
+    Curt Howard
+
+
+
 Workarea Api 4.4.3 (2019-07-09)
 --------------------------------------------------------------------------------
 
