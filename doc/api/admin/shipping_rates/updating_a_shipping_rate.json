@@ -21,22 +21,22 @@
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:10:00 GMT",
+        "Last-Modified": "Wed, 27 Nov 2019 00:36:54 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "c1c2230e-9a30-4541-8e6c-80355baf4c14",
-        "X-Runtime": "0.010996",
+        "X-Request-Id": "cbfa1251-e6b6-494b-93e4-23a2bc0761dd",
+        "X-Runtime": "0.021306",
         "X-Workarea-Segments": "",
         "Expires": "0"
       },
       "request_method": "PATCH",
-      "request_path": "/api/admin/shipping_services/5dddbed81241597861fd6c53/rates/5dddbed81241597861fd6c55",
+      "request_path": "/api/admin/shipping_services/5dddc5261241594254075648/rates/5dddc526124159425407564a",
       "request_body": "{\"rate\":{\"price\":34}}",
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/shipping_services/5dddbed81241597861fd6c53/rates/5dddbed81241597861fd6c55\" -d '{\"rate\":{\"price\":34}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/shipping_services/5dddc5261241594254075648/rates/5dddc526124159425407564a\" -d '{\"rate\":{\"price\":34}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Shipping Rates",

@@ -1,0 +1,51 @@
+{
+  "parameters": [
+    {
+      "name": "page",
+      "description": "Current page"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+      },
+      "request_query_parameters": {
+        "page": "2"
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "X-Download-Options": "noopen",
+        "X-Permitted-Cross-Domain-Policies": "none",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
+        "Content-Type": "application/json; charset=utf-8",
+        "X-Requested-With": "",
+        "Vary": "X-Requested-With, X-Workarea-Segments",
+        "Last-Modified": "Wed, 27 Nov 2019 00:46:25 GMT",
+        "Cache-Control": "no-cache, no-store, must-revalidate",
+        "X-Request-Id": "41ee8aa9-4a90-4dca-a63f-bb9de95a757d",
+        "X-Runtime": "0.006204",
+        "X-Workarea-Segments": "",
+        "Expires": "0",
+        "Content-Length": "15"
+      },
+      "request_method": "GET",
+      "request_path": "/api/admin/products?page=2",
+      "request_body": null,
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"products\": [\n\n  ]\n}",
+      "response_content_type": "application/json",
+      "curl": "curl -g \"https://www.example.com/api/admin/products?page=2\" -X GET "
+    }
+  ],
+  "resource": "Global Functionality",
+  "description": "Retrieving addtional pages of results",
+  "route": "/api/admin/products",
+  "http_method": "GET"
+}

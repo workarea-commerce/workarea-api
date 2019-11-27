@@ -25,10 +25,10 @@
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:21:19 GMT",
+        "Last-Modified": "Wed, 27 Nov 2019 00:54:31 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "b14c4242-aa84-43be-909a-bc90aaffbb9a",
-        "X-Runtime": "0.344769",
+        "X-Request-Id": "071e941e-2a4b-4fe1-aa9a-40c62ded3ce5",
+        "X-Runtime": "0.343653",
         "X-Workarea-Segments": "",
         "Expires": "0",
         "Content-Length": "306"
@@ -39,7 +39,7 @@
       "request_content_type": "application/json",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"account\": {\n    \"id\": \"5dddc17e124159266e3c213d\",\n    \"email\": \"bob@workarea.com\",\n    \"public_info\": null,\n    \"first_name\": null,\n    \"last_name\": null,\n    \"updated_at\": \"2019-11-27T00:21:18.922Z\",\n    \"created_at\": \"2019-11-27T00:21:18.922Z\"\n  },\n  \"authentication_token\": {\n    \"token\": \"7USmgLYazGGTmAi3XC7TV7W5\",\n    \"expires_at\": \"2019-12-04T00:21:19.000Z\"\n  }\n}",
+      "response_body": "{\n  \"account\": {\n    \"id\": \"5dddc9471241596aa5205386\",\n    \"email\": \"bob@workarea.com\",\n    \"public_info\": null,\n    \"first_name\": null,\n    \"last_name\": null,\n    \"updated_at\": \"2019-11-27T00:54:31.652Z\",\n    \"created_at\": \"2019-11-27T00:54:31.652Z\"\n  },\n  \"authentication_token\": {\n    \"token\": \"fLtUyr7oex9HyqfQ31s2GkpK\",\n    \"expires_at\": \"2019-12-04T00:54:31.730Z\"\n  }\n}",
       "response_content_type": "application/json",
       "curl": "curl \"https://www.example.com/api/storefront/account\" -d '{\"email\":\"bob@workarea.com\",\"password\":\"areallysecurepassword\"}' -X POST \\\n\t-H \"Content-Type: application/json\""
     }

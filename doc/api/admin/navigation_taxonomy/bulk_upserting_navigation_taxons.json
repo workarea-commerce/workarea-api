@@ -21,22 +21,22 @@
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:04:05 GMT",
+        "Last-Modified": "Wed, 27 Nov 2019 00:37:03 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "592f96c6-6586-48bf-98d7-98ba0b1ae0eb",
-        "X-Runtime": "0.075854",
+        "X-Request-Id": "c913ca2f-257f-4c3c-ba73-f6a601fda0f4",
+        "X-Runtime": "0.077420",
         "X-Workarea-Segments": "",
         "Expires": "0"
       },
       "request_method": "PATCH",
       "request_path": "/api/admin/navigation_taxons/bulk",
-      "request_body": "{\"navigation_taxons\":[{\"children_count\":0,\"created_at\":\"2019-11-27T00:04:05.067Z\",\"depth\":1,\"name\":\"Test Taxon\",\"navigable_id\":null,\"navigable_slug\":null,\"navigable_type\":null,\"parent_id\":\"5dddbd751241597861fd6368\",\"parent_ids\":[\"5dddbd751241597861fd6368\"],\"position\":0,\"updated_at\":\"2019-11-27T00:04:05.067Z\",\"url\":null},{\"children_count\":0,\"created_at\":\"2019-11-27T00:04:05.067Z\",\"depth\":1,\"name\":\"Test Taxon\",\"navigable_id\":null,\"navigable_slug\":null,\"navigable_type\":null,\"parent_id\":\"5dddbd751241597861fd6368\",\"parent_ids\":[\"5dddbd751241597861fd6368\"],\"position\":0,\"updated_at\":\"2019-11-27T00:04:05.067Z\",\"url\":null},{\"children_count\":0,\"created_at\":\"2019-11-27T00:04:05.067Z\",\"depth\":1,\"name\":\"Test Taxon\",\"navigable_id\":null,\"navigable_slug\":null,\"navigable_type\":null,\"parent_id\":\"5dddbd751241597861fd6368\",\"parent_ids\":[\"5dddbd751241597861fd6368\"],\"position\":0,\"updated_at\":\"2019-11-27T00:04:05.067Z\",\"url\":null}]}",
+      "request_body": "{\"navigation_taxons\":[{\"children_count\":0,\"created_at\":\"2019-11-27T00:37:03.881Z\",\"depth\":1,\"name\":\"Test Taxon\",\"navigable_id\":null,\"navigable_slug\":null,\"navigable_type\":null,\"parent_id\":\"5dddc52f1241594254075679\",\"parent_ids\":[\"5dddc52f1241594254075679\"],\"position\":0,\"updated_at\":\"2019-11-27T00:37:03.881Z\",\"url\":null},{\"children_count\":0,\"created_at\":\"2019-11-27T00:37:03.881Z\",\"depth\":1,\"name\":\"Test Taxon\",\"navigable_id\":null,\"navigable_slug\":null,\"navigable_type\":null,\"parent_id\":\"5dddc52f1241594254075679\",\"parent_ids\":[\"5dddc52f1241594254075679\"],\"position\":0,\"updated_at\":\"2019-11-27T00:37:03.881Z\",\"url\":null},{\"children_count\":0,\"created_at\":\"2019-11-27T00:37:03.881Z\",\"depth\":1,\"name\":\"Test Taxon\",\"navigable_id\":null,\"navigable_slug\":null,\"navigable_type\":null,\"parent_id\":\"5dddc52f1241594254075679\",\"parent_ids\":[\"5dddc52f1241594254075679\"],\"position\":0,\"updated_at\":\"2019-11-27T00:37:03.881Z\",\"url\":null}]}",
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/navigation_taxons/bulk\" -d '{\"navigation_taxons\":[{\"children_count\":0,\"created_at\":\"2019-11-27T00:04:05.067Z\",\"depth\":1,\"name\":\"Test Taxon\",\"navigable_id\":null,\"navigable_slug\":null,\"navigable_type\":null,\"parent_id\":\"5dddbd751241597861fd6368\",\"parent_ids\":[\"5dddbd751241597861fd6368\"],\"position\":0,\"updated_at\":\"2019-11-27T00:04:05.067Z\",\"url\":null},{\"children_count\":0,\"created_at\":\"2019-11-27T00:04:05.067Z\",\"depth\":1,\"name\":\"Test Taxon\",\"navigable_id\":null,\"navigable_slug\":null,\"navigable_type\":null,\"parent_id\":\"5dddbd751241597861fd6368\",\"parent_ids\":[\"5dddbd751241597861fd6368\"],\"position\":0,\"updated_at\":\"2019-11-27T00:04:05.067Z\",\"url\":null},{\"children_count\":0,\"created_at\":\"2019-11-27T00:04:05.067Z\",\"depth\":1,\"name\":\"Test Taxon\",\"navigable_id\":null,\"navigable_slug\":null,\"navigable_type\":null,\"parent_id\":\"5dddbd751241597861fd6368\",\"parent_ids\":[\"5dddbd751241597861fd6368\"],\"position\":0,\"updated_at\":\"2019-11-27T00:04:05.067Z\",\"url\":null}]}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/navigation_taxons/bulk\" -d '{\"navigation_taxons\":[{\"children_count\":0,\"created_at\":\"2019-11-27T00:37:03.881Z\",\"depth\":1,\"name\":\"Test Taxon\",\"navigable_id\":null,\"navigable_slug\":null,\"navigable_type\":null,\"parent_id\":\"5dddc52f1241594254075679\",\"parent_ids\":[\"5dddc52f1241594254075679\"],\"position\":0,\"updated_at\":\"2019-11-27T00:37:03.881Z\",\"url\":null},{\"children_count\":0,\"created_at\":\"2019-11-27T00:37:03.881Z\",\"depth\":1,\"name\":\"Test Taxon\",\"navigable_id\":null,\"navigable_slug\":null,\"navigable_type\":null,\"parent_id\":\"5dddc52f1241594254075679\",\"parent_ids\":[\"5dddc52f1241594254075679\"],\"position\":0,\"updated_at\":\"2019-11-27T00:37:03.881Z\",\"url\":null},{\"children_count\":0,\"created_at\":\"2019-11-27T00:37:03.881Z\",\"depth\":1,\"name\":\"Test Taxon\",\"navigable_id\":null,\"navigable_slug\":null,\"navigable_type\":null,\"parent_id\":\"5dddc52f1241594254075679\",\"parent_ids\":[\"5dddc52f1241594254075679\"],\"position\":0,\"updated_at\":\"2019-11-27T00:37:03.881Z\",\"url\":null}]}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Navigation taxonomy",

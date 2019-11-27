@@ -21,22 +21,22 @@
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:02:36 GMT",
+        "Last-Modified": "Wed, 27 Nov 2019 00:43:32 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "b331a797-9e44-4748-bfe1-f86b4d06257b",
-        "X-Runtime": "0.007830",
+        "X-Request-Id": "86c7a90f-c6d6-4b97-a7e5-807fdfbd585d",
+        "X-Runtime": "0.007391",
         "X-Workarea-Segments": "",
         "Expires": "0"
       },
       "request_method": "DELETE",
-      "request_path": "/api/admin/tax_categories/5dddbd1c1241597861fd61fe",
+      "request_path": "/api/admin/tax_categories/5dddc6b4124159425407618d",
       "request_body": null,
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/tax_categories/5dddbd1c1241597861fd61fe\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
+      "curl": "curl \"https://www.example.com/api/admin/tax_categories/5dddc6b4124159425407618d\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
     }
   ],
   "resource": "Tax Categories",

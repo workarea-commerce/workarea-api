@@ -21,22 +21,22 @@
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:03:46 GMT",
+        "Last-Modified": "Wed, 27 Nov 2019 00:38:09 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "9e2eeb7d-66e4-4a03-b66f-e21fa221809c",
-        "X-Runtime": "0.006882",
+        "X-Request-Id": "e7125690-cb91-4a3b-adf7-f98c7f8b1c0e",
+        "X-Runtime": "0.010424",
         "X-Workarea-Segments": "",
         "Expires": "0"
       },
       "request_method": "DELETE",
-      "request_path": "/api/admin/redirects/5dddbd621241597861fd62ca",
+      "request_path": "/api/admin/redirects/5dddc57112415942540757b1",
       "request_body": null,
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/redirects/5dddbd621241597861fd62ca\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
+      "curl": "curl \"https://www.example.com/api/admin/redirects/5dddc57112415942540757b1\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
     }
   ],
   "resource": "Redirects",

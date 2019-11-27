@@ -21,22 +21,22 @@
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:00:50 GMT",
+        "Last-Modified": "Wed, 27 Nov 2019 00:37:16 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "b9b8bffc-a7f8-4b97-abce-37c9ce9ad2fc",
-        "X-Runtime": "3.348057",
+        "X-Request-Id": "623ac8fb-19e2-452d-84d5-e2329fe605b6",
+        "X-Runtime": "1.284831",
         "X-Workarea-Segments": "",
         "Expires": "0"
       },
       "request_method": "PATCH",
       "request_path": "/api/admin/pages/bulk",
-      "request_body": "{\"pages\":[{\"active\":true,\"active_segment_ids\":[],\"created_at\":\"2019-11-27T00:00:46.917Z\",\"display_h1\":true,\"name\":\"Test Page\",\"show_navigation\":false,\"subscribed_user_ids\":[],\"tags\":[],\"template\":\"generic\",\"updated_at\":\"2019-11-27T00:00:46.917Z\"},{\"active\":true,\"active_segment_ids\":[],\"created_at\":\"2019-11-27T00:00:46.917Z\",\"display_h1\":true,\"name\":\"Test Page\",\"show_navigation\":false,\"subscribed_user_ids\":[],\"tags\":[],\"template\":\"generic\",\"updated_at\":\"2019-11-27T00:00:46.917Z\"},{\"active\":true,\"active_segment_ids\":[],\"created_at\":\"2019-11-27T00:00:46.917Z\",\"display_h1\":true,\"name\":\"Test Page\",\"show_navigation\":false,\"subscribed_user_ids\":[],\"tags\":[],\"template\":\"generic\",\"updated_at\":\"2019-11-27T00:00:46.917Z\"}]}",
+      "request_body": "{\"pages\":[{\"active\":true,\"active_segment_ids\":[],\"created_at\":\"2019-11-27T00:37:14.249Z\",\"display_h1\":true,\"name\":\"Test Page\",\"show_navigation\":false,\"subscribed_user_ids\":[],\"tags\":[],\"template\":\"generic\",\"updated_at\":\"2019-11-27T00:37:14.249Z\"},{\"active\":true,\"active_segment_ids\":[],\"created_at\":\"2019-11-27T00:37:14.249Z\",\"display_h1\":true,\"name\":\"Test Page\",\"show_navigation\":false,\"subscribed_user_ids\":[],\"tags\":[],\"template\":\"generic\",\"updated_at\":\"2019-11-27T00:37:14.249Z\"},{\"active\":true,\"active_segment_ids\":[],\"created_at\":\"2019-11-27T00:37:14.249Z\",\"display_h1\":true,\"name\":\"Test Page\",\"show_navigation\":false,\"subscribed_user_ids\":[],\"tags\":[],\"template\":\"generic\",\"updated_at\":\"2019-11-27T00:37:14.249Z\"}]}",
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/pages/bulk\" -d '{\"pages\":[{\"active\":true,\"active_segment_ids\":[],\"created_at\":\"2019-11-27T00:00:46.917Z\",\"display_h1\":true,\"name\":\"Test Page\",\"show_navigation\":false,\"subscribed_user_ids\":[],\"tags\":[],\"template\":\"generic\",\"updated_at\":\"2019-11-27T00:00:46.917Z\"},{\"active\":true,\"active_segment_ids\":[],\"created_at\":\"2019-11-27T00:00:46.917Z\",\"display_h1\":true,\"name\":\"Test Page\",\"show_navigation\":false,\"subscribed_user_ids\":[],\"tags\":[],\"template\":\"generic\",\"updated_at\":\"2019-11-27T00:00:46.917Z\"},{\"active\":true,\"active_segment_ids\":[],\"created_at\":\"2019-11-27T00:00:46.917Z\",\"display_h1\":true,\"name\":\"Test Page\",\"show_navigation\":false,\"subscribed_user_ids\":[],\"tags\":[],\"template\":\"generic\",\"updated_at\":\"2019-11-27T00:00:46.917Z\"}]}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/pages/bulk\" -d '{\"pages\":[{\"active\":true,\"active_segment_ids\":[],\"created_at\":\"2019-11-27T00:37:14.249Z\",\"display_h1\":true,\"name\":\"Test Page\",\"show_navigation\":false,\"subscribed_user_ids\":[],\"tags\":[],\"template\":\"generic\",\"updated_at\":\"2019-11-27T00:37:14.249Z\"},{\"active\":true,\"active_segment_ids\":[],\"created_at\":\"2019-11-27T00:37:14.249Z\",\"display_h1\":true,\"name\":\"Test Page\",\"show_navigation\":false,\"subscribed_user_ids\":[],\"tags\":[],\"template\":\"generic\",\"updated_at\":\"2019-11-27T00:37:14.249Z\"},{\"active\":true,\"active_segment_ids\":[],\"created_at\":\"2019-11-27T00:37:14.249Z\",\"display_h1\":true,\"name\":\"Test Page\",\"show_navigation\":false,\"subscribed_user_ids\":[],\"tags\":[],\"template\":\"generic\",\"updated_at\":\"2019-11-27T00:37:14.249Z\"}]}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Pages",

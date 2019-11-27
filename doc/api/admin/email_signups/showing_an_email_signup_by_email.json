@@ -1,0 +1,47 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "X-Download-Options": "noopen",
+        "X-Permitted-Cross-Domain-Policies": "none",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
+        "Content-Type": "application/json; charset=utf-8",
+        "X-Requested-With": "",
+        "Vary": "X-Requested-With, X-Workarea-Segments",
+        "Last-Modified": "Wed, 27 Nov 2019 00:38:36 GMT",
+        "Cache-Control": "no-cache, no-store, must-revalidate",
+        "X-Request-Id": "4acea774-f9f6-4b3b-8db5-43a5736ee67a",
+        "X-Runtime": "0.004993",
+        "X-Workarea-Segments": "",
+        "Expires": "0",
+        "Content-Length": "159"
+      },
+      "request_method": "GET",
+      "request_path": "/api/admin/email_signups/test%2540workarea%252Ecom",
+      "request_body": null,
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"email_signup\": {\n    \"_id\": \"5dddc58c1241594254075921\",\n    \"created_at\": \"2019-11-27T00:38:36.712Z\",\n    \"email\": \"test@workarea.com\",\n    \"updated_at\": \"2019-11-27T00:38:36.712Z\"\n  }\n}",
+      "response_content_type": "application/json",
+      "curl": "curl -g \"https://www.example.com/api/admin/email_signups/test%2540workarea%252Ecom\" -X GET "
+    }
+  ],
+  "resource": "Email Signups",
+  "description": "Showing an email signup by email",
+  "route": "/api/admin/email_signups/:email",
+  "http_method": "GET"
+}

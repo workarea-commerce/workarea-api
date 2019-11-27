@@ -86,7 +86,7 @@ task :release do
   system <<~COMMAND
     (cd admin && GENERATE_API_DOCS=true bin/rails test) &&
     (cd storefront && GENERATE_API_DOCS=true bin/rails test) &&
-    git add docs/ &&
+    git add doc/ &&
     git commit -am "Update documentation" &&
     git push origin HEAD
   COMMAND

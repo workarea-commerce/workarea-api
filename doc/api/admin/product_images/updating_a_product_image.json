@@ -21,22 +21,22 @@
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:09:19 GMT",
+        "Last-Modified": "Wed, 27 Nov 2019 00:46:14 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "5cc96a96-21ce-4aaf-b1b3-4c2b86d07fb0",
-        "X-Runtime": "0.159152",
+        "X-Request-Id": "42157c79-9e11-4e37-97cf-f25769d2379f",
+        "X-Runtime": "0.165478",
         "X-Workarea-Segments": "",
         "Expires": "0"
       },
       "request_method": "PATCH",
-      "request_path": "/api/admin/products/90363A3748/images/5dddbeae1241597861fd6b78",
+      "request_path": "/api/admin/products/5D6DC51A2E/images/5dddc756124159425407652d",
       "request_body": "{\"image\":{\"name\":\"foo\"}}",
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/products/90363A3748/images/5dddbeae1241597861fd6b78\" -d '{\"image\":{\"name\":\"foo\"}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/products/5D6DC51A2E/images/5dddc756124159425407652d\" -d '{\"image\":{\"name\":\"foo\"}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Product Images",

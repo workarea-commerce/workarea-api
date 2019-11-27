@@ -9,7 +9,7 @@
     {
       "request_headers": {
         "Content-Type": "application/json",
-        "Authorization": "Token token=\"813hoXFidNnDsEXKTD1LizGu\""
+        "Authorization": "Token token=\"VC55s1MMqjyXK9zz9xyZ558C\""
       },
       "request_query_parameters": {
       },
@@ -26,10 +26,10 @@
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:23:47 GMT",
+        "Last-Modified": "Wed, 27 Nov 2019 00:54:15 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "7faf77e6-2415-40db-ab96-168c849c89ea",
-        "X-Runtime": "0.003143",
+        "X-Request-Id": "fd993239-b60d-46ee-896f-095bfa4e6ff7",
+        "X-Runtime": "0.002988",
         "X-Workarea-Segments": "",
         "Expires": "0",
         "Content-Length": "0"
@@ -42,7 +42,7 @@
       "response_status_text": "OK",
       "response_body": null,
       "response_content_type": "application/json",
-      "curl": "curl \"https://www.example.com/api/storefront/recent_views\" -d '{\"product_id\":\"367A8BB9B5\",\"category_id\":\"596e739b021823358aabe9df\",\"search\":\"shirts\"}' -X PATCH \\\n\t-H \"Content-Type: application/json\" \\\n\t-H \"Authorization: Token token=\\\"813hoXFidNnDsEXKTD1LizGu\\\"\""
+      "curl": "curl \"https://www.example.com/api/storefront/recent_views\" -d '{\"product_id\":\"367A8BB9B5\",\"category_id\":\"596e739b021823358aabe9df\",\"search\":\"shirts\"}' -X PATCH \\\n\t-H \"Content-Type: application/json\" \\\n\t-H \"Authorization: Token token=\\\"VC55s1MMqjyXK9zz9xyZ558C\\\"\""
     }
   ],
   "resource": "Recent views",

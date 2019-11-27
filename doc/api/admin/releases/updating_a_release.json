@@ -21,22 +21,22 @@
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:01:07 GMT",
+        "Last-Modified": "Wed, 27 Nov 2019 00:43:55 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "aafa82d9-f3f0-4381-b2a0-338d3079f27d",
-        "X-Runtime": "0.040228",
+        "X-Request-Id": "b6c083ca-f2cf-4ded-8d54-e3b0441292c7",
+        "X-Runtime": "0.031114",
         "X-Workarea-Segments": "",
         "Expires": "0"
       },
       "request_method": "PATCH",
-      "request_path": "/api/admin/releases/5dddbcc31241597861fd5f0e",
-      "request_body": "{\"created_at\":\"2019-11-27T00:01:07.716Z\",\"name\":\"Content Release\",\"publish_at\":null,\"publish_job_id\":null,\"published_at\":null,\"subscribed_user_ids\":[],\"tags\":[],\"undo_at\":null,\"undo_job_id\":null,\"undoes_id\":null,\"undone_at\":null,\"updated_at\":\"2019-11-27T00:01:07.716Z\"}",
+      "request_path": "/api/admin/releases/5dddc6ca1241594254076222",
+      "request_body": "{\"created_at\":\"2019-11-27T00:43:54.997Z\",\"name\":\"Content Release\",\"publish_at\":null,\"publish_job_id\":null,\"published_at\":null,\"subscribed_user_ids\":[],\"tags\":[],\"undo_at\":null,\"undo_job_id\":null,\"undoes_id\":null,\"undone_at\":null,\"updated_at\":\"2019-11-27T00:43:54.997Z\"}",
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/releases/5dddbcc31241597861fd5f0e\" -d '{\"created_at\":\"2019-11-27T00:01:07.716Z\",\"name\":\"Content Release\",\"publish_at\":null,\"publish_job_id\":null,\"published_at\":null,\"subscribed_user_ids\":[],\"tags\":[],\"undo_at\":null,\"undo_job_id\":null,\"undoes_id\":null,\"undone_at\":null,\"updated_at\":\"2019-11-27T00:01:07.716Z\"}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/releases/5dddc6ca1241594254076222\" -d '{\"created_at\":\"2019-11-27T00:43:54.997Z\",\"name\":\"Content Release\",\"publish_at\":null,\"publish_job_id\":null,\"published_at\":null,\"subscribed_user_ids\":[],\"tags\":[],\"undo_at\":null,\"undo_job_id\":null,\"undoes_id\":null,\"undone_at\":null,\"updated_at\":\"2019-11-27T00:43:54.997Z\"}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Releases",

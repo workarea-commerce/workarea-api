@@ -21,22 +21,22 @@
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:02:40 GMT",
+        "Last-Modified": "Wed, 27 Nov 2019 00:43:34 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "515f8993-8a40-4961-b523-8441352827f6",
-        "X-Runtime": "0.010213",
+        "X-Request-Id": "2498bc43-e874-45f4-b0e1-41e06843d91e",
+        "X-Runtime": "0.009469",
         "X-Workarea-Segments": "",
         "Expires": "0"
       },
       "request_method": "PATCH",
-      "request_path": "/api/admin/tax_categories/5dddbd201241597861fd6219",
+      "request_path": "/api/admin/tax_categories/5dddc6b61241594254076194",
       "request_body": "{\"tax_category\":{\"name\":\"foo\"}}",
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/tax_categories/5dddbd201241597861fd6219\" -d '{\"tax_category\":{\"name\":\"foo\"}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/tax_categories/5dddc6b61241594254076194\" -d '{\"tax_category\":{\"name\":\"foo\"}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Tax Categories",

@@ -21,22 +21,22 @@
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:12:20 GMT",
+        "Last-Modified": "Wed, 27 Nov 2019 00:45:10 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "49a12855-088b-4095-aa0a-c1b43c8cd48c",
-        "X-Runtime": "0.031595",
+        "X-Request-Id": "93c0a70d-b903-43e9-be54-bf6a83f42cfd",
+        "X-Runtime": "0.034638",
         "X-Workarea-Segments": "",
         "Expires": "0"
       },
       "request_method": "PATCH",
       "request_path": "/api/admin/payment_profiles/bulk",
-      "request_body": "{\"payment_profiles\":[{\"created_at\":\"2019-11-27T00:12:20.553Z\",\"email\":\"user@workarea.com\",\"gateway_id\":null,\"reference\":1,\"store_credit\":{\"cents\":0.0,\"currency_iso\":\"USD\"},\"updated_at\":\"2019-11-27T00:12:20.553Z\"},{\"created_at\":\"2019-11-27T00:12:20.553Z\",\"email\":\"user@workarea.com\",\"gateway_id\":null,\"reference\":1,\"store_credit\":{\"cents\":0.0,\"currency_iso\":\"USD\"},\"updated_at\":\"2019-11-27T00:12:20.553Z\"},{\"created_at\":\"2019-11-27T00:12:20.553Z\",\"email\":\"user@workarea.com\",\"gateway_id\":null,\"reference\":1,\"store_credit\":{\"cents\":0.0,\"currency_iso\":\"USD\"},\"updated_at\":\"2019-11-27T00:12:20.553Z\"}]}",
+      "request_body": "{\"payment_profiles\":[{\"created_at\":\"2019-11-27T00:45:10.700Z\",\"email\":\"user@workarea.com\",\"gateway_id\":null,\"reference\":1,\"store_credit\":{\"cents\":0.0,\"currency_iso\":\"USD\"},\"updated_at\":\"2019-11-27T00:45:10.700Z\"},{\"created_at\":\"2019-11-27T00:45:10.700Z\",\"email\":\"user@workarea.com\",\"gateway_id\":null,\"reference\":1,\"store_credit\":{\"cents\":0.0,\"currency_iso\":\"USD\"},\"updated_at\":\"2019-11-27T00:45:10.700Z\"},{\"created_at\":\"2019-11-27T00:45:10.700Z\",\"email\":\"user@workarea.com\",\"gateway_id\":null,\"reference\":1,\"store_credit\":{\"cents\":0.0,\"currency_iso\":\"USD\"},\"updated_at\":\"2019-11-27T00:45:10.700Z\"}]}",
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/payment_profiles/bulk\" -d '{\"payment_profiles\":[{\"created_at\":\"2019-11-27T00:12:20.553Z\",\"email\":\"user@workarea.com\",\"gateway_id\":null,\"reference\":1,\"store_credit\":{\"cents\":0.0,\"currency_iso\":\"USD\"},\"updated_at\":\"2019-11-27T00:12:20.553Z\"},{\"created_at\":\"2019-11-27T00:12:20.553Z\",\"email\":\"user@workarea.com\",\"gateway_id\":null,\"reference\":1,\"store_credit\":{\"cents\":0.0,\"currency_iso\":\"USD\"},\"updated_at\":\"2019-11-27T00:12:20.553Z\"},{\"created_at\":\"2019-11-27T00:12:20.553Z\",\"email\":\"user@workarea.com\",\"gateway_id\":null,\"reference\":1,\"store_credit\":{\"cents\":0.0,\"currency_iso\":\"USD\"},\"updated_at\":\"2019-11-27T00:12:20.553Z\"}]}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/payment_profiles/bulk\" -d '{\"payment_profiles\":[{\"created_at\":\"2019-11-27T00:45:10.700Z\",\"email\":\"user@workarea.com\",\"gateway_id\":null,\"reference\":1,\"store_credit\":{\"cents\":0.0,\"currency_iso\":\"USD\"},\"updated_at\":\"2019-11-27T00:45:10.700Z\"},{\"created_at\":\"2019-11-27T00:45:10.700Z\",\"email\":\"user@workarea.com\",\"gateway_id\":null,\"reference\":1,\"store_credit\":{\"cents\":0.0,\"currency_iso\":\"USD\"},\"updated_at\":\"2019-11-27T00:45:10.700Z\"},{\"created_at\":\"2019-11-27T00:45:10.700Z\",\"email\":\"user@workarea.com\",\"gateway_id\":null,\"reference\":1,\"store_credit\":{\"cents\":0.0,\"currency_iso\":\"USD\"},\"updated_at\":\"2019-11-27T00:45:10.700Z\"}]}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Payment Profiles",

@@ -21,22 +21,22 @@
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:13:34 GMT",
+        "Last-Modified": "Wed, 27 Nov 2019 00:39:15 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "f5263036-cda0-4021-afa1-4f916d0bd0fa",
-        "X-Runtime": "0.008670",
+        "X-Request-Id": "ac6745c3-9a04-48dd-a351-577e5e4f1d5d",
+        "X-Runtime": "0.007434",
         "X-Workarea-Segments": "",
         "Expires": "0"
       },
       "request_method": "DELETE",
-      "request_path": "/api/admin/promo_code_lists/5dddbfae1241597861fd74c4",
+      "request_path": "/api/admin/promo_code_lists/5dddc5b312415942540759fa",
       "request_body": null,
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/promo_code_lists/5dddbfae1241597861fd74c4\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
+      "curl": "curl \"https://www.example.com/api/admin/promo_code_lists/5dddc5b312415942540759fa\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
     }
   ],
   "resource": "Promo Code Lists",

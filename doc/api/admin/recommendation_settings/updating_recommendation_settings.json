@@ -21,22 +21,22 @@
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:14:36 GMT",
+        "Last-Modified": "Wed, 27 Nov 2019 00:37:03 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "e8a1f3a3-7b4c-4a68-b20c-a520714fa410",
-        "X-Runtime": "0.009084",
+        "X-Request-Id": "84521fa7-1e7b-40fb-ae55-dd6ebce51b90",
+        "X-Runtime": "0.010164",
         "X-Workarea-Segments": "",
         "Expires": "0"
       },
       "request_method": "PATCH",
-      "request_path": "/api/admin/products/AFC3579E87/recommendation_settings",
+      "request_path": "/api/admin/products/5F5F3382DF/recommendation_settings",
       "request_body": "{\"recommendation_settings\":{\"product_ids\":[\"foo\"]}}",
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/products/AFC3579E87/recommendation_settings\" -d '{\"recommendation_settings\":{\"product_ids\":[\"foo\"]}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/products/5F5F3382DF/recommendation_settings\" -d '{\"recommendation_settings\":{\"product_ids\":[\"foo\"]}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Recommendation Settings",

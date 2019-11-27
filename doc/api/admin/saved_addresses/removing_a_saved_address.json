@@ -21,22 +21,22 @@
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:00:44 GMT",
+        "Last-Modified": "Wed, 27 Nov 2019 00:34:07 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "420fb56c-75cc-4531-8f16-4e490f2f69d0",
-        "X-Runtime": "0.009448",
+        "X-Request-Id": "0344cea6-258a-43a0-b00c-9f0e761baebc",
+        "X-Runtime": "0.007168",
         "X-Workarea-Segments": "",
         "Expires": "0"
       },
       "request_method": "DELETE",
-      "request_path": "/api/admin/users/5dddbcac1241597861fd5e9a/saved_addresses/5dddbcac1241597861fd5e9d",
+      "request_path": "/api/admin/users/5dddc47f1241594254075060/saved_addresses/5dddc47f1241594254075063",
       "request_body": null,
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/users/5dddbcac1241597861fd5e9a/saved_addresses/5dddbcac1241597861fd5e9d\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
+      "curl": "curl \"https://www.example.com/api/admin/users/5dddc47f1241594254075060/saved_addresses/5dddc47f1241594254075063\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
     }
   ],
   "resource": "Saved Addresses",

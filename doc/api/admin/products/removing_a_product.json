@@ -21,22 +21,22 @@
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:08:15 GMT",
+        "Last-Modified": "Wed, 27 Nov 2019 00:39:23 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "10e9bbbb-25ac-42b7-a748-e094e4016080",
-        "X-Runtime": "0.035242",
+        "X-Request-Id": "1b587607-4f69-4d6a-aff7-6c5c1d433a58",
+        "X-Runtime": "0.036945",
         "X-Workarea-Segments": "",
         "Expires": "0"
       },
       "request_method": "DELETE",
-      "request_path": "/api/admin/products/6A69F2609C",
+      "request_path": "/api/admin/products/B824A47AD8",
       "request_body": null,
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/products/6A69F2609C\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/products/B824A47AD8\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Products",

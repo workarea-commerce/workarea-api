@@ -21,22 +21,22 @@
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:06:08 GMT",
+        "Last-Modified": "Wed, 27 Nov 2019 00:35:07 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "83df7e65-65f7-4e03-8536-e21e13e92b4a",
-        "X-Runtime": "0.022263",
+        "X-Request-Id": "b21896b6-2b6c-4186-9a17-e221f0e4224d",
+        "X-Runtime": "0.020299",
         "X-Workarea-Segments": "",
         "Expires": "0"
       },
       "request_method": "DELETE",
-      "request_path": "/api/admin/content_assets/5dddbdf01241597861fd663f",
+      "request_path": "/api/admin/content_assets/5dddc4bb12415942540751a9",
       "request_body": null,
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/content_assets/5dddbdf01241597861fd663f\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
+      "curl": "curl \"https://www.example.com/api/admin/content_assets/5dddc4bb12415942540751a9\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
     }
   ],
   "resource": "Content Assets",

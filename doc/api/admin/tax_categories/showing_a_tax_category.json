@@ -21,23 +21,23 @@
         "Content-Type": "application/json; charset=utf-8",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:02:34 GMT",
+        "Last-Modified": "Wed, 27 Nov 2019 00:43:41 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "68624020-5f87-4450-b557-26d7222d0d84",
-        "X-Runtime": "0.006378",
+        "X-Request-Id": "6488acbe-eecb-430c-a557-835a3db5d0cd",
+        "X-Runtime": "0.004838",
         "X-Workarea-Segments": "",
         "Expires": "0",
-        "Content-Length": "160"
+        "Content-Length": "161"
       },
       "request_method": "GET",
-      "request_path": "/api/admin/tax_categories/5dddbd1a1241597861fd61f8",
+      "request_path": "/api/admin/tax_categories/5dddc6bd12415942540761b7",
       "request_body": null,
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"tax_category\": {\n    \"_id\": \"5dddbd1a1241597861fd61f8\",\n    \"code\": \"0\",\n    \"created_at\": \"2019-11-27T00:02:34.879Z\",\n    \"name\": \"Clothing\",\n    \"updated_at\": \"2019-11-27T00:02:34.879Z\"\n  }\n}",
+      "response_body": "{\n  \"tax_category\": {\n    \"_id\": \"5dddc6bd12415942540761b7\",\n    \"code\": \"32\",\n    \"created_at\": \"2019-11-27T00:43:41.287Z\",\n    \"name\": \"Clothing\",\n    \"updated_at\": \"2019-11-27T00:43:41.287Z\"\n  }\n}",
       "response_content_type": "application/json",
-      "curl": "curl -g \"https://www.example.com/api/admin/tax_categories/5dddbd1a1241597861fd61f8\" -X GET "
+      "curl": "curl -g \"https://www.example.com/api/admin/tax_categories/5dddc6bd12415942540761b7\" -X GET "
     }
   ],
   "resource": "Tax Categories",

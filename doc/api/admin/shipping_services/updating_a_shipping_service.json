@@ -21,22 +21,22 @@
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:06:47 GMT",
+        "Last-Modified": "Wed, 27 Nov 2019 00:42:11 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "4dda2de5-79e9-406c-b66a-b6dafa2e5bb4",
-        "X-Runtime": "0.011479",
+        "X-Request-Id": "435e464b-b63d-4de2-a960-8ae8d162d8ae",
+        "X-Runtime": "0.012866",
         "X-Workarea-Segments": "",
         "Expires": "0"
       },
       "request_method": "PATCH",
-      "request_path": "/api/admin/shipping_services/5dddbe171241597861fd67aa",
-      "request_body": "{\"carrier\":null,\"country\":null,\"created_at\":\"2019-11-27T00:06:47.181Z\",\"name\":\"Test 28\",\"rates\":[{\"_id\":\"5dddbe171241597861fd67ad\",\"created_at\":null,\"price\":{\"cents\":100.0,\"currency_iso\":\"USD\"},\"tier_max\":null,\"tier_min\":null,\"updated_at\":null}],\"regions\":[],\"service_code\":null,\"subtotal_max\":null,\"subtotal_min\":null,\"tax_code\":null,\"updated_at\":\"2019-11-27T00:06:47.181Z\"}",
+      "request_path": "/api/admin/shipping_services/5dddc6631241594254075f95",
+      "request_body": "{\"carrier\":null,\"country\":null,\"created_at\":\"2019-11-27T00:42:11.313Z\",\"name\":\"Test 36\",\"rates\":[{\"_id\":\"5dddc6631241594254075f98\",\"created_at\":null,\"price\":{\"cents\":100.0,\"currency_iso\":\"USD\"},\"tier_max\":null,\"tier_min\":null,\"updated_at\":null}],\"regions\":[],\"service_code\":null,\"subtotal_max\":null,\"subtotal_min\":null,\"tax_code\":null,\"updated_at\":\"2019-11-27T00:42:11.313Z\"}",
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/shipping_services/5dddbe171241597861fd67aa\" -d '{\"carrier\":null,\"country\":null,\"created_at\":\"2019-11-27T00:06:47.181Z\",\"name\":\"Test 28\",\"rates\":[{\"_id\":\"5dddbe171241597861fd67ad\",\"created_at\":null,\"price\":{\"cents\":100.0,\"currency_iso\":\"USD\"},\"tier_max\":null,\"tier_min\":null,\"updated_at\":null}],\"regions\":[],\"service_code\":null,\"subtotal_max\":null,\"subtotal_min\":null,\"tax_code\":null,\"updated_at\":\"2019-11-27T00:06:47.181Z\"}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/shipping_services/5dddc6631241594254075f95\" -d '{\"carrier\":null,\"country\":null,\"created_at\":\"2019-11-27T00:42:11.313Z\",\"name\":\"Test 36\",\"rates\":[{\"_id\":\"5dddc6631241594254075f98\",\"created_at\":null,\"price\":{\"cents\":100.0,\"currency_iso\":\"USD\"},\"tier_max\":null,\"tier_min\":null,\"updated_at\":null}],\"regions\":[],\"service_code\":null,\"subtotal_max\":null,\"subtotal_min\":null,\"tax_code\":null,\"updated_at\":\"2019-11-27T00:42:11.313Z\"}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Shipping Services",

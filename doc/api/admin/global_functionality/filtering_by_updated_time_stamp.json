@@ -1,0 +1,56 @@
+{
+  "parameters": [
+    {
+      "name": "updated_at_starts_at",
+      "description": "Start of a last updated at date range"
+    },
+    {
+      "name": "updated_at_ends_at",
+      "description": "End of a last updated at date range"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+      },
+      "request_query_parameters": {
+        "updated_at_starts_at": "2019-11-26 00:46:27 UTC",
+        "updated_at_ends_at": "2019-11-28 00:46:27 UTC"
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "X-Download-Options": "noopen",
+        "X-Permitted-Cross-Domain-Policies": "none",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
+        "Content-Type": "application/json; charset=utf-8",
+        "X-Requested-With": "",
+        "Vary": "X-Requested-With, X-Workarea-Segments",
+        "Last-Modified": "Wed, 27 Nov 2019 00:46:27 GMT",
+        "Cache-Control": "no-cache, no-store, must-revalidate",
+        "X-Request-Id": "65d90f96-6dc3-45c1-91f8-fa7767d6fdd6",
+        "X-Runtime": "0.011043",
+        "X-Workarea-Segments": "",
+        "Expires": "0",
+        "Content-Length": "1470"
+      },
+      "request_method": "GET",
+      "request_path": "/api/admin/products?updated_at_starts_at=2019-11-26+00%3A46%3A27+UTC&updated_at_ends_at=2019-11-28+00%3A46%3A27+UTC",
+      "request_body": null,
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"products\": [\n    {\n      \"_id\": \"F2908E09C4\",\n      \"active\": true,\n      \"active_segment_ids\": [\n\n      ],\n      \"browser_title\": null,\n      \"copied_from_id\": null,\n      \"created_at\": \"2019-11-27T00:46:27.174Z\",\n      \"customizations\": null,\n      \"default_category_id\": null,\n      \"description\": null,\n      \"details\": {\n        \"Material\": [\n          \"Cotton\"\n        ],\n        \"Style\": [\n          \"12345\"\n        ]\n      },\n      \"digital\": false,\n      \"filters\": {\n        \"Material\": \"Cotton\",\n        \"Style\": \"12345\"\n      },\n      \"last_indexed_at\": \"2019-11-27T00:46:27.338Z\",\n      \"meta_description\": null,\n      \"name\": \"Test Product\",\n      \"purchasable\": true,\n      \"slug\": \"test-product-1\",\n      \"subscribed_user_ids\": [\n\n      ],\n      \"tags\": [\n\n      ],\n      \"template\": \"generic\",\n      \"updated_at\": \"2019-11-27T00:46:27.174Z\",\n      \"variants\": [\n        {\n          \"_id\": \"5dddc76312415942540765af\",\n          \"active\": true,\n          \"active_segment_ids\": [\n\n          ],\n          \"created_at\": null,\n          \"details\": {\n          },\n          \"name\": \"SKU\",\n          \"position\": 0,\n          \"sku\": \"SKU\",\n          \"updated_at\": null\n        }\n      ]\n    },\n    {\n      \"_id\": \"9D68374432\",\n      \"active\": true,\n      \"active_segment_ids\": [\n\n      ],\n      \"browser_title\": null,\n      \"copied_from_id\": null,\n      \"created_at\": \"2019-11-27T00:46:26.471Z\",\n      \"customizations\": null,\n      \"default_category_id\": null,\n      \"description\": null,\n      \"details\": {\n        \"Material\": [\n          \"Cotton\"\n        ],\n        \"Style\": [\n          \"12345\"\n        ]\n      },\n      \"digital\": false,\n      \"filters\": {\n        \"Material\": \"Cotton\",\n        \"Style\": \"12345\"\n      },\n      \"last_indexed_at\": \"2019-11-27T00:46:27.163Z\",\n      \"meta_description\": null,\n      \"name\": \"Test Product\",\n      \"purchasable\": true,\n      \"slug\": \"test-product\",\n      \"subscribed_user_ids\": [\n\n      ],\n      \"tags\": [\n\n      ],\n      \"template\": \"generic\",\n      \"updated_at\": \"2019-11-27T00:46:27.035Z\",\n      \"variants\": [\n        {\n          \"_id\": \"5dddc76212415942540765a6\",\n          \"active\": true,\n          \"active_segment_ids\": [\n\n          ],\n          \"created_at\": null,\n          \"details\": {\n          },\n          \"name\": \"SKU\",\n          \"position\": 0,\n          \"sku\": \"SKU\",\n          \"updated_at\": null\n        }\n      ]\n    }\n  ]\n}",
+      "response_content_type": "application/json",
+      "curl": "curl -g \"https://www.example.com/api/admin/products?updated_at_starts_at=2019-11-26+00%3A46%3A27+UTC&updated_at_ends_at=2019-11-28+00%3A46%3A27+UTC\" -X GET "
+    }
+  ],
+  "resource": "Global Functionality",
+  "description": "Filtering by updated time stamp",
+  "route": "/api/admin/products",
+  "http_method": "GET"
+}

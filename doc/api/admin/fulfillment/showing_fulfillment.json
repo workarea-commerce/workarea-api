@@ -21,10 +21,10 @@
         "Content-Type": "application/json; charset=utf-8",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:13:10 GMT",
+        "Last-Modified": "Wed, 27 Nov 2019 00:44:07 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "25972065-eefd-45f1-8572-8727b318ad3b",
-        "X-Runtime": "0.005287",
+        "X-Request-Id": "78bcead0-5945-4f62-a13a-1eb2df8d9f4b",
+        "X-Runtime": "0.006757",
         "X-Workarea-Segments": "",
         "Expires": "0",
         "Content-Length": "247"
@@ -35,7 +35,7 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"fulfillment\": {\n    \"_id\": \"1234\",\n    \"created_at\": \"2019-11-27T00:13:09.885Z\",\n    \"items\": [\n      {\n        \"_id\": \"5dddbf951241597861fd73a1\",\n        \"created_at\": null,\n        \"order_item_id\": \"5dddbf931241597861fd7372\",\n        \"quantity\": 2,\n        \"updated_at\": null\n      }\n    ],\n    \"updated_at\": \"2019-11-27T00:13:09.885Z\"\n  }\n}",
+      "response_body": "{\n  \"fulfillment\": {\n    \"_id\": \"1234\",\n    \"created_at\": \"2019-11-27T00:44:06.809Z\",\n    \"items\": [\n      {\n        \"_id\": \"5dddc6d612415942540762a6\",\n        \"created_at\": null,\n        \"order_item_id\": \"5dddc6d31241594254076277\",\n        \"quantity\": 2,\n        \"updated_at\": null\n      }\n    ],\n    \"updated_at\": \"2019-11-27T00:44:06.809Z\"\n  }\n}",
       "response_content_type": "application/json",
       "curl": "curl -g \"https://www.example.com/api/admin/fulfillments/1234\" -X GET "
     }

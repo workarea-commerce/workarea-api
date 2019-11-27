@@ -21,22 +21,22 @@
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:10:06 GMT",
+        "Last-Modified": "Wed, 27 Nov 2019 00:45:20 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "d4f86af8-6c98-44e0-b8a2-de6c0d1e946d",
-        "X-Runtime": "0.049805",
+        "X-Request-Id": "7d328761-c711-4c68-a13b-38cf190f882d",
+        "X-Runtime": "0.042549",
         "X-Workarea-Segments": "",
         "Expires": "0"
       },
       "request_method": "PATCH",
-      "request_path": "/api/admin/categories/5dddbede1241597861fd6c73/product_rules/5dddbede1241597861fd6c76",
+      "request_path": "/api/admin/categories/5dddc7201241594254076474/product_rules/5dddc7201241594254076477",
       "request_body": "{\"product_rule\":{\"value\":\"foo\"}}",
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/categories/5dddbede1241597861fd6c73/product_rules/5dddbede1241597861fd6c76\" -d '{\"product_rule\":{\"value\":\"foo\"}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/categories/5dddc7201241594254076474/product_rules/5dddc7201241594254076477\" -d '{\"product_rule\":{\"value\":\"foo\"}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Category Product Rules",

@@ -21,22 +21,22 @@
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:05:06 GMT",
+        "Last-Modified": "Wed, 27 Nov 2019 00:43:23 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "59fcb225-4120-426a-9a1a-0f8fedec72bb",
-        "X-Runtime": "0.020867",
+        "X-Request-Id": "c0bc7827-80c4-44ca-9850-29ba184f11ad",
+        "X-Runtime": "0.018053",
         "X-Workarea-Segments": "",
         "Expires": "0"
       },
       "request_method": "DELETE",
-      "request_path": "/api/admin/users/5dddbdb21241597861fd64f1",
+      "request_path": "/api/admin/users/5dddc6ab124159425407614d",
       "request_body": null,
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/users/5dddbdb21241597861fd64f1\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/users/5dddc6ab124159425407614d\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Users",
