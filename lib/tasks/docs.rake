@@ -3,7 +3,7 @@ load 'rails/test_unit/testing.rake'
 namespace :workarea do
   namespace :api do
     desc 'Generate Workarea API Documentation'
-    task docs: %i[workarea:prepare] do
+    task generate_docs: :'workarea:prepare' do
       roots = [Workarea::Core::Engine.root] +
                 Workarea::Plugin.installed.map(&:root) +
                 [Rails.root]
