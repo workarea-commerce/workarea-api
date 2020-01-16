@@ -68,7 +68,7 @@ module Workarea
         def add_relations(klass, dsl)
           klass.relations.values.select(&:embedded?).each do |metadata|
             dsl.property metadata.name do
-              if metadata.many?
+              if metadata.is_a?(Mongoid::Association::Embedded::EmbedsMany)
                 key :type, :array
                 items { key :'$ref', metadata.klass.name }
               else
