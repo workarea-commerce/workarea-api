@@ -17,4 +17,6 @@ gemspec
 gem 'workarea-api-admin', path: 'admin'
 gem 'workarea-api-storefront', path: 'storefront'
 
-gem 'workarea', git: 'https://github.com/workarea-commerce/workarea.git', branch: 'v3.5-stable'
+gem 'workarea', github: 'workarea-commerce/workarea', branch: 'decorating-modules'
+gem 'rails-decorators', github: 'workarea-commerce/rails-decorators', branch: 'decorating-modules'
+gem 'teaspoon', git: 'https://github.com/jtapia/teaspoon.git', branch: 'chore/update-rails-6'
