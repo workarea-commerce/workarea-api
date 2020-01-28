@@ -18,11 +18,5 @@ module Workarea
         query
       end
     end
-
-    class_methods do
-      def foo
-        'bar'
-      end
-    end
   end
 end

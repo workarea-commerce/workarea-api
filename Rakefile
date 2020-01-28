@@ -6,13 +6,21 @@ rescue LoadError
 end
 
 require 'rails'
-require 'workarea/core'
+# require 'workarea/core'
 require 'rake/testtask'
 require 'date'
 
 load 'rails/test_unit/testing.rake'
 load 'workarea/changelog.rake'
-load Workarea::Core::Engine.root.join('lib', 'tasks', 'services.rake')
+# load Workarea::Core::Engine.root.join('lib', 'tasks', 'services.rake')
+
+# TODO temporary fix
+namespace :services do
+  desc 'Temporary fix for starting services.'
+  task :up do
+    puts 'they already runnin dawg'
+  end
+end
 
 GEMS = %w(admin storefront).freeze
 ROOT_DIR = Dir.pwd

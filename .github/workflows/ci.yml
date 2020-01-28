@@ -8,11 +8,21 @@ jobs:
     - uses: actions/checkout@v1
     - uses: workarea-commerce/ci/bundler-audit@v1
     - uses: workarea-commerce/ci/rubocop@v1
-    - uses: workarea-commerce/ci/eslint@v1
-      with:
-        args: '**/*.js'
 
   admin_tests:
+    services:
+      mongo:
+        image: mongo:4.0
+        ports:
+          - '27017:27017'
+      redis:
+        image: redis:5.0
+        ports:
+          - '6379:6379'
+      elasticsearch:
+        image: elasticsearch:5.6
+        ports:
+          - '9200:9200'
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
@@ -24,6 +34,19 @@ jobs:
         command: cd admin && bin/rails app:workarea:test
 
   storefront_tests:
+    services:
+      mongo:
+        image: mongo:4.0
+        ports:
+          - '27017:27017'
+      redis:
+        image: redis:5.0
+        ports:
+          - '6379:6379'
+      elasticsearch:
+        image: elasticsearch:5.6
+        ports:
+          - '9200:9200'
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1

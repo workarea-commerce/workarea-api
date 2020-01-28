@@ -1,4 +1,7 @@
 source 'https://rubygems.org'
+git_source :github do |repo|
+  "https://github.com/#{repo}.git"
+end
 
 # Declare your gem's dependencies in api.gemspec.
 # Bundler will treat runtime dependencies like base dependencies, and
@@ -17,6 +20,14 @@ gemspec
 gem 'workarea-api-admin', path: 'admin'
 gem 'workarea-api-storefront', path: 'storefront'
 
-gem 'workarea', github: 'workarea-commerce/workarea', branch: 'decorating-modules'
-gem 'rails-decorators', github: 'workarea-commerce/rails-decorators', branch: 'decorating-modules'
-gem 'teaspoon', git: 'https://github.com/jtapia/teaspoon.git', branch: 'chore/update-rails-6'
+# TODO: Not sure I actually need this, might just be fixing bugs with
+# the Rails 6 upgrade, but it was necessary to get tests running.
+gem 'workarea',
+  github: 'workarea-commerce/workarea',
+  branch: 'decorating-modules'
+
+gem 'rails-decorators',
+  github: 'workarea-commerce/rails-decorators',
+  branch: 'decorating-modules'
+
+gem 'teaspoon', github: 'jtapia/teaspoon', branch: 'chore/update-rails-6'
