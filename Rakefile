@@ -5,11 +5,22 @@ rescue LoadError
   puts 'You must `gem install bundler` and `bundle install` to run rake tasks'
 end
 
+require 'rails'
+# require 'workarea/core'
 require 'rake/testtask'
 require 'date'
 
 load 'rails/test_unit/testing.rake'
 load 'workarea/changelog.rake'
+# load Workarea::Core::Engine.root.join('lib', 'tasks', 'services.rake')
+
+# TODO temporary fix
+namespace :services do
+  desc 'Temporary fix for starting services.'
+  task :up do
+    puts 'they already runnin dawg'
+  end
+end
 
 GEMS = %w(admin storefront).freeze
 ROOT_DIR = Dir.pwd
@@ -79,7 +90,13 @@ task :release do
   # Build documentation
   #
   #
-  system 'GENERATE_API_DOCS=true bundle exec rake test && git add doc && git commit -am "Update documentation" && git push origin HEAD'
+  #system <<~COMMAND
+  #  (cd admin && GENERATE_API_DOCS=true bin/rails test) &&
+  #  (cd storefront && GENERATE_API_DOCS=true bin/rails test) &&
+  #  git add doc/ &&
+  #  git commit -am "Update documentation" &&
+  #  git push origin HEAD
+  #COMMAND
 
   #
   # Build gem files
