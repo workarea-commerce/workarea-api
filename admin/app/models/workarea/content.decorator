@@ -1,0 +1,7 @@
+module Workarea
+  decorate Content, with: :api_admin do
+    decorated do
+      include Workarea::Api::Admin::DateFiltering
+    end
+  end
+end
