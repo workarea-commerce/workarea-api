@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
 
   s.required_ruby_version = '>= 2.3.0'
 
-  s.add_dependency 'workarea', '~> 3.x', '>= 3.4.x'
+  s.add_dependency 'workarea', '~> 3.x', '>= 3.5.x'
   s.add_dependency 'workarea-api-storefront', Workarea::Api::VERSION
   s.add_dependency 'workarea-api-admin', Workarea::Api::VERSION
   s.add_dependency 'raddocs', '~> 2.2.0'
