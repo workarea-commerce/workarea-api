@@ -1,3 +1,34 @@
+Workarea Api 4.5.2 (2020-01-07)
+--------------------------------------------------------------------------------
+
+*   Fix Docs Generator Task Name
+
+    The task name `workarea:api:generate_docs` wasn't able to load the
+    environment like the rest of the `workarea:test` tasks because it wasn't
+    in the correct Rake namespace. This is due to a hack in core that
+    configures the Rake environment such that custom Rake tasks for testing
+    are possible. Change the task name to `workarea:test:api_docs` to take
+    advantage of this hack so the tests will run properly.
+
+    API-4
+    Tom Scott
+
+*   Add Rake Task For Generating API Documentation
+
+    The `workarea:api:docs` task will generate all API documentation for all
+    plugins without the need to set environment variables. Developers should
+    run this task and commit the results in `doc/api` in order to deploy API
+    documentation changes to a server.
+
+    API-4
+    Tom Scott
+
+*   Fix rakefile
+
+    Curt Howard
+
+
+
 Workarea Api 4.5.0 (2019-11-26)
 --------------------------------------------------------------------------------
 

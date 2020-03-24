@@ -22,7 +22,7 @@ separate APIs for different purposes:
 To begin using the Workarea API, add the following to your **Gemfile**:
 
 ```ruby
-  gem 'weblinc-api'
+  gem 'workarea-api'
 ```
 
 Next, mount the API engines into **config/routes.rb**.
