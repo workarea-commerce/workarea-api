@@ -1,3 +1,24 @@
+Workarea Api 4.5.3 (2020-03-26)
+--------------------------------------------------------------------------------
+
+*   Update workarea gem dependencies to reflect reality
+
+    Ben Crouse
+
+*   Fix typo
+
+    Tom Scott
+
+*   Remove use of #many? on embedded relationship for Rails 6 upgrade
+
+    Matt Duffy
+
+*   Bump responders dependecy to 3.0.0
+
+    Matt Duffy
+
+
+
 Workarea Api 4.5.2 (2020-01-07)
 --------------------------------------------------------------------------------
 
