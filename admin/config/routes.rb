@@ -19,6 +19,9 @@ Workarea::Api::Admin::Engine.routes.draw do
   resources :discounts, only: basic_crud
   resources :email_shares, only: read_only
   resources :email_signups, only: read_only
+  resources :fulfillment_skus, only: basic_crud do
+    collection { patch 'bulk' }
+  end
   resources :fulfillments, only: read_only do
     member do
       post 'ship_items'
