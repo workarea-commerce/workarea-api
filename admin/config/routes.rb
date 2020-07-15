@@ -63,6 +63,9 @@ Workarea::Api::Admin::Engine.routes.draw do
   resources :releases, only: basic_crud do
     collection { patch 'bulk' }
   end
+  resources :shipping_skus, only: basic_crud do
+    collection { patch 'bulk' }
+  end
   resources :shippings, only: read_only
   resources :shipping_services, only: basic_crud do
     collection { patch 'bulk' }
