@@ -6,6 +6,8 @@ rescue LoadError
 end
 
 require 'rails'
+require "action_view/railtie"
+
 require 'workarea/core'
 require 'rake/testtask'
 require 'date'
