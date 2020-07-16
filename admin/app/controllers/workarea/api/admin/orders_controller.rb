@@ -4,7 +4,7 @@ module Workarea
       class OrdersController < Admin::ApplicationController
         swagger_path '/orders' do
           operation :get do
-            key :summary, 'All Ordsers'
+            key :summary, 'All Orders'
             key :description, 'Returns all orders from the system'
             key :operationId, 'listOrders'
             key :produces, ['application/json']
