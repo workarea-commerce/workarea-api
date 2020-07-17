@@ -1,5 +1,5 @@
 module Workarea
   module Api
-    VERSION = '4.5.3'.freeze
+    VERSION = '4.6.0.pre'.freeze
   end
 end
