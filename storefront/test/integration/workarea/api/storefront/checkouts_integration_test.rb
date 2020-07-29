@@ -94,6 +94,17 @@ module Workarea
             params: {
               email: 'test@workarea.com',
               shipping_address: address,
+              shipping_service: 'Express'
+            }
+          shipping = Shipping.find_by_order(@order.id)
+
+          assert_response(:unprocessable_entity)
+          assert_equal('Express', shipping.shipping_service.name)
+
+          patch storefront_api.checkout_path(@order),
+            params: {
+              email: 'test@workarea.com',
+              shipping_address: address,
               billing_address: address,
             }
 

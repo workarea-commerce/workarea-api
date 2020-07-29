@@ -1,0 +1,7 @@
+module Workarea
+  decorate Checkout, with: :storefront_api do
+    def update(params = {})
+      steps.all? { |s| s.new(self).update(params) }
+    end
+  end
+end
