@@ -114,7 +114,7 @@ module Workarea
         private
 
         def find_recommendation_settings
-          @recommendation_settings = Recommendation::Settings.find(params[:product_id])
+          @recommendation_settings = Recommendation::Settings.find_or_initialize_by(id: params[:product_id])
         end
       end
     end
