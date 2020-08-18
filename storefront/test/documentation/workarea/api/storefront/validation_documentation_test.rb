@@ -72,7 +72,7 @@ module Workarea
                 }
               }
 
-            assert_equal(200, response.status)
+            assert_equal(422, response.status)
           end
         end
       end

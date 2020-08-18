@@ -85,6 +85,27 @@ module Workarea
           end
         end
 
+        def test_and_document_update_failure
+          description 'Failure to update a checkout'
+          route storefront_api.checkout_path(':id')
+          explanation <<-EOS
+            This is an example of what occurs when you fail to send in the correct parameters for your checkout.
+          EOS
+
+          record_request do
+            patch storefront_api.checkout_path(@order),
+              as: :json,
+              params: {
+                email: 'susanb@workarea.com',
+                shipping_address: address.except(:first_name),
+                billing_address: address.except(:last_name),
+                shipping_service: 'Express'
+              }
+
+            assert_equal(422, response.status)
+          end
+        end
+
         def test_and_document_complete
           description 'Completing a checkout'
           route storefront_api.complete_checkout_path(':id')
