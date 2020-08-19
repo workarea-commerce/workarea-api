@@ -1,3 +1,27 @@
+Workarea Api 4.5.4 (2020-08-19)
+--------------------------------------------------------------------------------
+
+*   Handle non-persisted recommendation settings
+
+    This uses `find_or_initialize` to match our usage of
+    `Recommendation::Settings` elsewhere in the platform.
+
+    Fixes #19
+    Ben Crouse
+
+*   Add Documentation Test for Failed Checkout Update
+
+    This documents the scenario in which a checkout update fails to persist,
+    and thus the API returns a `422` error to signify its failure. It
+    depends on the code changes in workarea-commerce/workarea#481, and thus
+    we will need to bump the Workarea version to restrict its upgrade to
+    users of v3.5.17 and beyond.
+
+    API-14
+    Tom Scott
+
+
+
 Workarea Api 4.5.3 (2020-03-26)
 --------------------------------------------------------------------------------
 
