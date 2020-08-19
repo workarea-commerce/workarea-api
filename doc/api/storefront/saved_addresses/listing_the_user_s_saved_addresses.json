@@ -8,7 +8,7 @@
   "requests": [
     {
       "request_headers": {
-        "Authorization": "Token token=\"BW7ohsfkRsxwHfUakVxZBJc1\""
+        "Authorization": "Token token=\"dgmaPerDfVwh8Q9fUkaBX74f\""
       },
       "request_query_parameters": {
       },
@@ -25,10 +25,10 @@
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:55:57 GMT",
+        "Last-Modified": "Wed, 19 Aug 2020 13:58:27 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "abead827-d1a4-4a39-8d35-240a8dfb1fb3",
-        "X-Runtime": "0.003931",
+        "X-Request-Id": "5e584fd6-e865-4973-9916-2e9596c4cadc",
+        "X-Runtime": "0.004913",
         "X-Workarea-Segments": "",
         "Expires": "0",
         "Content-Length": "734"
@@ -39,9 +39,9 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"user_id\": \"5dddc99d1241596aa520550b\",\n  \"addresses\": [\n    {\n      \"url\": \"http://www.example.com/api/storefront/saved_addresses/5dddc99d1241596aa520550f\",\n      \"id\": \"5dddc99d1241596aa520550f\",\n      \"first_name\": \"Susan\",\n      \"last_name\": \"Baker\",\n      \"company\": null,\n      \"street\": \"350 Fifth Avenue\",\n      \"street_2\": null,\n      \"city\": \"New York\",\n      \"country\": \"US\",\n      \"region\": \"NY\",\n      \"postal_code\": \"10118\",\n      \"phone_number\": \"6465552390\",\n      \"phone_extension\": null\n    },\n    {\n      \"url\": \"http://www.example.com/api/storefront/saved_addresses/5dddc99d1241596aa5205510\",\n      \"id\": \"5dddc99d1241596aa5205510\",\n      \"first_name\": \"Susan\",\n      \"last_name\": \"Baker\",\n      \"company\": null,\n      \"street\": \"4059 Mt Lee Dr.\",\n      \"street_2\": null,\n      \"city\": \"Hollywood\",\n      \"country\": \"US\",\n      \"region\": \"CA\",\n      \"postal_code\": \"90068\",\n      \"phone_number\": \"7545552390\",\n      \"phone_extension\": null\n    }\n  ]\n}",
+      "response_body": "{\n  \"user_id\": \"5f3d30020218236e938cfb66\",\n  \"addresses\": [\n    {\n      \"url\": \"http://www.example.com/api/storefront/saved_addresses/5f3d30030218236e938cfb6a\",\n      \"id\": \"5f3d30030218236e938cfb6a\",\n      \"first_name\": \"Susan\",\n      \"last_name\": \"Baker\",\n      \"company\": null,\n      \"street\": \"350 Fifth Avenue\",\n      \"street_2\": null,\n      \"city\": \"New York\",\n      \"country\": \"US\",\n      \"region\": \"NY\",\n      \"postal_code\": \"10118\",\n      \"phone_number\": \"6465552390\",\n      \"phone_extension\": null\n    },\n    {\n      \"url\": \"http://www.example.com/api/storefront/saved_addresses/5f3d30030218236e938cfb6b\",\n      \"id\": \"5f3d30030218236e938cfb6b\",\n      \"first_name\": \"Susan\",\n      \"last_name\": \"Baker\",\n      \"company\": null,\n      \"street\": \"4059 Mt Lee Dr.\",\n      \"street_2\": null,\n      \"city\": \"Hollywood\",\n      \"country\": \"US\",\n      \"region\": \"CA\",\n      \"postal_code\": \"90068\",\n      \"phone_number\": \"7545552390\",\n      \"phone_extension\": null\n    }\n  ]\n}",
       "response_content_type": "application/json",
-      "curl": "curl -g \"https://www.example.com/api/storefront/saved_addresses\" -X GET \\\n\t-H \"Authorization: Token token=\\\"BW7ohsfkRsxwHfUakVxZBJc1\\\"\""
+      "curl": "curl -g \"https://www.example.com/api/storefront/saved_addresses\" -X GET \\\n\t-H \"Authorization: Token token=\\\"dgmaPerDfVwh8Q9fUkaBX74f\\\"\""
     }
   ],
   "resource": "Saved Addresses",

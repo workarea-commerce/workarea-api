@@ -21,22 +21,22 @@
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:37:07 GMT",
+        "Last-Modified": "Wed, 19 Aug 2020 13:53:04 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "035f1f6f-fe04-4740-aca0-3eb57cc81ce0",
-        "X-Runtime": "0.012679",
+        "X-Request-Id": "2abebfd3-10ab-49b6-ba4f-b78ea6da3181",
+        "X-Runtime": "0.024715",
         "X-Workarea-Segments": "",
         "Expires": "0"
       },
       "request_method": "DELETE",
-      "request_path": "/api/admin/navigation_taxons/5dddc533124159425407569a",
+      "request_path": "/api/admin/navigation_taxons/5f3d2ebf0218236de151fbeb",
       "request_body": null,
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/navigation_taxons/5dddc533124159425407569a\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
+      "curl": "curl \"https://www.example.com/api/admin/navigation_taxons/5f3d2ebf0218236de151fbeb\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
     }
   ],
   "resource": "Navigation taxonomy",

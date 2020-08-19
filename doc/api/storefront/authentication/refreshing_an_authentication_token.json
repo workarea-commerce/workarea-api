@@ -9,7 +9,7 @@
     {
       "request_headers": {
         "Content-Type": "application/x-www-form-urlencoded",
-        "Authorization": "Token token=\"318tfBEfNY1jVETcf4VY8cXb\""
+        "Authorization": "Token token=\"uYrfBXhiicquki9sSkneipdv\""
       },
       "request_query_parameters": {
       },
@@ -26,10 +26,10 @@
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:54:08 GMT",
+        "Last-Modified": "Wed, 19 Aug 2020 13:55:26 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "07d39e5c-72c6-482f-b003-d64fda3cdbc4",
-        "X-Runtime": "0.007371",
+        "X-Request-Id": "0f425caa-9497-44c7-9f04-894a212c521f",
+        "X-Runtime": "0.011995",
         "X-Workarea-Segments": "",
         "Expires": "0",
         "Content-Length": "76"
@@ -40,9 +40,9 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"token\": \"318tfBEfNY1jVETcf4VY8cXb\",\n  \"expires_at\": \"2019-12-04T00:54:08.274Z\"\n}",
+      "response_body": "{\n  \"token\": \"uYrfBXhiicquki9sSkneipdv\",\n  \"expires_at\": \"2020-08-26T13:55:26.591Z\"\n}",
       "response_content_type": "application/json",
-      "curl": "curl \"https://www.example.com/api/storefront/authentication_tokens\" -d '' -X PATCH \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Authorization: Token token=\\\"318tfBEfNY1jVETcf4VY8cXb\\\"\""
+      "curl": "curl \"https://www.example.com/api/storefront/authentication_tokens\" -d '' -X PATCH \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Authorization: Token token=\\\"uYrfBXhiicquki9sSkneipdv\\\"\""
     }
   ],
   "resource": "Authentication",

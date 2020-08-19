@@ -21,22 +21,22 @@
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:35:43 GMT",
+        "Last-Modified": "Wed, 19 Aug 2020 13:47:30 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "772bc7e9-2497-4bbc-bdac-055218a0732a",
-        "X-Runtime": "0.039290",
+        "X-Request-Id": "7ddf23fb-704d-4f49-a6dc-2b1555b609e8",
+        "X-Runtime": "0.048207",
         "X-Workarea-Segments": "",
         "Expires": "0"
       },
       "request_method": "PATCH",
-      "request_path": "/api/admin/content/5dddc4df124159425407525b",
+      "request_path": "/api/admin/content/5f3d2d720218236de151edd5",
       "request_body": "{\"content\":{\"browser_title\":\"foo\"}}",
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/content/5dddc4df124159425407525b\" -d '{\"content\":{\"browser_title\":\"foo\"}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/content/5f3d2d720218236de151edd5\" -d '{\"content\":{\"browser_title\":\"foo\"}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Content",

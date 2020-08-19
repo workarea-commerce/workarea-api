@@ -9,7 +9,7 @@
     {
       "request_headers": {
         "Content-Type": "application/x-www-form-urlencoded",
-        "Authorization": "Token token=\"Pik5FWCLTtVAQMgRCC3EBTKg\""
+        "Authorization": "Token token=\"T5UFvcvvZfJMqs71igMzNU41\""
       },
       "request_query_parameters": {
       },
@@ -26,23 +26,23 @@
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:50:43 GMT",
+        "Last-Modified": "Wed, 19 Aug 2020 13:54:45 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "d104f565-a0b8-4998-94ad-70de373c8ea0",
-        "X-Runtime": "0.027685",
+        "X-Request-Id": "eaf1e185-572d-4922-acd1-1a43a69ea59a",
+        "X-Runtime": "0.044303",
         "X-Workarea-Segments": "",
         "Expires": "0",
         "Content-Length": "572"
       },
       "request_method": "DELETE",
-      "request_path": "/api/storefront/carts/E606672F7C/items/5dddc8631241596aa520487b",
+      "request_path": "/api/storefront/carts/F496517F63/items/5f3d2f250218236e938cedc3",
       "request_body": null,
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"order\": {\n    \"id\": \"E606672F7C\",\n    \"url\": \"http://www.example.com/api/storefront/orders/E606672F7C\",\n    \"user_id\": \"5dddc85e1241596aa5204865\",\n    \"email\": \"bcrouse@workarea.com\",\n    \"placed_at\": null,\n    \"canceled_at\": null,\n    \"promo_codes\": [\n\n    ],\n    \"requires_shipping\": false,\n    \"items\": [\n\n    ],\n    \"pricing\": {\n      \"price_adjustments\": [\n\n      ],\n      \"shipping_total\": {\n        \"cents\": 0.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"tax_total\": {\n        \"cents\": 0.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"subtotal_price\": {\n        \"cents\": 0.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"total_price\": {\n        \"cents\": 0.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"paid_amount\": {\n        \"cents\": 0.0,\n        \"currency_iso\": \"USD\"\n      }\n    },\n    \"shipping_service\": null,\n    \"tenders\": [\n\n    ]\n  }\n}",
+      "response_body": "{\n  \"order\": {\n    \"id\": \"F496517F63\",\n    \"url\": \"http://www.example.com/api/storefront/orders/F496517F63\",\n    \"user_id\": \"5f3d2f240218236e938cedad\",\n    \"email\": \"bcrouse@workarea.com\",\n    \"placed_at\": null,\n    \"canceled_at\": null,\n    \"promo_codes\": [\n\n    ],\n    \"requires_shipping\": false,\n    \"items\": [\n\n    ],\n    \"pricing\": {\n      \"price_adjustments\": [\n\n      ],\n      \"shipping_total\": {\n        \"cents\": 0.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"tax_total\": {\n        \"cents\": 0.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"subtotal_price\": {\n        \"cents\": 0.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"total_price\": {\n        \"cents\": 0.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"paid_amount\": {\n        \"cents\": 0.0,\n        \"currency_iso\": \"USD\"\n      }\n    },\n    \"shipping_service\": null,\n    \"tenders\": [\n\n    ]\n  }\n}",
       "response_content_type": "application/json",
-      "curl": "curl \"https://www.example.com/api/storefront/carts/E606672F7C/items/5dddc8631241596aa520487b\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Authorization: Token token=\\\"Pik5FWCLTtVAQMgRCC3EBTKg\\\"\""
+      "curl": "curl \"https://www.example.com/api/storefront/carts/F496517F63/items/5f3d2f250218236e938cedc3\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Authorization: Token token=\\\"T5UFvcvvZfJMqs71igMzNU41\\\"\""
     }
   ],
   "resource": "Cart",

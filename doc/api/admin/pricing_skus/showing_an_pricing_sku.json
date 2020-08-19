@@ -21,10 +21,10 @@
         "Content-Type": "application/json; charset=utf-8",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:46:33 GMT",
+        "Last-Modified": "Wed, 19 Aug 2020 13:52:06 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "783895c4-caed-4405-8e5e-41f72488525d",
-        "X-Runtime": "0.005650",
+        "X-Request-Id": "5a6616bc-e73f-4e61-bc71-397817450e2b",
+        "X-Runtime": "0.005937",
         "X-Workarea-Segments": "",
         "Expires": "0",
         "Content-Length": "212"
@@ -35,7 +35,7 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"pricing_sku\": {\n    \"_id\": \"2134\",\n    \"active\": true,\n    \"active_segment_ids\": [\n\n    ],\n    \"created_at\": \"2019-11-27T00:46:33.948Z\",\n    \"discountable\": true,\n    \"msrp\": null,\n    \"on_sale\": false,\n    \"tax_code\": null,\n    \"updated_at\": \"2019-11-27T00:46:33.948Z\"\n  }\n}",
+      "response_body": "{\n  \"pricing_sku\": {\n    \"_id\": \"2134\",\n    \"active\": true,\n    \"active_segment_ids\": [\n\n    ],\n    \"created_at\": \"2020-08-19T13:52:06.246Z\",\n    \"discountable\": true,\n    \"msrp\": null,\n    \"on_sale\": false,\n    \"tax_code\": null,\n    \"updated_at\": \"2020-08-19T13:52:06.246Z\"\n  }\n}",
       "response_content_type": "application/json",
       "curl": "curl -g \"https://www.example.com/api/admin/pricing_skus/2134\" -X GET "
     }

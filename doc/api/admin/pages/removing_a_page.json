@@ -21,22 +21,22 @@
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:37:11 GMT",
+        "Last-Modified": "Wed, 19 Aug 2020 13:48:07 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "3571a2e1-d90a-4ca2-94f6-4d3286dac1eb",
-        "X-Runtime": "0.033082",
+        "X-Request-Id": "3aca2d79-386a-4674-841e-158b1c1ca0be",
+        "X-Runtime": "0.041369",
         "X-Workarea-Segments": "",
         "Expires": "0"
       },
       "request_method": "DELETE",
-      "request_path": "/api/admin/pages/5dddc53712415942540756ae",
+      "request_path": "/api/admin/pages/5f3d2d970218236de151ef16",
       "request_body": null,
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/pages/5dddc53712415942540756ae\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/pages/5f3d2d970218236de151ef16\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Pages",

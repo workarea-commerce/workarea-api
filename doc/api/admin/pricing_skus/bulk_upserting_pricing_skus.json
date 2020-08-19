@@ -21,22 +21,22 @@
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:46:31 GMT",
+        "Last-Modified": "Wed, 19 Aug 2020 13:52:04 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "64c377e3-be5c-478d-9de3-b2b7758e3f3e",
-        "X-Runtime": "0.107956",
+        "X-Request-Id": "f8776120-dbd3-4fee-9ab7-7db2ed10a25d",
+        "X-Runtime": "0.128729",
         "X-Workarea-Segments": "",
         "Expires": "0"
       },
       "request_method": "PATCH",
       "request_path": "/api/admin/pricing_skus/bulk",
-      "request_body": "{\"pricing_skus\":[{\"active\":true,\"active_segment_ids\":[],\"created_at\":\"2019-11-27T00:46:31.003Z\",\"discountable\":true,\"msrp\":null,\"on_sale\":false,\"tax_code\":null,\"updated_at\":\"2019-11-27T00:46:31.003Z\",\"_id\":1},{\"active\":true,\"active_segment_ids\":[],\"created_at\":\"2019-11-27T00:46:31.003Z\",\"discountable\":true,\"msrp\":null,\"on_sale\":false,\"tax_code\":null,\"updated_at\":\"2019-11-27T00:46:31.003Z\",\"_id\":1},{\"active\":true,\"active_segment_ids\":[],\"created_at\":\"2019-11-27T00:46:31.003Z\",\"discountable\":true,\"msrp\":null,\"on_sale\":false,\"tax_code\":null,\"updated_at\":\"2019-11-27T00:46:31.003Z\",\"_id\":1}]}",
+      "request_body": "{\"pricing_skus\":[{\"active\":true,\"active_segment_ids\":[],\"created_at\":\"2020-08-19T13:52:03.884Z\",\"discountable\":true,\"msrp\":null,\"on_sale\":false,\"tax_code\":null,\"updated_at\":\"2020-08-19T13:52:03.884Z\",\"_id\":1},{\"active\":true,\"active_segment_ids\":[],\"created_at\":\"2020-08-19T13:52:03.884Z\",\"discountable\":true,\"msrp\":null,\"on_sale\":false,\"tax_code\":null,\"updated_at\":\"2020-08-19T13:52:03.884Z\",\"_id\":1},{\"active\":true,\"active_segment_ids\":[],\"created_at\":\"2020-08-19T13:52:03.884Z\",\"discountable\":true,\"msrp\":null,\"on_sale\":false,\"tax_code\":null,\"updated_at\":\"2020-08-19T13:52:03.884Z\",\"_id\":1}]}",
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/pricing_skus/bulk\" -d '{\"pricing_skus\":[{\"active\":true,\"active_segment_ids\":[],\"created_at\":\"2019-11-27T00:46:31.003Z\",\"discountable\":true,\"msrp\":null,\"on_sale\":false,\"tax_code\":null,\"updated_at\":\"2019-11-27T00:46:31.003Z\",\"_id\":1},{\"active\":true,\"active_segment_ids\":[],\"created_at\":\"2019-11-27T00:46:31.003Z\",\"discountable\":true,\"msrp\":null,\"on_sale\":false,\"tax_code\":null,\"updated_at\":\"2019-11-27T00:46:31.003Z\",\"_id\":1},{\"active\":true,\"active_segment_ids\":[],\"created_at\":\"2019-11-27T00:46:31.003Z\",\"discountable\":true,\"msrp\":null,\"on_sale\":false,\"tax_code\":null,\"updated_at\":\"2019-11-27T00:46:31.003Z\",\"_id\":1}]}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/pricing_skus/bulk\" -d '{\"pricing_skus\":[{\"active\":true,\"active_segment_ids\":[],\"created_at\":\"2020-08-19T13:52:03.884Z\",\"discountable\":true,\"msrp\":null,\"on_sale\":false,\"tax_code\":null,\"updated_at\":\"2020-08-19T13:52:03.884Z\",\"_id\":1},{\"active\":true,\"active_segment_ids\":[],\"created_at\":\"2020-08-19T13:52:03.884Z\",\"discountable\":true,\"msrp\":null,\"on_sale\":false,\"tax_code\":null,\"updated_at\":\"2020-08-19T13:52:03.884Z\",\"_id\":1},{\"active\":true,\"active_segment_ids\":[],\"created_at\":\"2020-08-19T13:52:03.884Z\",\"discountable\":true,\"msrp\":null,\"on_sale\":false,\"tax_code\":null,\"updated_at\":\"2020-08-19T13:52:03.884Z\",\"_id\":1}]}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Pricing SKUs",

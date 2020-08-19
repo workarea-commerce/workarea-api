@@ -21,22 +21,22 @@
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:35:10 GMT",
+        "Last-Modified": "Wed, 19 Aug 2020 13:43:20 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "8b939242-bc39-4137-ad3d-833ca909b26e",
-        "X-Runtime": "0.038722",
+        "X-Request-Id": "470e5002-4b56-4c41-8cab-2d296149b3c9",
+        "X-Runtime": "0.054059",
         "X-Workarea-Segments": "",
         "Expires": "0"
       },
       "request_method": "DELETE",
-      "request_path": "/api/admin/pricing_skus/2134/prices/5dddc4be12415942540751bb",
+      "request_path": "/api/admin/pricing_skus/2134/prices/5f3d2c780218236de151e55b",
       "request_body": null,
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/pricing_skus/2134/prices/5dddc4be12415942540751bb\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
+      "curl": "curl \"https://www.example.com/api/admin/pricing_skus/2134/prices/5f3d2c780218236de151e55b\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
     }
   ],
   "resource": "Prices",

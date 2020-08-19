@@ -21,23 +21,23 @@
         "Content-Type": "application/json; charset=utf-8",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:34:37 GMT",
+        "Last-Modified": "Wed, 19 Aug 2020 13:44:37 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "4ae2ead3-b797-42dd-8b38-3fd132ef5e00",
-        "X-Runtime": "0.006744",
+        "X-Request-Id": "6947099b-6a55-4e9e-9f55-fe5f8ce2ad23",
+        "X-Runtime": "0.010057",
         "X-Workarea-Segments": "",
         "Expires": "0",
-        "Content-Length": "592"
+        "Content-Length": "594"
       },
       "request_method": "GET",
-      "request_path": "/api/admin/products/D4DA8B806C/variants",
+      "request_path": "/api/admin/products/BB06ACBF69/variants",
       "request_body": null,
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"variants\": [\n    {\n      \"_id\": \"5dddc49d124159425407515a\",\n      \"active\": true,\n      \"active_segment_ids\": [\n\n      ],\n      \"created_at\": \"2019-11-27T00:34:37.451Z\",\n      \"details\": {\n      },\n      \"name\": \"SKU19\",\n      \"position\": 0,\n      \"sku\": \"SKU19\",\n      \"updated_at\": \"2019-11-27T00:34:37.451Z\"\n    },\n    {\n      \"_id\": \"5dddc49d1241594254075161\",\n      \"active\": true,\n      \"active_segment_ids\": [\n\n      ],\n      \"created_at\": \"2019-11-27T00:34:37.573Z\",\n      \"details\": {\n      },\n      \"name\": \"SKU868\",\n      \"position\": 1,\n      \"sku\": \"SKU868\",\n      \"updated_at\": \"2019-11-27T00:34:37.573Z\"\n    },\n    {\n      \"_id\": \"5dddc49d1241594254075155\",\n      \"active\": true,\n      \"active_segment_ids\": [\n\n      ],\n      \"created_at\": null,\n      \"details\": {\n      },\n      \"name\": \"SKU\",\n      \"position\": 2,\n      \"sku\": \"SKU\",\n      \"updated_at\": null\n    }\n  ]\n}",
+      "response_body": "{\n  \"variants\": [\n    {\n      \"_id\": \"5f3d2cc40218236de151e833\",\n      \"active\": true,\n      \"active_segment_ids\": [\n\n      ],\n      \"created_at\": \"2020-08-19T13:44:36.898Z\",\n      \"details\": {\n      },\n      \"name\": \"SKU830\",\n      \"position\": 0,\n      \"sku\": \"SKU830\",\n      \"updated_at\": \"2020-08-19T13:44:36.898Z\"\n    },\n    {\n      \"_id\": \"5f3d2cc50218236de151e83a\",\n      \"active\": true,\n      \"active_segment_ids\": [\n\n      ],\n      \"created_at\": \"2020-08-19T13:44:37.143Z\",\n      \"details\": {\n      },\n      \"name\": \"SKU400\",\n      \"position\": 1,\n      \"sku\": \"SKU400\",\n      \"updated_at\": \"2020-08-19T13:44:37.143Z\"\n    },\n    {\n      \"_id\": \"5f3d2cc40218236de151e82e\",\n      \"active\": true,\n      \"active_segment_ids\": [\n\n      ],\n      \"created_at\": null,\n      \"details\": {\n      },\n      \"name\": \"SKU\",\n      \"position\": 2,\n      \"sku\": \"SKU\",\n      \"updated_at\": null\n    }\n  ]\n}",
       "response_content_type": "application/json",
-      "curl": "curl -g \"https://www.example.com/api/admin/products/D4DA8B806C/variants\" -X GET "
+      "curl": "curl -g \"https://www.example.com/api/admin/products/BB06ACBF69/variants\" -X GET "
     }
   ],
   "resource": "Variants",

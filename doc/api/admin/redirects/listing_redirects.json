@@ -35,10 +35,10 @@
         "Content-Type": "application/json; charset=utf-8",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:38:07 GMT",
+        "Last-Modified": "Wed, 19 Aug 2020 13:47:28 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "27760f54-5adc-4d4f-ae08-a06c74cf18c7",
-        "X-Runtime": "0.006170",
+        "X-Request-Id": "8b39641f-9226-4f3e-ad85-8faeeeb55484",
+        "X-Runtime": "0.006607",
         "X-Workarea-Segments": "",
         "Expires": "0",
         "Content-Length": "323"
@@ -49,7 +49,7 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"redirects\": [\n    {\n      \"_id\": \"5dddc56e12415942540757a7\",\n      \"created_at\": \"2019-11-27T00:38:06.992Z\",\n      \"destination\": \"/pages/faq\",\n      \"path\": \"/1\",\n      \"updated_at\": \"2019-11-27T00:38:06.992Z\"\n    },\n    {\n      \"_id\": \"5dddc56e12415942540757a6\",\n      \"created_at\": \"2019-11-27T00:38:06.988Z\",\n      \"destination\": \"/pages/faq\",\n      \"path\": \"/0\",\n      \"updated_at\": \"2019-11-27T00:38:06.988Z\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"redirects\": [\n    {\n      \"_id\": \"5f3d2d700218236de151edcb\",\n      \"created_at\": \"2020-08-19T13:47:28.365Z\",\n      \"destination\": \"/pages/faq\",\n      \"path\": \"/1\",\n      \"updated_at\": \"2020-08-19T13:47:28.365Z\"\n    },\n    {\n      \"_id\": \"5f3d2d700218236de151edca\",\n      \"created_at\": \"2020-08-19T13:47:28.358Z\",\n      \"destination\": \"/pages/faq\",\n      \"path\": \"/0\",\n      \"updated_at\": \"2020-08-19T13:47:28.358Z\"\n    }\n  ]\n}",
       "response_content_type": "application/json",
       "curl": "curl -g \"https://www.example.com/api/admin/redirects?page=1&sort_by=created_at&sort_direction=desc\" -X GET "
     }

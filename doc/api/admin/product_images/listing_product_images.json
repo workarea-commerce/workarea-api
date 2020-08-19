@@ -21,23 +21,23 @@
         "Content-Type": "application/json; charset=utf-8",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:45:36 GMT",
+        "Last-Modified": "Wed, 19 Aug 2020 13:51:48 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "6d32e35b-41e9-460f-8c5f-0ad4edb4c915",
-        "X-Runtime": "0.007649",
+        "X-Request-Id": "00236dc7-28a5-4b77-86f2-a28be3265fdd",
+        "X-Runtime": "0.007822",
         "X-Workarea-Segments": "",
         "Expires": "0",
-        "Content-Length": "805"
+        "Content-Length": "806"
       },
       "request_method": "GET",
-      "request_path": "/api/admin/products/5C5E0808B2/images",
+      "request_path": "/api/admin/products/54183BE70B/images",
       "request_body": null,
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"images\": [\n    {\n      \"_id\": \"5dddc72f12415942540764c1\",\n      \"created_at\": \"2019-11-27T00:45:35.572Z\",\n      \"image_aspect_ratio\": null,\n      \"image_format\": null,\n      \"image_height\": null,\n      \"image_image\": false,\n      \"image_inverse_aspect_ratio\": null,\n      \"image_landscape\": null,\n      \"image_name\": \"file.jpeg\",\n      \"image_portrait\": null,\n      \"image_uid\": \"2019/11/26/6uar9txujq_file.jpeg\",\n      \"image_width\": null,\n      \"option\": null,\n      \"position\": 0,\n      \"updated_at\": \"2019-11-27T00:45:35.572Z\"\n    },\n    {\n      \"_id\": \"5dddc72f12415942540764cc\",\n      \"created_at\": \"2019-11-27T00:45:35.852Z\",\n      \"image_aspect_ratio\": null,\n      \"image_format\": null,\n      \"image_height\": null,\n      \"image_image\": false,\n      \"image_inverse_aspect_ratio\": null,\n      \"image_landscape\": null,\n      \"image_name\": \"file.jpeg\",\n      \"image_portrait\": null,\n      \"image_uid\": \"2019/11/26/6mt35knpr_file.jpeg\",\n      \"image_width\": null,\n      \"option\": null,\n      \"position\": 1,\n      \"updated_at\": \"2019-11-27T00:45:35.852Z\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"images\": [\n    {\n      \"_id\": \"5f3d2e730218236de151f9ca\",\n      \"created_at\": \"2020-08-19T13:51:47.881Z\",\n      \"image_aspect_ratio\": null,\n      \"image_format\": null,\n      \"image_height\": null,\n      \"image_image\": false,\n      \"image_inverse_aspect_ratio\": null,\n      \"image_landscape\": null,\n      \"image_name\": \"file.jpeg\",\n      \"image_portrait\": null,\n      \"image_uid\": \"2020/08/19/5ywnfc68j9_file.jpeg\",\n      \"image_width\": null,\n      \"option\": null,\n      \"position\": 0,\n      \"updated_at\": \"2020-08-19T13:51:47.881Z\"\n    },\n    {\n      \"_id\": \"5f3d2e740218236de151f9d5\",\n      \"created_at\": \"2020-08-19T13:51:48.317Z\",\n      \"image_aspect_ratio\": null,\n      \"image_format\": null,\n      \"image_height\": null,\n      \"image_image\": false,\n      \"image_inverse_aspect_ratio\": null,\n      \"image_landscape\": null,\n      \"image_name\": \"file.jpeg\",\n      \"image_portrait\": null,\n      \"image_uid\": \"2020/08/19/5qt57r9x1z_file.jpeg\",\n      \"image_width\": null,\n      \"option\": null,\n      \"position\": 1,\n      \"updated_at\": \"2020-08-19T13:51:48.317Z\"\n    }\n  ]\n}",
       "response_content_type": "application/json",
-      "curl": "curl -g \"https://www.example.com/api/admin/products/5C5E0808B2/images\" -X GET "
+      "curl": "curl -g \"https://www.example.com/api/admin/products/54183BE70B/images\" -X GET "
     }
   ],
   "resource": "Product Images",

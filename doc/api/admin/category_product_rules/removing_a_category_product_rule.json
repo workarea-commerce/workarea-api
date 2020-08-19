@@ -21,22 +21,22 @@
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:45:19 GMT",
+        "Last-Modified": "Wed, 19 Aug 2020 13:44:40 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "fffd776a-b232-4444-8641-01d855c57c82",
-        "X-Runtime": "0.025200",
+        "X-Request-Id": "eba847aa-72b0-4c82-af76-4a14e7e4f1ef",
+        "X-Runtime": "0.026355",
         "X-Workarea-Segments": "",
         "Expires": "0"
       },
       "request_method": "DELETE",
-      "request_path": "/api/admin/categories/5dddc71f124159425407646c/product_rules/5dddc71f124159425407646f",
+      "request_path": "/api/admin/categories/5f3d2cc80218236de151e860/product_rules/5f3d2cc80218236de151e863",
       "request_body": null,
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/categories/5dddc71f124159425407646c/product_rules/5dddc71f124159425407646f\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
+      "curl": "curl \"https://www.example.com/api/admin/categories/5f3d2cc80218236de151e860/product_rules/5f3d2cc80218236de151e863\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
     }
   ],
   "resource": "Category Product Rules",

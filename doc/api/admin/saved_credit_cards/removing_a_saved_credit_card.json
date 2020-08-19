@@ -21,22 +21,22 @@
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:37:24 GMT",
+        "Last-Modified": "Wed, 19 Aug 2020 13:45:02 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "1c406439-e05a-4d3d-b318-af78735c76f1",
-        "X-Runtime": "0.007404",
+        "X-Request-Id": "70c71e6c-cc4d-4f56-975a-1d93e963dd26",
+        "X-Runtime": "0.069310",
         "X-Workarea-Segments": "",
         "Expires": "0"
       },
       "request_method": "DELETE",
-      "request_path": "/api/admin/payment_profiles/5dddc54312415942540756fb/saved_credit_cards/5dddc5441241594254075700",
+      "request_path": "/api/admin/payment_profiles/5f3d2cdd0218236de151e8f0/saved_credit_cards/5f3d2cdd0218236de151e8f5",
       "request_body": null,
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/payment_profiles/5dddc54312415942540756fb/saved_credit_cards/5dddc5441241594254075700\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
+      "curl": "curl \"https://www.example.com/api/admin/payment_profiles/5f3d2cdd0218236de151e8f0/saved_credit_cards/5f3d2cdd0218236de151e8f5\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
     }
   ],
   "resource": "Saved Credit Cards",

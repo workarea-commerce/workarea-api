@@ -8,7 +8,7 @@
   "requests": [
     {
       "request_headers": {
-        "Authorization": "Token token=\"yqyMatgUo3pmh8VHqSwjH9Q3\""
+        "Authorization": "Token token=\"GD5pkTi2SYRRSvQ5jRUYDdj9\""
       },
       "request_query_parameters": {
       },
@@ -25,13 +25,13 @@
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:54:29 GMT",
+        "Last-Modified": "Wed, 19 Aug 2020 13:54:14 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "b3dc7314-e50d-4396-a576-e55819566e8e",
-        "X-Runtime": "0.003202",
+        "X-Request-Id": "4cda8dea-e8fc-4560-b0e1-43e20366c3ba",
+        "X-Runtime": "0.002755",
         "X-Workarea-Segments": "",
         "Expires": "0",
-        "Content-Length": "202"
+        "Content-Length": "201"
       },
       "request_method": "GET",
       "request_path": "/api/storefront/account",
@@ -39,9 +39,9 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": \"5dddc9451241596aa5205381\",\n  \"email\": \"user55@workarea.com\",\n  \"public_info\": \"BC\",\n  \"first_name\": \"Ben\",\n  \"last_name\": \"Crouse\",\n  \"updated_at\": \"2019-11-27T00:54:29.765Z\",\n  \"created_at\": \"2019-11-27T00:54:29.765Z\"\n}",
+      "response_body": "{\n  \"id\": \"5f3d2f060218236e938cec15\",\n  \"email\": \"user3@workarea.com\",\n  \"public_info\": \"BC\",\n  \"first_name\": \"Ben\",\n  \"last_name\": \"Crouse\",\n  \"updated_at\": \"2020-08-19T13:54:14.244Z\",\n  \"created_at\": \"2020-08-19T13:54:14.244Z\"\n}",
       "response_content_type": "application/json",
-      "curl": "curl -g \"https://www.example.com/api/storefront/account\" -X GET \\\n\t-H \"Authorization: Token token=\\\"yqyMatgUo3pmh8VHqSwjH9Q3\\\"\""
+      "curl": "curl -g \"https://www.example.com/api/storefront/account\" -X GET \\\n\t-H \"Authorization: Token token=\\\"GD5pkTi2SYRRSvQ5jRUYDdj9\\\"\""
     }
   ],
   "resource": "Accounts",

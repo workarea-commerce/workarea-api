@@ -21,22 +21,22 @@
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:44:58 GMT",
+        "Last-Modified": "Wed, 19 Aug 2020 13:52:53 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "fe8b398d-186f-4f6a-82d5-8193d81c4b34",
-        "X-Runtime": "0.034989",
+        "X-Request-Id": "f743f3ef-53b4-4742-9529-8c2f953867bf",
+        "X-Runtime": "0.040166",
         "X-Workarea-Segments": "",
         "Expires": "0"
       },
       "request_method": "DELETE",
-      "request_path": "/api/admin/categories/5dddc70a12415942540763f3",
+      "request_path": "/api/admin/categories/5f3d2eb50218236de151fba1",
       "request_body": null,
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/categories/5dddc70a12415942540763f3\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/categories/5f3d2eb50218236de151fba1\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Categories",

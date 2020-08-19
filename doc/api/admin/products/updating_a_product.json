@@ -21,22 +21,22 @@
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:39:31 GMT",
+        "Last-Modified": "Wed, 19 Aug 2020 13:47:54 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "b96e5894-03c9-4ce0-b0ac-13d0d6cdff86",
-        "X-Runtime": "0.456236",
+        "X-Request-Id": "93971f2c-aec4-4bda-bde2-a0debfccf237",
+        "X-Runtime": "0.135726",
         "X-Workarea-Segments": "",
         "Expires": "0"
       },
       "request_method": "PATCH",
-      "request_path": "/api/admin/products/C08677541E",
-      "request_body": "{\"active\":true,\"active_segment_ids\":[],\"browser_title\":null,\"copied_from_id\":null,\"created_at\":\"2019-11-27T00:39:30.740Z\",\"customizations\":null,\"default_category_id\":null,\"description\":null,\"details\":{\"Material\":[\"Cotton\"],\"Style\":[\"12345\"]},\"digital\":false,\"filters\":{\"Material\":\"Cotton\",\"Style\":\"12345\"},\"meta_description\":null,\"name\":\"Test Product\",\"purchasable\":true,\"subscribed_user_ids\":[],\"tags\":[],\"template\":\"generic\",\"updated_at\":\"2019-11-27T00:39:30.740Z\",\"variants\":[{\"_id\":\"5dddc5c21241594254075a98\",\"active\":true,\"active_segment_ids\":[],\"created_at\":null,\"details\":{},\"name\":\"SKU\",\"position\":0,\"sku\":\"SKU\",\"updated_at\":null}]}",
+      "request_path": "/api/admin/products/44F43DFE70",
+      "request_body": "{\"active\":true,\"active_segment_ids\":[],\"browser_title\":null,\"copied_from_id\":null,\"created_at\":\"2020-08-19T13:47:53.923Z\",\"customizations\":null,\"default_category_id\":null,\"description\":null,\"details\":{\"Material\":[\"Cotton\"],\"Style\":[\"12345\"]},\"digital\":false,\"filters\":{\"Material\":\"Cotton\",\"Style\":\"12345\"},\"meta_description\":null,\"name\":\"Test Product\",\"purchasable\":true,\"subscribed_user_ids\":[],\"tags\":[],\"template\":\"generic\",\"updated_at\":\"2020-08-19T13:47:53.923Z\",\"variants\":[{\"_id\":\"5f3d2d890218236de151ee90\",\"active\":true,\"active_segment_ids\":[],\"created_at\":null,\"details\":{},\"name\":\"SKU\",\"position\":0,\"sku\":\"SKU\",\"updated_at\":null}]}",
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/products/C08677541E\" -d '{\"active\":true,\"active_segment_ids\":[],\"browser_title\":null,\"copied_from_id\":null,\"created_at\":\"2019-11-27T00:39:30.740Z\",\"customizations\":null,\"default_category_id\":null,\"description\":null,\"details\":{\"Material\":[\"Cotton\"],\"Style\":[\"12345\"]},\"digital\":false,\"filters\":{\"Material\":\"Cotton\",\"Style\":\"12345\"},\"meta_description\":null,\"name\":\"Test Product\",\"purchasable\":true,\"subscribed_user_ids\":[],\"tags\":[],\"template\":\"generic\",\"updated_at\":\"2019-11-27T00:39:30.740Z\",\"variants\":[{\"_id\":\"5dddc5c21241594254075a98\",\"active\":true,\"active_segment_ids\":[],\"created_at\":null,\"details\":{},\"name\":\"SKU\",\"position\":0,\"sku\":\"SKU\",\"updated_at\":null}]}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/products/44F43DFE70\" -d '{\"active\":true,\"active_segment_ids\":[],\"browser_title\":null,\"copied_from_id\":null,\"created_at\":\"2020-08-19T13:47:53.923Z\",\"customizations\":null,\"default_category_id\":null,\"description\":null,\"details\":{\"Material\":[\"Cotton\"],\"Style\":[\"12345\"]},\"digital\":false,\"filters\":{\"Material\":\"Cotton\",\"Style\":\"12345\"},\"meta_description\":null,\"name\":\"Test Product\",\"purchasable\":true,\"subscribed_user_ids\":[],\"tags\":[],\"template\":\"generic\",\"updated_at\":\"2020-08-19T13:47:53.923Z\",\"variants\":[{\"_id\":\"5f3d2d890218236de151ee90\",\"active\":true,\"active_segment_ids\":[],\"created_at\":null,\"details\":{},\"name\":\"SKU\",\"position\":0,\"sku\":\"SKU\",\"updated_at\":null}]}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Products",
