@@ -21,22 +21,22 @@
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:35:29 GMT",
+        "Last-Modified": "Wed, 19 Aug 2020 13:53:15 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "32a39159-7d41-47d2-9cd5-8a40914558de",
-        "X-Runtime": "0.041890",
+        "X-Request-Id": "7686effe-44a3-49d1-bff6-1ade15aa38ef",
+        "X-Runtime": "0.050032",
         "X-Workarea-Segments": "",
         "Expires": "0"
       },
       "request_method": "PATCH",
-      "request_path": "/api/admin/discounts/5dddc4d1124159425407521f",
+      "request_path": "/api/admin/discounts/5f3d2ecb0218236de151fc33",
       "request_body": "{\"discount\":{\"name\":\"foo\"}}",
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/discounts/5dddc4d1124159425407521f\" -d '{\"discount\":{\"name\":\"foo\"}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/discounts/5f3d2ecb0218236de151fc33\" -d '{\"discount\":{\"name\":\"foo\"}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Discounts",

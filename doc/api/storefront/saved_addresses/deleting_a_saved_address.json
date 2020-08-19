@@ -9,7 +9,7 @@
     {
       "request_headers": {
         "Content-Type": "application/x-www-form-urlencoded",
-        "Authorization": "Token token=\"yEtPcSZrtU9zArYsJCWKx2PS\""
+        "Authorization": "Token token=\"5rohrSqxbPQ14uattDKezpMS\""
       },
       "request_query_parameters": {
       },
@@ -25,22 +25,22 @@
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:55:54 GMT",
+        "Last-Modified": "Wed, 19 Aug 2020 13:58:23 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "18931618-0dea-4738-8bcb-6ec8a2906e64",
-        "X-Runtime": "0.003916",
+        "X-Request-Id": "1b49c5f6-1c2b-49e8-a552-17082a21a6b3",
+        "X-Runtime": "0.005598",
         "X-Workarea-Segments": "",
         "Expires": "0"
       },
       "request_method": "DELETE",
-      "request_path": "/api/storefront/saved_addresses/5dddc99a1241596aa5205503",
+      "request_path": "/api/storefront/saved_addresses/5f3d2fff0218236e938cfb58",
       "request_body": null,
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/storefront/saved_addresses/5dddc99a1241596aa5205503\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Authorization: Token token=\\\"yEtPcSZrtU9zArYsJCWKx2PS\\\"\""
+      "curl": "curl \"https://www.example.com/api/storefront/saved_addresses/5f3d2fff0218236e938cfb58\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Authorization: Token token=\\\"5rohrSqxbPQ14uattDKezpMS\\\"\""
     }
   ],
   "resource": "Saved Addresses",

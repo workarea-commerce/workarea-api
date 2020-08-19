@@ -9,7 +9,7 @@
     {
       "request_headers": {
         "Content-Type": "application/x-www-form-urlencoded",
-        "Authorization": "Token token=\"D2LCYEh6sAPC6HQUeTJwe9Pe\""
+        "Authorization": "Token token=\"xGm9ooyFrmNN8ndMyrPXbQwf\""
       },
       "request_query_parameters": {
       },
@@ -25,22 +25,22 @@
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:53:17 GMT",
+        "Last-Modified": "Wed, 19 Aug 2020 13:56:56 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "c083436c-c7b0-4bda-940d-d9f466d8dc8b",
-        "X-Runtime": "0.005613",
+        "X-Request-Id": "10ea3659-363b-4038-b1c9-0c12cb994f5e",
+        "X-Runtime": "0.008863",
         "X-Workarea-Segments": "",
         "Expires": "0"
       },
       "request_method": "DELETE",
-      "request_path": "/api/storefront/saved_credit_cards/5dddc8fd1241596aa5204f81",
+      "request_path": "/api/storefront/saved_credit_cards/5f3d2fa80218236e938cf761",
       "request_body": null,
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/storefront/saved_credit_cards/5dddc8fd1241596aa5204f81\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Authorization: Token token=\\\"D2LCYEh6sAPC6HQUeTJwe9Pe\\\"\""
+      "curl": "curl \"https://www.example.com/api/storefront/saved_credit_cards/5f3d2fa80218236e938cf761\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\" \\\n\t-H \"Authorization: Token token=\\\"xGm9ooyFrmNN8ndMyrPXbQwf\\\"\""
     }
   ],
   "resource": "Saved Credit Cards",

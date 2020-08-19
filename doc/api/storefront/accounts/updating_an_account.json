@@ -9,7 +9,7 @@
     {
       "request_headers": {
         "Content-Type": "application/json",
-        "Authorization": "Token token=\"bzriwTKpVj44uzWbXRedzDx6\"",
+        "Authorization": "Token token=\"Zg19nFTAYbkaZMA8HBuTRgga\"",
         "X-Http-Method-Override": "GET"
       },
       "request_query_parameters": {
@@ -27,13 +27,13 @@
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:54:28 GMT",
+        "Last-Modified": "Wed, 19 Aug 2020 13:54:12 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "b4f6c0e4-a095-46ac-b0ca-0fa3aab3fb43",
-        "X-Runtime": "0.003646",
+        "X-Request-Id": "cf633169-0ab5-4b73-8306-dd94cb27f37d",
+        "X-Runtime": "0.008134",
         "X-Workarea-Segments": "",
         "Expires": "0",
-        "Content-Length": "202"
+        "Content-Length": "201"
       },
       "request_method": "POST",
       "request_path": "/api/storefront/account",
@@ -41,9 +41,9 @@
       "request_content_type": "application/json",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": \"5dddc9441241596aa520537c\",\n  \"email\": \"user54@workarea.com\",\n  \"public_info\": \"BC\",\n  \"first_name\": \"Ben\",\n  \"last_name\": \"Crouse\",\n  \"updated_at\": \"2019-11-27T00:54:28.601Z\",\n  \"created_at\": \"2019-11-27T00:54:28.601Z\"\n}",
+      "response_body": "{\n  \"id\": \"5f3d2f040218236e938cec0b\",\n  \"email\": \"user2@workarea.com\",\n  \"public_info\": \"BC\",\n  \"first_name\": \"Ben\",\n  \"last_name\": \"Crouse\",\n  \"updated_at\": \"2020-08-19T13:54:12.031Z\",\n  \"created_at\": \"2020-08-19T13:54:12.031Z\"\n}",
       "response_content_type": "application/json",
-      "curl": "curl \"https://www.example.com/api/storefront/account\" -d '{\"email\":\"billy@workarea.com\",\"password\":\"adifferentbutstillreallysecurepassword\"}' -X POST \\\n\t-H \"Content-Type: application/json\" \\\n\t-H \"Authorization: Token token=\\\"bzriwTKpVj44uzWbXRedzDx6\\\"\" \\\n\t-H \"X-Http-Method-Override: GET\""
+      "curl": "curl \"https://www.example.com/api/storefront/account\" -d '{\"email\":\"billy@workarea.com\",\"password\":\"adifferentbutstillreallysecurepassword\"}' -X POST \\\n\t-H \"Content-Type: application/json\" \\\n\t-H \"Authorization: Token token=\\\"Zg19nFTAYbkaZMA8HBuTRgga\\\"\" \\\n\t-H \"X-Http-Method-Override: GET\""
     }
   ],
   "resource": "Accounts",

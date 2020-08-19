@@ -32,10 +32,10 @@
         "Content-Type": "application/json; charset=utf-8",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:44:24 GMT",
+        "Last-Modified": "Wed, 19 Aug 2020 13:49:19 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "9c761c3f-1fa8-4c59-a9c9-9ec7f6a44ee9",
-        "X-Runtime": "0.007358",
+        "X-Request-Id": "5737fd96-391f-4e64-a4d0-dfd59b148b92",
+        "X-Runtime": "0.006518",
         "X-Workarea-Segments": "",
         "Expires": "0",
         "Content-Length": "476"
@@ -46,7 +46,7 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"fulfillments\": [\n    {\n      \"_id\": \"2\",\n      \"created_at\": \"2019-11-27T00:44:21.538Z\",\n      \"items\": [\n        {\n          \"_id\": \"5dddc6e51241594254076336\",\n          \"created_at\": null,\n          \"order_item_id\": \"5dddc6dd12415942540762ef\",\n          \"quantity\": 2,\n          \"updated_at\": null\n        }\n      ],\n      \"updated_at\": \"2019-11-27T00:44:21.538Z\"\n    },\n    {\n      \"_id\": \"1\",\n      \"created_at\": \"2019-11-27T00:44:12.156Z\",\n      \"items\": [\n        {\n          \"_id\": \"5dddc6dc12415942540762e3\",\n          \"created_at\": null,\n          \"order_item_id\": \"5dddc6d912415942540762b4\",\n          \"quantity\": 2,\n          \"updated_at\": null\n        }\n      ],\n      \"updated_at\": \"2019-11-27T00:44:12.156Z\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"fulfillments\": [\n    {\n      \"_id\": \"2\",\n      \"created_at\": \"2020-08-19T13:49:19.455Z\",\n      \"items\": [\n        {\n          \"_id\": \"5f3d2ddf0218236de151f22b\",\n          \"created_at\": null,\n          \"order_item_id\": \"5f3d2ddb0218236de151f1e4\",\n          \"quantity\": 2,\n          \"updated_at\": null\n        }\n      ],\n      \"updated_at\": \"2020-08-19T13:49:19.455Z\"\n    },\n    {\n      \"_id\": \"1\",\n      \"created_at\": \"2020-08-19T13:49:13.820Z\",\n      \"items\": [\n        {\n          \"_id\": \"5f3d2dd90218236de151f1d8\",\n          \"created_at\": null,\n          \"order_item_id\": \"5f3d2dd50218236de151f1a9\",\n          \"quantity\": 2,\n          \"updated_at\": null\n        }\n      ],\n      \"updated_at\": \"2020-08-19T13:49:13.820Z\"\n    }\n  ]\n}",
       "response_content_type": "application/json",
       "curl": "curl -g \"https://www.example.com/api/admin/fulfillments\" -X GET "
     }

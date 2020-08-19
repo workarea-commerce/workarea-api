@@ -21,22 +21,22 @@
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:37:26 GMT",
+        "Last-Modified": "Wed, 19 Aug 2020 13:44:58 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "1995ca13-5f6a-473a-bd44-5439094b2651",
-        "X-Runtime": "0.019302",
+        "X-Request-Id": "94ef7e93-fdec-4f3d-9e3b-79e291c07c6e",
+        "X-Runtime": "0.023400",
         "X-Workarea-Segments": "",
         "Expires": "0"
       },
       "request_method": "PATCH",
-      "request_path": "/api/admin/payment_profiles/5dddc5461241594254075706/saved_credit_cards/5dddc546124159425407570b",
+      "request_path": "/api/admin/payment_profiles/5f3d2cda0218236de151e8da/saved_credit_cards/5f3d2cda0218236de151e8df",
       "request_body": "{\"saved_credit_card\":{\"first_name\":\"Ben\"}}",
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/payment_profiles/5dddc5461241594254075706/saved_credit_cards/5dddc546124159425407570b\" -d '{\"saved_credit_card\":{\"first_name\":\"Ben\"}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/payment_profiles/5f3d2cda0218236de151e8da/saved_credit_cards/5f3d2cda0218236de151e8df\" -d '{\"saved_credit_card\":{\"first_name\":\"Ben\"}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Saved Credit Cards",

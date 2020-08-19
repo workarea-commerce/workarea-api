@@ -1,0 +1,52 @@
+{
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_headers": {
+        "Content-Type": "application/json"
+      },
+      "request_query_parameters": {
+      },
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "X-Download-Options": "noopen",
+        "X-Permitted-Cross-Domain-Policies": "none",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
+        "Content-Type": "application/json; charset=utf-8",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers": "*",
+        "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
+        "X-Requested-With": "",
+        "Vary": "X-Requested-With, X-Workarea-Segments",
+        "Last-Modified": "Wed, 19 Aug 2020 13:55:21 GMT",
+        "Cache-Control": "no-cache, no-store, must-revalidate",
+        "X-Request-Id": "66b7d55f-c2f9-48e2-9acd-ddb6a8b83feb",
+        "X-Runtime": "1.048861",
+        "X-Workarea-Segments": "",
+        "Expires": "0",
+        "Content-Length": "3311"
+      },
+      "request_method": "PATCH",
+      "request_path": "/api/storefront/checkouts/1ED27D75F3",
+      "request_body": "{\"email\":\"susanb@workarea.com\",\"shipping_address\":{\"last_name\":\"Baker\",\"street\":\"350 Fifth Avenue\",\"city\":\"New York\",\"region\":\"NY\",\"country\":\"US\",\"postal_code\":\"10118\",\"phone_number\":\"6465552390\"},\"billing_address\":{\"first_name\":\"Susan\",\"street\":\"350 Fifth Avenue\",\"city\":\"New York\",\"region\":\"NY\",\"country\":\"US\",\"postal_code\":\"10118\",\"phone_number\":\"6465552390\"},\"shipping_service\":\"Express\"}",
+      "request_content_type": "application/json",
+      "response_status": 422,
+      "response_status_text": "Unprocessable Entity",
+      "response_body": "{\n  \"order\": {\n    \"id\": \"1ED27D75F3\",\n    \"url\": \"http://www.example.com/api/storefront/orders/1ED27D75F3\",\n    \"user_id\": null,\n    \"email\": \"susanb@workarea.com\",\n    \"placed_at\": null,\n    \"canceled_at\": null,\n    \"promo_codes\": [\n\n    ],\n    \"requires_shipping\": true,\n    \"items\": [\n      {\n        \"id\": \"5f3d2f480218236e938cf041\",\n        \"product_id\": \"VINTEE\",\n        \"sku\": \"VT001\",\n        \"quantity\": 2,\n        \"product_url\": \"http://www.example.com/api/storefront/products/vintage-tee?sku=VT001\",\n        \"options\": {\n        },\n        \"customizations\": {\n        },\n        \"product_image\": {\n          \"urls\": [\n            {\n              \"type\": \"small\",\n              \"url\": \"http://www.example.com/product_images/placeholder/small.jpg?c=1597845226\"\n            },\n            {\n              \"type\": \"medium\",\n              \"url\": \"http://www.example.com/product_images/placeholder/medium.jpg?c=1597845226\"\n            },\n            {\n              \"type\": \"small_thumb\",\n              \"url\": \"http://www.example.com/product_images/placeholder/small_thumb.jpg?c=1597845226\"\n            },\n            {\n              \"type\": \"medium_thumb\",\n              \"url\": \"http://www.example.com/product_images/placeholder/medium_thumb.jpg?c=1597845226\"\n            },\n            {\n              \"type\": \"large_thumb\",\n              \"url\": \"http://www.example.com/product_images/placeholder/large_thumb.jpg?c=1597845226\"\n            },\n            {\n              \"type\": \"detail\",\n              \"url\": \"http://www.example.com/product_images/placeholder/detail.jpg?c=1597845226\"\n            },\n            {\n              \"type\": \"zoom\",\n              \"url\": \"http://www.example.com/product_images/placeholder/zoom.jpg?c=1597845226\"\n            },\n            {\n              \"type\": \"super_zoom\",\n              \"url\": \"http://www.example.com/product_images/placeholder/super_zoom.jpg?c=1597845226\"\n            },\n            {\n              \"type\": \"favicon\",\n              \"url\": \"http://www.example.com/product_images/placeholder/favicon.jpg?c=1597845226\"\n            },\n            {\n              \"type\": \"favicon_ico\",\n              \"url\": \"http://www.example.com/product_images/placeholder/favicon_ico.jpg?c=1597845226\"\n            }\n          ]\n        },\n        \"pricing\": {\n          \"price_adjustments\": [\n            {\n              \"description\": \"Item Subtotal\",\n              \"discount\": false,\n              \"amount\": {\n                \"cents\": 1000.0,\n                \"currency_iso\": \"USD\"\n              }\n            }\n          ],\n          \"total_price\": {\n            \"cents\": 1000.0,\n            \"currency_iso\": \"USD\"\n          },\n          \"on_sale\": false,\n          \"original_unit_price\": {\n            \"cents\": 500.0,\n            \"currency_iso\": \"USD\"\n          },\n          \"original_price\": {\n            \"cents\": 500.0,\n            \"currency_iso\": \"USD\"\n          },\n          \"customized\": false,\n          \"customizations_unit_price\": {\n            \"cents\": 0.0,\n            \"currency_iso\": \"USD\"\n          }\n        }\n      }\n    ],\n    \"pricing\": {\n      \"price_adjustments\": [\n\n      ],\n      \"shipping_total\": {\n        \"cents\": 0.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"tax_total\": {\n        \"cents\": 0.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"subtotal_price\": {\n        \"cents\": 1000.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"total_price\": {\n        \"cents\": 1000.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"paid_amount\": {\n        \"cents\": 1000.0,\n        \"currency_iso\": \"USD\"\n      }\n    },\n    \"shipping_service\": null,\n    \"tenders\": [\n\n    ]\n  },\n  \"checkout\": {\n    \"url\": \"http://www.example.com/api/storefront/checkouts/1ED27D75F3\",\n    \"started_at\": \"2020-08-19T13:55:20.730Z\",\n    \"shippable\": false,\n    \"complete\": false,\n    \"addresses\": {\n      \"complete\": false,\n      \"email\": \"susanb@workarea.com\",\n      \"problems\": [\n\n      ],\n      \"shipping_address\": {\n        \"id\": \"5f3d2f490218236e938cf04e\",\n        \"first_name\": null,\n        \"last_name\": \"Baker\",\n        \"company\": null,\n        \"street\": \"350 Fifth Avenue\",\n        \"street_2\": null,\n        \"city\": \"New York\",\n        \"country\": \"US\",\n        \"region\": \"NY\",\n        \"postal_code\": \"10118\",\n        \"phone_number\": \"6465552390\",\n        \"phone_extension\": null,\n        \"problems\": [\n          \"First name can't be blank\"\n        ]\n      },\n      \"billing_address\": {\n        \"id\": \"5f3d2f490218236e938cf04f\",\n        \"first_name\": \"Susan\",\n        \"last_name\": null,\n        \"company\": null,\n        \"street\": \"350 Fifth Avenue\",\n        \"street_2\": null,\n        \"city\": \"New York\",\n        \"country\": \"US\",\n        \"region\": \"NY\",\n        \"postal_code\": \"10118\",\n        \"phone_number\": \"6465552390\",\n        \"phone_extension\": null,\n        \"problems\": [\n          \"Last name can't be blank\"\n        ]\n      }\n    },\n    \"shipping\": {\n      \"complete\": false,\n      \"problems\": [\n        \"Address is invalid\"\n      ],\n      \"shipping_service\": null,\n      \"shipping_total\": {\n        \"cents\": 0.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"shipping_options\": [\n\n      ]\n    },\n    \"payment\": {\n      \"complete\": false,\n      \"problems\": [\n        \"Address is invalid\"\n      ],\n      \"tenders\": [\n\n      ]\n    }\n  }\n}",
+      "response_content_type": "application/json",
+      "curl": "curl \"https://www.example.com/api/storefront/checkouts/1ED27D75F3\" -d '{\"email\":\"susanb@workarea.com\",\"shipping_address\":{\"last_name\":\"Baker\",\"street\":\"350 Fifth Avenue\",\"city\":\"New York\",\"region\":\"NY\",\"country\":\"US\",\"postal_code\":\"10118\",\"phone_number\":\"6465552390\"},\"billing_address\":{\"first_name\":\"Susan\",\"street\":\"350 Fifth Avenue\",\"city\":\"New York\",\"region\":\"NY\",\"country\":\"US\",\"postal_code\":\"10118\",\"phone_number\":\"6465552390\"},\"shipping_service\":\"Express\"}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+    }
+  ],
+  "resource": "Checkout",
+  "description": "Failure to update a checkout",
+  "route": "/api/storefront/checkouts/:id",
+  "explanation": "<p>This is an example of what occurs when you fail to send in the correct parameters for your checkout.</p>\n",
+  "http_method": "PATCH"
+}

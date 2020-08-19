@@ -21,22 +21,22 @@
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:38:02 GMT",
+        "Last-Modified": "Wed, 19 Aug 2020 13:47:23 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "a36a1ae2-2f24-4a60-a15f-bb91c7e1da32",
-        "X-Runtime": "0.014030",
+        "X-Request-Id": "4818c449-9182-45f4-b1ea-4259572fb14f",
+        "X-Runtime": "0.015450",
         "X-Workarea-Segments": "",
         "Expires": "0"
       },
       "request_method": "PATCH",
-      "request_path": "/api/admin/redirects/5dddc56a124159425407578c",
+      "request_path": "/api/admin/redirects/5f3d2d6b0218236de151edab",
       "request_body": "{\"redirect\":{\"path\":\"/foobar\"}}",
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/redirects/5dddc56a124159425407578c\" -d '{\"redirect\":{\"path\":\"/foobar\"}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/redirects/5f3d2d6b0218236de151edab\" -d '{\"redirect\":{\"path\":\"/foobar\"}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Redirects",

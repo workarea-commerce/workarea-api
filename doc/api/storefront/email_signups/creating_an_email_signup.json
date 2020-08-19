@@ -25,10 +25,10 @@
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:49:17 GMT",
+        "Last-Modified": "Wed, 19 Aug 2020 13:58:06 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "8479964a-90ec-4708-96af-56ae68f23f94",
-        "X-Runtime": "0.012033",
+        "X-Request-Id": "ad3a27d3-9574-4cb2-81b7-47ef2bc6a308",
+        "X-Runtime": "0.009632",
         "X-Workarea-Segments": "",
         "Expires": "0",
         "Content-Length": "61"
@@ -39,7 +39,7 @@
       "request_content_type": "application/json",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": \"5dddc80d1241596aa52044ec\",\n  \"email\": \"email@example.com\"\n}",
+      "response_body": "{\n  \"id\": \"5f3d2fee0218236e938cfae3\",\n  \"email\": \"email@example.com\"\n}",
       "response_content_type": "application/json",
       "curl": "curl \"https://www.example.com/api/storefront/email_signups\" -d '{\"email\":\"email@example.com\"}' -X POST \\\n\t-H \"Content-Type: application/json\""
     }

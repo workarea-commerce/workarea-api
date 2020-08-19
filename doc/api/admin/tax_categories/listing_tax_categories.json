@@ -32,13 +32,13 @@
         "Content-Type": "application/json; charset=utf-8",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:43:39 GMT",
+        "Last-Modified": "Wed, 19 Aug 2020 13:44:48 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "4d214ac9-90f6-4362-bea4-8ce3339f249c",
-        "X-Runtime": "0.004778",
+        "X-Request-Id": "ddb9d289-e98f-4eb7-a933-c581dde94bcb",
+        "X-Runtime": "0.007307",
         "X-Workarea-Segments": "",
         "Expires": "0",
-        "Content-Length": "310"
+        "Content-Length": "308"
       },
       "request_method": "GET",
       "request_path": "/api/admin/tax_categories",
@@ -46,7 +46,7 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"tax_categories\": [\n    {\n      \"_id\": \"5dddc6bb12415942540761b1\",\n      \"code\": \"31\",\n      \"created_at\": \"2019-11-27T00:43:39.414Z\",\n      \"name\": \"Clothing\",\n      \"updated_at\": \"2019-11-27T00:43:39.414Z\"\n    },\n    {\n      \"_id\": \"5dddc6bb12415942540761af\",\n      \"code\": \"30\",\n      \"created_at\": \"2019-11-27T00:43:39.406Z\",\n      \"name\": \"Clothing\",\n      \"updated_at\": \"2019-11-27T00:43:39.406Z\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"tax_categories\": [\n    {\n      \"_id\": \"5f3d2cd00218236de151e897\",\n      \"code\": \"3\",\n      \"created_at\": \"2020-08-19T13:44:48.439Z\",\n      \"name\": \"Clothing\",\n      \"updated_at\": \"2020-08-19T13:44:48.439Z\"\n    },\n    {\n      \"_id\": \"5f3d2cd00218236de151e895\",\n      \"code\": \"2\",\n      \"created_at\": \"2020-08-19T13:44:48.364Z\",\n      \"name\": \"Clothing\",\n      \"updated_at\": \"2020-08-19T13:44:48.364Z\"\n    }\n  ]\n}",
       "response_content_type": "application/json",
       "curl": "curl -g \"https://www.example.com/api/admin/tax_categories\" -X GET "
     }

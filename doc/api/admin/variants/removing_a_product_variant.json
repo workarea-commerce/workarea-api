@@ -21,22 +21,22 @@
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:34:36 GMT",
+        "Last-Modified": "Wed, 19 Aug 2020 13:44:33 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "03f9a976-d318-4ecf-925e-0ebefefe6493",
-        "X-Runtime": "0.098447",
+        "X-Request-Id": "e9a19150-158c-47a9-b222-2410eac6e09a",
+        "X-Runtime": "0.191006",
         "X-Workarea-Segments": "",
         "Expires": "0"
       },
       "request_method": "DELETE",
-      "request_path": "/api/admin/products/CC9FE01F6C/variants/5dddc49b1241594254075145",
+      "request_path": "/api/admin/products/FA834E5F81/variants/5f3d2cc00218236de151e80c",
       "request_body": null,
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/products/CC9FE01F6C/variants/5dddc49b1241594254075145\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
+      "curl": "curl \"https://www.example.com/api/admin/products/FA834E5F81/variants/5f3d2cc00218236de151e80c\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
     }
   ],
   "resource": "Variants",

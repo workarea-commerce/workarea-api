@@ -17,8 +17,8 @@
       "request_headers": {
       },
       "request_query_parameters": {
-        "created_at_starts_at": "2019-11-26 00:46:21 UTC",
-        "created_at_ends_at": "2019-11-28 00:46:21 UTC"
+        "created_at_starts_at": "2020-08-18 13:46:05 UTC",
+        "created_at_ends_at": "2020-08-20 13:46:05 UTC"
       },
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
@@ -30,23 +30,23 @@
         "Content-Type": "application/json; charset=utf-8",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:46:21 GMT",
+        "Last-Modified": "Wed, 19 Aug 2020 13:46:05 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "feefc310-0167-4a05-b4bf-d45ac045c430",
-        "X-Runtime": "0.008774",
+        "X-Request-Id": "8dc42fd5-6309-455b-b2cb-a9e7d7c9e5ac",
+        "X-Runtime": "0.008335",
         "X-Workarea-Segments": "",
         "Expires": "0",
         "Content-Length": "1470"
       },
       "request_method": "GET",
-      "request_path": "/api/admin/products?created_at_starts_at=2019-11-26+00%3A46%3A21+UTC&created_at_ends_at=2019-11-28+00%3A46%3A21+UTC",
+      "request_path": "/api/admin/products?created_at_starts_at=2020-08-18+13%3A46%3A05+UTC&created_at_ends_at=2020-08-20+13%3A46%3A05+UTC",
       "request_body": null,
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"products\": [\n    {\n      \"_id\": \"1E5662ED5D\",\n      \"active\": true,\n      \"active_segment_ids\": [\n\n      ],\n      \"browser_title\": null,\n      \"copied_from_id\": null,\n      \"created_at\": \"2019-11-27T00:46:21.761Z\",\n      \"customizations\": null,\n      \"default_category_id\": null,\n      \"description\": null,\n      \"details\": {\n        \"Material\": [\n          \"Cotton\"\n        ],\n        \"Style\": [\n          \"12345\"\n        ]\n      },\n      \"digital\": false,\n      \"filters\": {\n        \"Material\": \"Cotton\",\n        \"Style\": \"12345\"\n      },\n      \"last_indexed_at\": \"2019-11-27T00:46:21.951Z\",\n      \"meta_description\": null,\n      \"name\": \"Test Product\",\n      \"purchasable\": true,\n      \"slug\": \"test-product-1\",\n      \"subscribed_user_ids\": [\n\n      ],\n      \"tags\": [\n\n      ],\n      \"template\": \"generic\",\n      \"updated_at\": \"2019-11-27T00:46:21.761Z\",\n      \"variants\": [\n        {\n          \"_id\": \"5dddc75d1241594254076580\",\n          \"active\": true,\n          \"active_segment_ids\": [\n\n          ],\n          \"created_at\": null,\n          \"details\": {\n          },\n          \"name\": \"SKU\",\n          \"position\": 0,\n          \"sku\": \"SKU\",\n          \"updated_at\": null\n        }\n      ]\n    },\n    {\n      \"_id\": \"4FC73335DA\",\n      \"active\": true,\n      \"active_segment_ids\": [\n\n      ],\n      \"browser_title\": null,\n      \"copied_from_id\": null,\n      \"created_at\": \"2019-11-27T00:46:21.379Z\",\n      \"customizations\": null,\n      \"default_category_id\": null,\n      \"description\": null,\n      \"details\": {\n        \"Material\": [\n          \"Cotton\"\n        ],\n        \"Style\": [\n          \"12345\"\n        ]\n      },\n      \"digital\": false,\n      \"filters\": {\n        \"Material\": \"Cotton\",\n        \"Style\": \"12345\"\n      },\n      \"last_indexed_at\": \"2019-11-27T00:46:21.751Z\",\n      \"meta_description\": null,\n      \"name\": \"Test Product\",\n      \"purchasable\": true,\n      \"slug\": \"test-product\",\n      \"subscribed_user_ids\": [\n\n      ],\n      \"tags\": [\n\n      ],\n      \"template\": \"generic\",\n      \"updated_at\": \"2019-11-27T00:46:21.618Z\",\n      \"variants\": [\n        {\n          \"_id\": \"5dddc75d1241594254076577\",\n          \"active\": true,\n          \"active_segment_ids\": [\n\n          ],\n          \"created_at\": null,\n          \"details\": {\n          },\n          \"name\": \"SKU\",\n          \"position\": 0,\n          \"sku\": \"SKU\",\n          \"updated_at\": null\n        }\n      ]\n    }\n  ]\n}",
+      "response_body": "{\n  \"products\": [\n    {\n      \"_id\": \"1BD3BA02EB\",\n      \"active\": true,\n      \"active_segment_ids\": [\n\n      ],\n      \"browser_title\": null,\n      \"copied_from_id\": null,\n      \"created_at\": \"2020-08-19T13:46:05.405Z\",\n      \"customizations\": null,\n      \"default_category_id\": null,\n      \"description\": null,\n      \"details\": {\n        \"Material\": [\n          \"Cotton\"\n        ],\n        \"Style\": [\n          \"12345\"\n        ]\n      },\n      \"digital\": false,\n      \"filters\": {\n        \"Material\": \"Cotton\",\n        \"Style\": \"12345\"\n      },\n      \"last_indexed_at\": \"2020-08-19T13:46:05.765Z\",\n      \"meta_description\": null,\n      \"name\": \"Test Product\",\n      \"purchasable\": true,\n      \"slug\": \"test-product-1\",\n      \"subscribed_user_ids\": [\n\n      ],\n      \"tags\": [\n\n      ],\n      \"template\": \"generic\",\n      \"updated_at\": \"2020-08-19T13:46:05.405Z\",\n      \"variants\": [\n        {\n          \"_id\": \"5f3d2d1d0218236de151eb21\",\n          \"active\": true,\n          \"active_segment_ids\": [\n\n          ],\n          \"created_at\": null,\n          \"details\": {\n          },\n          \"name\": \"SKU\",\n          \"position\": 0,\n          \"sku\": \"SKU\",\n          \"updated_at\": null\n        }\n      ]\n    },\n    {\n      \"_id\": \"E992C2F571\",\n      \"active\": true,\n      \"active_segment_ids\": [\n\n      ],\n      \"browser_title\": null,\n      \"copied_from_id\": null,\n      \"created_at\": \"2020-08-19T13:46:04.727Z\",\n      \"customizations\": null,\n      \"default_category_id\": null,\n      \"description\": null,\n      \"details\": {\n        \"Material\": [\n          \"Cotton\"\n        ],\n        \"Style\": [\n          \"12345\"\n        ]\n      },\n      \"digital\": false,\n      \"filters\": {\n        \"Material\": \"Cotton\",\n        \"Style\": \"12345\"\n      },\n      \"last_indexed_at\": \"2020-08-19T13:46:05.390Z\",\n      \"meta_description\": null,\n      \"name\": \"Test Product\",\n      \"purchasable\": true,\n      \"slug\": \"test-product\",\n      \"subscribed_user_ids\": [\n\n      ],\n      \"tags\": [\n\n      ],\n      \"template\": \"generic\",\n      \"updated_at\": \"2020-08-19T13:46:05.188Z\",\n      \"variants\": [\n        {\n          \"_id\": \"5f3d2d1c0218236de151eb18\",\n          \"active\": true,\n          \"active_segment_ids\": [\n\n          ],\n          \"created_at\": null,\n          \"details\": {\n          },\n          \"name\": \"SKU\",\n          \"position\": 0,\n          \"sku\": \"SKU\",\n          \"updated_at\": null\n        }\n      ]\n    }\n  ]\n}",
       "response_content_type": "application/json",
-      "curl": "curl -g \"https://www.example.com/api/admin/products?created_at_starts_at=2019-11-26+00%3A46%3A21+UTC&created_at_ends_at=2019-11-28+00%3A46%3A21+UTC\" -X GET "
+      "curl": "curl -g \"https://www.example.com/api/admin/products?created_at_starts_at=2020-08-18+13%3A46%3A05+UTC&created_at_ends_at=2020-08-20+13%3A46%3A05+UTC\" -X GET "
     }
   ],
   "resource": "Global Functionality",

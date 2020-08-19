@@ -25,10 +25,10 @@
         "Content-Type": "application/json; charset=utf-8",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:46:19 GMT",
+        "Last-Modified": "Wed, 19 Aug 2020 13:46:10 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "023113ef-7b7b-4f80-91e1-868e6f568b60",
-        "X-Runtime": "0.009481",
+        "X-Request-Id": "360a25e5-f7a7-427e-a1a7-bccbb01d964c",
+        "X-Runtime": "0.006840",
         "X-Workarea-Segments": "",
         "Expires": "0",
         "Content-Length": "741"
@@ -39,13 +39,13 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"products\": [\n    {\n      \"_id\": \"AE9C99D2EC\",\n      \"active\": true,\n      \"active_segment_ids\": [\n\n      ],\n      \"browser_title\": null,\n      \"copied_from_id\": null,\n      \"created_at\": \"2019-11-27T00:46:19.439Z\",\n      \"customizations\": null,\n      \"default_category_id\": null,\n      \"description\": null,\n      \"details\": {\n        \"Material\": [\n          \"Cotton\"\n        ],\n        \"Style\": [\n          \"12345\"\n        ]\n      },\n      \"digital\": false,\n      \"filters\": {\n        \"Material\": \"Cotton\",\n        \"Style\": \"12345\"\n      },\n      \"last_indexed_at\": \"2019-11-27T00:46:19.723Z\",\n      \"meta_description\": null,\n      \"name\": \"Test Product\",\n      \"purchasable\": true,\n      \"slug\": \"test-product\",\n      \"subscribed_user_ids\": [\n\n      ],\n      \"tags\": [\n\n      ],\n      \"template\": \"generic\",\n      \"updated_at\": \"2019-11-27T00:46:19.439Z\",\n      \"variants\": [\n        {\n          \"_id\": \"5dddc75b124159425407656c\",\n          \"active\": true,\n          \"active_segment_ids\": [\n\n          ],\n          \"created_at\": null,\n          \"details\": {\n          },\n          \"name\": \"SKU\",\n          \"position\": 0,\n          \"sku\": \"SKU\",\n          \"updated_at\": null\n        }\n      ]\n    }\n  ]\n}",
+      "response_body": "{\n  \"products\": [\n    {\n      \"_id\": \"E09C6C3EE5\",\n      \"active\": true,\n      \"active_segment_ids\": [\n\n      ],\n      \"browser_title\": null,\n      \"copied_from_id\": null,\n      \"created_at\": \"2020-08-19T13:46:09.468Z\",\n      \"customizations\": null,\n      \"default_category_id\": null,\n      \"description\": null,\n      \"details\": {\n        \"Material\": [\n          \"Cotton\"\n        ],\n        \"Style\": [\n          \"12345\"\n        ]\n      },\n      \"digital\": false,\n      \"filters\": {\n        \"Material\": \"Cotton\",\n        \"Style\": \"12345\"\n      },\n      \"last_indexed_at\": \"2020-08-19T13:46:10.156Z\",\n      \"meta_description\": null,\n      \"name\": \"Test Product\",\n      \"purchasable\": true,\n      \"slug\": \"test-product\",\n      \"subscribed_user_ids\": [\n\n      ],\n      \"tags\": [\n\n      ],\n      \"template\": \"generic\",\n      \"updated_at\": \"2020-08-19T13:46:09.468Z\",\n      \"variants\": [\n        {\n          \"_id\": \"5f3d2d210218236de151eb3c\",\n          \"active\": true,\n          \"active_segment_ids\": [\n\n          ],\n          \"created_at\": null,\n          \"details\": {\n          },\n          \"name\": \"SKU\",\n          \"position\": 0,\n          \"sku\": \"SKU\",\n          \"updated_at\": null\n        }\n      ]\n    }\n  ]\n}",
       "response_content_type": "application/json",
       "curl": "curl -g \"https://www.example.com/api/admin/products?locale=en\" -X GET "
     },
     {
       "request_headers": {
-        "Cookie": "_dummy_session=SXV2VGtpUWpKMDVEenlJMnFBMUF3OUFnSXlCWTJGWEdTOWxYc2V2V1pqay9mYTBxN2dKNlRTRHBMWnQ3eDcyNXY5eTJsU2JFcEVIRjRYTXRMZUN4S1E9PS0tWlNMVmk3TE1hb1RXV2xaeiszMWNCQT09--4f13d09184dcbcd1170e5dce525d31a2494759e8"
+        "Cookie": "_dummy_session=eExKQ3ZpWlpWeGQvazE3ZVdHSnJRTnVYU3dYU010enN6YVNKSmhiRGk0VDZ3YzVKNUlWMlFQMXg5VkRZN2M2anJ6Sjg3NC93cmdwVWh1YjhMb0dSVGc9PS0tN1prSWZHamZoMFZnVTJQaXB0VVJHQT09--7c23c09d7f6dded4eb645641f30c659d601dfca8"
       },
       "request_query_parameters": {
         "locale": "es"
@@ -60,13 +60,13 @@
         "Content-Type": "application/json; charset=utf-8",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:46:19 GMT",
+        "Last-Modified": "Wed, 19 Aug 2020 13:46:10 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "17f28d89-710b-4ce9-b3a2-0f33a6522849",
-        "X-Runtime": "0.012967",
+        "X-Request-Id": "9496f423-781f-4902-93f3-3dfa70d94c50",
+        "X-Runtime": "0.008789",
         "X-Workarea-Segments": "",
         "Expires": "0",
-        "Content-Length": "747"
+        "Content-Length": "672"
       },
       "request_method": "GET",
       "request_path": "/api/admin/products?locale=es",
@@ -74,9 +74,9 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"products\": [\n    {\n      \"_id\": \"AE9C99D2EC\",\n      \"active\": true,\n      \"active_segment_ids\": [\n\n      ],\n      \"browser_title\": null,\n      \"copied_from_id\": null,\n      \"created_at\": \"2019-11-27T00:46:19.439Z\",\n      \"customizations\": null,\n      \"default_category_id\": null,\n      \"description\": null,\n      \"details\": {\n        \"Material\": [\n          \"Cotton\"\n        ],\n        \"Style\": [\n          \"12345\"\n        ]\n      },\n      \"digital\": false,\n      \"filters\": {\n        \"Material\": \"Cotton\",\n        \"Style\": \"12345\"\n      },\n      \"last_indexed_at\": \"2019-11-27T00:46:19.723Z\",\n      \"meta_description\": null,\n      \"name\": \"Producto de prueba\",\n      \"purchasable\": true,\n      \"slug\": \"test-product\",\n      \"subscribed_user_ids\": [\n\n      ],\n      \"tags\": [\n\n      ],\n      \"template\": \"generic\",\n      \"updated_at\": \"2019-11-27T00:46:19.439Z\",\n      \"variants\": [\n        {\n          \"_id\": \"5dddc75b124159425407656c\",\n          \"active\": true,\n          \"active_segment_ids\": [\n\n          ],\n          \"created_at\": null,\n          \"details\": {\n          },\n          \"name\": \"SKU\",\n          \"position\": 0,\n          \"sku\": \"SKU\",\n          \"updated_at\": null\n        }\n      ]\n    }\n  ]\n}",
+      "response_body": "{\n  \"products\": [\n    {\n      \"_id\": \"E09C6C3EE5\",\n      \"active\": true,\n      \"active_segment_ids\": [\n\n      ],\n      \"browser_title\": null,\n      \"copied_from_id\": null,\n      \"created_at\": \"2020-08-19T13:46:09.468Z\",\n      \"customizations\": null,\n      \"default_category_id\": null,\n      \"description\": null,\n      \"details\": {\n      },\n      \"digital\": false,\n      \"filters\": {\n      },\n      \"last_indexed_at\": \"2020-08-19T13:46:10.156Z\",\n      \"meta_description\": null,\n      \"name\": \"Producto de prueba\",\n      \"purchasable\": true,\n      \"slug\": \"test-product\",\n      \"subscribed_user_ids\": [\n\n      ],\n      \"tags\": [\n\n      ],\n      \"template\": \"generic\",\n      \"updated_at\": \"2020-08-19T13:46:09.468Z\",\n      \"variants\": [\n        {\n          \"_id\": \"5f3d2d210218236de151eb3c\",\n          \"active\": true,\n          \"active_segment_ids\": [\n\n          ],\n          \"created_at\": null,\n          \"details\": {\n          },\n          \"name\": null,\n          \"position\": 0,\n          \"sku\": \"SKU\",\n          \"updated_at\": null\n        }\n      ]\n    }\n  ]\n}",
       "response_content_type": "application/json",
-      "curl": "curl -g \"https://www.example.com/api/admin/products?locale=es\" -X GET \\\n\t-H \"Cookie: _dummy_session=SXV2VGtpUWpKMDVEenlJMnFBMUF3OUFnSXlCWTJGWEdTOWxYc2V2V1pqay9mYTBxN2dKNlRTRHBMWnQ3eDcyNXY5eTJsU2JFcEVIRjRYTXRMZUN4S1E9PS0tWlNMVmk3TE1hb1RXV2xaeiszMWNCQT09--4f13d09184dcbcd1170e5dce525d31a2494759e8\""
+      "curl": "curl -g \"https://www.example.com/api/admin/products?locale=es\" -X GET \\\n\t-H \"Cookie: _dummy_session=eExKQ3ZpWlpWeGQvazE3ZVdHSnJRTnVYU3dYU010enN6YVNKSmhiRGk0VDZ3YzVKNUlWMlFQMXg5VkRZN2M2anJ6Sjg3NC93cmdwVWh1YjhMb0dSVGc9PS0tN1prSWZHamZoMFZnVTJQaXB0VVJHQT09--7c23c09d7f6dded4eb645641f30c659d601dfca8\""
     }
   ],
   "resource": "Global Functionality",

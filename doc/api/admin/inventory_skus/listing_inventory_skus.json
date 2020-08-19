@@ -35,10 +35,10 @@
         "Content-Type": "application/json; charset=utf-8",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:35:46 GMT",
+        "Last-Modified": "Wed, 19 Aug 2020 13:46:37 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "ec855258-1e67-426f-8d90-b4567f7c8b77",
-        "X-Runtime": "0.010326",
+        "X-Request-Id": "0fe37a99-7027-4fd8-a44d-c632e8be6658",
+        "X-Runtime": "0.007258",
         "X-Workarea-Segments": "",
         "Expires": "0",
         "Content-Length": "438"
@@ -49,7 +49,7 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"inventory_skus\": [\n    {\n      \"_id\": \"SKU1\",\n      \"available\": 5,\n      \"backordered\": 0,\n      \"backordered_until\": null,\n      \"created_at\": \"2019-11-27T00:35:46.013Z\",\n      \"policy\": \"standard\",\n      \"purchased\": 0,\n      \"reserve\": 0,\n      \"sellable\": 5,\n      \"updated_at\": \"2019-11-27T00:35:46.013Z\"\n    },\n    {\n      \"_id\": \"SKU0\",\n      \"available\": 5,\n      \"backordered\": 0,\n      \"backordered_until\": null,\n      \"created_at\": \"2019-11-27T00:35:45.970Z\",\n      \"policy\": \"standard\",\n      \"purchased\": 0,\n      \"reserve\": 0,\n      \"sellable\": 5,\n      \"updated_at\": \"2019-11-27T00:35:45.970Z\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"inventory_skus\": [\n    {\n      \"_id\": \"SKU1\",\n      \"available\": 5,\n      \"backordered\": 0,\n      \"backordered_until\": null,\n      \"created_at\": \"2020-08-19T13:46:37.439Z\",\n      \"policy\": \"standard\",\n      \"purchased\": 0,\n      \"reserve\": 0,\n      \"sellable\": 5,\n      \"updated_at\": \"2020-08-19T13:46:37.439Z\"\n    },\n    {\n      \"_id\": \"SKU0\",\n      \"available\": 5,\n      \"backordered\": 0,\n      \"backordered_until\": null,\n      \"created_at\": \"2020-08-19T13:46:37.374Z\",\n      \"policy\": \"standard\",\n      \"purchased\": 0,\n      \"reserve\": 0,\n      \"sellable\": 5,\n      \"updated_at\": \"2020-08-19T13:46:37.374Z\"\n    }\n  ]\n}",
       "response_content_type": "application/json",
       "curl": "curl -g \"https://www.example.com/api/admin/inventory_skus?page=1&sort_by=created_at&sort_direction=desc\" -X GET "
     }

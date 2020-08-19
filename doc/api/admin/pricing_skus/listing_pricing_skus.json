@@ -35,10 +35,10 @@
         "Content-Type": "application/json; charset=utf-8",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:46:32 GMT",
+        "Last-Modified": "Wed, 19 Aug 2020 13:52:09 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "67d22df5-2f0c-4e2e-a116-1f3671a88e9e",
-        "X-Runtime": "0.007753",
+        "X-Request-Id": "3360e9dc-c2d3-467e-b3d6-0663d89d65d4",
+        "X-Runtime": "0.007200",
         "X-Workarea-Segments": "",
         "Expires": "0",
         "Content-Length": "412"
@@ -49,7 +49,7 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"pricing_skus\": [\n    {\n      \"_id\": \"SKU1\",\n      \"active\": true,\n      \"active_segment_ids\": [\n\n      ],\n      \"created_at\": \"2019-11-27T00:46:32.374Z\",\n      \"discountable\": true,\n      \"msrp\": null,\n      \"on_sale\": false,\n      \"tax_code\": null,\n      \"updated_at\": \"2019-11-27T00:46:32.374Z\"\n    },\n    {\n      \"_id\": \"SKU0\",\n      \"active\": true,\n      \"active_segment_ids\": [\n\n      ],\n      \"created_at\": \"2019-11-27T00:46:32.326Z\",\n      \"discountable\": true,\n      \"msrp\": null,\n      \"on_sale\": false,\n      \"tax_code\": null,\n      \"updated_at\": \"2019-11-27T00:46:32.326Z\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"pricing_skus\": [\n    {\n      \"_id\": \"SKU1\",\n      \"active\": true,\n      \"active_segment_ids\": [\n\n      ],\n      \"created_at\": \"2020-08-19T13:52:09.721Z\",\n      \"discountable\": true,\n      \"msrp\": null,\n      \"on_sale\": false,\n      \"tax_code\": null,\n      \"updated_at\": \"2020-08-19T13:52:09.721Z\"\n    },\n    {\n      \"_id\": \"SKU0\",\n      \"active\": true,\n      \"active_segment_ids\": [\n\n      ],\n      \"created_at\": \"2020-08-19T13:52:09.657Z\",\n      \"discountable\": true,\n      \"msrp\": null,\n      \"on_sale\": false,\n      \"tax_code\": null,\n      \"updated_at\": \"2020-08-19T13:52:09.657Z\"\n    }\n  ]\n}",
       "response_content_type": "application/json",
       "curl": "curl -g \"https://www.example.com/api/admin/pricing_skus?page=1&sort_by=created_at&sort_direction=desc\" -X GET "
     }

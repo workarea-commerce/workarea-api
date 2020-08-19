@@ -73,24 +73,24 @@ task :release do
   host = "https://#{ENV['BUNDLE_GEMS__WEBLINC__COM']}@gems.weblinc.com"
 
   #
+  # Build documentation
+  #
+  #
+  system <<~COMMAND
+    (cd admin && GENERATE_API_DOCS=true bin/rails test) &&
+    (cd storefront && GENERATE_API_DOCS=true bin/rails test) &&
+    git add doc/ &&
+    git commit -am "Update documentation" &&
+    git push origin HEAD
+  COMMAND
+
+  #
   # Updating changelog
   #
   #
   Rake::Task['workarea:changelog'].execute
   system 'git add CHANGELOG.md'
   system 'git commit -m "Update CHANGELOG"'
-
-  #
-  # Build documentation
-  #
-  #
-  #system <<~COMMAND
-  #  (cd admin && GENERATE_API_DOCS=true bin/rails test) &&
-  #  (cd storefront && GENERATE_API_DOCS=true bin/rails test) &&
-  #  git add doc/ &&
-  #  git commit -am "Update documentation" &&
-  #  git push origin HEAD
-  #COMMAND
 
   #
   # Build gem files

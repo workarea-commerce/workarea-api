@@ -21,22 +21,22 @@
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:43:51 GMT",
+        "Last-Modified": "Wed, 19 Aug 2020 13:53:00 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "365268ab-ead0-4bf1-a9de-cc8f78cd10b5",
-        "X-Runtime": "0.130734",
+        "X-Request-Id": "47d0da23-c1cc-4894-b0e4-da0f97cce937",
+        "X-Runtime": "0.123020",
         "X-Workarea-Segments": "",
         "Expires": "0"
       },
       "request_method": "PATCH",
       "request_path": "/api/admin/releases/bulk",
-      "request_body": "{\"releases\":[{\"created_at\":\"2019-11-27T00:43:51.656Z\",\"name\":\"Content Release\",\"publish_at\":null,\"publish_job_id\":null,\"published_at\":null,\"subscribed_user_ids\":[],\"tags\":[],\"undo_at\":null,\"undo_job_id\":null,\"undoes_id\":null,\"undone_at\":null,\"updated_at\":\"2019-11-27T00:43:51.656Z\"},{\"created_at\":\"2019-11-27T00:43:51.656Z\",\"name\":\"Content Release\",\"publish_at\":null,\"publish_job_id\":null,\"published_at\":null,\"subscribed_user_ids\":[],\"tags\":[],\"undo_at\":null,\"undo_job_id\":null,\"undoes_id\":null,\"undone_at\":null,\"updated_at\":\"2019-11-27T00:43:51.656Z\"},{\"created_at\":\"2019-11-27T00:43:51.656Z\",\"name\":\"Content Release\",\"publish_at\":null,\"publish_job_id\":null,\"published_at\":null,\"subscribed_user_ids\":[],\"tags\":[],\"undo_at\":null,\"undo_job_id\":null,\"undoes_id\":null,\"undone_at\":null,\"updated_at\":\"2019-11-27T00:43:51.656Z\"}]}",
+      "request_body": "{\"releases\":[{\"created_at\":\"2020-08-19T13:53:00.545Z\",\"name\":\"Content Release\",\"publish_at\":null,\"publish_job_id\":null,\"published_at\":null,\"subscribed_user_ids\":[],\"tags\":[],\"undo_at\":null,\"undo_job_id\":null,\"undoes_id\":null,\"undone_at\":null,\"updated_at\":\"2020-08-19T13:53:00.545Z\"},{\"created_at\":\"2020-08-19T13:53:00.545Z\",\"name\":\"Content Release\",\"publish_at\":null,\"publish_job_id\":null,\"published_at\":null,\"subscribed_user_ids\":[],\"tags\":[],\"undo_at\":null,\"undo_job_id\":null,\"undoes_id\":null,\"undone_at\":null,\"updated_at\":\"2020-08-19T13:53:00.545Z\"},{\"created_at\":\"2020-08-19T13:53:00.545Z\",\"name\":\"Content Release\",\"publish_at\":null,\"publish_job_id\":null,\"published_at\":null,\"subscribed_user_ids\":[],\"tags\":[],\"undo_at\":null,\"undo_job_id\":null,\"undoes_id\":null,\"undone_at\":null,\"updated_at\":\"2020-08-19T13:53:00.545Z\"}]}",
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/releases/bulk\" -d '{\"releases\":[{\"created_at\":\"2019-11-27T00:43:51.656Z\",\"name\":\"Content Release\",\"publish_at\":null,\"publish_job_id\":null,\"published_at\":null,\"subscribed_user_ids\":[],\"tags\":[],\"undo_at\":null,\"undo_job_id\":null,\"undoes_id\":null,\"undone_at\":null,\"updated_at\":\"2019-11-27T00:43:51.656Z\"},{\"created_at\":\"2019-11-27T00:43:51.656Z\",\"name\":\"Content Release\",\"publish_at\":null,\"publish_job_id\":null,\"published_at\":null,\"subscribed_user_ids\":[],\"tags\":[],\"undo_at\":null,\"undo_job_id\":null,\"undoes_id\":null,\"undone_at\":null,\"updated_at\":\"2019-11-27T00:43:51.656Z\"},{\"created_at\":\"2019-11-27T00:43:51.656Z\",\"name\":\"Content Release\",\"publish_at\":null,\"publish_job_id\":null,\"published_at\":null,\"subscribed_user_ids\":[],\"tags\":[],\"undo_at\":null,\"undo_job_id\":null,\"undoes_id\":null,\"undone_at\":null,\"updated_at\":\"2019-11-27T00:43:51.656Z\"}]}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/releases/bulk\" -d '{\"releases\":[{\"created_at\":\"2020-08-19T13:53:00.545Z\",\"name\":\"Content Release\",\"publish_at\":null,\"publish_job_id\":null,\"published_at\":null,\"subscribed_user_ids\":[],\"tags\":[],\"undo_at\":null,\"undo_job_id\":null,\"undoes_id\":null,\"undone_at\":null,\"updated_at\":\"2020-08-19T13:53:00.545Z\"},{\"created_at\":\"2020-08-19T13:53:00.545Z\",\"name\":\"Content Release\",\"publish_at\":null,\"publish_job_id\":null,\"published_at\":null,\"subscribed_user_ids\":[],\"tags\":[],\"undo_at\":null,\"undo_job_id\":null,\"undoes_id\":null,\"undone_at\":null,\"updated_at\":\"2020-08-19T13:53:00.545Z\"},{\"created_at\":\"2020-08-19T13:53:00.545Z\",\"name\":\"Content Release\",\"publish_at\":null,\"publish_job_id\":null,\"published_at\":null,\"subscribed_user_ids\":[],\"tags\":[],\"undo_at\":null,\"undo_job_id\":null,\"undoes_id\":null,\"undone_at\":null,\"updated_at\":\"2020-08-19T13:53:00.545Z\"}]}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Releases",

@@ -21,22 +21,22 @@
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:34:09 GMT",
+        "Last-Modified": "Wed, 19 Aug 2020 13:50:46 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "feaac26c-218a-4878-bf3a-711fcf256bfa",
-        "X-Runtime": "0.069743",
+        "X-Request-Id": "eecb2375-e31d-459b-bec0-aabbd1580559",
+        "X-Runtime": "0.087450",
         "X-Workarea-Segments": "",
         "Expires": "0"
       },
       "request_method": "PATCH",
-      "request_path": "/api/admin/users/5dddc4811241594254075069/saved_addresses/5dddc481124159425407506c",
+      "request_path": "/api/admin/users/5f3d2e360218236de151f763/saved_addresses/5f3d2e360218236de151f766",
       "request_body": "{\"saved_address\":{\"street\":\"1 Foobar Lane\"}}",
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/users/5dddc4811241594254075069/saved_addresses/5dddc481124159425407506c\" -d '{\"saved_address\":{\"street\":\"1 Foobar Lane\"}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/users/5f3d2e360218236de151f763/saved_addresses/5f3d2e360218236de151f766\" -d '{\"saved_address\":{\"street\":\"1 Foobar Lane\"}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Saved Addresses",

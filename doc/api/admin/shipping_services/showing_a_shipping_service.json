@@ -21,23 +21,23 @@
         "Content-Type": "application/json; charset=utf-8",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:42:10 GMT",
+        "Last-Modified": "Wed, 19 Aug 2020 13:45:13 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "c07f3633-5744-4ef4-a6eb-1c193fef1cbf",
-        "X-Runtime": "0.006906",
+        "X-Request-Id": "18fd68fa-5b11-4127-9726-d54d59026575",
+        "X-Runtime": "0.008618",
         "X-Workarea-Segments": "",
         "Expires": "0",
-        "Content-Length": "429"
+        "Content-Length": "428"
       },
       "request_method": "GET",
-      "request_path": "/api/admin/shipping_services/5dddc6621241594254075f8f",
+      "request_path": "/api/admin/shipping_services/5f3d2ce90218236de151e98c",
       "request_body": null,
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"shipping_service\": {\n    \"_id\": \"5dddc6621241594254075f8f\",\n    \"carrier\": null,\n    \"country\": null,\n    \"created_at\": \"2019-11-27T00:42:10.492Z\",\n    \"name\": \"Test 34\",\n    \"rates\": [\n      {\n        \"_id\": \"5dddc6621241594254075f90\",\n        \"created_at\": null,\n        \"price\": {\n          \"cents\": 100.0,\n          \"currency_iso\": \"USD\"\n        },\n        \"tier_max\": null,\n        \"tier_min\": null,\n        \"updated_at\": null\n      }\n    ],\n    \"regions\": [\n\n    ],\n    \"service_code\": null,\n    \"subtotal_max\": null,\n    \"subtotal_min\": null,\n    \"tax_code\": null,\n    \"updated_at\": \"2019-11-27T00:42:10.492Z\"\n  }\n}",
+      "response_body": "{\n  \"shipping_service\": {\n    \"_id\": \"5f3d2ce90218236de151e98c\",\n    \"carrier\": null,\n    \"country\": null,\n    \"created_at\": \"2020-08-19T13:45:13.546Z\",\n    \"name\": \"Test 8\",\n    \"rates\": [\n      {\n        \"_id\": \"5f3d2ce90218236de151e98d\",\n        \"created_at\": null,\n        \"price\": {\n          \"cents\": 100.0,\n          \"currency_iso\": \"USD\"\n        },\n        \"tier_max\": null,\n        \"tier_min\": null,\n        \"updated_at\": null\n      }\n    ],\n    \"regions\": [\n\n    ],\n    \"service_code\": null,\n    \"subtotal_max\": null,\n    \"subtotal_min\": null,\n    \"tax_code\": null,\n    \"updated_at\": \"2020-08-19T13:45:13.546Z\"\n  }\n}",
       "response_content_type": "application/json",
-      "curl": "curl -g \"https://www.example.com/api/admin/shipping_services/5dddc6621241594254075f8f\" -X GET "
+      "curl": "curl -g \"https://www.example.com/api/admin/shipping_services/5f3d2ce90218236de151e98c\" -X GET "
     }
   ],
   "resource": "Shipping Services",

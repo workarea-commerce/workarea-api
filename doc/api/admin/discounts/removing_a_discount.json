@@ -21,22 +21,22 @@
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:35:30 GMT",
+        "Last-Modified": "Wed, 19 Aug 2020 13:53:13 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "6105c4a4-02da-47da-95ae-75924884b09f",
-        "X-Runtime": "0.023778",
+        "X-Request-Id": "13cf1421-a97f-492b-b361-06d985a3bd4f",
+        "X-Runtime": "0.025007",
         "X-Workarea-Segments": "",
         "Expires": "0"
       },
       "request_method": "DELETE",
-      "request_path": "/api/admin/discounts/5dddc4d21241594254075225",
+      "request_path": "/api/admin/discounts/5f3d2ec90218236de151fc27",
       "request_body": null,
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/discounts/5dddc4d21241594254075225\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
+      "curl": "curl \"https://www.example.com/api/admin/discounts/5f3d2ec90218236de151fc27\" -d '' -X DELETE \\\n\t-H \"Content-Type: application/x-www-form-urlencoded\""
     }
   ],
   "resource": "Discounts",

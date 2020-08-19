@@ -21,22 +21,22 @@
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:37:06 GMT",
+        "Last-Modified": "Wed, 19 Aug 2020 13:53:05 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "9f0ad92d-9236-4b51-b3f9-f6e5be7a3b02",
-        "X-Runtime": "0.018591",
+        "X-Request-Id": "8da1f169-68fd-4d94-ac2c-fbc4bcc0a57c",
+        "X-Runtime": "0.035903",
         "X-Workarea-Segments": "",
         "Expires": "0"
       },
       "request_method": "PATCH",
-      "request_path": "/api/admin/navigation_taxons/5dddc5321241594254075693",
+      "request_path": "/api/admin/navigation_taxons/5f3d2ec10218236de151fbf2",
       "request_body": "{\"navigation_taxon\":{\"name\":\"foo\"}}",
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/navigation_taxons/5dddc5321241594254075693\" -d '{\"navigation_taxon\":{\"name\":\"foo\"}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/navigation_taxons/5f3d2ec10218236de151fbf2\" -d '{\"navigation_taxon\":{\"name\":\"foo\"}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Navigation taxonomy",

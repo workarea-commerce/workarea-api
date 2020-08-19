@@ -21,22 +21,22 @@
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:43:35 GMT",
+        "Last-Modified": "Wed, 19 Aug 2020 13:44:47 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "44f35ce4-4333-411e-96b6-f753db053f03",
-        "X-Runtime": "0.032801",
+        "X-Request-Id": "b852be8a-4c97-45cb-9be2-d8055f8b24bf",
+        "X-Runtime": "0.053246",
         "X-Workarea-Segments": "",
         "Expires": "0"
       },
       "request_method": "PATCH",
       "request_path": "/api/admin/tax_categories/bulk",
-      "request_body": "{\"tax_categories\":[{\"code\":\"001\",\"created_at\":\"2019-11-27T00:43:35.956Z\",\"name\":\"Clothing\",\"updated_at\":\"2019-11-27T00:43:35.956Z\"},{\"code\":\"001\",\"created_at\":\"2019-11-27T00:43:35.956Z\",\"name\":\"Clothing\",\"updated_at\":\"2019-11-27T00:43:35.956Z\"},{\"code\":\"001\",\"created_at\":\"2019-11-27T00:43:35.956Z\",\"name\":\"Clothing\",\"updated_at\":\"2019-11-27T00:43:35.956Z\"}]}",
+      "request_body": "{\"tax_categories\":[{\"code\":\"001\",\"created_at\":\"2020-08-19T13:44:47.090Z\",\"name\":\"Clothing\",\"updated_at\":\"2020-08-19T13:44:47.090Z\"},{\"code\":\"001\",\"created_at\":\"2020-08-19T13:44:47.090Z\",\"name\":\"Clothing\",\"updated_at\":\"2020-08-19T13:44:47.090Z\"},{\"code\":\"001\",\"created_at\":\"2020-08-19T13:44:47.090Z\",\"name\":\"Clothing\",\"updated_at\":\"2020-08-19T13:44:47.090Z\"}]}",
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/tax_categories/bulk\" -d '{\"tax_categories\":[{\"code\":\"001\",\"created_at\":\"2019-11-27T00:43:35.956Z\",\"name\":\"Clothing\",\"updated_at\":\"2019-11-27T00:43:35.956Z\"},{\"code\":\"001\",\"created_at\":\"2019-11-27T00:43:35.956Z\",\"name\":\"Clothing\",\"updated_at\":\"2019-11-27T00:43:35.956Z\"},{\"code\":\"001\",\"created_at\":\"2019-11-27T00:43:35.956Z\",\"name\":\"Clothing\",\"updated_at\":\"2019-11-27T00:43:35.956Z\"}]}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/tax_categories/bulk\" -d '{\"tax_categories\":[{\"code\":\"001\",\"created_at\":\"2020-08-19T13:44:47.090Z\",\"name\":\"Clothing\",\"updated_at\":\"2020-08-19T13:44:47.090Z\"},{\"code\":\"001\",\"created_at\":\"2020-08-19T13:44:47.090Z\",\"name\":\"Clothing\",\"updated_at\":\"2020-08-19T13:44:47.090Z\"},{\"code\":\"001\",\"created_at\":\"2020-08-19T13:44:47.090Z\",\"name\":\"Clothing\",\"updated_at\":\"2020-08-19T13:44:47.090Z\"}]}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Tax Categories",

@@ -35,10 +35,10 @@
         "Content-Type": "application/json; charset=utf-8",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:35:12 GMT",
+        "Last-Modified": "Wed, 19 Aug 2020 13:43:23 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "a063caec-6ec2-461f-b45e-4f171add6214",
-        "X-Runtime": "0.009432",
+        "X-Request-Id": "14ec1d16-2e91-4015-bf59-403bd99dff92",
+        "X-Runtime": "0.007069",
         "X-Workarea-Segments": "",
         "Expires": "0",
         "Content-Length": "504"
@@ -49,7 +49,7 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"prices\": [\n    {\n      \"_id\": \"5dddc4c012415942540751c1\",\n      \"active\": true,\n      \"active_segment_ids\": [\n\n      ],\n      \"created_at\": \"2019-11-27T00:35:12.821Z\",\n      \"min_quantity\": 1,\n      \"on_sale\": false,\n      \"regular\": {\n        \"cents\": 1500.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"sale\": null,\n      \"updated_at\": \"2019-11-27T00:35:12.821Z\"\n    },\n    {\n      \"_id\": \"5dddc4c012415942540751c2\",\n      \"active\": true,\n      \"active_segment_ids\": [\n\n      ],\n      \"created_at\": \"2019-11-27T00:35:12.867Z\",\n      \"min_quantity\": 1,\n      \"on_sale\": false,\n      \"regular\": {\n        \"cents\": 1500.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"sale\": null,\n      \"updated_at\": \"2019-11-27T00:35:12.867Z\"\n    }\n  ]\n}",
+      "response_body": "{\n  \"prices\": [\n    {\n      \"_id\": \"5f3d2c7b0218236de151e566\",\n      \"active\": true,\n      \"active_segment_ids\": [\n\n      ],\n      \"created_at\": \"2020-08-19T13:43:23.114Z\",\n      \"min_quantity\": 1,\n      \"on_sale\": false,\n      \"regular\": {\n        \"cents\": 1500.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"sale\": null,\n      \"updated_at\": \"2020-08-19T13:43:23.114Z\"\n    },\n    {\n      \"_id\": \"5f3d2c7b0218236de151e567\",\n      \"active\": true,\n      \"active_segment_ids\": [\n\n      ],\n      \"created_at\": \"2020-08-19T13:43:23.156Z\",\n      \"min_quantity\": 1,\n      \"on_sale\": false,\n      \"regular\": {\n        \"cents\": 1500.0,\n        \"currency_iso\": \"USD\"\n      },\n      \"sale\": null,\n      \"updated_at\": \"2020-08-19T13:43:23.156Z\"\n    }\n  ]\n}",
       "response_content_type": "application/json",
       "curl": "curl -g \"https://www.example.com/api/admin/pricing_skus/2134/prices?page=1&sort_by=created_at&sort_direction=desc\" -X GET "
     }

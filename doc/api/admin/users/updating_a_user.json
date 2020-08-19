@@ -21,22 +21,22 @@
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:43:29 GMT",
+        "Last-Modified": "Wed, 19 Aug 2020 13:46:52 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "19b74dfc-29a1-412a-9c73-0a5bbec94c7c",
-        "X-Runtime": "0.309578",
+        "X-Request-Id": "da12f529-3b4a-4998-80d1-05c68ebd9086",
+        "X-Runtime": "0.320490",
         "X-Workarea-Segments": "",
         "Expires": "0"
       },
       "request_method": "PATCH",
-      "request_path": "/api/admin/users/5dddc6b01241594254076165",
-      "request_body": "{\"user\":{\"admin\":false,\"api_access\":false,\"avatar_name\":null,\"avatar_uid\":null,\"can_publish_now\":null,\"can_restore\":null,\"catalog_access\":false,\"created_at\":\"2019-11-27T00:43:29.101Z\",\"created_by_id\":null,\"email\":\"user1@workarea.com\",\"failed_login_count\":0,\"first_name\":\"Ben\",\"help_admin\":false,\"ip_address\":null,\"last_impersonated_at\":null,\"last_impersonated_by_id\":null,\"last_login_at\":null,\"last_login_attempt_at\":null,\"last_name\":\"Crouse\",\"marketing_access\":false,\"orders_access\":false,\"orders_manager\":false,\"password_changed_at\":\"2019-11-27T00:43:29.100Z\",\"people_access\":false,\"permissions_manager\":false,\"releases_access\":false,\"reports_access\":false,\"search_access\":false,\"settings_access\":false,\"status_email_recipient\":false,\"store_access\":false,\"subscribed_user_ids\":[],\"tags\":[],\"updated_at\":\"2019-11-27T00:43:29.101Z\",\"user_agent\":null,\"password\":\"p@ssw0rd\"}}",
+      "request_path": "/api/admin/users/5f3d2d4b0218236de151ec99",
+      "request_body": "{\"user\":{\"admin\":false,\"api_access\":false,\"avatar_name\":null,\"avatar_uid\":null,\"can_publish_now\":null,\"can_restore\":null,\"catalog_access\":false,\"created_at\":\"2020-08-19T13:46:52.106Z\",\"created_by_id\":null,\"email\":\"user1@workarea.com\",\"failed_login_count\":0,\"first_name\":\"Ben\",\"help_admin\":false,\"ip_address\":null,\"last_impersonated_at\":null,\"last_impersonated_by_id\":null,\"last_login_at\":null,\"last_login_attempt_at\":null,\"last_name\":\"Crouse\",\"marketing_access\":false,\"orders_access\":false,\"orders_manager\":false,\"password_changed_at\":\"2020-08-19T13:46:52.105Z\",\"people_access\":false,\"permissions_manager\":false,\"releases_access\":false,\"reports_access\":false,\"search_access\":false,\"settings_access\":false,\"status_email_recipient\":false,\"store_access\":false,\"subscribed_user_ids\":[],\"tags\":[],\"updated_at\":\"2020-08-19T13:46:52.106Z\",\"user_agent\":null,\"password\":\"p@ssw0rd\"}}",
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/users/5dddc6b01241594254076165\" -d '{\"user\":{\"admin\":false,\"api_access\":false,\"avatar_name\":null,\"avatar_uid\":null,\"can_publish_now\":null,\"can_restore\":null,\"catalog_access\":false,\"created_at\":\"2019-11-27T00:43:29.101Z\",\"created_by_id\":null,\"email\":\"user1@workarea.com\",\"failed_login_count\":0,\"first_name\":\"Ben\",\"help_admin\":false,\"ip_address\":null,\"last_impersonated_at\":null,\"last_impersonated_by_id\":null,\"last_login_at\":null,\"last_login_attempt_at\":null,\"last_name\":\"Crouse\",\"marketing_access\":false,\"orders_access\":false,\"orders_manager\":false,\"password_changed_at\":\"2019-11-27T00:43:29.100Z\",\"people_access\":false,\"permissions_manager\":false,\"releases_access\":false,\"reports_access\":false,\"search_access\":false,\"settings_access\":false,\"status_email_recipient\":false,\"store_access\":false,\"subscribed_user_ids\":[],\"tags\":[],\"updated_at\":\"2019-11-27T00:43:29.101Z\",\"user_agent\":null,\"password\":\"p@ssw0rd\"}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/users/5f3d2d4b0218236de151ec99\" -d '{\"user\":{\"admin\":false,\"api_access\":false,\"avatar_name\":null,\"avatar_uid\":null,\"can_publish_now\":null,\"can_restore\":null,\"catalog_access\":false,\"created_at\":\"2020-08-19T13:46:52.106Z\",\"created_by_id\":null,\"email\":\"user1@workarea.com\",\"failed_login_count\":0,\"first_name\":\"Ben\",\"help_admin\":false,\"ip_address\":null,\"last_impersonated_at\":null,\"last_impersonated_by_id\":null,\"last_login_at\":null,\"last_login_attempt_at\":null,\"last_name\":\"Crouse\",\"marketing_access\":false,\"orders_access\":false,\"orders_manager\":false,\"password_changed_at\":\"2020-08-19T13:46:52.105Z\",\"people_access\":false,\"permissions_manager\":false,\"releases_access\":false,\"reports_access\":false,\"search_access\":false,\"settings_access\":false,\"status_email_recipient\":false,\"store_access\":false,\"subscribed_user_ids\":[],\"tags\":[],\"updated_at\":\"2020-08-19T13:46:52.106Z\",\"user_agent\":null,\"password\":\"p@ssw0rd\"}}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Users",

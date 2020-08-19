@@ -21,10 +21,10 @@
         "Content-Type": "application/json; charset=utf-8",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:38:36 GMT",
+        "Last-Modified": "Wed, 19 Aug 2020 13:47:44 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "4acea774-f9f6-4b3b-8db5-43a5736ee67a",
-        "X-Runtime": "0.004993",
+        "X-Request-Id": "c722f288-436b-4913-8fc8-6d9f93c6bb13",
+        "X-Runtime": "0.008480",
         "X-Workarea-Segments": "",
         "Expires": "0",
         "Content-Length": "159"
@@ -35,7 +35,7 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"email_signup\": {\n    \"_id\": \"5dddc58c1241594254075921\",\n    \"created_at\": \"2019-11-27T00:38:36.712Z\",\n    \"email\": \"test@workarea.com\",\n    \"updated_at\": \"2019-11-27T00:38:36.712Z\"\n  }\n}",
+      "response_body": "{\n  \"email_signup\": {\n    \"_id\": \"5f3d2d800218236de151ee4a\",\n    \"created_at\": \"2020-08-19T13:47:44.767Z\",\n    \"email\": \"test@workarea.com\",\n    \"updated_at\": \"2020-08-19T13:47:44.767Z\"\n  }\n}",
       "response_content_type": "application/json",
       "curl": "curl -g \"https://www.example.com/api/admin/email_signups/test%2540workarea%252Ecom\" -X GET "
     }

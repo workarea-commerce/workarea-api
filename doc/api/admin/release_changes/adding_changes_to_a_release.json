@@ -21,22 +21,22 @@
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "X-Requested-With": "",
         "Vary": "X-Requested-With, X-Workarea-Segments",
-        "Last-Modified": "Wed, 27 Nov 2019 00:40:56 GMT",
+        "Last-Modified": "Wed, 19 Aug 2020 13:50:41 GMT",
         "Cache-Control": "no-cache, no-store, must-revalidate",
-        "X-Request-Id": "0c126c08-2f50-44ed-a280-d88db673a406",
-        "X-Runtime": "0.268515",
+        "X-Request-Id": "cff33cf5-1337-4d54-8671-9ea1ede590c8",
+        "X-Runtime": "0.364962",
         "X-Workarea-Segments": "",
         "Expires": "0"
       },
       "request_method": "PATCH",
-      "request_path": "/api/admin/products/A2B2BFBB90",
-      "request_body": "{\"product\":{\"name\":\"foo\"},\"release_id\":\"5dddc6181241594254075dd7\"}",
+      "request_path": "/api/admin/products/9645130047",
+      "request_body": "{\"product\":{\"name\":\"foo\"},\"release_id\":\"5f3d2e310218236de151f743\"}",
       "request_content_type": "application/json",
       "response_status": 204,
       "response_status_text": "No Content",
       "response_body": null,
       "response_content_type": null,
-      "curl": "curl \"https://www.example.com/api/admin/products/A2B2BFBB90\" -d '{\"product\":{\"name\":\"foo\"},\"release_id\":\"5dddc6181241594254075dd7\"}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
+      "curl": "curl \"https://www.example.com/api/admin/products/9645130047\" -d '{\"product\":{\"name\":\"foo\"},\"release_id\":\"5f3d2e310218236de151f743\"}' -X PATCH \\\n\t-H \"Content-Type: application/json\""
     }
   ],
   "resource": "Release Changes",
