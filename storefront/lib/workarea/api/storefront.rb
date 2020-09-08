@@ -13,4 +13,3 @@ end
 
 require 'workarea/api/version'
 require 'workarea/api/storefront/engine'
-require 'workarea/api/storefront/visit.decorator'
