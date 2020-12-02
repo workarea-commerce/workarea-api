@@ -14,10 +14,12 @@ module Workarea
 
         config.after_initialize do
           Workarea::Api::Admin::Swagger.generate!
+          Workarea::Api::Admin::DateIndexes.load
         end
 
         config.to_prepare do
           ApplicationDocument.include(DateFiltering)
+          Workarea::Api::Admin::DateIndexes.load
         end
       end
     end

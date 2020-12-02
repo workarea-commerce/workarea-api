@@ -4,9 +4,6 @@ module Workarea
       module DateFiltering
         extend ActiveSupport::Concern
         included do
-          index({ updated_at: 1 })
-          index({ created_at: 1 })
-
           scope :by_updated_at, ->(starts_at:, ends_at:) do
             query = criteria
             query = query.where(:updated_at.gte => starts_at) unless starts_at.nil?

@@ -19,3 +19,4 @@ end
 require 'workarea/api/version'
 require 'workarea/api/admin/engine'
 require 'workarea/api/admin/swagger'
+require 'workarea/api/admin/date_indexes'
