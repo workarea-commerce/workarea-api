@@ -1,3 +1,20 @@
+Workarea Api 4.5.6 (2020-12-02)
+--------------------------------------------------------------------------------
+
+*   Move creation of date filtering indexes to after initialize
+
+    The DateFiltering module that the admin API adds to ApplicationDocument
+    could cause some indexes on created_at or updated_at to be ignored
+    unexpectedly since DateFiltering had already added indexes for those
+    fields. Moving the creation of those indexes to after initialization
+    ensures the model can define its own indexes first.
+
+    API-17
+
+    Matt Duffy
+
+
+
 Workarea Api 4.5.5 (2020-08-19)
 --------------------------------------------------------------------------------
 
