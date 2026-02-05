@@ -5,7 +5,7 @@ jobs:
   static_analysis:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v4
     - uses: workarea-commerce/ci/bundler-audit@v1
     - uses: workarea-commerce/ci/rubocop@v1
     - uses: workarea-commerce/ci/eslint@v1
@@ -15,10 +15,11 @@ jobs:
   admin_tests:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
-    - uses: actions/setup-ruby@v1
+    - uses: actions/checkout@v4
+    - uses: ruby/setup-ruby@v1
       with:
         ruby-version: 2.6.x
+        bundler-cache: true
     - uses: workarea-commerce/ci/test@v1
       with:
         command: cd admin && bin/rails app:workarea:test
@@ -26,10 +27,11 @@ jobs:
   storefront_tests:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
-    - uses: actions/setup-ruby@v1
+    - uses: actions/checkout@v4
+    - uses: ruby/setup-ruby@v1
       with:
         ruby-version: 2.6.x
+        bundler-cache: true
     - uses: workarea-commerce/ci/test@v1
       with:
         command: cd storefront && bin/rails app:workarea:test
