@@ -29,7 +29,7 @@ module Workarea
         end
 
         def test_inactive_taxon
-          @taxon.update_attributes!(
+          @taxon.update!(
             url: nil,
             navigable: create_page(active: false)
           )

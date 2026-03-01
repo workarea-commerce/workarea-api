@@ -258,7 +258,7 @@ module Workarea
         end
 
         def update
-          @discount.update_attributes!(params[:discount])
+          @discount.update!(params[:discount])
           respond_with discount: @discount
         end
 

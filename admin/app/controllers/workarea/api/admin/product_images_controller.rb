@@ -208,7 +208,7 @@ module Workarea
         end
 
         def update
-          @image.update_attributes!(params[:image])
+          @image.update!(params[:image])
           respond_with image: @image
         end
 

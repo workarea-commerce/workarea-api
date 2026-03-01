@@ -56,7 +56,7 @@ module Workarea
 
           # don't allow users to grab other users's checkouts
           other_user = create_user
-          @order.update_attributes!(user_id: other_user.id)
+          @order.update!(user_id: other_user.id)
 
           get storefront_api.cart_path(@order),
             headers: { 'HTTP_AUTHORIZATION' => encode_credentials(auth.token) }
@@ -83,7 +83,7 @@ module Workarea
         end
 
         def test_purchasable_items
-          @product.variants.first.update_attributes!(active: false)
+          @product.variants.first.update!(active: false)
 
           get storefront_api.cart_path(@order)
           result = JSON.parse(response.body)

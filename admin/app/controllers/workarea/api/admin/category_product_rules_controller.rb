@@ -208,7 +208,7 @@ module Workarea
         end
 
         def update
-          @product_rule.update_attributes!(params[:product_rule])
+          @product_rule.update!(params[:product_rule])
           respond_with product_rule: @product_rule
         end
 

@@ -254,7 +254,7 @@ module Workarea
         end
 
         def update
-          @page.update_attributes!(params[:page])
+          @page.update!(params[:page])
           respond_with page: @page
         end
 

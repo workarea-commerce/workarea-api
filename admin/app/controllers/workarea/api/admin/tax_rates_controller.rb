@@ -217,7 +217,7 @@ module Workarea
         end
 
         def update
-          @tax_rate.update_attributes!(params[:rate])
+          @tax_rate.update!(params[:rate])
           respond_with rate: @tax_rate
         end
 

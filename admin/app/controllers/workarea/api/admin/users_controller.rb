@@ -247,7 +247,7 @@ module Workarea
         end
 
         def update
-          @user.update_attributes!(params[:user])
+          @user.update!(params[:user])
           respond_with user: api_attributes_for(@user)
         end
 

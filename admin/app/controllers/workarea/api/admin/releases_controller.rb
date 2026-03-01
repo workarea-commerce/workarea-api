@@ -253,7 +253,7 @@ module Workarea
         end
 
         def update
-          @release.update_attributes!(params[:release])
+          @release.update!(params[:release])
           respond_with release: @release
         end
 

@@ -251,7 +251,7 @@ module Workarea
         end
 
         def update
-          @shipping_service.update_attributes!(params[:shipping_service])
+          @shipping_service.update!(params[:shipping_service])
           respond_with shipping_service: @shipping_service
         end
 

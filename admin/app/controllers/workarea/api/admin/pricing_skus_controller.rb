@@ -254,7 +254,7 @@ module Workarea
         end
 
         def update
-          @pricing_sku.update_attributes!(params[:pricing_sku])
+          @pricing_sku.update!(params[:pricing_sku])
           respond_with pricing_sku: @pricing_sku
         end
 

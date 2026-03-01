@@ -254,7 +254,7 @@ module Workarea
         end
 
         def update
-          @promo_code_list.update_attributes!(params[:promo_code_list])
+          @promo_code_list.update!(params[:promo_code_list])
           respond_with promo_code_list: @promo_code_list
         end
 

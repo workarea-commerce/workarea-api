@@ -59,7 +59,7 @@ module Workarea
           result = JSON.parse(response.body)['email_signup']
           assert_equal(email_signup, Email::Signup.new(result))
 
-          get admin_api.email_signup_path(URI.escape(email_signup.email, '+@.'))
+          get admin_api.email_signup_path(CGI.escape(email_signup.email))
           result = JSON.parse(response.body)['email_signup']
           assert_equal(email_signup, Email::Signup.new(result))
         end

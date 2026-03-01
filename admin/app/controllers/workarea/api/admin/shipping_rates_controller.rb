@@ -208,7 +208,7 @@ module Workarea
         end
 
         def update
-          @rate.update_attributes!(params[:rate])
+          @rate.update!(params[:rate])
           respond_with rate: @rate
         end
 

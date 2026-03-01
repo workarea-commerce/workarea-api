@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
 
   s.license = 'Business Software License'
 
-  s.required_ruby_version = '>= 2.3.0'
+  s.required_ruby_version = '>= 2.7', '< 3.5'
 
   s.add_dependency 'workarea', '~> 3.x', '>= 3.5.x'
   s.add_dependency 'workarea-api-storefront', Workarea::Api::VERSION

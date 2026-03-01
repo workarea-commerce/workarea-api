@@ -78,7 +78,7 @@ module Workarea
           assert(result['password_digest'].blank?)
           assert_equal(user, User.new(result))
 
-          get admin_api.user_path(URI.escape(user.email, '+@.'))
+          get admin_api.user_path(CGI.escape(user.email))
           result = JSON.parse(response.body)['user']
           assert(result['password_digest'].blank?)
           assert_equal(user, User.new(result))

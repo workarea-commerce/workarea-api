@@ -219,7 +219,7 @@ module Workarea
         end
 
         def update
-          @saved_credit_card.update_attributes!(params[:saved_credit_card])
+          @saved_credit_card.update!(params[:saved_credit_card])
           respond_with saved_credit_card: @saved_credit_card
         end
 

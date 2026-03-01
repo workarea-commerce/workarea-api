@@ -63,7 +63,7 @@ module Workarea
           user = create_user(email: 'test@workarea.com')
 
           record_request do
-            get admin_api.user_path(URI.escape(user.email, '+@.'))
+            get admin_api.user_path(CGI.escape(user.email))
             assert_equal(200, response.status)
           end
         end

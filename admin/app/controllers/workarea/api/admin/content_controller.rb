@@ -221,7 +221,7 @@ module Workarea
         end
 
         def update
-          @content.update_attributes!(params[:content])
+          @content.update!(params[:content])
           respond_with content: @content
         end
 
