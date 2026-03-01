@@ -254,7 +254,7 @@ module Workarea
         end
 
         def update
-          @payment_profile.update_attributes!(params[:payment_profile])
+          @payment_profile.update!(params[:payment_profile])
           respond_with payment_profile: @payment_profile
         end
 

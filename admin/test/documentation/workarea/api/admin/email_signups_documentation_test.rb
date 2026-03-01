@@ -43,7 +43,7 @@ module Workarea
           signup = create_email_signup(email: 'test@workarea.com')
 
           record_request do
-            get admin_api.email_signup_path(URI.escape(signup.email, '+@.'))
+            get admin_api.email_signup_path(CGI.escape(signup.email))
             assert_equal(200, response.status)
           end
         end

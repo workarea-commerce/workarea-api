@@ -208,7 +208,7 @@ module Workarea
         end
 
         def update
-          @price.update_attributes!(params[:price])
+          @price.update!(params[:price])
           respond_with price: @price
         end
 

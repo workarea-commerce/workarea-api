@@ -254,7 +254,7 @@ module Workarea
         end
 
         def update
-          @inventory_sku.update_attributes!(params[:inventory_sku])
+          @inventory_sku.update!(params[:inventory_sku])
           respond_with inventory_sku: @inventory_sku
         end
 

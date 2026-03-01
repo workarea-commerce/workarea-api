@@ -208,7 +208,7 @@ module Workarea
         end
 
         def update
-          @saved_address.update_attributes!(params[:saved_address])
+          @saved_address.update!(params[:saved_address])
           respond_with saved_address: @saved_address
         end
 

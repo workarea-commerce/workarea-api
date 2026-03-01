@@ -254,7 +254,7 @@ module Workarea
         end
 
         def update
-          @product.update_attributes!(params[:product])
+          @product.update!(params[:product])
           respond_with product: @product
         end
 

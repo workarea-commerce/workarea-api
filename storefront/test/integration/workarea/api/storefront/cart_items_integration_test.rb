@@ -63,7 +63,7 @@ module Workarea
         end
 
         def test_create_with_inactive_sku
-          @product.variants.first.update_attributes!(active: false)
+          @product.variants.first.update!(active: false)
 
           post storefront_api.cart_items_path(@order),
             params: {
@@ -80,7 +80,7 @@ module Workarea
         end
 
         def test_create_with_customizations
-          @product.update_attributes(customizations: 'foo_cust')
+          @product.update(customizations: 'foo_cust')
 
           post storefront_api.cart_items_path(@order),
             params: {
@@ -100,7 +100,7 @@ module Workarea
         end
 
         def test_create_with_invalid_customizations
-          @product.update_attributes(customizations: 'foo_cust')
+          @product.update(customizations: 'foo_cust')
 
           post storefront_api.cart_items_path(@order),
             params: {

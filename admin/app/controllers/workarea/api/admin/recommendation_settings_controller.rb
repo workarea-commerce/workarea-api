@@ -107,7 +107,7 @@ module Workarea
         end
 
         def update
-          @recommendation_settings.update_attributes!(params[:recommendation_settings])
+          @recommendation_settings.update!(params[:recommendation_settings])
           respond_with recommendation_settings: @recommendation_settings
         end
 

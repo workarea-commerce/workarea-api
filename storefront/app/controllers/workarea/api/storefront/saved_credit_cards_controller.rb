@@ -20,7 +20,7 @@ module Workarea
         def update
           @credit_card = @payment_profile.credit_cards.find(params[:id])
 
-          @credit_card.update_attributes!(card_params)
+          @credit_card.update!(card_params)
           render :show
         end
 

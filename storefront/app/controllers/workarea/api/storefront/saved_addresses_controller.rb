@@ -18,7 +18,7 @@ module Workarea
         def update
           @address = current_user.addresses.find(params[:id])
 
-          @address.update_attributes!(address_params)
+          @address.update!(address_params)
           render :show
         end
 

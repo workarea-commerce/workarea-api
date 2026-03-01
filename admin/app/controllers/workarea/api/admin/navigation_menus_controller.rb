@@ -254,7 +254,7 @@ module Workarea
         end
 
         def update
-          @navigation_menu.update_attributes!(params[:navigation_menu])
+          @navigation_menu.update!(params[:navigation_menu])
           respond_with navigation_menu: @navigation_menu
         end
 

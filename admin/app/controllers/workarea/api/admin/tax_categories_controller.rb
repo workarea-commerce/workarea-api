@@ -186,7 +186,7 @@ module Workarea
         end
 
         def update
-          @tax_category.update_attributes!(params[:tax_category])
+          @tax_category.update!(params[:tax_category])
           respond_with tax_category: @tax_category
         end
 

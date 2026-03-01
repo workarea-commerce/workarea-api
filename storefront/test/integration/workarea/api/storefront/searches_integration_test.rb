@@ -5,7 +5,7 @@ module Workarea
     module Storefront
       class SearchesIntegrationTest < IntegrationTest
         def test_shows_search_results
-          Search::Settings.current.update_attributes!(terms_facets: %w(Color Size))
+          Search::Settings.current.update!(terms_facets: %w(Color Size))
           create_product(
             id: 'PRODUCT1',
             name: 'Pretty Nice Shirt',
@@ -49,7 +49,7 @@ module Workarea
         end
 
         def test_shows_no_search_results
-          Search::Settings.current.update_attributes!(terms_facets: %w(Color Size))
+          Search::Settings.current.update!(terms_facets: %w(Color Size))
           create_product(
             id: 'PRODUCT1',
             name: 'Pretty Nice Shirt',

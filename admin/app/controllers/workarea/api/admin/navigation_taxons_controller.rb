@@ -254,7 +254,7 @@ module Workarea
         end
 
         def update
-          @navigation_taxon.update_attributes!(params[:navigation_taxon])
+          @navigation_taxon.update!(params[:navigation_taxon])
           respond_with navigation_taxon: @navigation_taxon
         end
 

@@ -50,7 +50,7 @@ module Workarea
 
           assert(response.ok?)
 
-          @user.update_attributes!(password: 'a_different_password')
+          @user.update!(password: 'a_different_password')
 
           get storefront_api.account_path,
             headers: { 'HTTP_AUTHORIZATION' => encode_credentials(token) }

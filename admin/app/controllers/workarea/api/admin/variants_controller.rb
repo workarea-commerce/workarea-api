@@ -208,7 +208,7 @@ module Workarea
         end
 
         def update
-          @variant.update_attributes!(params[:variant])
+          @variant.update!(params[:variant])
           respond_with variant: @variant
         end
 

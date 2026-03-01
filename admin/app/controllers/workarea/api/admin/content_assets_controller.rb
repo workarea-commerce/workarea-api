@@ -250,7 +250,7 @@ module Workarea
         end
 
         def update
-          @asset.update_attributes!(params[:asset])
+          @asset.update!(params[:asset])
           respond_with asset: @asset
         end
 

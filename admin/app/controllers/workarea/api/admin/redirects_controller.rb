@@ -254,7 +254,7 @@ module Workarea
         end
 
         def update
-          @redirect.update_attributes!(params[:redirect])
+          @redirect.update!(params[:redirect])
           respond_with redirect: @redirect
         end
 
